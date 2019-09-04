@@ -1,19 +1,54 @@
 url: http://www.rngtng.com/
 name: uRaNGaTaNG
 title: uRaNGaTaNG
+author: tobi
 description: >
   Featuring Web development, Hardware
   Hacking, Pinball and more...
 plugins:
-- jekyll-github-metadata
-- jekyll-mentions
-- jekyll-redirect-from
+# - jekyll-github-metadata
+# - jekyll-mentions
+# - jekyll-redirect-from
+- jekyll-feed
+- jekyll-paginate
 - jekyll-sitemap
-- jemoji
-theme: minima
-show_excerpts: true
+- jekyll-remote-theme
+# - jemoji
 
-minima:
-  social_links:
-    twitter: jekyllrb
-    github: jekyll
+gems:
+# - jekyll-github-metadata
+# - jekyll-mentions
+# - jekyll-redirect-from
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-remote-theme
+
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
+
+# Social Profiles
+twitter_username:   rngtng
+# github_username:    rngtng
+
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-1074303-6
+
+# Build settings
+markdown:           kramdown
+paginate:           25
+paginate_path:      "/posts/page:num/"
+plugins:
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      background: '/assets/header.png'
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      background: '/assets/header.png'
