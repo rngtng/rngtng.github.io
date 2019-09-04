@@ -1,0 +1,19 @@
+url: http://www.rngtng.com/
+name: uRaNGaTaNG
+title: uRaNGaTaNG
+description: >
+  Featuring Web development, Hardware
+  Hacking, Pinball and more...
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+theme: minima
+show_excerpts: true
+
+minima:
+  social_links:
+    twitter: jekyllrb
+    github: jekyll
