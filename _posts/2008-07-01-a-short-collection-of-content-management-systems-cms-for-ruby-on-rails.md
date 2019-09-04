@@ -1,25 +1,22 @@
 ---
 id: 178
 title: A short collection of Content Management Systems (CMS) for Ruby on Rails
-date: 2008-07-01T22:48:31+01:00
-author: tobi
+date: '2008-07-01 22:48:31 +0000'
+permalink: "/2008/07/01/a-short-collection-of-content-management-systems-cms-for-ruby-on-rails/"
 layout: post
-guid: http://www.rngtng.com/?p=178
-permalink: /2008/07/01/a-short-collection-of-content-management-systems-cms-for-ruby-on-rails/
-syntaxhighlighter_encoded:
-  - "1"
 categories:
-  - 'Ruby, Rails &amp; Co.'
+- Ruby, Rails &amp; Co.
 tags:
-  - cms
-  - collection
-  - evaluation
-  - 'Rails &amp; Co.'
-  - ror
-  - ruby on rails
-  - 'Ruby, Rails &amp; Co.'
+- Ruby, Rails &amp; Co.
+- Rails &amp; Co.
+- evaluation
+- cms
+- collection
+- ruby on rails
+- ror
+comments: []
 ---
-Here is a short collection of current Content Management Systems (CMS) written in Ruby and mostly suited to use with Ruby on Rails. Check out [Ananablau](http://ananasblau.com/ruby-on-rails-cms){.broken_link} as well for a nice PDF slide.
+Here is a short collection of current Content Management Systems (CMS) written in Ruby and mostly suited to use with Ruby on Rails. Check out [Ananablau](http://ananasblau.com/ruby-on-rails-cms) as well for a nice PDF slide.
 
 **Comatose** (29. June 2007)  
 _Comatose is a micro CMS designed for being embedded into existing Rails applications_  
@@ -30,7 +27,7 @@ _Geego is for developers and designers that want to provide fully updatable webs
 <http://www.geegocms.com/>
 
 **Mephisto** (27. July 2006)  
-_Complete Blog System, Mephisto is a publishing system that makes it super easy to setup a blog or website._  
+_Complete Blog System, Mephisto is a publishing system that makes it super easy to setup a blog or website._   
 <http://mephistoblog.com/>
 
 **Typo**  
@@ -55,16 +52,16 @@ _Rubricks is a component based open source CMS powered by Ruby on Rails._
 _Seymore is an open source content management system which integrates directly into pages._  
 <http://www.slicedsoftware.com/software/seymore/>
 
-**SimpleCMS**, (29. December 2007),  
+**SimpleCMS** , (29. December 2007),  
 _small simple, inline edit. Simple CMS is a very easy to use and pretty advanced CMS plugin._  
 <http://pullmonkey.com/2007/12/30/simple-cms-plugin-for-rails-demo>
 
 **CMSPlugin**  
-_CMSplugin provides your Rails application with a &#8220;CMS framework&#8221;. That means authentication, authorization, roles, permissions, categories, tags, etc but from a very flexible scope._  
+_CMSplugin provides your Rails application with a "CMS framework". That means authentication, authorization, roles, permissions, categories, tags, etc but from a very flexible scope._  
 <http://cmsplugin.rubyforge.org>
 
 **open rcms** (25.6.2007)  
-<http://rcms.oopen.de/Home/> 
+<http://rcms.oopen.de/Home/>
 
 **Roxanne**  
 _An in-place editor for your entire website. Roxanne is a simple Site-Management Tool to quickly manage your content. See first steps to get the idea behind Roxanne._  

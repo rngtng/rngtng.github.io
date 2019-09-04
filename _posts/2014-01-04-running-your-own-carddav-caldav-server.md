@@ -1,24 +1,23 @@
 ---
 id: 751
 title: Running your own CardDav / CalDav Server
-date: 2014-01-04T14:12:59+01:00
-author: tobi
+date: '2014-01-04 14:12:59 +0000'
+permalink: "/2014/01/04/running-your-own-carddav-caldav-server/"
 layout: post
-guid: http://www.rngtng.com/?p=751
-permalink: /2014/01/04/running-your-own-carddav-caldav-server/
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - caldav
-  - calendar
-  - carddav
-  - contacts
-  - ical
-  - sync
+- ical
+- caldav
+- sync
+- calendar
+- carddav
+- contacts
+comments: []
 ---
 ![](http://www.roughlydrafted.com/wp-content/uploads/2007/10/rd-rdm.tech.q3.07-f6695fee-bf6a-40d7-ba49-8c11ffb3d4ae-files-ical-hero20070611.jpg)
 
-For years I&#8217;ve been running my own CalDav/CardDav server to sync my Contacts, Calendars and Reminders across all my devices. I&#8217;ve been very happy with DAViCal, until recently, I had to switch to a simple vhost which doesn&#8217;t offer PostgreSQL and custom apache cfgs. So I did some research which other implementations may be useful, those are most promising ones:
+For years I've been running my own CalDav/CardDav server to sync my Contacts, Calendars and Reminders across all my devices. I've been very happy with DAViCal, until recently, I had to switch to a simple vhost which doesn't offer PostgreSQL and custom apache cfgs. So I did some research which other implementations may be useful, those are most promising ones:
 
 **Radicale (Python + Mysql)**  
 <http://radicale.org>

@@ -1,17 +1,16 @@
 ---
 id: 820
-title: 'Maslow&#8217;s pyramid of code review'
-date: 2015-02-26T15:50:28+01:00
-author: admin
+title: Maslow's pyramid of code review
+date: '2015-02-26 15:50:28 +0000'
+permalink: "/2015/02/26/maslows-pyramid-of-code-review/"
 layout: post
-guid: http://www.rngtng.com/?p=820
-permalink: /2015/02/26/maslows-pyramid-of-code-review/
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - code
-  - engeneering
-  - software
-  - style
+- code
+- style
+- software
+- engeneering
+comments: []
 ---
-Must Read:  <http://blog.d3in.org/post/111338685456/maslows-pyramid-of-code-review>
+Must&nbsp;Read: &nbsp;http://blog.d3in.org/post/111338685456/maslows-pyramid-of-code-review

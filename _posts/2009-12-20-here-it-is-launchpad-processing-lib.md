@@ -1,26 +1,29 @@
 ---
 id: 374
 title: 'Here it is: Launchpad Processing lib!'
-date: 2009-12-20T19:07:23+01:00
-author: tobi
+date: '2009-12-20 19:07:23 +0000'
+permalink: "/2009/12/20/here-it-is-launchpad-processing-lib/"
 layout: post
-guid: http://www.rngtng.com/?p=374
-permalink: /2009/12/20/here-it-is-launchpad-processing-lib/
-fb-status-updater-meta:
-  - 'a:12:{s:22:"custom-facebook-status";s:0:"";s:21:"custom-twitter-status";s:0:"";s:21:"custom-myspace-status";s:0:"";s:19:"custom-myspace-mood";s:0:"";s:25:"fb-push-as-profile-status";s:0:"";s:23:"fb-push-as-profile-link";s:0:"";s:23:"fb-push-as-page1-status";s:0:"";s:21:"fb-push-as-page1-link";s:0:"";s:14:"fb-share-image";s:0:"";s:7:"tw-push";s:1:"1";s:7:"ms-push";s:0:"";s:4:"push";s:1:"1";}'
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - java
-  - launchpad
-  - library
-  - novation
-  - processing
+- processing
+- launchpad
+- novation
+- library
+- java
+comments:
+- id: 1014
+  author: mmk
+  author_email: joan.mmk@gmail.com
+  author_url: ''
+  date: '2012-03-26 00:36:32 +0000'
+  date_gmt: '2012-03-25 23:36:32 +0000'
+  content: I'm making some sketches with your library on processing. And it's awesomely
+    fun. :-D
 ---
-<p style="text-align: center">
-  <img class="aligncenter" src="http://www.ubergizmo.com/photos/2009/11/novation-launchpad.jpg" alt="" />
-</p>
+![](http://www.ubergizmo.com/photos/2009/11/novation-launchpad.jpg)
 
-Yay, I finally released my Launchpad Processing Library. Please see it&#8217;s [project page](http://rngtng.github.com/launchpad/) and [source](http://github.com/rngtng/launchpad) at github.
+Yay, I finally released my Launchpad Processing Library. Please see it's [project page](http://rngtng.github.com/launchpad/) and [source](http://github.com/rngtng/launchpad) at github.
 
 Videos & more are coming soon. (Yes, this includes an updated mtXcontrol Version with Launchpad support!!)

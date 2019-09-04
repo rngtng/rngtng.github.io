@@ -1,17 +1,15 @@
 ---
 id: 754
 title: Conferences 2014 not to miss
-date: 2014-01-04T17:04:01+01:00
-author: tobi
+date: '2014-01-04 17:04:01 +0000'
+permalink: "/2014/01/04/conferences-2014-not-to-miss/"
 layout: post
-guid: http://www.rngtng.com/?p=754
-permalink: /2014/01/04/conferences-2014-not-to-miss/
 categories:
-  - Lost in Web
+- Lost in Web
+tags: []
+comments: []
 ---
-<p style="text-align: center">
-  <img class="aligncenter" alt="" src="http://www.makerland.org/static/img/themepark.png" width="450" height="150" />
-</p>
+![](http://www.makerland.org/static/img/themepark.png)
 
 &nbsp;
 

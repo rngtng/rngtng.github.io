@@ -1,28 +1,29 @@
 ---
 id: 121
-title: 'MySQL User defined Variables &#8211; good thing to know!'
-date: 2009-04-02T13:59:54+01:00
-author: tobi
+title: MySQL User defined Variables - good thing to know!
+date: '2009-04-02 13:59:54 +0000'
+permalink: "/2009/04/02/mysql-user-defined-variables-good-thing-to-know/"
 layout: post
-guid: http://www.rngtng.com/?p=121
-permalink: /2009/04/02/mysql-user-defined-variables-good-thing-to-know/
-syntaxhighlighter_encoded:
-  - "1"
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - hint
-  - mysql
-  - user defined
-  - variables
+- hint
+- mysql
+- variables
+- user defined
+comments:
+- id: 731
+  author: Ilan
+  author_email: ilan.ilje@gmail.com
+  author_url: http://mysqldiary.com
+  date: '2011-06-20 14:23:31 +0000'
+  date_gmt: '2011-06-20 12:23:31 +0000'
+  content: "By using User-defined variables, one can add some kind of procedural logic
+    to the MySQL\x92s relational logic.\r\nSee some examples http://www.mysqldiary.com/user-defined-variables/"
 ---
-<p style="margin-bottom:20px">
-  <img class="alignright" style="margin: 18px" src="http://matsu.files.wordpress.com/2008/01/mysql-logo.png" alt="" width="140" height="72" /> Have you ever heard of user defined variables in MySQL? I hadn&#8217;t and nearly freaked out when I found out. That&#8217;s the thing I was always looking for, that&#8217;s so cool, and fasten up your SQL live a lot!
-</p>
+![](http://matsu.files.wordpress.com/2008/01/mysql-logo.png) Have you ever heard of user defined variables in MySQL? I hadn't and nearly freaked out when I found out. That's the thing I was always looking for, that's so cool, and fasten up your SQL live a lot!
 
-<p style="text-align: left">
-  Now, renumbering a table is as easy as never before:
-</p>
+Now, renumbering a table is as easy as never before:
 
 [text]  
 Set @a = 0;  

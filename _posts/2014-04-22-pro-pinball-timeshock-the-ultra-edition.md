@@ -1,18 +1,19 @@
 ---
 id: 773
-title: 'Pro Pinball: Timeshock! &#8211; The ULTRA Edition'
-date: 2014-04-22T16:04:36+01:00
-author: tobi
+title: 'Pro Pinball: Timeshock! - The ULTRA Edition'
+date: '2014-04-22 16:04:36 +0000'
+permalink: "/2014/04/22/pro-pinball-timeshock-the-ultra-edition/"
 layout: post
-guid: http://www.rngtng.com/?p=773
-permalink: /2014/04/22/pro-pinball-timeshock-the-ultra-edition/
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - pinball
-  - timeshock
+- pinball
+- timeshock
+comments: []
 ---
-OMG! its happening &#8211; The 90s are back!
+<https://www.youtube.com/watch?v=Xz17Kw9eGwg>
+
+OMG! its happening - The 90s are back!
 
 <https://www.pro-pinball.com/forum/index.php>
 

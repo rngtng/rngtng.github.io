@@ -1,35 +1,22 @@
 ---
 id: 684
 title: Carambola Board arrived
-date: 2012-11-28T14:43:34+01:00
-author: admin
+date: '2012-11-28 14:43:34 +0000'
+permalink: "/2012/11/28/carambola-board-arrived/"
 layout: post
-guid: http://www.rngtng.com/?p=684
-permalink: /2012/11/28/carambola-board-arrived/
-networkpub_postmessage:
-  - ""
-networkpub_twitterhandle:
-  - ""
-networkpub_twitterhash:
-  - ""
-networkpub_ogtype_facebook:
-  - ""
-networkpub_post_image_video:
-  - ""
 categories:
-  - 'Arduino &amp; Co.'
+- Arduino &amp; Co.
 tags:
-  - carambola
-  - exp tech
-  - hacking
+- hacking
+- exp tech
+- carambola
+comments: []
 ---
-<p style="text-align: center;">
-  <img class="aligncenter" src="http://www.exp-tech.de/images/slider_images/carambola-teaser.jpg" alt="" width="490" height="280" />
-</p>
+![](http://www.exp-tech.de/images/slider_images/carambola-teaser.jpg)
 
 Yay the Carambola Board arrived today from [Exp Tech](http://www.exp-tech.de/). Time to start hacking!!
 
 Good place to start with:  
-[youtube]<http://www.youtube.com/watch?v=NK0ia4DXrtA[/youtube]>
+[youtube]http://www.youtube.com/watch?v=NK0ia4DXrtA[/youtube]
 
 To start with: <http://www.8devices.com/wiki_carambola/doku.php/>

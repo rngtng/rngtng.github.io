@@ -1,36 +1,35 @@
 ---
 id: 529
-title: 'HowTo: parse invalid, irregular HTML having &lt; or unlcosed tags'
-date: 2011-02-03T13:24:48+01:00
-author: tobi
+title: 'HowTo: parse invalid, irregular HTML having < or unlcosed tags'
+date: '2011-02-03 13:24:48 +0000'
+permalink: "/2011/02/03/pars-invalid-irregular-html-with-unclosed-tag/"
 layout: post
-guid: http://www.rngtng.com/?p=529
-permalink: /2011/02/03/pars-invalid-irregular-html-with-unclosed-tag/
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - html
-  - invlaid
-  - irregular
-  - nokogiri
-  - parsing
-  - 'Ruby, Rails &amp; Co.'
-  - tag
+- Ruby, Rails &amp; Co.
+- parsing
+- html
+- irregular
+- invlaid
+- nokogiri
+- tag
+comments: []
 ---
-I had the &#8216;problem&#8217; that user feedback included lot of love &#8211; mostly by writing &#8216;hearts&#8217;. Unfortunately expressing hearts is done by &#8216;<3' which turns the input into invalid HTML. Bummer. So if you still want allow other basic tags, you have a problem. Here's how I solved it:
+I had the 'problem' that user feedback included lot of love - mostly by writing 'hearts'. Unfortunately expressing hearts is done by '\<3' which turns the input into invalid HTML. Bummer. So if you still want allow other basic tags, you have a problem. Here's how I solved it:
 
-First I checked Stackoverflow &#8211; **Tian** had similar problem over there: [Nokogiri: Parsing Irregular <](http://stackoverflow.com/questions/3268387/nokogiri-parsing-irregular)
+First I checked Stackoverflow - **Tian** had similar problem over there: [Nokogiri: Parsing Irregular ](http://stackoverflow.com/questions/3268387/nokogiri-parsing-irregular)
 
 As a quick fix I came up with this method using a reqular expression to identify unclosed tags:
 
 [code]  
-def fix\_irregular\_html(html)  
-regexp = /<([^<>]*)(<|$)/
+def fix_irregular_html(html)  
+ regexp = /]\*)(
 
 #we need to do this multiple time as regex are overlapping  
-while (fixed\_html = html.gsub(regexp, "<\\1\\2")) && fixed\_html != html  
-html = fixed_html  
-end
+ while (fixed_html = html.gsub(regexp, "&lt;\\1\\2")) && fixed_html != html  
+ html = fixed_html  
+ end
 
 fixed_html  
 end  

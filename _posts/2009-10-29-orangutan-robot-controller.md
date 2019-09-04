@@ -1,18 +1,15 @@
 ---
 id: 292
 title: Orangutan Robot Controller
-date: 2009-10-29T14:12:58+01:00
-author: tobi
+date: '2009-10-29 14:12:58 +0000'
+permalink: "/2009/10/29/orangutan-robot-controller/"
 layout: post
-guid: http://www.rngtng.com/?p=292
-permalink: /2009/10/29/orangutan-robot-controller/
-syntaxhighlighter_encoded:
-  - "1"
 categories:
-  - 'Arduino &amp; Co.'
+- Arduino &amp; Co.
 tags:
-  - Controller
-  - Orangutan
+- Controller
+- Orangutan
+comments: []
 ---
-Ui, I just stumbled over the **Orangutan Robot Controller**. Funny, as it&#8217;s name is similar to this blogs name 😉  
-<http://www.pololu.com/catalog/product/225> &#8211; to bad is has discontinued
+Ui, I just stumbled over the **Orangutan Robot Controller**. Funny, as it's name is similar to this blogs name ;-)  
+<http://www.pololu.com/catalog/product/225> - to bad is has discontinued

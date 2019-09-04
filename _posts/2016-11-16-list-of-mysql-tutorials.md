@@ -1,17 +1,16 @@
 ---
 id: 923
 title: List of (my)SQL-Tutorials
-date: 2016-11-16T14:47:59+01:00
-author: admin
+date: '2016-11-16 14:47:59 +0000'
+permalink: "/2016/11/16/list-of-mysql-tutorials/"
 layout: post
-guid: http://www.rngtng.com/?p=923
-permalink: /2016/11/16/list-of-mysql-tutorials/
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - mysql
+- mysql
+comments: []
 ---
-<img class="aligncenter" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1280px-MySQL.svg.png" alt="" width="510" height="264" />  
+![](https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1280px-MySQL.svg.png)  
 I did an introduction to (my)SQL once. This were my sources:
 
 MySQL for Absolute Beginners: <http://www.elated.com/articles/mysql-for-absolute-beginners>  

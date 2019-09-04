@@ -35,7 +35,7 @@ comments:
     [...]"
 ---
 <p>Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in <a href="http://www.adiumx.com/" target="_blank">Adium</a>, I had to copy the ICQ entry to a new Jabber enrty with appending "@jit.jabber.fsinf.de". The code follows:</p>
-<p>[bash]<br />
+<p><pre>
 tell application "Address Book"<br />
 set thePeople to every person whose ICQ handles is not {} and Jabber handles is {}<br />
 repeat with eachPerson in thePeople<br />
@@ -45,5 +45,5 @@ make new Jabber handle at end of Jabber handles of eachPerson with properties {l
 end repeat<br />
 save addressbook<br />
 end tell<br />
-[/bash]</p>
+</pre></p>
 <p>It worked out fine. Now I see you all in my buddylist ;-)</p>

@@ -1,19 +1,18 @@
 ---
 id: 791
-title: 'IrDude &#8211; A simple android app to control my stereo via IR'
-date: 2014-12-17T22:27:30+01:00
-author: admin
+title: IrDude - A simple android app to control my stereo via IR
+date: '2014-12-17 22:27:30 +0000'
+permalink: "/2014/12/17/irdude-a-simple-android-app-to-control-my-stereo-via-ir/"
 layout: post
-guid: http://www.rngtng.com/?p=791
-permalink: /2014/12/17/irdude-a-simple-android-app-to-control-my-stereo-via-ir/
 categories:
-  - Happy Hacking
+- Happy Hacking
 tags:
-  - android
-  - control
-  - ir
-  - java
-  - remove
+- java
+- android
+- ir
+- remove
+- control
+comments: []
 ---
 ![](http://images.harmonyremote.com/EasyZapper/Support/FAQ/12467_IR_test.gif)
 
@@ -23,4 +22,4 @@ It uses the an undocumented Samsung IR API, so its unfortunately very much tight
 
 <https://github.com/rngtng/IrDude>
 
-[image from [IR PUCK](http://nordicsemiconductor.github.io/puck/tutorials/ir.html){.broken_link}]
+[image from [IR PUCK](http://nordicsemiconductor.github.io/puck/tutorials/ir.html)]

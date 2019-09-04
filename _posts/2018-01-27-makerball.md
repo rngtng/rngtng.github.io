@@ -1,18 +1,17 @@
 ---
 id: 983
 title: MakerBall
-date: 2018-01-27T22:45:50+01:00
-author: admin
+date: '2018-01-27 22:45:50 +0000'
+permalink: "/2018/01/27/makerball/"
 layout: post
-guid: http://www.rngtng.com/?p=983
-permalink: /2018/01/27/makerball/
 categories:
-  - Lost in Web
+- Lost in Web
 tags:
-  - pinball
+- pinball
+comments: []
 ---
 Very nice slick DYI Pinball Kit:
 
-
+<https://vimeo.com/218372619>
 
 <https://www.makerball.org/>
