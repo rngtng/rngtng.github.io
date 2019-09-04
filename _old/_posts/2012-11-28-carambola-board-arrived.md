@@ -30,6 +30,6 @@ tags:
 Yay the Carambola Board arrived today from [Exp Tech](http://www.exp-tech.de/). Time to start hacking!!
 
 Good place to start with:  
-[youtube]<http://www.youtube.com/watch?v=NK0ia4DXrtA[/youtube]>
+<http://www.youtube.com/watch?v=NK0ia4DXrtA>
 
 To start with: <http://www.8devices.com/wiki_carambola/doku.php/>

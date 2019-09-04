@@ -15,6 +15,6 @@ The library provides an interface to access novation&#8217;s launchpad programma
 In addition, it includes a wrapper for the Monomic Library, so you can port all Monome Processing code to Launchpad easily!
 
 It&#8217;s [project page](http://rngtng.github.com/launchpad/) and its [source](http://github.com/rngtng/launchpad) is hosted on github. Please feel free to use it for your proposes and fork and improve the source!  
-[vimeo]<http://www.vimeo.com/7832566[/vimeo]>
+<http://www.vimeo.com/7832566>
 
 more Video examples comming soon!

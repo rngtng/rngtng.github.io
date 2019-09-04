@@ -17,7 +17,7 @@ comments: []
 ---
 Hey guys, look at this: I just found this awesome project by [Squidsoup](http://www.squidsoup.org/). They put up a 10x10x10 LED Cube _"NOVA 3D LED"_ (yes, 3 dimensions, yes that's 1000 single controlled LEDs) and created cool stuff like webcam projection or a the **"Stealth Project"** , a game similar to Battleships. Just get it's great sounds and projections:
 
-[vimeo]http://vimeo.com/2242696[/vimeo]
+http://vimeo.com/2242696
 
 More on this here: [http://www.squidsoup.org/stealth/](http://www.squidsoup.org/stealth/)
 

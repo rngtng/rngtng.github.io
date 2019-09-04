@@ -13,4 +13,4 @@ comments: []
 ---
 Wow, I just discovered&nbsp;[EEVblog](http://www.eevblog.com/) which has awesome video material for electronic geeks. This one will definitely help me choosing a new multimeter + its just fun to watch - stay tuuuned!
 
-[youtube]http://www.youtube.com/watch?v=Zele19jm1MQ[/youtube]
+http://www.youtube.com/watch?v=Zele19jm1MQ

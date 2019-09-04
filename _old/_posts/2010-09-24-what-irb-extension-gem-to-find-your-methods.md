@@ -18,7 +18,7 @@ tags:
   - what?
   - what_method
 ---
-[youtube]<http://www.youtube.com/watch?v=2u3c5z45V8g[/youtube]>  
+<http://www.youtube.com/watch?v=2u3c5z45V8g>  
 If Samuel just would have asked me, I got an answer:
 
 Oldies, but Goldies: &#8216;Methodfinder&#8217; is a really nice extension for your ruby/rails irb and shipped with the &#8216;what_methods&#8217; gem. I&#8217;m using quite a lot and can&#8217;t go without it anymore (aka. I&#8217;m too stupid to remember all those method names ;-).

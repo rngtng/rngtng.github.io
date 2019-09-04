@@ -58,7 +58,7 @@ comments:
     or type conversion before ''/'' token, how do i fix this, i want to put MTX control
     on my rainbowduinos'
 ---
-[vimeo]http://www.vimeo.com/10377543[/vimeo]
+http://www.vimeo.com/10377543
 
 Now, as I'm finally getting settled, it's time to kick of mtXcontrol development again. So first, I'll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the **Processing library -Rainbowduino-**. Current development going on, [here, check it out](http://github.com/rngtng/rainbowduino). It's still in a beta state, but ready and good for testing.
 

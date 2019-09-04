@@ -2,6 +2,7 @@
 title: Hack my Car - ODB and GPS
 date: '2019-04-23 21:59:02 +0000'
 layout: post
+permalink: '/2019/04/23/hack-my-car-odb-and-gps'
 categories:
 - Happy Hacking
 tags: []

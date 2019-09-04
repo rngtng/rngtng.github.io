@@ -19,7 +19,7 @@ As contribution for [Seeedstudio Carnival](http://www.seeedstudio.com/forum/view
 
 So check out this Demo:
 
-[vimeo]<http://www.vimeo.com/6924030[/vimeo]>
+<http://www.vimeo.com/6924030>
 
 Check out it&#8217;s new project page with details, video and sources to download:  
 <http://www.rngtng.com/mtXcontrol>

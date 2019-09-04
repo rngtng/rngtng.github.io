@@ -45,4 +45,4 @@ comments:
 ---
 Yeah! Just ordered a bunch of stuff from the [Seeedstudio Shop](http://www.seeedstudio.com/depot), my new favorite Arduino parts dealer. I'm really looking forward to get the [RainbowDuino](http://www.seeedstudio.com/blog/?page_id=187) into my hands. I've already order thier 8x8 RGB LED Matrix at [ebay](http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&ssPageName=STRK:MEWNX:IT&item=220324377200) which is really promissing... Unfortunately they are located in china to shipping takes ages ;-( More soon to come ....
 
-[youtube]http://www.youtube.com/watch?v=z_JuFGAYHq0[/youtube]
+http://www.youtube.com/watch?v=z_JuFGAYHq0

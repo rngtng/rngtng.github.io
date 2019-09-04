@@ -23,7 +23,7 @@ _This project is a contribution for the [seeedstudio carnival 2009](http://www.s
 
 Check out this short demo video:
 
-[vimeo]<http://www.vimeo.com/6924030[/vimeo]>
+<http://www.vimeo.com/6924030>
 
 **Download mtXControl from github:**  
 [Binaries for Windows, Linux and Mac OS X](http://github.com/rngtng/mtXcontrol/downloads)  

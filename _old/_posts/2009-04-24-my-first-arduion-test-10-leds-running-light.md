@@ -19,7 +19,7 @@ tags:
   - running
 ---
 Check this out:  
-[youtube]<http://www.youtube.com/watch?v=irVW4U8zq_k[/youtube]>
+<http://www.youtube.com/watch?v=irVW4U8zq_k>
 
 That my first proper Arduino test, controlling a 10 LED running light. I attached a small button via interrupt as well to start & stop the light. More to come soon, stay tuned!
 

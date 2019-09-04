@@ -18,7 +18,7 @@ tags:
   - RainbowCube
   - RainbowDuino
 ---
-[vimeo]<http://www.vimeo.com/10377543[/vimeo]>
+<http://www.vimeo.com/10377543>
 
 Now, as I&#8217;m finally getting settled, it&#8217;s time to kick of mtXcontrol development again. So first, I&#8217;ll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the **Processing library -Rainbowduino-**. Current development going on, [here, check it out](http://github.com/rngtng/rainbowduino). It&#8217;s still in a beta state, but ready and good for testing. 
 

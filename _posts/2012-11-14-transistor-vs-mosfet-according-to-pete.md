@@ -16,7 +16,7 @@ oh yeah, I guess I finally got the basic difference between a Transistor and a M
 
 Transistor is current driven, a MOSFET via voltage! Thanks to Pete, and his fabulous SparkFun screencasts:
 
-[youtube]http://www.youtube.com/watch?v=CFt8hkh17_w[/youtube]
+http://www.youtube.com/watch?v=CFt8hkh17_w
 
 yieha! Watch 'em all: <http://www.youtube.com/playlist?list=PL9EF3C374FD903ACE>
 

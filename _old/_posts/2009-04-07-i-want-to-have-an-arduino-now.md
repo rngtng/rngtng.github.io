@@ -14,6 +14,6 @@ tags:
   - Arduino
   - 'Electronics &amp; Co.'
 ---
-[youtube]<http://www.youtube.com/watch?v=PeScmRwzQho[/youtube]>
+<http://www.youtube.com/watch?v=PeScmRwzQho>
 
 **[www.arduino.cc](http://www.arduino.cc) now!**

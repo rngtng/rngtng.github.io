@@ -21,7 +21,7 @@ networkpub_post_image_video:
 categories:
   - Happy Hacking
 ---
-[youtube]<https://www.youtube.com/watch?v=3b4w749Tud8[/youtube]>
+<https://www.youtube.com/watch?v=3b4w749Tud8>
 
 Me wants 🙂
 

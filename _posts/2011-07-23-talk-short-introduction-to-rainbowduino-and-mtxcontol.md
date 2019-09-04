@@ -16,7 +16,7 @@ comments: []
 ---
 I gave a short talk at [Hack and Tell](http://www.meetup.com/berlin-hack-and-tell) in Berlin. I briefly introduced the Rainbowduino device and my work on mtXcontol. Watch me here:
 
-[vimeo]http://vimeo.com/26667454[/vimeo]
+http://vimeo.com/26667454
 
 Here are the slides:  
 <http://www.slideshare.net/rngtng/rainbowduino>

@@ -17,6 +17,6 @@ That's it! I just released mtXcontrol version 1.1 with lot of updates and improv
 
 But Rainbowduino support improved as well. I fixed lots of bugs and implemented requested features. Now you can control the display brightness, save up to 10 frames onto the device and serial port is auto detected. In general, I defined an basic API to communicate with the devices, which allows you to add more devices easily (e.g. monome!). With that, all Rainbowduino stuff is moved in a separate [Rainbowduino Processing library](http://rngtng.github.com/rainbowduino).
 
-[vimeo]http://vimeo.com/8456119[/vimeo]
+http://vimeo.com/8456119
 
 See official [mtXcontrol](http://www.rngtng.com/mtXcontrol) project page for more.

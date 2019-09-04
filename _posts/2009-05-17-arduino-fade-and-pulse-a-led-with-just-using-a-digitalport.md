@@ -196,7 +196,7 @@ comments:
 ---
 This is a nice experiment I did to fade and pulse a LED by just using a _digital_ port. Digital? On/Off, 1/0 - how can this work? Well it does, check this out:
 
-[youtube]http://www.youtube.com/watch?v=kB62BrQBjTg[/youtube]
+http://www.youtube.com/watch?v=kB62BrQBjTg
 
 The key is, I'm switching the LED on & off very fast which appears the human eye as it's on all the time (similar to a LED Matrix). Now, I change the time period between switching the LED on and off. Is the off period time longer, the LED lights low, is the off period time short, the LED lights high. Fading the period time, makes the LED pulse... nice!
 

@@ -16,7 +16,7 @@ tags:
 ---
 Hey, Check this out, a very nice LED tower installation:
 
-[youtube]<http://www.youtube.com/watch?v=FsHMFkJkohM[/youtube]>
+<http://www.youtube.com/watch?v=FsHMFkJkohM>
 
 see more great stuff at <http://www.brilldea.com/>
 

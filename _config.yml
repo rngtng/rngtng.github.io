@@ -35,7 +35,7 @@ twitter_username:   rngtng
 
 # Build settings
 markdown:           kramdown
-paginate:           25
+paginate:           15
 paginate_path:      "/posts/page:num/"
 plugins:
 

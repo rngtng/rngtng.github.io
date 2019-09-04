@@ -288,7 +288,7 @@ cubeXcontrol - a Rainbow Cube Editor
 
 Well, you know the [mtXcontrol](http://www.rngtng.com/mtXcontrol), the Rainbowduino Editor and the awesome [Seeedstudio Rainbow Cube](http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html) I [mentioned](http://www.rngtng.com/2010/03/08/rainbow-cube-here-it-is/) here ?&nbsp;Now it's time &nbsp;to bring them together:
 
-[vimeo]http://vimeo.com/18300458[/vimeo]
+http://vimeo.com/18300458
 
 cubeXcontrol is an editor to control and create patterns for the 4x4x4 RGB Rainbow Cube powered by a rainbowduino. It comes with an extra window showing a 3D model of the Cube, allowing to rotate in all directions and to zoom. Click on boxes to set the LED color easily.
 
