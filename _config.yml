@@ -16,15 +16,12 @@ plugins:
 # - jemoji
 
 gems:
-# - jekyll-github-metadata
-# - jekyll-mentions
-# - jekyll-redirect-from
-- jekyll-feed
 - jekyll-paginate
-- jekyll-sitemap
 - jekyll-remote-theme
 
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
+
+include: ['_pages']
 
 # Social Profiles
 twitter_username:   rngtng
@@ -36,19 +33,4 @@ twitter_username:   rngtng
 # Build settings
 markdown:           kramdown
 paginate:           15
-paginate_path:      "/posts/page:num/"
-plugins:
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      background: '/assets/header.png'
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      background: '/assets/header.png'
+paginate_path:      "/page/:num/"

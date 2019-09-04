@@ -1,20 +1,9 @@
 ---
-layout: default
-status: publish
-published: true
+id: 367
 title: launchpad
-author:
-  display_name: tobi
-  login: tobi
-  email: t.bielohlawek@gmail.com
-  url: http://
-author_login: tobi
-author_email: t.bielohlawek@gmail.com
-author_url: http://
-wordpress_id: 367
-wordpress_url: http://www.rngtng.com/?page_id=367
-date: '2009-12-20 16:50:32 +0000'
-date_gmt: '2009-12-20 15:50:32 +0000'
+date: 2009-12-20 16:50:32.000000000 +01:00
+permalink: "/launchpad/"
+layout: page
 categories:
 - Lost in Web
 tags: []
@@ -83,10 +72,15 @@ comments:
   content: "Dear sir i have download rgbmtx and processing 3.4 i have an error when
     i compiled the rgbmtx\r\n\r\nThe function getToolkit() does not exist.\r\n\r\nRegards"
 ---
-<p>The <a href="http://www.novationmusic.com/products/launchpad">Novation's launchpad</a> is a 8x8 RG LED MIDI controller similar to the <a href="http://monome.org/">Monome</a>. In addition, it has 8 Button on the top and 8 Scene Button on the left. Originally meant as MIDI Controller its bundled with Ableton Live to pimp your DJ Sets and Tunes. All over it's a wonderful device, not only for your music, but for doing some LED ouput &amp; input hacking.</p>
-<p>Thomas Jachmanns released a <a href="http://github.com/thomasjachmann/launchpad">ruby library gem</a> quite soon after the device was released. But by now, I couldn't find any Processing/Java support, so it's was time to create a proper wrapper library... and here it is!</p>
-<p>The library provides an interface to access novation's launchpad programmatically and is heavily based on ruby launchpad gem which you can see by it's similar APIs. LEDs can be lighted and button presses can be listened to.</p>
-<p>In addition, it includes a wrapper for the Monomic Library, so you can port all Monome Processing code to Launchpad easily!</p>
-<p>It's <a href="http://rngtng.github.com/launchpad/">project page</a> and  its <a href="http://github.com/rngtng/launchpad">source</a> is hosted on github. Please feel free to use it for your proposes and  fork and improve the source!<br />
-http://www.vimeo.com/7832566</p>
-<p>more Video examples comming soon!</p>
+The [Novation's launchpad](http://www.novationmusic.com/products/launchpad) is a 8x8 RG LED MIDI controller similar to the [Monome](http://monome.org/). In addition, it has 8 Button on the top and 8 Scene Button on the left. Originally meant as MIDI Controller its bundled with Ableton Live to pimp your DJ Sets and Tunes. All over it's a wonderful device, not only for your music, but for doing some LED ouput & input hacking.
+
+Thomas Jachmanns released a [ruby library gem](http://github.com/thomasjachmann/launchpad) quite soon after the device was released. But by now, I couldn't find any Processing/Java support, so it's was time to create a proper wrapper library... and here it is!
+
+The library provides an interface to access novation's launchpad programmatically and is heavily based on ruby launchpad gem which you can see by it's similar APIs. LEDs can be lighted and button presses can be listened to.
+
+In addition, it includes a wrapper for the Monomic Library, so you can port all Monome Processing code to Launchpad easily!
+
+It's [project page](http://rngtng.github.com/launchpad/) and its [source](http://github.com/rngtng/launchpad) is hosted on github. Please feel free to use it for your proposes and fork and improve the source!  
+<http://www.vimeo.com/7832566>
+
+more Video examples comming soon!

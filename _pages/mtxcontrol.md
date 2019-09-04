@@ -1,20 +1,9 @@
 ---
-layout: default
-status: publish
-published: true
+id: 235
 title: mtXcontrol
-author:
-  display_name: tobi
-  login: tobi
-  email: t.bielohlawek@gmail.com
-  url: http://
-author_login: tobi
-author_email: t.bielohlawek@gmail.com
-author_url: http://
-wordpress_id: 235
-wordpress_url: http://www.rngtng.com/?page_id=235
-date: '2009-10-06 00:44:07 +0000'
-date_gmt: '2009-10-05 23:44:07 +0000'
+date: 2009-10-06 00:44:07.000000000 +01:00
+permalink: "/mtxcontrol/"
+layout: page
 categories:
 - Lost in Web
 tags: []
@@ -644,64 +633,80 @@ comments:
   content: Probably not.  Didn&rsquo;t find time to follow up on latest model sorry
     :(
 ---
-<p><strong>Update:</strong><br />
-<em>This project is a contribution for the <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=397">seeedstudio carnival 2009</a> and <b><a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=472">won the first price!</a></b></em> </p>
-<p style="text-align: center"><img class="size-full wp-image-238 aligncenter" src="http://www.rngtng.com/files/2009/10/mtxcontrol.png" alt="mtxcontrol" width="502" height="476" /></p>
-<p><strong>- a LED Matrix Editor -</strong><br />
-<strong>mtXcontrol</strong> is an editor written in Processing to easily create image sequences for several output devices containing multicolor LED matrix. By now, the <a href="http://www.seeedstudio.com/depot/rainbowduino-led-driver-platform-plug-and-shine-p-371.html">Rainbowduino controller</a> and the<br />
-<a href="http://www.novationmusic.com/products/launchpad">Novation Launchpad</a> are supported. Its generic API allows to add other in- and output devices easily.</p>
-<p><strong>mtXcontrol</strong> Editor auto detects and connects to your device. Once connected, you can draw points, lines &amp; rows in different colors, create multiple frames and manipulate them. Add, delete, move, fill, copy &amp; paste of frames is supported. Play all frames by different speed, realtime update the device and save your work as image file. If supported (e.g. Rainbowduino), update the sequence on your device and run it standalone. One special feature is typing letters and numbers. Future versions aim to support multiple devices, different color depth and many more.</p>
-<p>Check out this short demo video:</p>
-<p>http://www.vimeo.com/6924030</p>
-<p><strong>Download mtXControl from github:</strong><br />
- <a href="http://github.com/rngtng/mtXcontrol/downloads">Binaries for Windows, Linux and Mac OS X</a><br />
- <a href="http://github.com/rngtng/mtXcontrol">sources files</a></p>
-<p><strong>Launchpad HowTo:</strong><br />
-Plug your Launchpad and start mtXcontrol. The device is auto detected - start drawing and pushing buttons!!</p>
-<p><strong>Rainbowudino HowTo:</strong><br />
-To use your Rainbowduino with mtXcontrol you have to upload the Firmware to your rainbowduino first. <a href="http://www.rngtng.com/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/">See instruction here</a>.  The firmware makes use of the Rainbowduino.h Library to manipulate the Matrix easily. Make sure to put it into your Arduino Library. Connect your Rainbowduino via USB to your computer, upload firmware and you are ready to go - happy mtXcontrol drawing!</p>
-<p><a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=435&amp;start=10">Find a detailed Step-By-Step instruction here!</a></p>
-<p><strong>Small list of Features:</strong><br />
-* multiple Device support including auto detection<br />
-* Draw multicolor points, line and rows (4bit color support)<br />
-* Add, delete, clear, fill, *copy &amp; paste*, move frames<br />
-* *Draw letters and numbers*, Font configureable<br />
-* Save to &amp; load from *Bitmap file*<br />
-* Frame preview, easily navigate through<br />
-* Keyboard shortcut for each function<br />
-Rainbowduino related:<br />
- * Standalone Mode or realtime  Update<br />
- * Upload and Download to Matrix *EEPROM* (mind: due to 256kb memory only up to 10 frames).<br />
-Launchpad related:<br />
- * full input support to choose color, frame &amp; pixel</p>
-<p><b>Keyboard shortcuts:</b><br />
-* ENTER - switch between record/play Mode<br />
-* left/right ARROW - Frame forward/backward (Record Mode) or Speed (Play Mode)<br />
-* SPACE - Insert Frame after current Frame<br />
-* D - Delete Frame<br />
-* X - Clear frame<br />
-* F - fill frame<br />
-* C - select next color</p>
-<p>* command+S - Save to File (Bitmap)<br />
-* command+L - Load File (Bitmap OR text (.mtx))<br />
-* command+C - Copy Frame<br />
-* command+V - Paste Frame<br />
-* ctrl+LETTER - Insert this Letter/Number<br />
-* ctrl+left/right ARROW - Move Frame in direction</p>
-<p>Rainbowduino:<br />
-* alt+ENTER - connect/disconnect<br />
-* alt+left/right ARROW - Adjust speed<br />
-* alt+ctrl+left/right ARROW - Adjust brightness<br />
-* alt+L - load from EEPROM<br />
-* alt+S - save to EEPROM</p>
-<p>Launchpad top Buttons:<br />
-* Arrow up - new frame<br />
-* Arrow down - delete frame<br />
-* Arrow left - previous frame<br />
-* Arrow right - next frame<br />
-* Session - copy frame<br />
-* User1 - insert frame<br />
-* User2 - color preview, hold to select<br />
-* Mixer - switch between record/play Mode</p>
-<p>Right Buttons are turn into color chooser when User2 pressed. Blinking button indicates selected color, e.g. full red + full green = yellow. Pushing grid button selects color of pushed button.</p>
-<p>Please see <a href="http://github.com/rngtng/mtXcontrol/blob/master/README.markdown">README</a> for more.</p>
+**Update:**  
+_This project is a contribution for the [seeedstudio carnival 2009](http://www.seeedstudio.com/forum/viewtopic.php?f=11&t=397) and **[won the first price!](http://www.seeedstudio.com/forum/viewtopic.php?f=11&t=472)**_
+
+![mtxcontrol](http://www.rngtng.com/files/2009/10/mtxcontrol.png)
+
+**- a LED Matrix Editor -**  
+**mtXcontrol** is an editor written in Processing to easily create image sequences for several output devices containing multicolor LED matrix. By now, the [Rainbowduino controller](http://www.seeedstudio.com/depot/rainbowduino-led-driver-platform-plug-and-shine-p-371.html) and the  
+[Novation Launchpad](http://www.novationmusic.com/products/launchpad) are supported. Its generic API allows to add other in- and output devices easily.
+
+**mtXcontrol** Editor auto detects and connects to your device. Once connected, you can draw points, lines & rows in different colors, create multiple frames and manipulate them. Add, delete, move, fill, copy & paste of frames is supported. Play all frames by different speed, realtime update the device and save your work as image file. If supported (e.g. Rainbowduino), update the sequence on your device and run it standalone. One special feature is typing letters and numbers. Future versions aim to support multiple devices, different color depth and many more.
+
+Check out this short demo video:
+
+<http://www.vimeo.com/6924030>
+
+**Download mtXControl from github:**  
+[Binaries for Windows, Linux and Mac OS X](http://github.com/rngtng/mtXcontrol/downloads)  
+[sources files](http://github.com/rngtng/mtXcontrol)
+
+**Launchpad HowTo:**  
+Plug your Launchpad and start mtXcontrol. The device is auto detected - start drawing and pushing buttons!!
+
+**Rainbowudino HowTo:**  
+To use your Rainbowduino with mtXcontrol you have to upload the Firmware to your rainbowduino first. [See instruction here](http://www.rngtng.com/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/). The firmware makes use of the Rainbowduino.h Library to manipulate the Matrix easily. Make sure to put it into your Arduino Library. Connect your Rainbowduino via USB to your computer, upload firmware and you are ready to go - happy mtXcontrol drawing!
+
+[Find a detailed Step-By-Step instruction here!](http://www.seeedstudio.com/forum/viewtopic.php?f=11&t=435&start=10)
+
+**Small list of Features:**  
+\* multiple Device support including auto detection  
+\* Draw multicolor points, line and rows (4bit color support)  
+\* Add, delete, clear, fill, \*copy & paste\*, move frames  
+\* \*Draw letters and numbers\*, Font configureable  
+\* Save to & load from \*Bitmap file\*  
+\* Frame preview, easily navigate through  
+\* Keyboard shortcut for each function  
+Rainbowduino related:  
+ \* Standalone Mode or realtime Update  
+ \* Upload and Download to Matrix \*EEPROM\* (mind: due to 256kb memory only up to 10 frames).  
+Launchpad related:  
+ \* full input support to choose color, frame & pixel
+
+**Keyboard shortcuts:**  
+\* ENTER - switch between record/play Mode  
+\* left/right ARROW - Frame forward/backward (Record Mode) or Speed (Play Mode)  
+\* SPACE - Insert Frame after current Frame  
+\* D - Delete Frame  
+\* X - Clear frame  
+\* F - fill frame  
+\* C - select next color
+
+\* command+S - Save to File (Bitmap)  
+\* command+L - Load File (Bitmap OR text (.mtx))  
+\* command+C - Copy Frame  
+\* command+V - Paste Frame  
+\* ctrl+LETTER - Insert this Letter/Number  
+\* ctrl+left/right ARROW - Move Frame in direction
+
+Rainbowduino:  
+\* alt+ENTER - connect/disconnect  
+\* alt+left/right ARROW - Adjust speed  
+\* alt+ctrl+left/right ARROW - Adjust brightness  
+\* alt+L - load from EEPROM  
+\* alt+S - save to EEPROM
+
+Launchpad top Buttons:  
+\* Arrow up - new frame  
+\* Arrow down - delete frame  
+\* Arrow left - previous frame  
+\* Arrow right - next frame  
+\* Session - copy frame  
+\* User1 - insert frame  
+\* User2 - color preview, hold to select  
+\* Mixer - switch between record/play Mode
+
+Right Buttons are turn into color chooser when User2 pressed. Blinking button indicates selected color, e.g. full red + full green = yellow. Pushing grid button selects color of pushed button.
+
+Please see [README](http://github.com/rngtng/mtXcontrol/blob/master/README.markdown) for more.

@@ -20,7 +20,9 @@ Differ.format = :color
 
 loader = FrontMatterParser::Loader::Yaml.new(whitelist_classes: [Time])
 
-Dir. glob('../_old/_posts/*.html').each do |filename2|
+DIR = "_pages"
+
+Dir. glob("../_old/#{DIR}/*.html").each do |filename2|
   filename = filename2.gsub('.html', '.md')
   puts filename
   parsed = begin
@@ -40,12 +42,12 @@ Dir. glob('../_old/_posts/*.html').each do |filename2|
   # binding.pry  if content2.include?('\_')
   content2 = content2.gsub('\_', '_')
 
-  front_matter = parsed.merge(parsed2.front_matter)
-  File.open("../_posts/#{File.basename(filename)}", 'w') do |file|
-    if front_matter["layout"] != "post"
-      puts 'SKIPPED'
-      next
-    end
+  front_matter = parsed2.front_matter.merge(parsed)
+  unless ["post", "page"].include?(front_matter["layout"])
+    puts 'SKIPPED'
+    next
+  end
+  File.open("../#{DIR}/#{File.basename(filename)}", 'w') do |file|
     file.write(front_matter.slice(
       'id', 'title', 'date', 'permalink', 'layout', 'categories', 'tags', 'comments'
     ).to_yaml)
