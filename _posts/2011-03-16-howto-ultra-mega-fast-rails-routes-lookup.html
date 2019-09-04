@@ -1,0 +1,44 @@
+---
+layout: post
+status: publish
+published: true
+title: 'HowTo: ultra mega fast rails routes lookup '
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 538
+wordpress_url: http://www.rngtng.com/?p=538
+date: '2011-03-16 18:34:00 +0000'
+date_gmt: '2011-03-16 16:34:00 +0000'
+categories:
+- Ruby, Rails &amp; Co.
+tags:
+- howto
+- Ruby, Rails &amp; Co.
+- ruby on rails
+- rails
+- routes
+- shell
+- alias
+- caching
+- script
+- bash
+comments: []
+---
+<p><img class="aligncenter" src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/8/5/1249508265579/Frances-V150-TGV-fast-tra-001.jpg" alt="" /></p>
+<p>I was quite annoyed by the wasted time it took each time I grep the rails routes table.<br />
+<em>Wait, can't this be cached?  - Sure it can!</em><br />
+So I came up this nice little alias to cache the output once:<br />
+<code><br />
+alias route='CF=tmp/routes_cache; [[ ! -s $CF ]] &amp;&amp; rake routes > $CF; cat $CF | grep '<br />
+</code></p>
+<p>now it's ultra fast, try e.g.:<br />
+<code><br />
+$ route root<br />
+</code><br />
+bang!</p>

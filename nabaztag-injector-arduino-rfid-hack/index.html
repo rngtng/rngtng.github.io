@@ -1,0 +1,97 @@
+---
+layout: page
+status: publish
+published: true
+title: NabaztagInjector - An Arduino RFID Hack
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 610
+wordpress_url: http://www.rngtng.com/?page_id=610
+date: '2012-01-09 01:49:54 +0000'
+date_gmt: '2012-01-08 23:49:54 +0000'
+categories: []
+tags: []
+comments:
+- id: 908
+  author: Hacking the Nabaztag &#8211; Arduino injects via I2C data into RFID Reader
+    | uRaNGaTaNG
+  author_email: ''
+  author_url: http://www.rngtng.com/2012/01/10/hacking-the-nabaztag-arduino-injects-via-i2c-data-into-rfid-reader/
+  date: '2012-01-12 11:08:16 +0000'
+  date_gmt: '2012-01-12 10:08:16 +0000'
+  content: "[...] Featuring Ruby, Rails, Web development, Arduino, Processing, Nabaztag
+    and more&#8230;   NabaztagInjector [...]"
+- id: 1249
+  author: peko
+  author_email: peko@gasubasu.com
+  author_url: ''
+  date: '2012-08-22 12:15:58 +0000'
+  date_gmt: '2012-08-22 11:15:58 +0000'
+  content: seem like image  link broken https://a248.e.akamai.net/assets.github.com/img/65c06b656d8b967a6b21c3caac08a5ac9b2b1fe3/687474703a2f2f7777772e726e67746e672e636f6d2f66696c65732f323031322f30312f6e6162617a7461672d61726475696e6f2d726669642d6861636b2e6a7067
+---
+<p>An Arduino library to send data to Violet Nabaztag via I2C (RFID injected)</p>
+<p>Get the latest sources and see Readme at GitHub:<br />
+  https://github.com/rngtng/NabaztagInjector/</p>
+<h2>What it does</h2>
+<p>Let's use our Nabaztag Rabbit to send some data from Arduino to the Internet. Huh! - But how?</p>
+<p>The&nbsp;<a href="http://en.wikipedia.org/wiki/Nabaztag">Nabaztag</a>&nbsp;is (was) Rabbit connected to the Internet. Well, actually it's an ARM7 processor equipped with WIFI and a couple of output and input sensors. Those input sources are:</p>
+<ul>
+<li>a microphone</li>
+<li>RFID reader</li>
+<li>a button</li>
+<li>tow ears which can be moved</li>
+</ul>
+<p>On first sight it doesn't seam there's any option to connect an external device for sending data to the rabbit. But a closer look on the RFID reader showed, that the used CRX14 chip talks via I2C bus to the processor, and luckily the very same bus is also available on the Arduino.</p>
+<p>The RFID reader works in a way, that on demand by the processor, any nearby RFID tags are discovered, requested for their 8 Byte long UID and reported back to the processor.</p>
+<p>And that's where&nbsp;<strong>NabaztagInjector</strong>&nbsp;hooks in: It pushes the Arduino to act in the very same way the RFID chip would, but instead of returning RFID tag UIDs it sends back any custom 8 Bytes of data (make sure to check&nbsp;<em>Caveats</em>&nbsp;below)</p>
+<p>As the nature of I2C, each device has a unique address on the bus. So either&nbsp;<strong>NabaztagInjector</strong>&nbsp;or the reader can be connected at the same time - unless we are smart:</p>
+<p>To have both devices talking to the rabbit without interference we simply switch the reader on and off and change I2C addresses on the Arduino. So either RFID reader acts as normal and Arduino has a dummy I2C address, or the reader is turned off and Arduino takes its address. To archive this, the Arduino uses a OUTPUT pin for powering the RFID reader (see<em>setup</em>) and therefore has full control over its power state.</p>
+<h2>Usage</h2>
+<p><strong>NabaztagInjector</strong>&nbsp;is a static class with a very simple interface reduced down to two methods:</p>
+<ol>
+<li><code>Nabaztag.begin(
+<pin number>)</code></li>
+<li><code>Nabaztag.inject(<data>)</code>&nbsp;or&nbsp;<code>Nabaztag.inject(<*data>, length)</code></li>
+</ol>
+<p>The first one,&nbsp;<code>Nabaztag.begin(
+<pin number>)</code>&nbsp;initializes the I2C bus and turns on the RFID reader.&nbsp;<code>
+<pin number></code>&nbsp;is the pin on Arduino where you connected&nbsp;<em>Vcc</em>&nbsp;to (<em>see setup</em>). To send data to your Rabbit, simply call&nbsp;<code>Nabaztag.inject(<data>)</code>&nbsp;which puts the data into send buffer, and will be send as soon it's requested. As data is internally buffered (size 128 bytes), method call is non-blocking and can be called several times, even if data didn't got yet delivered. The default Nabaztag Firmware request a RFID about every second.</p>
+<p>For real-live usecases, check out the examples folder for more.</p>
+<h2>Installation</h2>
+<p>Put the library into your Arduino libraries folder, and do same with&nbsp;<a href="http://siggiorn.com/wp-content/uploads/libraries/ArduinoByteBuffer.zip">ByteBuffer</a>.</p>
+<h2>Compilation</h2>
+<p><strong>NabaztagInjector</strong>&nbsp;compiles with the latest Arduino IDE, as well as with the&nbsp;<a href="http://mjo.tc/atelier/2009/02/arduino-cli.html">Arduino.mk Makefile</a>. See examples folder.</p>
+<h2>Setup</h2>
+<p>See the picture:</p>
+<p><img src="http://www.rngtng.com/files/2012/01/nabaztag-arduino-rfid-hack.jpg" alt="" width="500" /></p>
+<p>Starting from the Nabaztag mainboard: the RFID reader connector is on top left (Q2). From top to bottom the pins are:&nbsp;<em>VCC (Q2)</em>,&nbsp;<em>GND (Blue)</em>,&nbsp;<em>SDA (Red)</em>,&nbsp;<em>SCL (Green)</em>. Connect&nbsp;<em>SCL</em>&nbsp;to Arduino&nbsp;<em>Analog Pin 5</em>,&nbsp;<em>SDA</em>&nbsp;to&nbsp;<em>Analog Pin 4</em>,&nbsp;<em>GND</em>&nbsp;to&nbsp;<em>GND</em>.&nbsp;<em>VCC</em>&nbsp;can be left blank if Arduino has its own power supply, otherwise connect to Arduino power input. Connected RFID readers&nbsp;<em>VCC</em>&nbsp;to the pin given in<code>Nabaztag.begin(
+<pin number>)</code>. Go to examples folder, compile and upload sketch.</p>
+<p>That's it! Happy injecting!</p>
+<h2>Dependencies</h2>
+<p>For I2C communication,&nbsp;<strong>NabaztagInjector</strong>&nbsp;depends on the Arduino core library&nbsp;<em>Wire</em>. The circular send buffer depends on the&nbsp;<a href="http://siggiorn.com/?p=460"><em>ByteBuffer</em>library</a>&nbsp;by Siggi, and is included within the example code.</p>
+<h2>Caveats</h2>
+<p>As always there are some Caveats:</p>
+<h3>Performance</h3>
+<p>The RFID chip and the Nabaztag firmware support up 16 devices UIDs per request. Unfortunately the default bootcode doesn't take advantage of that, so no way to speed it up. (unless you write your own bootcode, see&nbsp;<em>Custom bootcode</em>&nbsp;below)</p>
+<h3>Speed</h3>
+<p>The rabbit request rfid about every 750-1000ms. The 128 byte Buffer helps here to process high frequent data peaks, but obviously constant high frequent data will result in data loss.</p>
+<h3>Data</h3>
+<p>The default bootcode take only IDS as valid when upper 3 Bytes are larger than zero, fill up empty data with&nbsp;<code>0xFF</code>&nbsp;is used as workaround here.</p>
+<h3>Power</h3>
+<p>I couldn't manage to power Arduino + RFID solely by the rabbit. Arduino in standalone mode worked fine though! Maybe simple amplifier circuit would help?</p>
+<h3>Nabaztag version</h3>
+<p>I used a Nabaztag V2. Not sure if this works with V1 or&nbsp;<a href="http://www.karotz.com/home">Karotz</a>&nbsp;as well.</p>
+<h3>Custom bootcode</h3>
+<p>Yes, it's possible to write your own custom bootcode which allows to get rid of most of the constraints. Pls check my blogpost on that.</p>
+<h3>Supported OS</h3>
+<p>Software developed on Mac OS X. In theory is should compile on Linux &amp; Win smoothly. Please confirm.</p>
+<h3>RFID Connector</h3>
+<p>Tests showed that there was actually no need to turn off the RFID reader chip while Arduino was sending. It was fully working by connecting just both&nbsp;<em>VCC</em>. Actually it felt even more stable.</p>
+<p>Read on  and get the latest sources at GitHub:<br />
+  https://github.com/rngtng/NabaztagInjector/</p>

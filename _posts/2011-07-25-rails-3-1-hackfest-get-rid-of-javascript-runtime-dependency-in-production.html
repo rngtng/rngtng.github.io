@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: Rails 3.1 Hackfest - get rid of Javascript Runtime dependency in production
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 584
+wordpress_url: http://www.rngtng.com/?p=584
+date: '2011-07-25 00:42:54 +0000'
+date_gmt: '2011-07-24 22:42:54 +0000'
+categories:
+- Ruby, Rails &amp; Co.
+tags:
+- Ruby, Rails &amp; Co.
+- rails
+- hackfest
+comments: []
+---
+<p style="text-align: center"><img class="aligncenter" src="http://pragdave.pragprog.com/photos/uncategorized/2007/05/20/rails_logo_heart.png" alt="" width="480" height="306" /></p>
+<p>This weekend was <a href="http://weblog.rubyonrails.org/2011/7/14/rails-3-1-hackfest">Rails 3.1 Hackfest</a>. The rails community was called to test the upcoming version 3.1 to its limits, to find bugs and or flaws and get it polished for the final release. So I did:</p>
+<p>I'm working with the rails 3.1 since it first release candidate, but never tried in production. So I made my task to finally test this, and bring my app in the wild - on my (not root) server. Rails 3.0 is running there smoothly so I didn't expect any problems - wrong!<br />
+Show stopper was the Javascript Runtime dependency on production. Reason was quickly found: <a href="http://jashkenas.github.com/coffee-script/">Coffee-Script</a> - ahrg! It depends on <a href="https://github.com/sstephenson/execjs">ExecJS</a>, which depends on a Javascript Runtime. Unfortunately, and that's because I'm not on a root server, I got neither node.js, therubyraser, Mustang nor Johnson installed there.</p>
+<p>I read <a href="https://moocode.com/posts/1-deploying-a-rails-3-1-application-to-production">this article</a>, which supposed to precompile the assets - didn't help either and runtime is needed again.</p>
+<p>In the End, the solution was as simple as obvious: just don't use coffee-script in production :-) I did, removed the coffee-script gem form my Gemfile - and tatatata: it works! Uhh! This took me quite a long time to get it right. Javascript Runtime dependecy no good for prodcution, and reading <a href="http://yehudakatz.com/2011/06/14/what-the-hell-is-happening-to-rails/">Mr. Katz</a> it's looking good to get this fixed for the final release - uff! Happy so get tin final one soon! Yeah!</p>
+<p>[cheesey image taken from <a href="http://pragdave.pragprog.com/pragdave/2007/05/rails_is_love.html">PragDave</a> - thx]</p>

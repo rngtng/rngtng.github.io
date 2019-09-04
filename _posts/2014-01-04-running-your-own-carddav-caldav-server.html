@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: Running your own CardDav / CalDav Server
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 751
+wordpress_url: http://www.rngtng.com/?p=751
+date: '2014-01-04 14:12:59 +0000'
+date_gmt: '2014-01-04 13:12:59 +0000'
+categories:
+- Happy Hacking
+tags:
+- ical
+- caldav
+- sync
+- calendar
+- carddav
+- contacts
+comments: []
+---
+<p><img src="http://www.roughlydrafted.com/wp-content/uploads/2007/10/rd-rdm.tech.q3.07-f6695fee-bf6a-40d7-ba49-8c11ffb3d4ae-files-ical-hero20070611.jpg" alt=""></p>
+<p>For years I've been running my own CalDav/CardDav server to sync my Contacts, Calendars and Reminders across all my devices. I've been very happy with DAViCal, until recently, I had to switch to a simple vhost which doesn't offer PostgreSQL and custom apache cfgs. So I did some research which other implementations may be useful, those are most promising ones:</p>
+<p><strong>Radicale (Python + Mysql)</strong><br />
+http://radicale.org</p>
+<p><strong>Ba&iuml;kal (PHP + Mysql)</strong><br />
+based on SabreDav<br />
+http://baikal-server.com</p>
+<p><strong>SabreDav (PHP + Mysql)</strong><br />
+DAV Framework,<br />
+https://code.google.com/p/sabredav</p>
+<p><strong>DAViCal (PHP + PostgreSQL)</strong><br />
+Very complete, but not that easy to install.<br />
+http://www.davical.org</p>
+<p><strong>Other:</strong><br />
+Apple CalendarServer: http://trac.calendarserver.org</p>
+<p>See full list:<br />
+http://caldav.calconnect.org/implementations/servers.html</p>

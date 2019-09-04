@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: 'My first AppleScript: Copy Address Book entries'
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 56
+wordpress_url: http://www.rngtng.com/?p=56
+date: '2007-05-10 13:25:39 +0000'
+date_gmt: '2007-05-10 12:25:39 +0000'
+categories:
+- Happy Hacking
+tags:
+- applescript
+- address
+- book
+- mac
+- ICQ
+- jabber
+comments:
+- id: 2
+  author: 'My first AppleScript: Copy Address Book entries | Lustauffotos.de'
+  author_email: ''
+  author_url: http://www.lustauffotos.com/2007/05/10/my-first-applescript-copy-address-book-entries/
+  date: '2009-05-10 13:30:15 +0000'
+  date_gmt: '2009-05-10 12:30:15 +0000'
+  content: "[...] This article moved to my techblog RngTng.com: http://www.rngtng.com/2007/05/10/my-first-applescript-copy-address-book-entries/
+    [...]"
+---
+<p>Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in <a href="http://www.adiumx.com/" target="_blank">Adium</a>, I had to copy the ICQ entry to a new Jabber enrty with appending "@jit.jabber.fsinf.de". The code follows:</p>
+<p>[bash]<br />
+tell application "Address Book"<br />
+set thePeople to every person whose ICQ handles is not {} and Jabber handles is {}<br />
+repeat with eachPerson in thePeople<br />
+set icqnr to value of ICQ handles of eachPerson<br />
+set jabberid to (item 1 of icqnr) &amp;amp; "@jit.jabber.fsinf.de"<br />
+make new Jabber handle at end of Jabber handles of eachPerson with properties {label:"Home", value:jabberid}<br />
+end repeat<br />
+save addressbook<br />
+end tell<br />
+[/bash]</p>
+<p>It worked out fine. Now I see you all in my buddylist ;-)</p>

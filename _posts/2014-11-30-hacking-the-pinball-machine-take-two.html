@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: Hacking the Pinball machine (Take Two)
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 719
+wordpress_url: http://www.rngtng.com/?p=719
+date: '2014-11-30 20:26:47 +0000'
+date_gmt: '2014-11-30 19:26:47 +0000'
+categories:
+- Happy Hacking
+- Pinball
+tags:
+- hacking
+- pinball
+- raspberry pi
+comments: []
+---
+<p>30.Nov 2014</p>
+<p>Wow, wow, wow - I finally got my hand dirty hacking. Together with ccb23, I (once again) opened up our <a href="http://www.ipdb.org/machine.cgi?gid=2509">Teenage Mutant Ninja Turtles Pinball</a> machine to 'pirate' the current game score to throw into teh internetz!</p>
+<p>To be honest, it's take two. We already did so nearly 18 month ago, but failed to document and write about our experience in full. In short, we reverse-engineered the graphic card protocol of the pinball machine, connected an Arduino to listen on the bus and 'pirate' the game score. But due to its lack of internet connection we forwarded the data via RFID injection to a Nabaztag Rabbit, which send the message to an API endpoint of a rails application. So what's left are a couple of prototype projects:</p>
+<ul>
+<li>A <a href="https://github.com/rngtng/NabaztagInjector/blob/master/examples/pirate/pirate.ino">Arduino sketch</a> to listen to the graphic-bus.</li>
+<li>The <a href="/nabaztag-injector-arduino-rfid-hack/">NabaztagInjector</a> to send the data via RFID to a WIFI connected Nabaztag rabbit.</li>
+<li>A rails app &amp; API <a href="http://github.com/rngtng/">PinPirate</a> to receive the data, display the score and send out tweets.</li>
+</ul>
+<p>Yes, this worked! Proof of concept - done! Unfortunately it turned out that all was very shaky and not very reliable, so we left it for a while until now, back to tackle the challenge again, but this time with a different approach: enter <a href="http://www.raspberrypi.org">RaspberryPi</a>.</p>
+<p>Advantage:<br />
+- on board Internet</p>
+<p>Disadvantage:<br />
+- we have a full OS - access to interrupts way more complicated</p>
+<p>ccb23 managed to write a kernel module to direct access to Interrupts: http://elinux.org/RPi_Low-level_peripherals</p>
+<p>With this module loaded and the pinball machine connected, listening to the graphic bus is as simple as:<br />
+<code>cat /dev/????</code></p>
+<p><a href="/files/2013/07/GPIOs.png"><img class="aligncenter size-full wp-image-747" src="/files/2013/07/GPIOs.png" alt="GPIOs" width="254" height="581"></a></p>

@@ -1,0 +1,60 @@
+---
+layout: post
+status: publish
+published: true
+title: Rails flag_shih_tzu Plugin with named_scope
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 200
+wordpress_url: http://www.rngtng.com/?p=200
+date: '2009-08-20 18:02:36 +0000'
+date_gmt: '2009-08-20 17:02:36 +0000'
+categories:
+- Ruby, Rails &amp; Co.
+tags:
+- extension
+- plugin
+- github
+- fork
+- ruby on rails
+comments:
+- id: 48
+  author: Sebastian R&ouml;bke
+  author_email: sebastian.roebke@xing.com
+  author_url: https://www.xing.com/profile/Sebastian_Roebke
+  date: '2009-08-21 09:38:20 +0000'
+  date_gmt: '2009-08-21 08:38:20 +0000'
+  content: "Hi Tobi,\r\n\r\nvery good idea!\r\n\r\nPlease make sure to talk about
+    \"named scopes\" instead of \"named routes\" here ;)\r\n\r\nAs said already via
+    private msg, I would prefer dedicated named scopes like \r\nSpaceship.warpdrive.all
+    und Spaceship.not_warpdrive.all\r\ninstead of the general ones using a symbol
+    parameter.\r\n\r\nWe should then extend the tests to really use ActiveRecord and
+    check the generated named scopes.\r\n\r\nWhat do you think?\r\n\r\nThanks,\r\nSebastian"
+---
+<p>When it comes to store a load of boolean data into your model you easily end up with lots of columns which blow up your table unnecessarily. The developers at <a href="http://blog.xing.com/category/tech-blog">Xing</a> solved this problem with a nifty Rails Plugin called <a href="http://github.com/xing/flag_shih_tzu/">flag_shih_tzu</a>. The trick is to store all boolean values combined as a bit vector, which allows you to put up to 32 values (4Byte) within a single Integer column. Automatic generated access methods allows you to deal with you model as your are used to. Wanna see an example? (Taken from plugin docs)</p>
+<p>[ruby]<br />
+class Spaceship < ActiveRecord::Base<br />
+  include FlagShihTzu</p>
+<p>  has_flags 1 => :warpdrive,<br />
+            2 => :shields</p>
+<p>end</p>
+<p>enterprise = Spaceship.new<br />
+enterprise.warpdrive = true<br />
+enterprise.shields = false<br />
+enterprise.save</p>
+<p>enterprise.warpdrive? #=> true<br />
+enterprise.shields? # => false<br />
+[/ruby]</p>
+<p>Nice, isn't it?</p>
+<p>Unfortunately named scopes where missing for selecting models easily. So another github fork, another fix, and here were are. Now this works as well:</p>
+<p>[ruby]<br />
+Spaceship.flagged(:warpdrive).not_flagged(:shields).all<br />
+[/ruby]</p>
+<p>Check it out here: http://github.com/rngtng/flag_shih_tzu/tree/master</p>
+<p><strong>Update:</strong> replaced 'routes' with 'scopes' - I'm getting confused with that all the time, how come!? ;-)</p>
