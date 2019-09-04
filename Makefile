@@ -8,7 +8,10 @@ dev:
 	docker run -it --rm -v "$$PWD":/home ruby bash
 
 export:
-	ruby export.rb
+	cd _tools && ./export.rb
+
+cleanup:
+	cd _tools && ./cleanup.rb
 
 export_tunnel:
 	ssh ssh-114853-tobi@hopit.de -L 0.0.0.0:33360:mysql5.df.eu:3306

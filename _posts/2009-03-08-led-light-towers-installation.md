@@ -13,7 +13,7 @@ comments: []
 ---
 Hey, Check this out, a very nice LED tower installation:
 
-http://www.youtube.com/watch?v=FsHMFkJkohM
+<http://www.youtube.com/watch?v=FsHMFkJkohM>
 
 see more great stuff at <http://www.brilldea.com/>
 

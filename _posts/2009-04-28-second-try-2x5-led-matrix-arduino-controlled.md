@@ -26,6 +26,6 @@ comments:
 This time a more sophisticated example. I started to develop an LED Matrix controller and editor in [Processing](http://www.processing.org) (like every does his first steps on arduino, I think).  
 By now, you can create a sequence by selecting the LEDs to light up and move over to the next frame. Finished, run it on the Arduino and control the speed - a nice and quick toy way to create any light patterns you can think of easily.
 
-http://www.youtube.com/watch?v=Vmijzo2zT-s
+<http://www.youtube.com/watch?v=Vmijzo2zT-s>
 
 More examples and source code soon to come...

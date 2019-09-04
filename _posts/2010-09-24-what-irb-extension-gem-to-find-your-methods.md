@@ -13,7 +13,7 @@ tags:
 - what_method
 comments: []
 ---
-http://www.youtube.com/watch?v=2u3c5z45V8g  
+<http://www.youtube.com/watch?v=2u3c5z45V8g>  
 If Samuel just would have asked me, I got an answer:
 
 Oldies, but Goldies: 'Methodfinder' is a really nice extension for your ruby/rails irb and shipped with the 'what_methods' gem. I'm using quite a lot and can't go without it anymore (aka. I'm too stupid to remember all those method names ;-).
