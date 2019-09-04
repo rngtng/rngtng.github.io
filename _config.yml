@@ -25,7 +25,7 @@ include: ['_pages']
 
 # Social Profiles
 twitter_username:   rngtng
-# github_username:    rngtng
+github_username:    rngtng
 
 # Add your google-analytics ID here to activate google analytics
 # google_analytics:   UA-1074303-6
