@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>svn &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/svn/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 23 Apr 2019 20:50:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Skypehotdeploy &#8211; How to autocommit &#038; deploy a file</title>
+		<link>http://www.rngtng.com/2010/04/27/skypehotdeploy-how-to-autocommit-deploy-a-file/</link>
+				<pubDate>Tue, 27 Apr 2010 20:49:36 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[hotdeploy]]></category>
+		<category><![CDATA[skype]]></category>
+		<category><![CDATA[subversion]]></category>
+		<category><![CDATA[svn]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=64</guid>
+				<description><![CDATA[At Qype we had the problem of a college sending me a file which needed to get into the development trunk and updated on the production system. Problem was, he had http://gist.github.com/380749 Skype auto accept file, folder action on download folder. [plain] my hotdeploy() on adding folder items to this_folder after receiving these_items my hotdeploy() [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>At Qype we had the problem of a college sending me a file which needed to get into the development trunk and updated on the production system. Problem was, he had</p>
+<p>http://gist.github.com/380749</p>
+<p>Skype auto accept file,</p>
+<p>folder action on download folder.</p>
+<p>[plain]<br />
+my hotdeploy()</p>
+<p>on adding folder items to this_folder after receiving these_items<br />
+my hotdeploy()<br />
+end adding folder items to</p>
+<p>on hotdeploy()<br />
+set usr_home to &#8220;/Users/tobiasb/&#8221;<br />
+set prj_folder to usr_home &amp; &#8220;Sites/qype_admin/&#8221;<br />
+set filename to &#8220;report_queries.yml&#8221;</p>
+<p>set srcs to usr_home &amp; &#8220;Downloads/&#8221; &amp; filename<br />
+set dest to prj_folder &amp; &#8220;config/&#8221; &amp; filename</p>
+<p>try<br />
+tell application &#8220;Finder&#8221; to set file_exists to exists srcs as POSIX file<br />
+if file_exists then<br />
+say &#8220;here we go&#8221;<br />
+do shell script &#8220;mv &#8221; &amp; srcs &amp; &#8221; &#8221; &amp; dest<br />
+set diff to do shell script &#8220;/opt/local/bin/svn diff &#8221; &amp; dest<br />
+if not diff is equal to &#8220;&#8221; then<br />
+#set commit to &#8220;/opt/local/bin/svn ci &#8211;quiet -m&#8217;SkypeAutoCommiter: updated report queries&#8217; &#8221; &amp; dest &amp; &#8220;;&#8221;<br />
+#set hotdeploy to &#8220;cd &#8221; &amp; prj_folder &amp; &#8220;; /usr/bin/cap production qype:hotdeploy FILES=config/&#8221; &amp; filename &amp; &#8220;;&#8221;<br />
+#set out to commit &amp; hotdeploy<br />
+set out to do shell script &#8220;/Users/tobiasb/bin/update_report_queries.sh&#8221;<br />
+my message(&#8220;done&#8221;)<br />
+say &#8220;done&#8221;<br />
+else<br />
+my message(&#8220;no changes&#8221;)<br />
+end if<br />
+else<br />
+return &#8220;no file&#8221;<br />
+end if<br />
+on error the error_message number the error_number<br />
+my message(&#8220;error&#8221;)<br />
+say &#8220;error&#8221;<br />
+set the error_text to &#8220;Error: &#8221; &amp; the error_number &amp; &#8220;. &#8221; &amp; the error_message<br />
+display dialog the error_text buttons {&#8220;OK&#8221;} default button 1<br />
+return the error_text<br />
+end try<br />
+end hotdeploy</p>
+<p>on message(msg)<br />
+tell application &#8220;Skype&#8221; to send command &#8220;MESSAGE justalii SkypeAutoCommiter: &#8221; &amp; msg script name &#8220;to Alli&#8221;<br />
+#say msg<br />
+end message<br />
+[/plain]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

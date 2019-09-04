@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>book &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/book/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 23 Oct 2009 16:14:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</title>
+		<link>http://www.rngtng.com/2009/10/23/programming-interactivity-a-designers-guide-to-processing-arduino-and-openframeworks/</link>
+				<pubDate>Fri, 23 Oct 2009 16:14:09 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[openFrameworks]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=278</guid>
+				<description><![CDATA[I just stumbled upon this interesting sounding book by Joshua Noble: Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks. A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have! www.programminginteractivity.com]]></description>
+								<content:encoded><![CDATA[<p><img class="alignleft" src="http://image.ebook30.com/data_images/2009/07/24/1248467706-000e62d4medium.jpeg" alt="" width="160" height="210" />I just stumbled upon this interesting sounding book by Joshua Noble: </p>
+<p><a href="http://oreilly.com/catalog/9780596154158"><strong>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</strong></a>. </p>
+<p>A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have!</p>
+<p><a href="http://www.programminginteractivity.com">www.programminginteractivity.com</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Beginners Guide to Arduino &#8211; free PDF Download</title>
+		<link>http://www.rngtng.com/2009/07/30/beginners-guide-to-arduino-free-pdf-download/</link>
+				<pubDate>Thu, 30 Jul 2009 10:56:28 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[download]]></category>
+		<category><![CDATA[freeduino]]></category>
+		<category><![CDATA[pdf]]></category>
+		<category><![CDATA[starterkit]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=184</guid>
+				<description><![CDATA[Earthshine Design just released a free Beginners Guide to Arduino as PDF download. Feel free to grab it here: Earthshine Design Arduino Starters Kit Manual . It covers several experiements you&#8217;ll start your Arduino career with, especially you&#8217;ve bought thier very complete starter kit. Go for it! [found via freeduino.de]]]></description>
+								<content:encoded><![CDATA[<p><a href="http://www.earthshinedesign.co.uk/">Earthshine Design</a> just released a free Beginners Guide to Arduino as PDF download.</p>
+<p>Feel free to grab it here: <a href="http://www.earthshinedesign.co.uk/ASKManual/Site/ASKManual.html">Earthshine Design Arduino Starters Kit Manual </a>.</p>
+<p>It covers several experiements you&#8217;ll start your Arduino career with, especially you&#8217;ve bought <a href="http://earthshinedesign.co.uk/?page_id=3&amp;category=3&amp;product_id=14">thier very complete starter kit</a>. Go for it!</p>
+<p>[found via <a href="http://freeduino.de/de/blogs/gatonero/complete-beginners-guide-arduino" class="broken_link">freeduino.de</a>]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My first AppleScript: Copy Address Book entries</title>
+		<link>http://www.rngtng.com/2007/05/10/my-first-applescript-copy-address-book-entries/</link>
+				<pubDate>Thu, 10 May 2007 12:25:39 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[address]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[ICQ]]></category>
+		<category><![CDATA[jabber]]></category>
+		<category><![CDATA[mac]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=56</guid>
+				<description><![CDATA[Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in Adium, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows: [bash] tell application &#34;Address Book&#34; set thePeople to every person whose ICQ handles is not {} and Jabber handles [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in <a href="http://www.adiumx.com/" target="_blank">Adium</a>, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows:</p>
+<p>[bash]<br />
+tell application &quot;Address Book&quot;<br />
+set thePeople to every person whose ICQ handles is not {} and Jabber handles is {}<br />
+repeat with eachPerson in thePeople<br />
+set icqnr to value of ICQ handles of eachPerson<br />
+set jabberid to (item 1 of icqnr) &amp;amp; &quot;@jit.jabber.fsinf.de&quot;<br />
+make new Jabber handle at end of Jabber handles of eachPerson with properties {label:&quot;Home&quot;, value:jabberid}<br />
+end repeat<br />
+save addressbook<br />
+end tell<br />
+[/bash]</p>
+<p>It worked out fine. Now I see you all in my buddylist <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

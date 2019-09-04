@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>midi &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/midi/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 02 Apr 2010 11:15:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>BCD3000 Djay Midi Mappings</title>
+		<link>http://www.rngtng.com/2010/04/02/bcd3000-djay-midi-mappings/</link>
+				<pubDate>Fri, 02 Apr 2010 11:13:26 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[bcd3000]]></category>
+		<category><![CDATA[djay]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[mapping]]></category>
+		<category><![CDATA[midi]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=399</guid>
+				<description><![CDATA[Some while ago I bought this nice Midi Controller BCD3000 by Behringer. It&#8217;s an easy to use device which brings way more fun mixing your MP3. For easy party playing mode I very like Djay, which is a simple but very powerfull mixing software. It now support Midi devices as well! Unfortunately I couldn&#8217;t find [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><a href="http://www.djay-software.com"><img class="aligncenter" src="http://www.djay-software.com/images/screenshot.png?1270204365" alt="" /></a></p>
+<p>Some while ago I bought this nice Midi Controller <a href="http://www.behringer.com/EN/Products/BCD3000.aspx" class="broken_link">BCD3000 by Behringer</a>. It&#8217;s an easy to use device which brings way more fun mixing your MP3. For easy party playing mode I very like <a href="http://www.djay-software.com/">Djay</a>, which is a simple but very powerfull mixing software. It now support Midi devices as well!<br />
+Unfortunately I couldn&#8217;t find any predefined Midi Mappings for Djay and BCD3000. So I created my own. <a href="http://github.com/downloads/rngtng/BCD3000.djayMidiMapping/BCD3000.djayMidiMapping">Please download the file here</a>. For now, all basic features are mapped, I may add sophisticated ones soon. It&#8217;s hosted on github, so please <a href="http://github.com/rngtng/BCD3000.djayMidiMapping">fork it and add you changes</a>.</p>
+<p>Happy DJing!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

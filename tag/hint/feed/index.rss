@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hint &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/hint/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 12 Nov 2009 12:58:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Lot&#8217;s of Ruby and Rails Tricks</title>
+		<link>http://www.rngtng.com/2009/11/12/lots-of-ruby-and-rails-tricks/</link>
+				<pubDate>Thu, 12 Nov 2009 10:35:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[get started]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[link tip]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://urangatang.lustauffotos.com/?p=38</guid>
+				<description><![CDATA[Quick, short post I always had in the queue: Check this out, here some lists of good techniques to get started and to impove your Ruby and Rails code: http://nettuts.com/articles/web-roundups/10-awesome-ruby-on-rails-techniques-to-get-you-started/ http://www.rubyinside.com/19-rails-tricks-most-rails-coders-dont-know-131.html http://www.rubyinside.com/21-ruby-tricks-902.html [Awsm picture taken from DesignShark]]]></description>
+								<content:encoded><![CDATA[<p>Quick, short post I always had in the queue:</p>
+<p style="text-align: center"><img class="aligncenter" src="http://www.designshak.com/wp-content/uploads/2009/08/bruce_on_rails.jpg" alt="" /></p>
+<p>Check this out, here some lists of good techniques to get started and to impove your Ruby and Rails code:</p>
+<p>http://nettuts.com/articles/web-roundups/10-awesome-ruby-on-rails-techniques-to-get-you-started/</p>
+<p>http://www.rubyinside.com/19-rails-tricks-most-rails-coders-dont-know-131.html</p>
+<p>http://www.rubyinside.com/21-ruby-tricks-902.html</p>
+<p>[Awsm picture taken from <a href="http://www.designshak.com/blog/ruby-on-rails">DesignShark</a>]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Pimp my TextMate: how to speed up search &#038; load</title>
+		<link>http://www.rngtng.com/2009/06/18/pimp-my-textmate-how-to-speed-up-search-load/</link>
+				<pubDate>Thu, 18 Jun 2009 10:41:38 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[speedup]]></category>
+		<category><![CDATA[textmate]]></category>
+		<category><![CDATA[tweak]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=127</guid>
+				<description><![CDATA[As a true Ruby on Rails developer you probably work with TextMate, as it&#8217;s a plain, simple, but yet quite powerful editor. I love its open-file-by-pattern (?+T) or find-in-project (?+?+F) functions. But one thing which bothered me the most was the search time when working on big, large, massive projects. One easy tweak how to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As a true Ruby on Rails developer you probably work with <a href="http://macromates.com/">TextMate</a>, as it&#8217;s a plain, simple, but yet quite powerful editor. I love its open-file-by-pattern (?+T) or find-in-project (?+?+F) functions. But one thing which bothered me the most was the search time  when working on big, large, massive projects. One easy tweak how to speed it up easily is to extend the file and folder exclude patterns. For example you don&#8217;t need the <em>tmp</em>, <em>log</em> or <em>vendor</em> folder, nor any binary files within your editor. So I just excluded them, here are my new patterns (all in one line):</p>
+<p>Files:  (excluded all images,pdf &amp; flash)<br />
+[text]<br />
+!(/\.(?!htaccess)[^/]*|\.(png|jpg|pdf|swf)|\.(tmproj|o|pyc)|/Icon\r|/svn-commit(\.[2-9])?\.tmp)$<br />
+[/text]</p>
+<p>Folders:  (exclude  tmp tools vendor uploads lang locale po old_migrations script images upload custom_maps log)<br />
+[text]<br />
+!.*/(\.[^/]*|CVS|doc|tmp|tools|vendor|uploads|lang|locale|po|old_migrations|script|images<br />
+|upload|custom_maps|log|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$<br />
+[/text]</p>
+<p>To change the settings go to<br />
+[text]<br />
+preferences -&gt; advanced -&gt; folder references<br />
+[/text]</p>
+<p>Yeah, now my search is quite fast again!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>MySQL User defined Variables &#8211; good thing to know!</title>
+		<link>http://www.rngtng.com/2009/04/02/mysql-user-defined-variables-good-thing-to-know/</link>
+				<pubDate>Thu, 02 Apr 2009 12:59:54 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[user defined]]></category>
+		<category><![CDATA[variables]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=121</guid>
+				<description><![CDATA[Have you ever heard of user defined variables in MySQL? I hadn&#8217;t and nearly freaked out when I found out. That&#8217;s the thing I was always looking for, that&#8217;s so cool, and fasten up your SQL live a lot! Now, renumbering a table is as easy as never before: [text] Set @a = 0; UPDATE [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="margin-bottom:20px"><img class="alignright" style="margin: 18px" src="http://matsu.files.wordpress.com/2008/01/mysql-logo.png" alt="" width="140" height="72" /> Have you ever heard of user defined variables in MySQL? I hadn&#8217;t and nearly freaked out when I found out. That&#8217;s the thing I was always looking for, that&#8217;s so cool, and fasten up your SQL live a lot!</p>
+<p style="text-align: left">Now, renumbering a table is as easy as never before:</p>
+<p>[text]<br />
+Set @a = 0;<br />
+UPDATE my_table SET id=@a:=@a+1<br />
+[/text]</p>
+<p>Check out the docu and examples:<br />
+http://dev.mysql.com/doc/refman/5.0/en/user-variables.html</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>How to alias and create a new named scope out of existing ones</title>
+		<link>http://www.rngtng.com/2009/03/26/how-to-alias-and-create-a-new-named-scope-out-of-existing-ones/</link>
+				<pubDate>Thu, 26 Mar 2009 14:32:22 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[beauty of code]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[named]]></category>
+		<category><![CDATA[scope]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=8</guid>
+				<description><![CDATA[Named scopes in Rails are just awesome. They so much DRY and beautify your code! But did you ever had the trouble to create a new named_scope out of others? E.g. aliasing multiple ones to a new one. Luckily I now figured out how this works in a nice way. The magic key is the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a href="http://www.pathf.com/blogs/2008/06/named-scopes-are-awesome/">Named</a> <a href="http://railscasts.com/episodes/108-named-scope">scopes</a> in Rails are just awesome. They so much DRY and beautify your code! But did you ever had the trouble to create a new named_scope out of others? E.g. aliasing multiple ones to a new one. Luckily I now figured out how this works in a nice way.<br />
+The magic key is the method <em><code>scope( :find )</code></em></p>
+<p>This method called on a Scope class returns the Hash used for the ActiveRecord <code>.find()</code> call. First it&#8217;s a nice way to debug your scopes, second it&#8217;s perfect for our need to chain multiple scoped into one. Check this out:</p>
+<p>[ruby]<br />
+class Fu &lt; ActiveRecord::Base<br />
+named_scope :has_moo,  :conditions =&gt; { :moo =&gt; true }<br />
+named_scope :has_foo,  :conditions =&gt; { :foo =&gt; true }</p>
+<p>named_scope :has_moo_and_foo, lambda { has_moo.has_foo.scope(:find) }<br />
+end<br />
+[/ruby]</p>
+<p>We chain the two scoped <code>has_moo</code> and <code>has_foo</code> together into a new one called <code>has_moo_and_foo</code>. As the return value can only be a Hash we use the above mentioned scope(:find) to transform it into one.</p>
+<p>Now this works:</p>
+<p>[ruby]Fu.has_moo_and_foo.all[/ruby]</p>
+<p>Sweet! Imagine how great this would be if we can return a scope object instead of a hash as well??</p>
+<p>See my <a href="http://pastie.org/427839" class="broken_link">pastie here</a> too.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Beautify your views using &#8220;return&#8221;</title>
+		<link>http://www.rngtng.com/2008/06/06/beautify-your-views-with-using-return/</link>
+				<pubDate>Fri, 06 Jun 2008 09:59:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[beauty of code]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[return]]></category>
+		<category><![CDATA[view]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=6</guid>
+				<description><![CDATA[A nice way to keep your views clean and not to spoil them with condition clauses, is to use the &#8216;return&#8217; statement like you would do in a method: Take this very simple exmaple: ugly: [ruby] unless @place &#60;%= @place.name %&#62; end [/ruby] nice: [ruby] return if @place.nil? &#60;%= @place.name %&#62; [/ruby] UPDATE: There&#8217;s one [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>A nice way to keep your views clean and not to spoil them with condition clauses, is to use the &#8216;return&#8217; statement like you would do in a method:</p>
+<p>Take this very simple exmaple:</p>
+<p>ugly:<br />
+[ruby]<br />
+unless @place<br />
+  &lt;%= @place.name %&gt;<br />
+end<br />
+[/ruby]</p>
+<p>nice:<br />
+[ruby]<br />
+return if @place.nil?<br />
+&lt;%= @place.name %&gt;<br />
+[/ruby]</p>
+<p><strong>UPDATE:</strong><br />
+There&#8217;s one pitfall, I forgot to mention: Every outout BEFORE the return statement will be discarded, so this part:<br />
+[ruby]<br />
+&lt;%= &quot;Always display this sentence&quot; %&gt;<br />
+return if @place.nil?<br />
+&lt;%= @place.name %&gt;<br />
+[/ruby]</p>
+<p>Will result in an empty output as well. This is quite a pitty and I&#8217;m not sure if it&#8217;s a bug or feature. A may raise it soon..</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>external &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/external/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 05 Aug 2015 08:26:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Send Mac to sleep with external screen and closing the lid (Yosemite)</title>
+		<link>http://www.rngtng.com/2012/10/17/send-mac-to-sleep-with-external-screen-and-closing-the-lid/</link>
+				<pubDate>Wed, 17 Oct 2012 08:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[external]]></category>
+		<category><![CDATA[lion]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[screen]]></category>
+		<category><![CDATA[sleep]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=677</guid>
+				<description><![CDATA[I had the problem of my Mac not going into sleep when external screen is connected and closing the lid. Luckly I came across this advice which indeed, did the trick: 1. Disable external Monitor 2. Type `sudo nvram boot-args=&#8221;iog=0x0&#8243;` 3. and restart Voilà! Update: With Yosemite you need to type: `sudo nvram boot-args=&#8221;niog=1&#8243;` Source: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="https://pixabay.com/static/uploads/photo/2015/06/07/12/11/macro-800236_640.jpg" alt="" /></p>
+<p>I had the problem of my Mac not going into sleep when external screen is connected and closing the lid. Luckly I came <a href="https://discussions.apple.com/message/19264651#19264651">across this advice</a> which indeed, did the trick:</p>
+<p>1. Disable external Monitor<br />
+2. Type `sudo nvram boot-args=&#8221;iog=0x0&#8243;`<br />
+3. and restart</p>
+<p>Voilà!</p>
+<p><strong>Update</strong>: With Yosemite you need to type:</p>
+<p>`sudo nvram boot-args=&#8221;niog=1&#8243;`</p>
+<p>Source: https://discussions.apple.com/thread/6601019</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

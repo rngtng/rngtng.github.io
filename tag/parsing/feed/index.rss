@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>parsing &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/parsing/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 26 Jan 2011 11:36:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>HowTo: parse invalid, irregular HTML having &#060; or unlcosed tags</title>
+		<link>http://www.rngtng.com/2011/02/03/pars-invalid-irregular-html-with-unclosed-tag/</link>
+				<pubDate>Thu, 03 Feb 2011 11:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[invlaid]]></category>
+		<category><![CDATA[irregular]]></category>
+		<category><![CDATA[nokogiri]]></category>
+		<category><![CDATA[parsing]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[tag]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=529</guid>
+				<description><![CDATA[I had the &#8216;problem&#8217; that user feedback included lot of love &#8211; mostly by writing &#8216;hearts&#8217;. Unfortunately expressing hearts is done by &#8216;&#60;3&#039; which turns the input into invalid HTML. Bummer. So if you still want allow other basic tags, you have a problem. Here&#039;s how I solved it: First I checked Stackoverflow &#8211; Tian [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>I had the &#8216;problem&#8217; that user feedback included lot of love &#8211; mostly by writing &#8216;hearts&#8217;. Unfortunately expressing hearts is done by &#8216;&lt;3&#039; which turns the input into invalid HTML. Bummer. So if you still want allow other basic tags, you have a problem. Here&#039;s how I solved it:</p>
+<p>First I checked Stackoverflow &#8211; <strong>Tian</strong> had similar problem over there: <a href="http://stackoverflow.com/questions/3268387/nokogiri-parsing-irregular">Nokogiri: Parsing Irregular &lt;</a></p>
+<p>As a quick fix I came up with this method using a reqular expression to identify unclosed tags:</p>
+<p>[code]<br />
+def fix_irregular_html(html)<br />
+  regexp = /&lt;([^&lt;&gt;]*)(&lt;|$)/</p>
+<p>  #we need to do this multiple time as regex are overlapping<br />
+  while (fixed_html = html.gsub(regexp, &quot;&amp;lt;\\1\\2&quot;)) &amp;&amp; fixed_html != html<br />
+    html = fixed_html<br />
+  end</p>
+<p>  fixed_html<br />
+end<br />
+[/code]</p>
+<p>See full code including test here: https://gist.github.com/796571</p>
+<p>It works out well for me, I appreciate any feedback and improvements</p>
+<p>See full code and test here:<br />
+https://gist.github.com/796571</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

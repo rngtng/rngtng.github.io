@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>openFrameworks &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/openframeworks/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 23 Oct 2009 16:14:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</title>
+		<link>http://www.rngtng.com/2009/10/23/programming-interactivity-a-designers-guide-to-processing-arduino-and-openframeworks/</link>
+				<pubDate>Fri, 23 Oct 2009 16:14:09 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[openFrameworks]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=278</guid>
+				<description><![CDATA[I just stumbled upon this interesting sounding book by Joshua Noble: Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks. A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have! www.programminginteractivity.com]]></description>
+								<content:encoded><![CDATA[<p><img class="alignleft" src="http://image.ebook30.com/data_images/2009/07/24/1248467706-000e62d4medium.jpeg" alt="" width="160" height="210" />I just stumbled upon this interesting sounding book by Joshua Noble: </p>
+<p><a href="http://oreilly.com/catalog/9780596154158"><strong>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</strong></a>. </p>
+<p>A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have!</p>
+<p><a href="http://www.programminginteractivity.com">www.programminginteractivity.com</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>what_method &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/what_method/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 24 Sep 2010 11:35:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>What? &#8211; irb extension gem to find your methods</title>
+		<link>http://www.rngtng.com/2010/09/24/what-irb-extension-gem-to-find-your-methods/</link>
+				<pubDate>Fri, 24 Sep 2010 11:35:38 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[extension]]></category>
+		<category><![CDATA[irb]]></category>
+		<category><![CDATA[what?]]></category>
+		<category><![CDATA[what_method]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=10</guid>
+				<description><![CDATA[[youtube]http://www.youtube.com/watch?v=2u3c5z45V8g[/youtube] If Samuel just would have asked me, I got an answer: Oldies, but Goldies: &#8216;Methodfinder&#8217; is a really nice extension for your ruby/rails irb and shipped with the &#8216;what_methods&#8217; gem. I&#8217;m using quite a lot and can&#8217;t go without it anymore (aka. I&#8217;m too stupid to remember all those method names ;-). gem install [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>[youtube]http://www.youtube.com/watch?v=2u3c5z45V8g[/youtube]<br />
+If Samuel just would have asked me, I got an answer:</p>
+<p>Oldies, but Goldies: &#8216;Methodfinder&#8217;  is a really nice extension for your ruby/rails irb and shipped with the &#8216;what_methods&#8217; gem. I&#8217;m using quite a lot and can&#8217;t go without it anymore (aka. I&#8217;m too stupid to remember all those method names ;-).</p>
+<p><code>gem install what_methods</code></p>
+<p>http://redhanded.hobix.com/inspect/stickItInYourIrbrcMethodfinder.html</p>
+<p>See more hints by Dr. Nic blog <a href="http://drnicwilliams.com/2006/10/12/my-irbrc-for-consoleirb/">here</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

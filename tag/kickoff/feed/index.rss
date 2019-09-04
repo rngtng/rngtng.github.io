@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>kickoff &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/kickoff/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 15 May 2009 18:39:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Arduion has arrived</title>
+		<link>http://www.rngtng.com/2009/04/17/arduion-has-arrived/</link>
+				<pubDate>Fri, 17 Apr 2009 10:09:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[kickoff]]></category>
+
+		<guid isPermaLink="false">http://urangatang.lustauffotos.com/?p=35</guid>
+				<description><![CDATA[Here it is! Yeah, finally my Arduino (ordered at Watterott) has been delivered. Can&#8217;t wait to get my hands on it. Stay tuned for future reports! All about this great &#8216;toy&#8217; here: www.arduino.cc]]></description>
+								<content:encoded><![CDATA[<p><img src="http://orguz.files.wordpress.com/2007/11/arduino_extreme_480.jpg" alt="" /><br />
+Here it is! Yeah, finally my Arduino (ordered at <a href="http://www.watterott.com">Watterott</a>) has been delivered. Can&#8217;t wait to get my hands on it. Stay tuned for future reports!</p>
+<p>All about this great &#8216;toy&#8217; here: <a href="http://www.arduino.cc">www.arduino.cc</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

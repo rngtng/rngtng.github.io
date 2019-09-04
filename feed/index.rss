@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 13 Aug 2019 12:34:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>REST Security Cheat Sheet</title>
+		<link>http://www.rngtng.com/2019/08/13/rest-security-cheat-sheet/</link>
+				<pubDate>Tue, 13 Aug 2019 12:34:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=1014</guid>
+				<description><![CDATA[https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html]]></description>
+								<content:encoded><![CDATA[<p>https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Wintergarden &#8211; building Marble Machine X</title>
+		<link>http://www.rngtng.com/2019/08/13/wintergarden-building-marble-machine-x/</link>
+				<pubDate>Tue, 13 Aug 2019 12:30:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=1012</guid>
+				<description><![CDATA[Must Follow for any music, hacking, DYI, builders: https://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ]]></description>
+								<content:encoded><![CDATA[<p>Must Follow for any music, hacking, DYI, builders: https://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Lego + Pinball </title>
+		<link>http://www.rngtng.com/2019/08/13/lego-pinball/</link>
+				<pubDate>Tue, 13 Aug 2019 12:18:08 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Pinball]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=1010</guid>
+				<description><![CDATA[OMG: https://www.youtube.com/watch?v=Qrycqu1kTZM]]></description>
+								<content:encoded><![CDATA[<p>OMG: https://www.youtube.com/watch?v=Qrycqu1kTZM</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>How to be an Architect in a Microservice World</title>
+		<link>http://www.rngtng.com/2019/08/13/how-to-be-an-architect-in-a-microservice-world/</link>
+				<pubDate>Tue, 13 Aug 2019 11:50:37 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=1008</guid>
+				<description><![CDATA[Great Talk and deck by Felix (@fmueller_bln)]]></description>
+								<content:encoded><![CDATA[<p>Great Talk and deck by Felix (@fmueller_bln)</p>
+<p><iframe title="How to be an Architect in a Microservice World" id="talk_frame_435078" src="//speakerdeck.com/player/3852ec3628a24034a6f96c4cae4a2fad" width="500" height="375" style="border:0; padding:0; margin:0; background:transparent;" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Hack my Car &#8211; ODB and GPS</title>
+		<link>http://www.rngtng.com/2019/04/23/hack-my-car-odb-and-gps/</link>
+				<pubDate>Tue, 23 Apr 2019 20:59:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=928</guid>
+				<description><![CDATA[I got myself a &#8216;ODB-diagnosegerät&#8217; from China. Of course it didn&#8217;t work right away and I had to readz the internets for fixing. First I had to find a suitable driver. USB identifier was: Product ID: 0x7523 Vendor ID: 0x1a86. This looks like a CH340 / CH341 Serial / USB Chip. Luckily I found the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>I got myself a &#8216;ODB-diagnosegerät&#8217; from China. Of course it didn&#8217;t work right away and I had to readz the internets for fixing. First I had to find a suitable driver. USB identifier was: Product ID: 0x7523 Vendor ID: 0x1a86. This looks like a CH340 / CH341 Serial / USB Chip. Luckily I found the drivers here:</p>
+<p>http://0xcf.com/2015/03/13/chinese-arduinos-with-ch340-ch341-serial-usb-chip-on-os-x-yosemite/</p>
+<p>VAG-COM 409.1 + Wine: https://appdb.winehq.org/objectManager.php?sClass=version&amp;iId=33443<br />
+VAG-COM 409.1 + Win7: http://www.passatworld.com/forums/volkswagen-passat-b5-discussion/303177-vag-com-409-1-3rd-party-windows-7-64-bit.html</p>
+<p><strong>Kabel Fix:</strong><br />
+&#8211; http://www.sprinter-forum.net/archive/index.php/t-16816.html?s=431faad6d4d5c53154b970ef0d7a5d65<br />
+&#8211; http://legacygt.com/forums/showthread.php/vag-com-cables-chipsets-ft232rl-ch340-214994p4.html<br />
+&#8211; https://github.com/nodemcu/nodemcu-devkit-v1.0/issues/2<br />
+&#8211; https://www.sgaf.de/content/vagcom-kabel-erkannt-412207</p>
+<p>GuzziDag: http://www.von-der-salierburg.de/download/GuzziDiag/</p>
+<p><strong>Other Software:</strong><br />
+https://www.blafusel.de/obd/obd2_soft.html</p>
+<p><strong>Other devices:</strong><br />
+http://www.t4forum.de/wbb3/board19-technik-bereich/board120-umbauten-tuning/board8-tipps-und-tricks/173924-obd-diagnosegerät-aber-welches/</p>
+<p>&nbsp;</p>
+<p>Next: get GPS Tracker.</p>
+<p>Hope is to find my car, once it got stolen, but so far, it was more of a hack project :). I figured, the best opensource solution you currently get is traccar.org. Here&#8217;s how to set it up and dockerize: https://www.traccar.org/docker/</p>
+<p>Alternatives:</p>
+<p>https://shop.autoskope.de/geraete/1/autoskope-v2-starterset</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Hacking mir:ror</title>
+		<link>http://www.rngtng.com/2019/02/20/hacking-mirror/</link>
+				<pubDate>Tue, 19 Feb 2019 23:41:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[nfc]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=990</guid>
+				<description><![CDATA[Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it&#8217;s 2009. Aka violet mir:ror. Out of the blue we were brainstroming how to DYI hörbert, a smart mp3 player for our youngest. Here, a mp3 is selected via NFC sensor. O.T: &#8220;NFC sensor!? Wait, [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png" class="broken_link"><img class="size-full wp-image-992 aligncenter" src="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png" alt="" width="552" height="558" srcset="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png 552w, http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52-297x300.png 297w" sizes="(max-width: 552px) 100vw, 552px" /></a>Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it&#8217;s 2009. Aka violet mir:ror.</p>
+
+
+
+<p>Out of the blue we were brainstroming how to DYI <a href="https://www.hoerbert.com/">hörbert</a>, a smart mp3 player for our youngest. Here, a mp3 is selected via NFC sensor. O.T: &#8220;NFC sensor!? Wait, I remember having touch this years ago, lemme get the Nabaztag&#8221;. And indeed, along with the infamous Nabaztag IOT rabbit, violet released a side product called <a href="https://en.wikipedia.org/wiki/Mir:ror">&#8216;mir:ror&#8217;</a> in <a href="https://www.engadget.com/2009/04/21/nabaztags-violet-rfid-readin-usb-mirror-now-available">2009</a>(?). It&#8217;s a NFC to USB device meant to showcase &amp; utilize its capabilities. To bad official drivers were only released for WIN and discontinued with the bankrupt of violet. But opensource to rescue. We quick figure the device adheres to HID standard, so let&#8217;s get it working (on a mac/linux).</p>
+
+
+
+<p>After <a href="https://stackoverflow.com/questions/17058134/is-there-an-equivalent-of-lsusb-for-os-x">confirming the device</a> is recognised in MacOS X we got hooked. Next, with a quick google search we first discovered http://reflektor.sourceforge.net &#8211; an OOO implementation based on <a href="https://www.kernel.org/doc/Documentation/hid/hidraw.txt">hidraw</a>. too bad kernel extension is Linux specific, so next the <a href="http://www.signal11.us/oss/hidapi/" class="broken_link">HIDapi,</a> an OS agnostic lib for general purpose use, felt promising. <a href="https://gist.github.com/rngtng/8b10af29768f19f91ad36b42ac99d934">Indeed, we got the mir:ror up and running the first time on Mac</a>, although reading was non blocking and we couldn&#8217;t really make sense out of it. After various back and forth, we jumped back to start: let&#8217;s check on linux first. So with virtualbox and ubuntu we were able to install reflektor and use it via hidraw. Worked like a charm! So next is porting this to MacOSX and getting deeper understand of mirware. What commands are supported? Modifying (or just turning off) the choreo would be a huge plus towards using mir:ror for our custom mp3 project. In anycase, this 10 years old device was way ahead of its time and still works like wooow!</p>
+
+
+
+
+
+<p>Sources worth to check:</p>
+
+
+
+<p><a href="http://reflektor.sourceforge.net/links.php">http://reflektor.sourceforge.net/links.php</a></p>
+
+
+
+<p><a href="http://arduino-projects4u.com/violet-mirror/">http://arduino-projects4u.com/violet-mirror/</a></p>
+
+
+
+<p><a href="https://github.com/suan/mirlite">https://github.com/suan/mirlite</a></p>
+
+
+
+<p><a href="https://github.com/leh/ruby-mirror">https://github.com/leh/ruby-mirror</a></p>
+
+
+
+<figure class="wp-block-embed">
+<div class="wp-block-embed__wrapper">http://arduino-projects4u.com/violet-mirror/</div>
+</figure>]]></content:encoded>
+										</item>
+		<item>
+		<title>MakerBall</title>
+		<link>http://www.rngtng.com/2018/01/27/makerball/</link>
+				<pubDate>Sat, 27 Jan 2018 21:45:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[pinball]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=983</guid>
+				<description><![CDATA[Very nice slick DYI Pinball Kit: https://www.makerball.org/]]></description>
+								<content:encoded><![CDATA[<p>Very nice slick DYI Pinball Kit:</p>
+<p><iframe src="https://player.vimeo.com/video/218372619?dnt=1&#038;app_id=122963" width="500" height="281" frameborder="0" title="MAKERBALL: The DIY Pinball Machine Kit" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+<p>https://www.makerball.org/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Hacking Rainbowduino 2017 &#8211; now BLE support</title>
+		<link>http://www.rngtng.com/2017/01/29/hacking-rainbowduino-2017-now-ble-support/</link>
+				<pubDate>Sun, 29 Jan 2017 20:55:01 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=941</guid>
+				<description><![CDATA[It&#8217;s 2017 and I finally wanted to get my hands dirty with some Bluetooth 4.0 LE gadget hacking. Luckily I found this outdated project MacOSXVirtualSerialPort which gave me the final piece: Use socat to create two new serial ports which are innerconnected and send thier received data viceversa. brew install socat and exectue sudo socat [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>It&#8217;s 2017 and I finally wanted to get my hands dirty with some Bluetooth 4.0 LE gadget hacking.</p>
+<p>Luckily I found this outdated project <a href="https://github.com/clokey/PublicCode/tree/master/MacOSXVirtualSerialPort">MacOSXVirtualSerialPort</a> which gave me the final piece: Use socat to create two new serial ports which are innerconnected and send thier received data viceversa.</p>
+<p><code>brew install socat</code></p>
+<p>and exectue</p>
+<p><code>sudo socat -d -d  pty,link=/tmp/tty.ble,raw,echo=0,user=tobi,group=staff pty,link=/tmp/tty.serial,raw,echo=0,user=tobi,group=staff</code></p>
+<p>Voila now we have one port <code>/tmp/tty.serial</code> where we connect mtXcontrol to and <code>/tmp/tty.ble</code> where we connect the simple noble service too.</p>
+<p>Finally the data chain looks like:</p>
+<p>mtXcontrol -&gt; rainbowduino processing lib -&gt; processing serial -&gt; <code>/tmp/tty.serial</code> -&gt; <code>/tmp/tty.ble</code> -&gt; nodejs serialport -&gt; nodejs noble -&gt; HM-10 -&gt; Rainbowduino Serial</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Sources worth a read</title>
+		<link>http://www.rngtng.com/2016/12/01/sources-worth-a-read/</link>
+				<pubDate>Thu, 01 Dec 2016 20:50:52 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=932</guid>
+				<description><![CDATA[A couple of my bookmarks worth a read API Design: * Bad Oauth2: https://blog.teller.io/2016/04/26/tauth.html * Hawk: https://alexbilbie.com/2012/11/hawk-a-new-http-authentication-scheme/ * Test Tools: http://www.techsling.com/2016/02/12-great-tools-web-services-testing/ * REST Design: http://restlet.com/blog/2015/11/16/the-never-ending-debate-on-rest-api-design/ Go: * https://www.infoq.com/news/2016/03/go-patterns Ruby: *&#160; ruby-install, chruby: https://medium.com/@heidar/switching-from-rbenv-to-postmodern-s-ruby-install-and-chruby-f0daa24b36e6#.hwo71ieyk * Ruby -&#62; Go: http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity * Ruby 2015: https://www.sitepoint.com/a-retrospective-on-ruby-in-2015 * Calling services: https://pawelniewiadomski.com/2016/08/29/calling-services-asynchronously-in-ruby Learn: * http://www.seamgen.com/blog/mentoring-junior-developers/ * http://play.elevatorsaga.com * http://www.holacracy.org * http://firstround.com/review/the-30-best-pieces-of-advice-for-entrepreneurs-in-2015/ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>A couple of my bookmarks worth a read</p>
+<p><strong>API Design:<br />
+</strong>* Bad Oauth2: https://blog.teller.io/2016/04/26/tauth.html<br />
+* Hawk: https://alexbilbie.com/2012/11/hawk-a-new-http-authentication-scheme/<br />
+* Test Tools: http://www.techsling.com/2016/02/12-great-tools-web-services-testing/<br />
+* REST Design: http://restlet.com/blog/2015/11/16/the-never-ending-debate-on-rest-api-design/</p>
+<p><strong>Go:<br />
+</strong>* https://www.infoq.com/news/2016/03/go-patterns</p>
+<p><strong>Ruby:</strong><br />
+*&nbsp; ruby-install, chruby: https://medium.com/@heidar/switching-from-rbenv-to-postmodern-s-ruby-install-and-chruby-f0daa24b36e6#.hwo71ieyk<br />
+* Ruby -&gt; Go: http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity<br />
+* Ruby 2015: https://www.sitepoint.com/a-retrospective-on-ruby-in-2015<br />
+* Calling services: https://pawelniewiadomski.com/2016/08/29/calling-services-asynchronously-in-ruby</p>
+<p><strong>Learn:</strong><br />
+* http://www.seamgen.com/blog/mentoring-junior-developers/<br />
+* http://play.elevatorsaga.com<br />
+* http://www.holacracy.org<br />
+* http://firstround.com/review/the-30-best-pieces-of-advice-for-entrepreneurs-in-2015/<br />
+* https://hbr.org/2004/01/what-makes-a-leader</p>
+<p><strong>Other:<br />
+</strong>* New Keyboard layout: https://colemak.com<br />
+* Docker, nginx, Stripe, MongoDB, CloudFlare, Xamarin, Mixpanel, DigitalOcean, Twilio:<br />
+http://www.inc.com/business-insider/companies-that-run-the-internet-besides-google.html<br />
+* https://www.techempower.com/benchmarks/<br />
+* A minimalist real-time framework: https://docs.feathersjs.com/</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>List of (my)SQL-Tutorials</title>
+		<link>http://www.rngtng.com/2016/11/16/list-of-mysql-tutorials/</link>
+				<pubDate>Wed, 16 Nov 2016 13:47:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[mysql]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=923</guid>
+				<description><![CDATA[I did an introduction to (my)SQL once. This were my sources: MySQL for Absolute Beginners: http://www.elated.com/articles/mysql-for-absolute-beginners Examples for Beginners: https://www3.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html (My)SQL Cheat Sheet: http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html Another one: https://en.wikibooks.org/wiki/MySQL/CheatSheet My notes/write along: https://gist.github.com/rngtng/f2751a7c0f8b3106e0d9]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1280px-MySQL.svg.png" alt="" width="510" height="264"><br />
+I did an introduction to (my)SQL once. This were my sources:</p>
+<p>MySQL for Absolute Beginners: http://www.elated.com/articles/mysql-for-absolute-beginners<br />
+Examples for Beginners: https://www3.ntu.edu.sg/home/ehchua/programming/sql/MySQL_Beginner.html</p>
+<p>(My)SQL Cheat Sheet: http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html<br />
+Another one: https://en.wikibooks.org/wiki/MySQL/CheatSheet</p>
+<p>My notes/write along: https://gist.github.com/rngtng/f2751a7c0f8b3106e0d9</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

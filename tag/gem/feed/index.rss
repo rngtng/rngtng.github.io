@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>gem &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/gem/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 01 Jul 2010 11:36:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Oauth-CLI &#8211; test your Twitter and other OAuth APIs easily</title>
+		<link>http://www.rngtng.com/2010/07/01/oauth-cli-test-your-twitter-and-other-oauth-apis-easily/</link>
+				<pubDate>Thu, 01 Jul 2010 11:36:10 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[cli]]></category>
+		<category><![CDATA[command line]]></category>
+		<category><![CDATA[gem]]></category>
+		<category><![CDATA[oauth]]></category>
+		<category><![CDATA[oauthc]]></category>
+		<category><![CDATA[qype]]></category>
+		<category><![CDATA[twitter]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=418</guid>
+				<description><![CDATA[By the time I was working at Qype, I often had to deal with OAuth APIs. Doing example request works to a certain point quite good with a Plugin the for Firefox. But when it comes to Authorized or POST Request you&#8217;re stuck! So I developed a tiny command line client, which allows you to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.rngtng.com/files/2010/07/oauthc.gif" alt="" width="600" height="432" class="aligncenter size-full wp-image-422" srcset="http://www.rngtng.com/files/2010/07/oauthc.gif 600w, http://www.rngtng.com/files/2010/07/oauthc-300x216.gif 300w" sizes="(max-width: 600px) 100vw, 600px" /><br />
+By the time I was working at Qype, I often had to deal with OAuth APIs. Doing example request works to a certain point quite good with a Plugin the for Firefox. But when it comes to Authorized or POST Request you&#8217;re stuck!</p>
+<p>So I developed a tiny command line client, which allows you to send request easily. It comes as a gem and easily to install:</p>
+<p><code>gem install oauth-cli</code></p>
+<p>After installation, execute <strong>oauthc</strong>. You either make onetime calls, with giving all required data as parameter, or just go into interactive mode, to get a shell for multiple calls and history. For not stating all connection data over and over again, it comes with multiple profile support, a wizard to create those easily and presets for <strong>Twitter and Qype</strong>.</p>
+<p>See this nifty example call:<br />
+<code>oauthc -p twitter get statuses/friends.json</code></p>
+<p>I hope you like it &#8211; Bug reports, suggestions, updates go to:<br />
+http://github.com/rngtng/oauth-cli/issues</p>
+<p>See Readme:<br />
+http://github.com/rngtng/oauth-cli/blob/master/README.rdoc</p>
+<p>See Source:<br />
+http://github.com/rngtng/oauth-cli</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>If your ruby serial port doesn&#8217;t read what&#8217; you&#8217;re sending&#8230;</title>
+		<link>http://www.rngtng.com/2009/11/27/if-your-ruby-serial-port-doesnt-read-what-youre-sending/</link>
+				<pubDate>Fri, 27 Nov 2009 16:57:29 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[communication]]></category>
+		<category><![CDATA[gem]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[port]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[serial]]></category>
+		<category><![CDATA[serialport]]></category>
+		<category><![CDATA[uart]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=334</guid>
+				<description><![CDATA[Some days ago I got my Novation launchpad an immediately started hacking with some Ruby and Arduino flavor. I wanted to port ccb23 Raindrops Project to launchpad. For that, I needed Serial communication within ruby. Thanks to ruby-serialport first steps went quite well. I could write OR read from and to Arduino easily. But for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Some days ago I got my <a href="http://twitter.com/rngtng/status/5792203896">Novation</a> <a href="http://www.novationmusic.com/launchpad/" class="broken_link">launchpad</a> an immediately started hacking with some <a href="http://github.com/thomasjachmann/launchpad">Ruby</a> and Arduino flavor. I wanted to port ccb23 <a href="http://vimeo.com/6916458">Raindrops Project</a> to launchpad. </p>
+<p>For that, I needed Serial communication within ruby. Thanks to <a href="http://ruby-serialport.rubyforge.org/" class="broken_link">ruby-serialport</a> first steps went quite well. I could write OR read from and to Arduino easily. But for some reasons, writing AND reading using the same instance didn&#8217;t work out. </p>
+<p>I used a simple &#8216;send-input-back&#8217; sketch on the Arduino side. So every byte I&#8217;m sending is returned back. I checked with the Arduino IDE Serialmonitor and a simple Processing script &#8211; everything worked alright.  But using ruby it was different. Writing to serial port worked okay, but reading from it was just random. Sometimes I read the response, sometime I didn&#8217;t &#8211; really, really weird. Some headaches and a lot of time testing I finally found the solution: just open two instances of the serial port. One for sending, one for reading &#8211; and, surprise, surprise &#8211; it works perfect! Who would have guessed that!? Strange.. </p>
+<p>[ruby]<br />
+// To be completed<br />
+require &#8216;serialport&#8217;<br />
+port_write = Serialport.new()<br />
+port_read = Serialport.new()<br />
+[/ruby]</p>
+<p>Ok, continuing hacking, more soon&#8230;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

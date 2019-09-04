@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>help &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/help/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 02 Feb 2015 16:59:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Great sources for great Software Development</title>
+		<link>http://www.rngtng.com/2015/02/02/sources-for-great-software-development/</link>
+				<pubDate>Mon, 02 Feb 2015 16:58:41 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[help]]></category>
+		<category><![CDATA[learning]]></category>
+		<category><![CDATA[software development]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=804</guid>
+				<description><![CDATA[There was recently a call on the Softwerkskammer Emailgroup for good sources to improve ones software development skills. Here a summary of all recommendations: * Buch: Headfirst Design Patterns * OOSE, Vielleicht hilft Dir das hier weiter: http://www.oose.de/training/objektorientiertes-design-mit-entwurfsmustern/   &#8211; OOSE für die Schulung &#8216;iSAQB&#8217; * http://www.sigs-datacom.de/seminare/akademien/clean-code-developer.html . * Videoreihe von Robert C. Martin: http://cleancoders.com [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p class="p1">There was recently a call on the Softwerkskammer Emailgroup for good sources to improve ones software development skills. Here a summary of all recommendations:</p>
+<p class="p1"><span class="s1">* Buch: Headfirst Design Patterns</span></p>
+<p class="p1"><span class="s1">* OOSE, Vielleicht hilft Dir das hier weiter: http://www.oose.de/training/objektorientiertes-design-mit-entwurfsmustern/</span></p>
+<p class="p1"><span class="s1">  &#8211; OOSE für die Schulung &#8216;iSAQB&#8217;</span></p>
+<p class="p1"><span class="s1">* http://www.sigs-datacom.de/seminare/akademien/clean-code-developer.html .</span></p>
+<p class="p1"><span class="s1">* Videoreihe von Robert C. Martin: http://cleancoders.com</span></p>
+<p class="p1"><span class="s1">* Robert C. Martin &#8211; Agile Software Development, Principles, Patterns, Practices. In this book the notion of SOLID Principles is very well documented. </span></p>
+<p class="p1"><span class="s1">* Gang of Four &#8211; Design Patterns: Elements of Reusable Object-Oriented Software</span></p>
+<p class="p1"><span class="s1">* Apprenticeship Patterns http://shop.oreilly.com/product/9780596518387.do </span></p>
+<p class="p1"><span class="s1">* Skillsmatters  Von ndc  Oredev</span></p>
+<p class="p1"><span class="s1">* State: Tennis Kata http://garajeando.blogspot.de/2012/11/refactoring-kata-tennis-to-state-pattern.html</span></p>
+<p class="p1"><span class="s1">  &#8211; Bsp zur Tennis Kata: http://blog.ploeh.dk/2011/05/16/TennisKatawithimmutabletypesandacyclomaticcomplexityof1/</span></p>
+<p class="p1"><span class="s1">*  &#8220;refactoring to patterns&#8221; von joshua kerievsky</span></p>
+<p class="p1"><span class="s1">* Video-seite wurde ich alles von Kevlin Henney</span></p>
+<p class="p1"><span class="s1">*  &#8220;Domain Driven Design&#8221; von Eric Evans für Einsteiger ist &#8220;implementing Domain driven Design&#8221;</span></p>
+<p class="p1"><span class="s1">* &#8220;Being the Worst&#8221; podcast </span></p>
+<p class="p1"><span class="s1">* m.feathers mit &#8220;working effectivly with legacy Code&#8221;</span></p>
+<p class="p1"><span class="s1">* &#8220;Refactoring &#8211; Improving the Design of Existing Code&#8221;. Fowler ist ein Meister des OO-Design und das Buch ist voller Beispiele. http://martinfowler.com/books/refactoring.html</span></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Hacking the Nabaztag</title>
+		<link>http://www.rngtng.com/2009/12/02/hacking-the-nabaztag/</link>
+				<pubDate>Wed, 02 Dec 2009 10:20:55 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[help]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[nabaztag]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=231</guid>
+				<description><![CDATA[Alright, I spend some time with my new toy Nabaztag &#8216;Nabaccia&#8216; What confused me most: there have been two Firmware version out there. Some project depend on the old one, some other on the, new Jabber based, version. Here are some interesting projects I&#8217;ve found: http://nabaztools.sourceforge.net/ (outdated, MAC OS X) http://sourceforge.net/projects/opennab/ (PHP) http://code.google.com/p/nabazlib/ (python) http://nabazlab.sourceforge.net/index_en.htm [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter size-full wp-image-446" src="http://www.rngtng.com/files/2010/09/nabaztag.png" alt="" width="583" height="397" srcset="http://www.rngtng.com/files/2010/09/nabaztag.png 971w, http://www.rngtng.com/files/2010/09/nabaztag-300x204.png 300w" sizes="(max-width: 583px) 100vw, 583px" /></p>
+<p>Alright, I spend some time with my new <em>toy</em> Nabaztag &#8216;<a href="http://twitter.com/nabaccia">Nabaccia</a>&#8216;</p>
+<p>What confused me most: there have been two Firmware version out there. Some project depend on the old one, some other on the, new Jabber based, version. </p>
+<p>Here are some interesting projects I&#8217;ve found:<br />
+http://nabaztools.sourceforge.net/ (outdated, MAC OS X)</p>
+<p>http://sourceforge.net/projects/opennab/ (PHP)</p>
+<p>http://code.google.com/p/nabazlib/ (python)</p>
+<p>http://nabazlab.sourceforge.net/index_en.htm (windows only)</p>
+<p>A working Proxyserver: jNabServer<br />
+http://code.google.com/p/jnabserver/</p>
+<p>A good summery how to start &#8216;nabazhacking&#8217; is here:<br />
+http://www.saraproft.org/?p=912<br />
+http://blog.makezine.com/archive/2006/03/more_nabaztag_hacking.html</p>
+<p>A very detailed look into the electronics of the rabbit:<br />
+http://www.petertyser.com/2007/03/11/nabaztag-nabaztagtag-dissection/</p>
+<p>Forums:<br />
+http://nabaztag.forumactif.fr/ (french)<br />
+http://www.mynabaztag.de (german)<br />
+http://www.nabaztalk.com (english)</p>
+<p>Blogs:<br />
+http://www.nabaztag-blog.de (german)</p>
+<p>Quite complete list of other sources:<br />
+http://www.nabzone.com/?frG=/liens.php</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>default scope &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/default-scope/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 02 Mar 2010 23:30:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>My Rails Patch: reload on default scope &#8211; committed!</title>
+		<link>http://www.rngtng.com/2010/03/03/my-rails-patch-reload-on-default-scope-committed/</link>
+				<pubDate>Tue, 02 Mar 2010 23:29:00 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[default scope]]></category>
+		<category><![CDATA[patch]]></category>
+		<category><![CDATA[rails]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=386</guid>
+				<description><![CDATA[uiuiui, long time no read, as I&#8217;m quite busy lately. Just a quick update, my rails patch &#8211; fixing &#8216;reload&#8217; on a AR with default scope &#8211; got finally committed &#8211; nice: http://github.com/rails/rails/commit/4db72b702f7faca7da30a64e45daeee13733762a]]></description>
+								<content:encoded><![CDATA[<p>uiuiui, long time no read, as I&#8217;m quite busy lately. Just a quick update, my rails patch <em>&#8211; fixing &#8216;reload&#8217; on a AR with default scope &#8211;</em> got finally committed &#8211; nice:</p>
+<p>http://github.com/rails/rails/commit/4db72b702f7faca7da30a64e45daeee13733762a</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

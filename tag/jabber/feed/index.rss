@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jabber &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/jabber/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Sun, 10 May 2009 12:29:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>My first AppleScript: Copy Address Book entries</title>
+		<link>http://www.rngtng.com/2007/05/10/my-first-applescript-copy-address-book-entries/</link>
+				<pubDate>Thu, 10 May 2007 12:25:39 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[address]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[ICQ]]></category>
+		<category><![CDATA[jabber]]></category>
+		<category><![CDATA[mac]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=56</guid>
+				<description><![CDATA[Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in Adium, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows: [bash] tell application &#34;Address Book&#34; set thePeople to every person whose ICQ handles is not {} and Jabber handles [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in <a href="http://www.adiumx.com/" target="_blank">Adium</a>, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows:</p>
+<p>[bash]<br />
+tell application &quot;Address Book&quot;<br />
+set thePeople to every person whose ICQ handles is not {} and Jabber handles is {}<br />
+repeat with eachPerson in thePeople<br />
+set icqnr to value of ICQ handles of eachPerson<br />
+set jabberid to (item 1 of icqnr) &amp;amp; &quot;@jit.jabber.fsinf.de&quot;<br />
+make new Jabber handle at end of Jabber handles of eachPerson with properties {label:&quot;Home&quot;, value:jabberid}<br />
+end repeat<br />
+save addressbook<br />
+end tell<br />
+[/bash]</p>
+<p>It worked out fine. Now I see you all in my buddylist <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

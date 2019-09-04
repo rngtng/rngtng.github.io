@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Controller &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/controller/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 16 Nov 2016 13:14:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>mtXcontrol meets Launchpad meets Rainbowduino</title>
+		<link>http://www.rngtng.com/2009/12/30/mtxcontrol-meets-launchpad-meets-rainbowduino/</link>
+				<pubDate>Wed, 30 Dec 2009 15:48:44 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Controller]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=379</guid>
+				<description><![CDATA[That&#8217;s it! I just released mtXcontrol version 1.1 with lot of updates and improvements. One major improvement is full support for Novation Launchpad: just draw your sequences and display them on your Launchpad! Even better, push the buttons to change the color, add, remove, copy &#38; paste frames. For that mtXcontrol makes usage of the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>That&#8217;s it! I just released mtXcontrol version 1.1 with lot of updates and improvements. One major improvement is full support for <a href="http://www.novationmusic.com/products/launchpad" class="broken_link">Novation Launchpad</a>: just draw your sequences and display them on your Launchpad! Even better, push the buttons to change the color, add, remove, copy &amp; paste frames. For that mtXcontrol makes usage of the <a href="http://rngtng.github.com/launchpad">Launchpad Processing library</a> which I released some days ago.</p>
+<p>But Rainbowduino support improved as well. I fixed lots of bugs and implemented requested features. Now you can control the display brightness, save up to 10 frames onto the device and serial port is auto detected. In general, I defined an basic API to communicate with the devices, which allows you to add more devices easily (e.g. monome!). With that, all Rainbowduino stuff is moved in a separate <a href="http://rngtng.github.com/rainbowduino">Rainbowduino Processing library</a>. </p>
+<p>[vimeo]http://vimeo.com/8456119[/vimeo]</p>
+<p>See official <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a> project page for more.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Orangutan Robot Controller</title>
+		<link>http://www.rngtng.com/2009/10/29/orangutan-robot-controller/</link>
+				<pubDate>Thu, 29 Oct 2009 13:12:58 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Controller]]></category>
+		<category><![CDATA[Orangutan]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=292</guid>
+				<description><![CDATA[Ui, I just stumbled over the Orangutan Robot Controller. Funny, as it&#8217;s name is similar to this blogs name 😉 http://www.pololu.com/catalog/product/225 &#8211; to bad is has discontinued]]></description>
+								<content:encoded><![CDATA[<p>Ui, I just stumbled over the <strong>Orangutan Robot Controller</strong>. Funny, as it&#8217;s name is similar to this blogs name <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />
+http://www.pololu.com/catalog/product/225 &#8211; to bad is has discontinued</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

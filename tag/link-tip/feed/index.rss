@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>link tip &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/link-tip/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 12 Nov 2009 12:58:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Lot&#8217;s of Ruby and Rails Tricks</title>
+		<link>http://www.rngtng.com/2009/11/12/lots-of-ruby-and-rails-tricks/</link>
+				<pubDate>Thu, 12 Nov 2009 10:35:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[get started]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[link tip]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://urangatang.lustauffotos.com/?p=38</guid>
+				<description><![CDATA[Quick, short post I always had in the queue: Check this out, here some lists of good techniques to get started and to impove your Ruby and Rails code: http://nettuts.com/articles/web-roundups/10-awesome-ruby-on-rails-techniques-to-get-you-started/ http://www.rubyinside.com/19-rails-tricks-most-rails-coders-dont-know-131.html http://www.rubyinside.com/21-ruby-tricks-902.html [Awsm picture taken from DesignShark]]]></description>
+								<content:encoded><![CDATA[<p>Quick, short post I always had in the queue:</p>
+<p style="text-align: center"><img class="aligncenter" src="http://www.designshak.com/wp-content/uploads/2009/08/bruce_on_rails.jpg" alt="" /></p>
+<p>Check this out, here some lists of good techniques to get started and to impove your Ruby and Rails code:</p>
+<p>http://nettuts.com/articles/web-roundups/10-awesome-ruby-on-rails-techniques-to-get-you-started/</p>
+<p>http://www.rubyinside.com/19-rails-tricks-most-rails-coders-dont-know-131.html</p>
+<p>http://www.rubyinside.com/21-ruby-tricks-902.html</p>
+<p>[Awsm picture taken from <a href="http://www.designshak.com/blog/ruby-on-rails">DesignShark</a>]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

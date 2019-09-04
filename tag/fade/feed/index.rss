@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fade &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/fade/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 15 May 2009 13:45:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Arduino: Fade and pulse a LED with just using a DigitalPort</title>
+		<link>http://www.rngtng.com/2009/05/17/arduino-fade-and-pulse-a-led-with-just-using-a-digitalport/</link>
+				<pubDate>Sun, 17 May 2009 13:40:45 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[dimm]]></category>
+		<category><![CDATA[fade]]></category>
+		<category><![CDATA[led]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=90</guid>
+				<description><![CDATA[This is a nice experiment I did to fade and pulse a LED by just using a digital port. Digital? On/Off, 1/0 &#8211; how can this work? Well it does, check this out: [youtube]http://www.youtube.com/watch?v=kB62BrQBjTg[/youtube] The key is, I&#8217;m switching the LED on &#38; off very fast which appears the human eye as it&#8217;s on all [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>This is a nice experiment I did to fade and pulse a LED by just using a <em>digital</em> port. Digital? On/Off, 1/0 &#8211; how can this work? Well it does, check this out:</p>
+<p>[youtube]http://www.youtube.com/watch?v=kB62BrQBjTg[/youtube]</p>
+<p>The key is, I&#8217;m switching the LED on &amp; off very fast which appears the human eye as it&#8217;s on all the time (similar to a LED Matrix). Now, I change the time period between switching the LED on and off. Is the off period time longer, the LED lights low, is the off period time short, the LED lights high. Fading the period time, makes the LED pulse&#8230; nice!</p>
+<p>Check this (still quite ugly) code:<br />
+[c]<br />
+int ledPin = 13;      // LED connected to digital pin 13<br />
+int value = LOW;    // previous value of the LED<br />
+long cnt = 0;         // will store last time LED was updated<br />
+long low = 0;         // interval at which to blink (milliseconds)<br />
+long high = 1000; // interval at which to blink (milliseconds)<br />
+int op = 3;<br />
+long a = 0;</p>
+<p>void setup()<br />
+{<br />
+  pinMode(ledPin, OUTPUT);      // sets the digital pin as output<br />
+}</p>
+<p>void loop()<br />
+{<br />
+  a += op;<br />
+  blinkl( a+30, 10 );<br />
+  if( a &gt; 200 || a &lt; 0 ) op *= -1;<br />
+}</p>
+<p>void blinkl(long low, long high )<br />
+{<br />
+  int c = 5;<br />
+  while ( c &gt; 0 ) {<br />
+   blink( low, high );<br />
+   c-=1;<br />
+ }<br />
+}</p>
+<p>void blink( long low, long high )<br />
+{<br />
+  long period = 4000;<br />
+  long pt = period * high / (low + high );<br />
+  int value = LOW;<br />
+  digitalWrite(ledPin, value);</p>
+<p>  while( period &gt; 0 ) {<br />
+    if (period &lt; pt &amp;&amp; value == LOW ) {<br />
+      value = HIGH;<br />
+      digitalWrite(ledPin, value);<br />
+    }<br />
+    period -= 1;<br />
+  }<br />
+}<br />
+[/c]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

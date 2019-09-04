@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arduino &amp; Co. &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/category/arduino-co/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 16 Nov 2016 13:14:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>EEVblog &#8211; OLED Multimeter Review</title>
+		<link>http://www.rngtng.com/2013/03/13/eevblog-oled-multimeter-review/</link>
+				<pubDate>Wed, 13 Mar 2013 14:01:03 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[electronics]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=705</guid>
+				<description><![CDATA[Wow, I just discovered EEVblog which has awesome video material for electronic geeks. This one will definitely help me choosing a new multimeter + its just fun to watch &#8211; stay tuuuned! [youtube]http://www.youtube.com/watch?v=Zele19jm1MQ[/youtube]]]></description>
+								<content:encoded><![CDATA[<p>Wow, I just discovered <a href="http://www.eevblog.com/">EEVblog</a> which has awesome video material for electronic geeks. This one will definitely help me choosing a new multimeter + its just fun to watch &#8211; stay tuuuned!</p>
+<p>[youtube]http://www.youtube.com/watch?v=Zele19jm1MQ[/youtube]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Seriality &#8211; Physicality for the Web</title>
+		<link>http://www.rngtng.com/2013/01/23/seriality-physicality-for-the-web/</link>
+				<pubDate>Wed, 23 Jan 2013 04:15:40 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[serial]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=696</guid>
+				<description><![CDATA[Here a very late shout out to an interesting project: control your Arduino via the browser! Basically its a browser plugin to get access to your machines (virtual) serial port. With that you can use javascript to send and receive any data &#8211; how cool is that!? http://www.zambetti.com/projects/seriality/]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://www.zambetti.com/projects/seriality/images/diagram.jpg" /></p>
+<p>Here a very late shout out to an interesting project: control your Arduino via the browser! Basically its a browser plugin to get access to your machines (virtual) serial port. With that you can use javascript to send and receive any data &#8211; how cool is that!?</p>
+<p>http://www.zambetti.com/projects/seriality/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Carambola Board arrived</title>
+		<link>http://www.rngtng.com/2012/11/28/carambola-board-arrived/</link>
+				<pubDate>Wed, 28 Nov 2012 13:43:34 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[carambola]]></category>
+		<category><![CDATA[exp tech]]></category>
+		<category><![CDATA[hacking]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=684</guid>
+				<description><![CDATA[Yay the Carambola Board arrived today from Exp Tech. Time to start hacking!! Good place to start with: [youtube]http://www.youtube.com/watch?v=NK0ia4DXrtA[/youtube] To start with: http://www.8devices.com/wiki_carambola/doku.php/]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center;"><img class="aligncenter" src="http://www.exp-tech.de/images/slider_images/carambola-teaser.jpg" alt="" width="490" height="280" /></p>
+<p>Yay the Carambola Board arrived today from <a href="http://www.exp-tech.de/">Exp Tech</a>. Time to start hacking!!</p>
+<p>Good place to start with:<br />
+[youtube]http://www.youtube.com/watch?v=NK0ia4DXrtA[/youtube]</p>
+<p>To start with: http://www.8devices.com/wiki_carambola/doku.php/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Transistor vs. MOSFet &#8211; According to Pete</title>
+		<link>http://www.rngtng.com/2012/11/14/transistor-vs-mosfet-according-to-pete/</link>
+				<pubDate>Wed, 14 Nov 2012 22:32:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Electronics & Co.]]></category>
+		<category><![CDATA[mosfet]]></category>
+		<category><![CDATA[transistor]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=681</guid>
+				<description><![CDATA[oh yeah, I guess I finally got the basic difference between a Transistor and a MOSFET: Transistor is current driven, a MOSFET via voltage! Thanks to Pete, and his fabulous SparkFun screencasts: [youtube]http://www.youtube.com/watch?v=CFt8hkh17_w[/youtube] yieha! Watch &#8217;em all: http://www.youtube.com/playlist?list=PL9EF3C374FD903ACE http://en.wikipedia.org/wiki/MOSFET]]></description>
+								<content:encoded><![CDATA[<p>oh yeah, I guess I finally got the basic difference between a Transistor and a MOSFET:</p>
+<p>Transistor is current driven, a MOSFET via voltage! Thanks to Pete, and his fabulous SparkFun screencasts:</p>
+<p>[youtube]http://www.youtube.com/watch?v=CFt8hkh17_w[/youtube]</p>
+<p>yieha! Watch &#8217;em all: http://www.youtube.com/playlist?list=PL9EF3C374FD903ACE</p>
+<p>http://en.wikipedia.org/wiki/MOSFET</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Hacking the Nabaztag &#8211; Arduino injects via I2C data into RFID Reader</title>
+		<link>http://www.rngtng.com/2012/01/10/hacking-the-nabaztag-arduino-injects-via-i2c-data-into-rfid-reader/</link>
+				<pubDate>Mon, 09 Jan 2012 23:28:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[inject]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[rfid]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=624</guid>
+				<description><![CDATA[Wow! After more than two years I finally got my hands dirty hacking the Nabaztag rabbit. The release of the source code last summer were very encouraging here! Expect some awesome results in the next time 🙂 Let&#8217;s start with NabaztagInjector, an Arduino Library to inject data: What bothered me for long was the missing [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://farm7.staticflickr.com/6185/6151922207_019ac10ee4_d.jpg" alt="" width="500" height="500" class="aligncenter size-full wp-image-626" /></p>
+<p>Wow! After <a href="http://www.rngtng.com/2009/12/02/hacking-the-nabaztag/">more than two years</a> I finally got my hands dirty hacking the Nabaztag rabbit. The <a href="http://code.google.com/p/nabaztag-source-code/">release of the source code</a> last summer were very encouraging here! Expect some awesome results in the next time <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+<p>Let&#8217;s start with <strong>NabaztagInjector</strong>, an Arduino Library to inject data:</p>
+<p>What bothered me for long was the missing possibility to connect external devices to the rabbit. How awesome would it be to use the rabbit for sending data into the net? Imagine it as WIFI shield you Arduino.</p>
+<p>Guess what &#8211; that&#8217;s possible: replacing the RFID reader with an Arduino (both use the I2C bus) running a simulation of the RFID reader chip, enabled me to inject any custom data to the rabbit. Hacked!</p>
+<p>As result, I created this tiny Arduino library to encapsulates the full process behind and easy API:</p>
+<p>[gist id=1582447]</p>
+<p>Check out the full Readme, Source code and Examples here:</p>
+<blockquote class="wp-embedded-content" data-secret="0RmRtUP4iZ"><p><a href="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/">NabaztagInjector &#8211; An Arduino RFID Hack</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/embed/#?secret=0RmRtUP4iZ" data-secret="0RmRtUP4iZ" width="500" height="282" title="&#8220;NabaztagInjector &#8211; An Arduino RFID Hack&#8221; &#8212; uRaNGaTaNG" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>cubeXcontrol &#8211; a Rainbow Cube Editor</title>
+		<link>http://www.rngtng.com/2010/12/31/cubexcontrol-a-rainbow-cube-editor/</link>
+				<pubDate>Fri, 31 Dec 2010 13:35:15 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[2010]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[carnival]]></category>
+		<category><![CDATA[cube]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[RainbowCube]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[RGB]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=501</guid>
+				<description><![CDATA[UPDATE: Please express your Love and vote for cubeXControl here &#8211; Thanks! UPDATE2: Apparently the current Version doesn&#8217;t work with Windows. I&#8217;m very sorry for that, but at the moment I don&#8217;t have any Win machine to test this. So please feel free to try yourself and fix it! Thx! I&#8217;m proud to present a [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.rngtng.com/files/2010/12/cube.jpg" alt="" width="500" height="340" class="aligncenter size-full wp-image-504" srcset="http://www.rngtng.com/files/2010/12/cube.jpg 500w, http://www.rngtng.com/files/2010/12/cube-300x204.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p><strong>UPDATE:</strong><br />
+<a href="http://www.seeedstudio.com/blog/2011/01/14/rainbowduino-carnival-2010-vote-now/">Please express your Love and vote for <strong>cubeXControl</strong> here &#8211; Thanks!</a></p>
+<p><strong>UPDATE2:</strong><br />
+Apparently the current Version doesn&#8217;t work with Windows. I&#8217;m very sorry for that, but at the moment I don&#8217;t have any Win machine to test this. So please feel free to try yourself and fix it! Thx!</p>
+<p>I&#8217;m proud to present a first version which was on my this years TODO list for so long, but due to all the changes therefore very less time never got startet. But thanks to the <a href="http://www.seeedstudio.com/blog/2010/10/28/rainbowduino-carnival-2010-launched/">Seeedstudio Rainbowduino Carnival 2010</a> I got a big motivation boost and found some time to get my fingers dirty again. So check this out, my this years contribution for the carnival:</p>
+<p>cubeXcontrol &#8211; a Rainbow Cube Editor</p>
+<p>Well, you know the <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a>, the Rainbowduino Editor and the awesome <a href="http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html">Seeedstudio Rainbow Cube</a> I <a href="http://www.rngtng.com/2010/03/08/rainbow-cube-here-it-is/">mentioned</a> here ? Now it&#8217;s time  to bring them together:</p>
+<p>[vimeo]http://vimeo.com/18300458[/vimeo]</p>
+<p>cubeXcontrol is an editor to control and create patterns for the 4x4x4 RGB Rainbow Cube powered by a rainbowduino. It comes with an extra window showing a 3D model of the Cube, allowing to rotate in all directions and to zoom. Click on boxes to set the LED color easily.</p>
+<p>The editor is of course heavily based on the latest mtXcontrol version, with the latest rainbowduino firmware. Both are unfortunately still in <a href="http://www.rngtng.com/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/">beta stage</a>, but come with great new features like auto port detection. </p>
+<p>Get the sources here:<br />
+  https://github.com/rngtng/mtXcontrol/tree/cubeXcontrol</p>
+<p>And the Rainbowduino driver:<br />
+  https://github.com/rngtng/rainbowduino/tree/master_slave</p>
+<p>Happy cub&#8217;ing!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>mtXcontrol sneak preview &#8211; rainbowduino beta library goes master and slave</title>
+		<link>http://www.rngtng.com/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/</link>
+				<pubDate>Sun, 05 Sep 2010 16:38:25 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[processing]]></category>
+		<category><![CDATA[RainbowCube]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=394</guid>
+				<description><![CDATA[[vimeo]http://www.vimeo.com/10377543[/vimeo] Now, as I&#8217;m finally getting settled, it&#8217;s time to kick of mtXcontrol development again. So first, I&#8217;ll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the Processing library -Rainbowduino-. Current development going on, here, check it out. It&#8217;s still in a [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>[vimeo]http://www.vimeo.com/10377543[/vimeo]</p>
+<p>Now, as I&#8217;m finally getting settled, it&#8217;s time to kick of mtXcontrol development again. So first, I&#8217;ll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the <strong>Processing library -Rainbowduino-</strong>. Current development going on, <a href="http://github.com/rngtng/rainbowduino">here, check it out</a>. It&#8217;s still in a beta state, but ready and good for testing. </p>
+<p> Just to make you curious here some new cool upcoming features:<br />
+* support for multiple &amp; cascading Rainbowduinos<br />
+* auto port detection<br />
+* plug and play<br />
+* (auto) firmware upload<br />
+* <a href="http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html?cPath=71&amp;zenid=6f5af82edb45a559db6dd5e4531b5faf">Rainbow Cube support</a><br />
+* updated, more robust protocol</p>
+<p>The video above show a quick preview of the upcoming Rainbowduino Firmware release &#8216;Master and Slave&#8217;.</p>
+<p>You see two Rainbowduinos, the left one as Master connected via Serial to Mac, the right one as Slave connected via I2C to master. The blinking LEDs are merely debug output, interesting part is the changing brightness of the slave. The command to change brightness is send via Serial, received by the master and forwarded to the slave via I2C. With that multiple rainbowudinos can be connected in a row easily. </p>
+<p>And the Best: both run the same(!!!) firmware. The master/slave role and I2C address are auto detected on startup. As easy as that! </p>
+<p>Stay tuned!!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Rainbow Cube &#8211; here it is!</title>
+		<link>http://www.rngtng.com/2010/03/08/rainbow-cube-here-it-is/</link>
+				<pubDate>Mon, 08 Mar 2010 14:39:41 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Rainbow Cube]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeed]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=396</guid>
+				<description><![CDATA[Yay, I finally got my Rainbow Cube from Seeedstudio. It came in various parts which required happy soldering. Now, I can start experimenting and porting mtXcontrol to support Rainbow Cube as well &#8211; stay tuned!]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter size-full wp-image-453" src="http://www.rngtng.com/files/2010/09/Screen-shot-2010-09-02-at-22.40.09.png" alt="" width="392" height="360" srcset="http://www.rngtng.com/files/2010/09/Screen-shot-2010-09-02-at-22.40.09.png 560w, http://www.rngtng.com/files/2010/09/Screen-shot-2010-09-02-at-22.40.09-300x275.png 300w" sizes="(max-width: 392px) 100vw, 392px" /></p>
+<p>Yay, I finally got my <a href="http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html?cPath=71&amp;zenid=6f5af82edb45a559db6dd5e4531b5faf">Rainbow Cube</a> from Seeedstudio. It came in various parts which required happy soldering. Now, I can start experimenting and porting mtXcontrol to support Rainbow Cube as well &#8211; stay tuned!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>mtXcontrol meets Launchpad meets Rainbowduino</title>
+		<link>http://www.rngtng.com/2009/12/30/mtxcontrol-meets-launchpad-meets-rainbowduino/</link>
+				<pubDate>Wed, 30 Dec 2009 15:48:44 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Controller]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=379</guid>
+				<description><![CDATA[That&#8217;s it! I just released mtXcontrol version 1.1 with lot of updates and improvements. One major improvement is full support for Novation Launchpad: just draw your sequences and display them on your Launchpad! Even better, push the buttons to change the color, add, remove, copy &#38; paste frames. For that mtXcontrol makes usage of the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>That&#8217;s it! I just released mtXcontrol version 1.1 with lot of updates and improvements. One major improvement is full support for <a href="http://www.novationmusic.com/products/launchpad" class="broken_link">Novation Launchpad</a>: just draw your sequences and display them on your Launchpad! Even better, push the buttons to change the color, add, remove, copy &amp; paste frames. For that mtXcontrol makes usage of the <a href="http://rngtng.github.com/launchpad">Launchpad Processing library</a> which I released some days ago.</p>
+<p>But Rainbowduino support improved as well. I fixed lots of bugs and implemented requested features. Now you can control the display brightness, save up to 10 frames onto the device and serial port is auto detected. In general, I defined an basic API to communicate with the devices, which allows you to add more devices easily (e.g. monome!). With that, all Rainbowduino stuff is moved in a separate <a href="http://rngtng.github.com/rainbowduino">Rainbowduino Processing library</a>. </p>
+<p>[vimeo]http://vimeo.com/8456119[/vimeo]</p>
+<p>See official <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a> project page for more.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Orangutan Robot Controller</title>
+		<link>http://www.rngtng.com/2009/10/29/orangutan-robot-controller/</link>
+				<pubDate>Thu, 29 Oct 2009 13:12:58 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Controller]]></category>
+		<category><![CDATA[Orangutan]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=292</guid>
+				<description><![CDATA[Ui, I just stumbled over the Orangutan Robot Controller. Funny, as it&#8217;s name is similar to this blogs name 😉 http://www.pololu.com/catalog/product/225 &#8211; to bad is has discontinued]]></description>
+								<content:encoded><![CDATA[<p>Ui, I just stumbled over the <strong>Orangutan Robot Controller</strong>. Funny, as it&#8217;s name is similar to this blogs name <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />
+http://www.pololu.com/catalog/product/225 &#8211; to bad is has discontinued</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

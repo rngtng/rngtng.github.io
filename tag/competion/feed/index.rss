@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>competion &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/competion/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 22 Oct 2009 09:03:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>mtXcontrol wins the Seeedstudio Rainbowduino Carnival</title>
+		<link>http://www.rngtng.com/2009/10/22/mtxcontrol-wins-the-seeedstudio-rainbowduino-carnival/</link>
+				<pubDate>Thu, 22 Oct 2009 09:02:43 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[competion]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=274</guid>
+				<description><![CDATA[Yay &#8211; the voting for the Seeedstudio Rainbowduino Carnival Competition is over. And, guess what, my project mtXcontrol made the run &#8211; I won the first price! Yipheee.. that&#8217;s 12x Rainbowduinos + 100$ Shopping voucher which I&#8217;ll invest in buying Xbee Stuff.. Can&#8217;t wait to get my hands on! Stay tuned&#8230; Thanks to everybody voting [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Yay &#8211; the voting for the <a href="http://www.seeedstudio.com/forum/viewforum.php?f=11" class="broken_link">Seeedstudio Rainbowduino Carnival Competition</a> is over. And, guess what, my project <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a> made the run &#8211; I won the first price! Yipheee.. that&#8217;s 12x Rainbowduinos + 100$ Shopping voucher which I&#8217;ll invest in buying Xbee Stuff.. Can&#8217;t wait to get my hands on! Stay tuned&#8230;</p>
+<p>Thanks to everybody voting for my project!</p>
+<p>Btw. I just released the latest version 1.02 with some bugfixes and new features in the API&#8230;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

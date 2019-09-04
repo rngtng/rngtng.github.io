@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>uart &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/uart/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 27 Jan 2010 09:22:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>If your ruby serial port doesn&#8217;t read what&#8217; you&#8217;re sending&#8230;</title>
+		<link>http://www.rngtng.com/2009/11/27/if-your-ruby-serial-port-doesnt-read-what-youre-sending/</link>
+				<pubDate>Fri, 27 Nov 2009 16:57:29 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[communication]]></category>
+		<category><![CDATA[gem]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[port]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[serial]]></category>
+		<category><![CDATA[serialport]]></category>
+		<category><![CDATA[uart]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=334</guid>
+				<description><![CDATA[Some days ago I got my Novation launchpad an immediately started hacking with some Ruby and Arduino flavor. I wanted to port ccb23 Raindrops Project to launchpad. For that, I needed Serial communication within ruby. Thanks to ruby-serialport first steps went quite well. I could write OR read from and to Arduino easily. But for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Some days ago I got my <a href="http://twitter.com/rngtng/status/5792203896">Novation</a> <a href="http://www.novationmusic.com/launchpad/" class="broken_link">launchpad</a> an immediately started hacking with some <a href="http://github.com/thomasjachmann/launchpad">Ruby</a> and Arduino flavor. I wanted to port ccb23 <a href="http://vimeo.com/6916458">Raindrops Project</a> to launchpad. </p>
+<p>For that, I needed Serial communication within ruby. Thanks to <a href="http://ruby-serialport.rubyforge.org/" class="broken_link">ruby-serialport</a> first steps went quite well. I could write OR read from and to Arduino easily. But for some reasons, writing AND reading using the same instance didn&#8217;t work out. </p>
+<p>I used a simple &#8216;send-input-back&#8217; sketch on the Arduino side. So every byte I&#8217;m sending is returned back. I checked with the Arduino IDE Serialmonitor and a simple Processing script &#8211; everything worked alright.  But using ruby it was different. Writing to serial port worked okay, but reading from it was just random. Sometimes I read the response, sometime I didn&#8217;t &#8211; really, really weird. Some headaches and a lot of time testing I finally found the solution: just open two instances of the serial port. One for sending, one for reading &#8211; and, surprise, surprise &#8211; it works perfect! Who would have guessed that!? Strange.. </p>
+<p>[ruby]<br />
+// To be completed<br />
+require &#8216;serialport&#8217;<br />
+port_write = Serialport.new()<br />
+port_read = Serialport.new()<br />
+[/ruby]</p>
+<p>Ok, continuing hacking, more soon&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>RainbowDuino here it is! (and how to program it)</title>
+		<link>http://www.rngtng.com/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/</link>
+				<pubDate>Thu, 25 Jun 2009 10:32:50 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[program]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[uart]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=131</guid>
+				<description><![CDATA[Yay &#8211; I finally got my RainbowDuino. Unluckily I did sth wrong with the external power connection (JST 2 pin jack) and smashed a capacitor. Maybe the polarity was wrong or it couldn&#8217;t stand the 12 volts? But luckily no damage to the main system so it still works using the terminal connector (right through [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.rngtng.com/files/2009/06/rainbowduino2.jpg" alt="rainbowduino2" width="571" height="348" class="alignnone size-full wp-image-132" srcset="http://www.rngtng.com/files/2009/06/rainbowduino2.jpg 571w, http://www.rngtng.com/files/2009/06/rainbowduino2-300x182.jpg 300w" sizes="(max-width: 571px) 100vw, 571px" /><br />
+Yay &#8211; I finally got my <a href="http://www.seeedstudio.com/blog/?p=410">RainbowDuino</a>. Unluckily I did sth wrong with the external power connection (JST 2 pin jack) and smashed a capacitor. Maybe the polarity was wrong or it couldn&#8217;t stand the 12 volts? But luckily no damage to the main system so it still works using the terminal connector (right through the 5volts of the Arduino). *phew*</p>
+<p>The first real basic problem I ran into <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=4&amp;t=328">was how to program the Rainbowduino</a> as there&#8217;s no USB connector and I don&#8217;t have an UART interface.<br />
+<a href="http://www.seeedstudio.com/blog/?p=420">But well, nothing simpler than that:</a> Just connect your Arduino&#8217;s Tx,Rx,GND,Reset and Vcc ports with those of the Rainbowduino, choose the right controller type in your IDE and program it as usual &#8211; works perfect for me!</p>
+<p>Check out my <a href="http://www.rngtng.com/mtXcontrol">Rainbowduino Editor mtXcontrol here</a> &#8211; it&#8217;s an easy way to draw shapes on your rainbowduino!</p>
+<p>Btw. <em>DTR</em> on Rainbowduino is <em>Reset</em> on Arduino</p>
+<p><strong>UPDATE:</strong><br />
+Sorry I forgot to mention, this trick does NOT work if your host arduino is a ATmega168 &#8211; you need an ATmega328 to pass serial communication through. Before that, make sure you upload this blank sketch to your host Arduino first:</p>
+<p>[code]<br />
+/* blank sketch to upload on Arduino */<br />
+void setup()<br />
+{<br />
+}</p>
+<p>void loop()<br />
+{<br />
+}</p>
+<p>[/code]</p>
+<p>And, as multiple times requested, a picture of my complete setup:<br />
+<img src="http://www.rngtng.com/files/2009/06/arduino_rainbowduino.jpg" alt="arduino_rainbowduino" width="600" class="aligncenter size-full wp-image-296" srcset="http://www.rngtng.com/files/2009/06/arduino_rainbowduino.jpg 734w, http://www.rngtng.com/files/2009/06/arduino_rainbowduino-300x219.jpg 300w" sizes="(max-width: 734px) 100vw, 734px" /></p>
+<p>Make sure you&#8217;ve selected the switch right. It has to point to the same side as the green Terminal connectors are. If you power rainbowduino through the white JST jack, flip it!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

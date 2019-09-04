@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>talk &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/talk/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 09 Mar 2012 19:39:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Talk: Short introduction to Rainbowduino and mtXcontrol</title>
+		<link>http://www.rngtng.com/2011/07/23/talk-short-introduction-to-rainbowduino-and-mtxcontol/</link>
+				<pubDate>Sat, 23 Jul 2011 15:53:30 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[berlin]]></category>
+		<category><![CDATA[cbase]]></category>
+		<category><![CDATA[hack and tell]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[talk]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=559</guid>
+				<description><![CDATA[I gave a short talk at Hack and Tell in Berlin. I briefly introduced the Rainbowduino device and my work on mtXcontol. Watch me here: [vimeo]http://vimeo.com/26667454[/vimeo] Here are the slides: Rainbowduino from rngtng Thanks to David for recording!]]></description>
+								<content:encoded><![CDATA[<p>I gave a short talk at <a href="http://www.meetup.com/berlin-hack-and-tell">Hack and Tell</a> in Berlin. I briefly introduced the Rainbowduino device and my work on mtXcontol. Watch me here:</p>
+<p>[vimeo]http://vimeo.com/26667454[/vimeo]</p>
+<p>Here are the slides:<br />
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/qfGr8yOB8LYa8F" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+<div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/rngtng/rainbowduino" title="Rainbowduino" target="_blank">Rainbowduino</a> </strong> from <strong><a href="https://www.slideshare.net/rngtng" target="_blank">rngtng</a></strong> </div>
+<p>Thanks to David for recording!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>seeed &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/seeed/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 02 Sep 2010 20:42:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Rainbow Cube &#8211; here it is!</title>
+		<link>http://www.rngtng.com/2010/03/08/rainbow-cube-here-it-is/</link>
+				<pubDate>Mon, 08 Mar 2010 14:39:41 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Rainbow Cube]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeed]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=396</guid>
+				<description><![CDATA[Yay, I finally got my Rainbow Cube from Seeedstudio. It came in various parts which required happy soldering. Now, I can start experimenting and porting mtXcontrol to support Rainbow Cube as well &#8211; stay tuned!]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter size-full wp-image-453" src="http://www.rngtng.com/files/2010/09/Screen-shot-2010-09-02-at-22.40.09.png" alt="" width="392" height="360" srcset="http://www.rngtng.com/files/2010/09/Screen-shot-2010-09-02-at-22.40.09.png 560w, http://www.rngtng.com/files/2010/09/Screen-shot-2010-09-02-at-22.40.09-300x275.png 300w" sizes="(max-width: 392px) 100vw, 392px" /></p>
+<p>Yay, I finally got my <a href="http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html?cPath=71&amp;zenid=6f5af82edb45a559db6dd5e4531b5faf">Rainbow Cube</a> from Seeedstudio. It came in various parts which required happy soldering. Now, I can start experimenting and porting mtXcontrol to support Rainbow Cube as well &#8211; stay tuned!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

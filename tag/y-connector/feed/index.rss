@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>y-connector &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/y-connector/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Sat, 04 Jan 2014 16:35:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>DIY: custom y-connector ribbon cable</title>
+		<link>http://www.rngtng.com/2014/01/04/diy-custom-y-connector-ribbon-cable/</link>
+				<pubDate>Sat, 04 Jan 2014 16:34:12 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[dyi]]></category>
+		<category><![CDATA[ribbon]]></category>
+		<category><![CDATA[y-connector]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=693</guid>
+				<description><![CDATA[For my upcoming Hacks i needed a y-connector ribbon cable. I wanted something quick, easy and cheap to build, still reliable and preferable without wiring. So i came up with this: Mainly two blanks with connectors at each side. Stack them and your Y-connector is done. Happy hacking!]]></description>
+								<content:encoded><![CDATA[<p>For my upcoming Hacks i needed a y-connector ribbon cable. I wanted something quick, easy and cheap to build, still reliable and preferable without wiring. So i came up with this:</p>
+<p><a href="http://www.rngtng.com/files/2013/01/IMG_1229.jpg" class="broken_link"><img class="aligncenter size-full wp-image-761" alt="IMG_1229" src="http://www.rngtng.com/files/2013/01/IMG_1229.jpg" width="478" height="640" srcset="http://www.rngtng.com/files/2013/01/IMG_1229.jpg 478w, http://www.rngtng.com/files/2013/01/IMG_1229-224x300.jpg 224w" sizes="(max-width: 478px) 100vw, 478px" /></a></p>
+<p style="text-align: center"><a href="http://www.rngtng.com/files/2013/01/IMG_1226.jpg" class="broken_link"><img class="aligncenter  wp-image-762" alt="IMG_1226" src="http://www.rngtng.com/files/2013/01/IMG_1226.jpg" width="448" height="335" srcset="http://www.rngtng.com/files/2013/01/IMG_1226.jpg 640w, http://www.rngtng.com/files/2013/01/IMG_1226-300x224.jpg 300w" sizes="(max-width: 448px) 100vw, 448px" /></a></p>
+<p style="text-align: center"><a href="http://www.rngtng.com/files/2013/01/IMG_1231.jpg" class="broken_link"><img class="aligncenter  wp-image-759" alt="IMG_1231" src="http://www.rngtng.com/files/2013/01/IMG_1231.jpg" width="448" height="335" srcset="http://www.rngtng.com/files/2013/01/IMG_1231.jpg 640w, http://www.rngtng.com/files/2013/01/IMG_1231-300x224.jpg 300w" sizes="(max-width: 448px) 100vw, 448px" /></a></p>
+<p>Mainly two blanks with connectors at each side. Stack them and your Y-connector is done. Happy hacking!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

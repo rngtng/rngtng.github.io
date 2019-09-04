@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>order &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/order/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 11 Jun 2009 14:48:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>RainbowDuino &#8211; I&#8217;m comming</title>
+		<link>http://www.rngtng.com/2009/06/11/rainbowduino-im-comming/</link>
+				<pubDate>Thu, 11 Jun 2009 14:48:24 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[led matrix]]></category>
+		<category><![CDATA[order]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=124</guid>
+				<description><![CDATA[Yeah! Just ordered a bunch of stuff from the Seeedstudio Shop, my new favorite Arduino parts dealer. I&#8217;m really looking forward to get the RainbowDuino into my hands. I&#8217;ve already order thier 8&#215;8 RGB LED Matrix at ebay which is really promissing&#8230; Unfortunately they are located in china to shipping takes ages ;-( More soon [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Yeah! Just ordered a bunch of stuff from the <a href="http://www.seeedstudio.com/depot">Seeedstudio Shop</a>, my new favorite Arduino parts dealer. I&#8217;m really looking forward to get the <a href="http://www.seeedstudio.com/blog/?page_id=187" class="broken_link">RainbowDuino</a> into my hands. I&#8217;ve already order thier 8&#215;8 RGB LED Matrix at <a href="http://cgi.ebay.de/ws/eBayISAPI.dll?ViewItem&amp;ssPageName=STRK:MEWNX:IT&amp;item=220324377200">ebay</a> which is really promissing&#8230; Unfortunately they are located in china to shipping takes ages ;-( More soon to come &#8230;.</p>
+<p>[youtube]http://www.youtube.com/watch?v=z_JuFGAYHq0[/youtube]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

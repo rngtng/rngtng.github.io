@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>user defined &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/user-defined/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 24 Jun 2009 13:14:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>MySQL User defined Variables &#8211; good thing to know!</title>
+		<link>http://www.rngtng.com/2009/04/02/mysql-user-defined-variables-good-thing-to-know/</link>
+				<pubDate>Thu, 02 Apr 2009 12:59:54 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[user defined]]></category>
+		<category><![CDATA[variables]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=121</guid>
+				<description><![CDATA[Have you ever heard of user defined variables in MySQL? I hadn&#8217;t and nearly freaked out when I found out. That&#8217;s the thing I was always looking for, that&#8217;s so cool, and fasten up your SQL live a lot! Now, renumbering a table is as easy as never before: [text] Set @a = 0; UPDATE [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="margin-bottom:20px"><img class="alignright" style="margin: 18px" src="http://matsu.files.wordpress.com/2008/01/mysql-logo.png" alt="" width="140" height="72" /> Have you ever heard of user defined variables in MySQL? I hadn&#8217;t and nearly freaked out when I found out. That&#8217;s the thing I was always looking for, that&#8217;s so cool, and fasten up your SQL live a lot!</p>
+<p style="text-align: left">Now, renumbering a table is as easy as never before:</p>
+<p>[text]<br />
+Set @a = 0;<br />
+UPDATE my_table SET id=@a:=@a+1<br />
+[/text]</p>
+<p>Check out the docu and examples:<br />
+http://dev.mysql.com/doc/refman/5.0/en/user-variables.html</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

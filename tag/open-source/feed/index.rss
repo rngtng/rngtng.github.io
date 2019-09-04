@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>open source &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/open-source/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Sat, 29 Nov 2014 16:15:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Projects worth to donate to</title>
+		<link>http://www.rngtng.com/2014/11/29/projects-worth-to-donate-to/</link>
+				<pubDate>Sat, 29 Nov 2014 15:49:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[donation]]></category>
+		<category><![CDATA[flattr]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[support]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=792</guid>
+				<description><![CDATA[It&#8217;s soon the end of the year and time to say &#8216;thank-you&#8217; to projects and people I profit from on a regular basis. This year it its: * iTerm &#8211; http://iterm2.com * SequelPro &#8211; http://www.sequelpro.com * DaviCal &#8211; http://www.davical.org * Serial Podcast &#8211; http://serialpodcast.org * Logbuch: Netzpolitik &#8211; http://logbuch-netzpolitik.de * Alternativlos &#8211; http://alternativlos.org * MacTechnews [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="http://stationery4africa.com/wp-content/uploads/2014/08/donatekids.jpg" alt="" width="214" height="222" /></p>
+<p>It&#8217;s soon the end of the year and time to say &#8216;thank-you&#8217; to projects and people I profit from on a regular basis. This year it its:<br />
+* iTerm &#8211; http://iterm2.com<br />
+* SequelPro &#8211; http://www.sequelpro.com<br />
+* DaviCal &#8211; http://www.davical.org<br />
+* Serial Podcast &#8211; http://serialpodcast.org<br />
+* Logbuch: Netzpolitik &#8211; http://logbuch-netzpolitik.de<br />
+* Alternativlos &#8211; http://alternativlos.org<br />
+* MacTechnews &#8211; get the App to support the project &#8211; http://www.mactechnews.de<br />
+* Outbank &#8211; http://www.outbank.de<br />
+* Time Pritlove &#8211; https://flattr.com/profile/timpritlove<br />
+* Jack Conte &#8211; http://www.patreon.com/JackConte<br />
+* more to come&#8230;</p>
+<p>More on my Flattr Page:<br />
+https://flattr.com/profile/rngtng</p>
+<p>Related: open call with @Flattr @GetCentUp @Patreon @GitTip on Sustainable Crowdfunding:<br />
+<iframe width="500" height="281" src="https://www.youtube.com/embed/l1-3AYgZRFQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

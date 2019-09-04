@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>electronics &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/electronics/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 13 Mar 2013 16:24:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>EEVblog &#8211; OLED Multimeter Review</title>
+		<link>http://www.rngtng.com/2013/03/13/eevblog-oled-multimeter-review/</link>
+				<pubDate>Wed, 13 Mar 2013 14:01:03 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[blog]]></category>
+		<category><![CDATA[electronics]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=705</guid>
+				<description><![CDATA[Wow, I just discovered EEVblog which has awesome video material for electronic geeks. This one will definitely help me choosing a new multimeter + its just fun to watch &#8211; stay tuuuned! [youtube]http://www.youtube.com/watch?v=Zele19jm1MQ[/youtube]]]></description>
+								<content:encoded><![CDATA[<p>Wow, I just discovered <a href="http://www.eevblog.com/">EEVblog</a> which has awesome video material for electronic geeks. This one will definitely help me choosing a new multimeter + its just fun to watch &#8211; stay tuuuned!</p>
+<p>[youtube]http://www.youtube.com/watch?v=Zele19jm1MQ[/youtube]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

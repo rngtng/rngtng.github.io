@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>job+ &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/job/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 15 Sep 2010 23:53:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>SoundCloud it is&#8230;.</title>
+		<link>http://www.rngtng.com/2010/09/02/soundcloud-it-is/</link>
+				<pubDate>Thu, 02 Sep 2010 16:49:51 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[berlin]]></category>
+		<category><![CDATA[job+]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[me]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+		<category><![CDATA[soundcloud]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=428</guid>
+				<description><![CDATA[After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at soundcloud.com. It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans. It&#8217;s kick ass! 😉 Take a look around [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.wechsellook.com/postFiles/489241ba-f3d7-4310-b457-8e7e2041003d.jpg" alt="" width="551" height="252" /></p>
+<p>After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at <a href="http://www.soundcloud.com">soundcloud.com</a>.</p>
+<p style="text-align: center"><em>It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans.</em></p>
+<p>It&#8217;s kick ass! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Take a look around the office, check this out: http://www.wechsellook.com/post/read/90</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>javascript &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/javascript/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 23 Jan 2013 04:15:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Seriality &#8211; Physicality for the Web</title>
+		<link>http://www.rngtng.com/2013/01/23/seriality-physicality-for-the-web/</link>
+				<pubDate>Wed, 23 Jan 2013 04:15:40 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[serial]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=696</guid>
+				<description><![CDATA[Here a very late shout out to an interesting project: control your Arduino via the browser! Basically its a browser plugin to get access to your machines (virtual) serial port. With that you can use javascript to send and receive any data &#8211; how cool is that!? http://www.zambetti.com/projects/seriality/]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://www.zambetti.com/projects/seriality/images/diagram.jpg" /></p>
+<p>Here a very late shout out to an interesting project: control your Arduino via the browser! Basically its a browser plugin to get access to your machines (virtual) serial port. With that you can use javascript to send and receive any data &#8211; how cool is that!?</p>
+<p>http://www.zambetti.com/projects/seriality/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Long time ago: &#8216;Die besten JavaScripts &#8211; SizeIt!&#8217;</title>
+		<link>http://www.rngtng.com/2011/08/12/long-time-ago-die-besten-javascripts-sizeit/</link>
+				<pubDate>Fri, 12 Aug 2011 16:10:37 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[history]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[sizeit]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=573</guid>
+				<description><![CDATA[Wuhooo, look what I found in my archives: In my early webdeveloper days I created a small javascript which named &#8216;SizeIt!&#8217;. It purpose was to resize all website elements according to the size of users viewpoint. So regardless which screen resolution the user has, the website propotions would always be the same. Honestly, it worked [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Wuhooo, look what I found in my archives:</p>
+<p><a href="http://www.rngtng.com/files/2011/07/js.pdf" class="broken_link"><img src="http://www.rngtng.com/files/2011/07/Screen-shot-2011-07-23-at-18.16.26.png" alt="" width="352" height="498" class="aligncenter size-full wp-image-575" srcset="http://www.rngtng.com/files/2011/07/Screen-shot-2011-07-23-at-18.16.26.png 352w, http://www.rngtng.com/files/2011/07/Screen-shot-2011-07-23-at-18.16.26-212x300.png 212w" sizes="(max-width: 352px) 100vw, 352px" /></a></p>
+<p>In my early webdeveloper days I created a small javascript which named &#8216;SizeIt!&#8217;. It purpose was to resize all website elements according to the size of users viewpoint. So regardless which screen resolution the user has, the website propotions would always be the same. Honestly, it worked only in very special cases and was slooooow (these days) <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>But the idea was great and it even gave me second place in a competition &#8211; &#8216;Die besten JavaScripts&#8217; of Internet-World in August 2000. <a href="http://www.rngtng.com/files/2011/07/js.pdf" class="broken_link">Read the result here</a> (german only, sorry).</p>
+<p>Not sure where I do have source code, will continue searching archive and post it here someday &#8211; stay tuned &#8230;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

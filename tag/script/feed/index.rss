@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>script &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/script/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 16 Mar 2011 16:34:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>HowTo: ultra mega fast rails routes lookup</title>
+		<link>http://www.rngtng.com/2011/03/16/howto-ultra-mega-fast-rails-routes-lookup/</link>
+				<pubDate>Wed, 16 Mar 2011 16:34:00 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[alias]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[caching]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[routes]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[shell]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=538</guid>
+				<description><![CDATA[I was quite annoyed by the wasted time it took each time I grep the rails routes table. Wait, can&#8217;t this be cached? &#8211; Sure it can! So I came up this nice little alias to cache the output once: alias route='CF=tmp/routes_cache; [[ ! -s $CF ]] &#38;&#38; rake routes &#62; $CF; cat $CF &#124; [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/8/5/1249508265579/Frances-V150-TGV-fast-tra-001.jpg" alt="" /></p>
+<p>I was quite annoyed by the wasted time it took each time I grep the rails routes table.<br />
+<em>Wait, can&#8217;t this be cached?  &#8211; Sure it can!</em><br />
+So I came up this nice little alias to cache the output once:<br />
+<code><br />
+alias route='CF=tmp/routes_cache; [[ ! -s $CF ]] &amp;&amp; rake routes &gt; $CF; cat $CF | grep '<br />
+</code></p>
+<p>now it&#8217;s ultra fast, try e.g.:<br />
+<code><br />
+$ route root<br />
+</code><br />
+bang!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

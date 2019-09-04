@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>raspberry pi &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/raspberry-pi/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 24 Apr 2019 19:28:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Hacking the Pinball machine (Take Two)</title>
+		<link>http://www.rngtng.com/2014/11/30/hacking-the-pinball-machine-take-two/</link>
+				<pubDate>Sun, 30 Nov 2014 19:26:47 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Pinball]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[pinball]]></category>
+		<category><![CDATA[raspberry pi]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=719</guid>
+				<description><![CDATA[30.Nov 2014 Wow, wow, wow &#8211; I finally got my hand dirty hacking. Together with ccb23, I (once again) opened up our Teenage Mutant Ninja Turtles Pinball machine to &#8216;pirate&#8217; the current game score to throw into teh internetz! To be honest, it&#8217;s take two. We already did so nearly 18 month ago, but failed [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>30.Nov 2014</p>
+<p>Wow, wow, wow &#8211; I finally got my hand dirty hacking. Together with ccb23, I (once again) opened up our <a href="http://www.ipdb.org/machine.cgi?gid=2509">Teenage Mutant Ninja Turtles Pinball</a> machine to &#8216;pirate&#8217; the current game score to throw into teh internetz!</p>
+<p>To be honest, it&#8217;s take two. We already did so nearly 18 month ago, but failed to document and write about our experience in full. In short, we reverse-engineered the graphic card protocol of the pinball machine, connected an Arduino to listen on the bus and &#8216;pirate&#8217; the game score. But due to its lack of internet connection we forwarded the data via RFID injection to a Nabaztag Rabbit, which send the message to an API endpoint of a rails application. So what&#8217;s left are a couple of prototype projects:</p>
+<ul>
+<li>A <a href="https://github.com/rngtng/NabaztagInjector/blob/master/examples/pirate/pirate.ino">Arduino sketch</a> to listen to the graphic-bus.</li>
+<li>The <a href="/nabaztag-injector-arduino-rfid-hack/">NabaztagInjector</a> to send the data via RFID to a WIFI connected Nabaztag rabbit.</li>
+<li>A rails app &amp; API <a href="http://github.com/rngtng/">PinPirate</a> to receive the data, display the score and send out tweets.</li>
+</ul>
+<p>Yes, this worked! Proof of concept &#8211; done! Unfortunately it turned out that all was very shaky and not very reliable, so we left it for a while until now, back to tackle the challenge again, but this time with a different approach: enter <a href="http://www.raspberrypi.org">RaspberryPi</a>.</p>
+<p>Advantage:<br />
+&#8211; on board Internet</p>
+<p>Disadvantage:<br />
+&#8211; we have a full OS &#8211; access to interrupts way more complicated</p>
+<p>ccb23 managed to write a kernel module to direct access to Interrupts: http://elinux.org/RPi_Low-level_peripherals</p>
+<p>With this module loaded and the pinball machine connected, listening to the graphic bus is as simple as:<br />
+<code>cat /dev/????</code></p>
+<p><a href="/files/2013/07/GPIOs.png" class="broken_link"><img class="aligncenter size-full wp-image-747" src="/files/2013/07/GPIOs.png" alt="GPIOs" width="254" height="581" srcset="http://www.rngtng.com/files/2013/07/GPIOs.png 254w, http://www.rngtng.com/files/2013/07/GPIOs-131x300.png 131w" sizes="(max-width: 254px) 100vw, 254px" /></a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

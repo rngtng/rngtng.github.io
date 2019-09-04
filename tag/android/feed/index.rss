@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>android &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/android/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 01 Dec 2014 21:31:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>IrDude &#8211; A simple android app to control my stereo via IR</title>
+		<link>http://www.rngtng.com/2014/12/17/irdude-a-simple-android-app-to-control-my-stereo-via-ir/</link>
+				<pubDate>Wed, 17 Dec 2014 21:27:30 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[control]]></category>
+		<category><![CDATA[ir]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[remove]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=791</guid>
+				<description><![CDATA[I recently wrote a simple Android App which allows me to control my HarmonKardon Avr-35 stereo remotely via IR. Presenting: IrDude. It uses the an undocumented Samsung IR API, so its unfortunately very much tight to Samsung galaxy note 10.1 tablet. Nevertheless, it does the Job for my, and is hopefully a good starting point [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://images.harmonyremote.com/EasyZapper/Support/FAQ/12467_IR_test.gif" alt="" /></p>
+<p>I recently wrote a simple Android App which allows me to control my HarmonKardon Avr-35 stereo remotely via IR. Presenting: IrDude.</p>
+<p>It uses the an undocumented Samsung IR API, so its unfortunately very much tight to Samsung galaxy note 10.1 tablet. Nevertheless, it does the Job for my, and is hopefully a good starting point for other to do similar. Check http://www.remotecentral.com to find hex codes to support other devices.</p>
+<p>https://github.com/rngtng/IrDude</p>
+<p>[image from <a href="http://nordicsemiconductor.github.io/puck/tutorials/ir.html" class="broken_link">IR PUCK</a>]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

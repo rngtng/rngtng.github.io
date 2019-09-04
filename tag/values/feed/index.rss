@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>values &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/values/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 24 Jun 2009 13:16:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>MySQL: How to swap entires of two columns with just one query</title>
+		<link>http://www.rngtng.com/2009/06/24/mysql-how-to-swap-entires-of-two-columns-with-just-one-query/</link>
+				<pubDate>Wed, 24 Jun 2009 13:16:29 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[query]]></category>
+		<category><![CDATA[swap]]></category>
+		<category><![CDATA[update]]></category>
+		<category><![CDATA[values]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=134</guid>
+				<description><![CDATA[Check this out, I found out a really nice way how to swap values of two columns with just one query, using user defined variables. Given a table with two columns a and b. To swap their values in whole, use this query: [text] UPDATE my_table SET a=@tmp:=a, a=b, b=@tmp; [/text] Done! Isn&#8217;t that easy?]]></description>
+								<content:encoded><![CDATA[<p>Check this out, I found out a really nice way how to swap values of two columns with just one query, <a href="http://www.rngtng.com/2009/04/02/mysql-user-defined-variables-good-thing-to-know/">using user defined variables</a>. Given a table with two columns <em>a</em> and  <em>b</em>. To swap their values in whole, use this query:</p>
+<p>[text]<br />
+UPDATE my_table SET a=@tmp:=a, a=b, b=@tmp;<br />
+[/text]</p>
+<p>Done! Isn&#8217;t that easy?</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mac os x setup &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/mac-os-x-setup/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 02 Feb 2015 17:00:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>My Mountain Lion Setup 2013</title>
+		<link>http://www.rngtng.com/2013/04/16/my-mountain-lion-setup-2013/</link>
+				<pubDate>Tue, 16 Apr 2013 16:59:54 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[mac os x setup]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=710</guid>
+				<description><![CDATA[ok some time passed since I wrote my dev setup, so here&#8221;s my current one *braindump* Main Development Setup Mountain Lion xCode (or latest iPhone SDK) Homebrew Ruby: rvm + rubygems + rails etc. Database: Mysql 5.1 + Sequel Pro OpenVPN: Tunnelblick iTerm 2 Sublime Text 3 Git + GitX (rowanj fork) FTP &#38; Co: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>ok some time passed since I wrote my dev setup, so here&#8221;s my current one *braindump*</p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-497" src="http://www.rngtng.com/files/2010/04/mac_os_x.jpg" alt="" width="500" height="181" srcset="http://www.rngtng.com/files/2010/04/mac_os_x.jpg 500w, http://www.rngtng.com/files/2010/04/mac_os_x-300x108.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p><strong>Main Development Setup</strong><br />
+Mountain Lion<br />
+xCode (or latest iPhone SDK)<br />
+<a href="http://mxcl.github.com/homebrew/">Homebrew</a><br />
+Ruby: rvm + rubygems + rails etc.<br />
+Database: Mysql 5.1 + <a href="http://www.sequelpro.com/">Sequel Pro</a><br />
+OpenVPN: Tunnelblick<br />
+<a href="http://www.iterm2.com/">iTerm 2</a><br />
+<a href="http://www.sublimetext.com/3">Sublime Text 3</a><br />
+Git + <a href="http://rowanj.github.io/gitx/">GitX (rowanj fork)</a><br />
+FTP &amp; Co: Cyberduck<br />
+Hudson status: <a href="http://ccmenu.sourceforge.net/">CCMenu</a><br />
+Share Files: <a href="http://www.dropbox.com/referrals/NTEzNjgzMzk">Dropbox</a><br />
+<a href="http://www.google.com/chrome">Google Chrome</a><br />
+Safari<br />
+<a href="http://www.mozilla-europe.org/en/firefox/" class="broken_link">Firefox</a> + Firebug</p>
+<p><strong>Extended Development</strong><br />
+Arduino<br />
+Processing<br />
+Fritzing<br />
+Eclipse</p>
+<p><strong>Nice to have:</strong><br />
+System Notification: <a href="http://growl.info/">Growl</a><br />
+IRC: <a href="http://clintecker.com/disable-irc-msgs.html" class="broken_link">hide join messages</a> <a href="http://adium.im/">Adium</a><br />
+<a href="http://www.skype.com/">Skype</a><br />
+original Twitter client (suxx)<br />
+<a href="http://bowtieapp.com/">Bowtie</a><br />
+Spotify<br />
+All Codecs: <a href="http://www.perian.org/">Perian</a><br />
+Dasboard widgets: <a href="http://www.apple.com/downloads/dashboard/networking_security/ipwidget.html" class="broken_link">IP</a> + App Update<br />
+Copy&amp;Paste History: Flycut<br />
+Word replacement: iWork<br />
+Apple Mail</p>
+<p>## Installation hints:<br />
+Show hidden files: http://www.mikesel.info/show-hidden-files-mac-os-x-10-7-lion/<br />
+Show full dir: http://osxdaily.com/2007/12/02/show-full-directory-path-in-finder-window-title-bars/</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

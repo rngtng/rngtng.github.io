@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>video &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/video/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 05 Apr 2016 06:57:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>WG-Held &#8211; Hack the House project presentation</title>
+		<link>http://www.rngtng.com/2016/05/05/wg-held-hack-the-house-project-presentation/</link>
+				<pubDate>Thu, 05 May 2016 09:56:03 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hackthehouse]]></category>
+		<category><![CDATA[video]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=899</guid>
+				<description><![CDATA[Nice sum up on our HackTheHouse 2nd price. https://www.youtube.com/watch?v=Ab0jpDIiOWg]]></description>
+								<content:encoded><![CDATA[<p>Nice sum up on our <a href="http://www.rngtng.com/2015/03/03/hackedthehouse-and-won-2nd-price/">HackTheHouse 2nd price</a>.</p>
+<p>https://www.youtube.com/watch?v=Ab0jpDIiOWg</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

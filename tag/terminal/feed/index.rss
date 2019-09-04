@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>terminal &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/terminal/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 08 May 2012 14:53:16 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Mac OS X Terminal: visual indication for your ssh connection</title>
+		<link>http://www.rngtng.com/2011/01/14/mac-os-x-terminal-visual-indication-for-your-ssh-connection/</link>
+				<pubDate>Fri, 14 Jan 2011 09:18:19 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[change]]></category>
+		<category><![CDATA[color]]></category>
+		<category><![CDATA[indicator]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[ssh]]></category>
+		<category><![CDATA[terminal]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=508</guid>
+				<description><![CDATA[Here&#8217;s a HowTo for a nice visual indication to see quickly if your Mac OS X Terminal is running which ssh connection. The trick is to change your Terminal Theme before you ssh and change it back afterwards. 1. Create Theme: got to Terminal -&#62; Preferences -&#62; Settings create a new theme (or copy existing [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="size-full wp-image-512 aligncenter" src="http://www.rngtng.com/files/2011/01/Screen-shot-2011-01-14-at-10.14.45.png" alt="" width="593" height="427" srcset="http://www.rngtng.com/files/2011/01/Screen-shot-2011-01-14-at-10.14.45.png 847w, http://www.rngtng.com/files/2011/01/Screen-shot-2011-01-14-at-10.14.45-300x216.png 300w" sizes="(max-width: 593px) 100vw, 593px" /></p>
+<p>Here&#8217;s a HowTo for a nice visual indication to see quickly if your Mac OS X Terminal is running which ssh connection.</p>
+<p>The trick is to change your Terminal Theme before you ssh and change it back afterwards.</p>
+<p><strong>1. Create Theme:</strong><br />
+got to   Terminal -&gt; Preferences -&gt; Settings   create a new theme (or copy existing one) and adjust to your needs, e.g. a light red background etc. Give it a nice name e.g. &#8220;SSH-Theme&#8221;</p>
+<p><strong>2. Add this function to your .bashrc</strong></p>
+<p><code>function tabc() {<br />
+NAME=$1; if [ -z "$NAME" ]; then NAME="Default"; fi<br />
+osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"$NAME\""<br />
+}</code></p>
+<p>&#8220;Default&#8221; is my default Terminal theme, name this whatever u have</p>
+<p><em>Usage:</em><br />
+<code>tabc SSH-Theme  #switch to theme with name<br />
+tabc  #switch to default theme</code></p>
+<p><strong>3. Create alias to ssh to server:</strong></p>
+<p><code> alias sshmyserver="tabc SSH-Theme; ssh yourserver.com; tabc"</code></p>
+<p>That&#8217;s it &#8211; your are done! Now, if you type <code>sshmyserver</code>, your Terminal color will change, ssh will start, and when you end ssh, everything will be back again..</p>
+<p>Btw. for Terminal on Mac OS X, I very recommend <a href="http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/">Visor &#8211; a quake like console</a></p>
+<p><strong>UPDATE</strong></p>
+<p>That&#8217;s how you do it with iTerm:</p>
+<p><code><br />
+function tabc() {<br />
+  COLOR=$1; if [ -z "$COLOR" ]; then COLOR="{0, 7722, 9941}"; fi<br />
+  osascript -e "tell application \"iTerm\" to set background color of current session of current terminal to $COLOR"<br />
+}</p>
+<p>alias sshmyserver="tabc '{18000, 2500, 2500}'; ssh yourserver.com; tabc"<br />
+</code> </p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Quake like Terminal on Mac OS X: Visor Plugin</title>
+		<link>http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/</link>
+				<pubDate>Fri, 14 Aug 2009 11:56:01 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[console]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[simbl]]></category>
+		<category><![CDATA[terminal]]></category>
+		<category><![CDATA[visor]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=100</guid>
+				<description><![CDATA[Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now (actually since ages, but I just forgot to mention 😉 it is. As small SIMBL plugin called Visor Plugin allows to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://visor.binaryage.com/shared/img/visor-mainshot.png" alt="" /></p>
+<p>Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now <em>(actually since ages, but I just forgot to mention <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em> it is. As small SIMBL plugin called <strong>Visor</strong> Plugin allows to to bring up the Terminal via a hotkey in anytime. I really love it and can&#8217;t without it anymore.<br />
+Check it out here: http://visor.binaryage.com/</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

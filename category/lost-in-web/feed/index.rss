@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Lost in Web &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/category/lost-in-web/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Sat, 27 Jan 2018 21:45:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>MakerBall</title>
+		<link>http://www.rngtng.com/2018/01/27/makerball/</link>
+				<pubDate>Sat, 27 Jan 2018 21:45:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[pinball]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=983</guid>
+				<description><![CDATA[Very nice slick DYI Pinball Kit: https://www.makerball.org/]]></description>
+								<content:encoded><![CDATA[<p>Very nice slick DYI Pinball Kit:</p>
+<p><iframe src="https://player.vimeo.com/video/218372619?dnt=1&#038;app_id=122963" width="500" height="281" frameborder="0" title="MAKERBALL: The DIY Pinball Machine Kit" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+<p>https://www.makerball.org/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Berlin Maker Fair 2015 &#8211; Findings</title>
+		<link>http://www.rngtng.com/2015/11/28/berlin-maker-fair-2015-findings/</link>
+				<pubDate>Sat, 28 Nov 2015 12:58:47 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=890</guid>
+				<description><![CDATA[I went to Berlin Maker Fair 2015 Here some Projects which caught my attention the most: Brick´R´Knowledge &#8211; https://www.brickrknowledge.de/en &#8211; an innovative plug system which can be used to tranfer electronical knowledge very easily, fast and playfully Seeedstudios RePhone &#8211; https://www.kickstarter.com/projects/seeed/rephone-kit-worlds-first-open-source-and-modular-p VaiKai &#8211; http://vaikai.com &#8211; intuitive connected toys for less screentime and more play. TinkerBots [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>I went to <a href="http://makerfaire.berlin/en/">Berlin Maker Fair 2015</a></p>
+<p>Here some Projects which caught my attention the most:</p>
+<p>Brick´R´Knowledge &#8211; https://www.brickrknowledge.de/en<br />
+&#8211; an innovative plug system which can be used to tranfer electronical knowledge very easily, fast and playfully</p>
+<p>Seeedstudios RePhone &#8211; https://www.kickstarter.com/projects/seeed/rephone-kit-worlds-first-open-source-and-modular-p</p>
+<p>VaiKai &#8211; http://vaikai.com<br />
+&#8211; intuitive connected toys for less screentime and more play.</p>
+<p>TinkerBots &#8211; http://www.tinkerbots.com/de/<br />
+&#8211; a Lego &#8216;extension&#8217; for smart senors and actor modules. Super simple to control and programm. For Kids starting from 6years!</p>
+<p>ManuGoo &#8211; http://manugoo.de</p>
+<p>OpenHive &#8211; http://www.open-hive.org/<br />
+&#8211; an open Source Bee Hive Monitoring Project</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>The Expert</title>
+		<link>http://www.rngtng.com/2015/09/03/the-expert/</link>
+				<pubDate>Thu, 03 Sep 2015 18:18:53 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[comedy]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=884</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[<p><iframe width="500" height="281" src="https://www.youtube.com/embed/BKorP55Aqvg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Conferences 2014 not to miss</title>
+		<link>http://www.rngtng.com/2014/01/04/conferences-2014-not-to-miss/</link>
+				<pubDate>Sat, 04 Jan 2014 16:04:01 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=754</guid>
+				<description><![CDATA[&#160; Interesting Conferences not to miss: Makerland: http://www.makerland.org EuRuKo: http://euruko.org I T.A.K.E: http://2014.itakeunconf.com RE/Mixed Media Festival IV: http://remixnyc.com beyondtellerrand http://beyondtellerrand.com/berlin-2014 31c3: http://events.ccc.de/tag/31c3]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" alt="" src="http://www.makerland.org/static/img/themepark.png" width="450" height="150" /></p>
+<p>&nbsp;</p>
+<p>Interesting Conferences not to miss:</p>
+<p>Makerland: http://www.makerland.org<br />
+EuRuKo: http://euruko.org<br />
+I T.A.K.E: http://2014.itakeunconf.com<br />
+RE/Mixed Media Festival IV: http://remixnyc.com<br />
+beyondtellerrand http://beyondtellerrand.com/berlin-2014<br />
+31c3: http://events.ccc.de/tag/31c3</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Lego Sumo Robot &#8211; Team SoundCloud</title>
+		<link>http://www.rngtng.com/2012/03/14/lego-sumo-robot-team-soundcloud/</link>
+				<pubDate>Wed, 14 Mar 2012 15:29:55 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[aarhus]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[fight]]></category>
+		<category><![CDATA[goto]]></category>
+		<category><![CDATA[lege]]></category>
+		<category><![CDATA[soundcloud]]></category>
+		<category><![CDATA[sumo]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=628</guid>
+				<description><![CDATA[Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to GoTo Conference 2011 in Århus to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211; the first round of the sumo battle, where Team SoundCloud flips [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-629" src="http://www.rngtng.com/files/2012/01/soundcloud-robot.png" alt="" width="500" height="364" srcset="http://www.rngtng.com/files/2012/01/soundcloud-robot.png 500w, http://www.rngtng.com/files/2012/01/soundcloud-robot-300x218.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to <a href="http://gotocon.com/aarhus-2011/">GoTo Conference 2011 in Århus</a> to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211;<br />
+the first round of the sumo battle, where Team SoundCloud flips over the opponent!</p>
+<p><iframe src="https://player.vimeo.com/video/30364841?dnt=1&#038;app_id=122963" width="500" height="281" frameborder="0" title="Lego Robot Sumo Fight - Team SoundCloud" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+<p>Unfortunately that was already it&#8217;s glorious time &#8211; we dropped out for the second round. Anyway &#8211; it was big-huge-massive fun. Make sure you grab some lego bricks and build your own. </p>
+<p>In case you&#8217;re interested in the code, it wasn&#8217;t much and nothing to be proud of &#8211; but worked!<br />
+https://gist.github.com/1280779</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My Rails Patch: reload on default scope &#8211; committed!</title>
+		<link>http://www.rngtng.com/2010/03/03/my-rails-patch-reload-on-default-scope-committed/</link>
+				<pubDate>Tue, 02 Mar 2010 23:29:00 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[default scope]]></category>
+		<category><![CDATA[patch]]></category>
+		<category><![CDATA[rails]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=386</guid>
+				<description><![CDATA[uiuiui, long time no read, as I&#8217;m quite busy lately. Just a quick update, my rails patch &#8211; fixing &#8216;reload&#8217; on a AR with default scope &#8211; got finally committed &#8211; nice: http://github.com/rails/rails/commit/4db72b702f7faca7da30a64e45daeee13733762a]]></description>
+								<content:encoded><![CDATA[<p>uiuiui, long time no read, as I&#8217;m quite busy lately. Just a quick update, my rails patch <em>&#8211; fixing &#8216;reload&#8217; on a AR with default scope &#8211;</em> got finally committed &#8211; nice:</p>
+<p>http://github.com/rails/rails/commit/4db72b702f7faca7da30a64e45daeee13733762a</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>GPG &#8211; up and running with Snow Leopard and Mail.app</title>
+		<link>http://www.rngtng.com/2009/11/30/gpg-up-and-running-with-snow-leopard-and-mail-app/</link>
+				<pubDate>Mon, 30 Nov 2009 15:23:45 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[GPG]]></category>
+		<category><![CDATA[mail]]></category>
+		<category><![CDATA[PGP]]></category>
+		<category><![CDATA[siging]]></category>
+		<category><![CDATA[snow leopard]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=351</guid>
+				<description><![CDATA[Ok, I finally managed to set up my GPG Mail System. Thanks to the latest version of GPGMail and gpg (1.4.10) (via macports sudo port install gnupg) it&#8217;s running fine and smooth again with Snow Leopard and Mail.app. Perfect! See MacGPG and GPGMail for more&#8230; Find my GPG-Key here UPDATE: btw. to get GPGP work [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignright" src="http://3.bp.blogspot.com/_LqGloMJUekI/SAYrvuuEVyI/AAAAAAAAAAc/eorl_nD-4EM/s200/mac-gpg-logo.png" alt="" width="200" height="200" />Ok, I finally managed to set up my GPG Mail System. Thanks to the latest version of <a href="http://twitter.com/humpaaa/status/6081240084">GPGMail</a> and gpg (1.4.10) (via macports <code>sudo port install gnupg</code>)  it&#8217;s running fine and smooth again with Snow Leopard and Mail.app. Perfect!</p>
+<p>See <a href="http://macgpg.sourceforge.net/">MacGPG</a> and  <a href="http://www.sente.ch/software/GPGMail/English.lproj/GPGMail.html">GPGMail</a> for more&#8230;</p>
+<p><a href="http://gpg-keyserver.de/pks/lookup?op=get&amp;search=0x07918D27FF576091">Find my GPG-Key here</a></p>
+<p><strong>UPDATE:</strong> btw. to get GPGP work with gmail, check out <a href="http://getfiregpg.org">FireGPG</a>, a nice plugin for Firefox, which works perfect for me on Mac OS X. Unfortunately I haven&#8217;t found any Safari solution yet&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</title>
+		<link>http://www.rngtng.com/2009/10/23/programming-interactivity-a-designers-guide-to-processing-arduino-and-openframeworks/</link>
+				<pubDate>Fri, 23 Oct 2009 16:14:09 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[openFrameworks]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=278</guid>
+				<description><![CDATA[I just stumbled upon this interesting sounding book by Joshua Noble: Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks. A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have! www.programminginteractivity.com]]></description>
+								<content:encoded><![CDATA[<p><img class="alignleft" src="http://image.ebook30.com/data_images/2009/07/24/1248467706-000e62d4medium.jpeg" alt="" width="160" height="210" />I just stumbled upon this interesting sounding book by Joshua Noble: </p>
+<p><a href="http://oreilly.com/catalog/9780596154158"><strong>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</strong></a>. </p>
+<p>A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have!</p>
+<p><a href="http://www.programminginteractivity.com">www.programminginteractivity.com</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>mtXcontrol 1.0 released &#8211; as contribution to Seeedstudio Carnival Competition</title>
+		<link>http://www.rngtng.com/2009/10/06/mtxcontrol-1-0-released-as-contribution-to-seeedstudio-carnival-competition/</link>
+				<pubDate>Tue, 06 Oct 2009 18:46:45 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=261</guid>
+				<description><![CDATA[As contribution for Seeedstudio Carnival I&#8217;m proud to release the version  1.0 of mtXcontrol today. It&#8217;s feature list extended quite a lot, beside new frame editing features like Frame moving and Copy &#38; Paste, it now comes with Letter / Number placer to easily draw characters. Additional the frame preview bar makes it easily to navigate between the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As contribution for <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=397">Seeedstudio Carnival</a> I&#8217;m proud to release the version  1.0 of <strong>mtXcontrol</strong> today. It&#8217;s feature list extended quite a lot, beside new frame editing features like Frame moving and Copy &amp; Paste, it now comes with Letter / Number placer to easily draw characters. Additional the frame preview bar makes it easily to navigate between the frames. As of this, it was time to get an proper UI with lot&#8217;s of buttons for those who couldn&#8217;t remember all those keyboard shortcuts (like me ;-))</p>
+<p>So check out this Demo:</p>
+<p>[vimeo]http://www.vimeo.com/6924030[/vimeo]</p>
+<p>Check out it&#8217;s new project page with details, video and sources to download:<br />
+<a href="http://www.rngtng.com/mtXcontrol">http://www.rngtng.com/mtXcontrol</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Quake like Terminal on Mac OS X: Visor Plugin</title>
+		<link>http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/</link>
+				<pubDate>Fri, 14 Aug 2009 11:56:01 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[console]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[simbl]]></category>
+		<category><![CDATA[terminal]]></category>
+		<category><![CDATA[visor]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=100</guid>
+				<description><![CDATA[Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now (actually since ages, but I just forgot to mention 😉 it is. As small SIMBL plugin called Visor Plugin allows to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://visor.binaryage.com/shared/img/visor-mainshot.png" alt="" /></p>
+<p>Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now <em>(actually since ages, but I just forgot to mention <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em> it is. As small SIMBL plugin called <strong>Visor</strong> Plugin allows to to bring up the Terminal via a hotkey in anytime. I really love it and can&#8217;t without it anymore.<br />
+Check it out here: http://visor.binaryage.com/</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

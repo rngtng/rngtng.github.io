@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>method &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/method/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 16 Nov 2009 16:39:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Ruby: a nice way to get name of current method you&#8217;re in:</title>
+		<link>http://www.rngtng.com/2009/11/16/ruby-a-nice-way-to-get-name-of-current-method-youre-in/</link>
+				<pubDate>Mon, 16 Nov 2009 16:39:52 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[method]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=318</guid>
+				<description><![CDATA[This is a nice extension to get the name of the method you&#8217;re currently in (Ruby &#60; 1.9) [ruby] module Kernel private def this_method caller[0] =~ /`([^&#8217;]*)&#8217;/ and $1 end end [/ruby] for Ruby &#62;= 1.9 you can uses this: [ruby] module Kernel private def this_method __method__ end end [/ruby] [see Stack Over Flow as [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>This is a nice extension to get the name of the method you&#8217;re currently in (Ruby &lt; 1.9)</p>
+<p>[ruby]<br />
+module Kernel<br />
+   private<br />
+   def this_method<br />
+     caller[0] =~ /`([^&#8217;]*)&#8217;/ and $1<br />
+   end<br />
+end<br />
+[/ruby]</p>
+<p>for Ruby &gt;= 1.9 you can uses this:</p>
+<p>[ruby]<br />
+module Kernel<br />
+   private<br />
+   def this_method<br />
+     __method__<br />
+   end<br />
+end<br />
+[/ruby]</p>
+<p>[see <a href="http://stackoverflow.com/questions/199527/get-the-name-of-the-currently-executing-method-in-ruby">Stack Over Flow</a> as well]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

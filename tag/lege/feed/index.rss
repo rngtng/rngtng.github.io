@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lege &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/lege/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 09 Mar 2012 19:38:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Lego Sumo Robot &#8211; Team SoundCloud</title>
+		<link>http://www.rngtng.com/2012/03/14/lego-sumo-robot-team-soundcloud/</link>
+				<pubDate>Wed, 14 Mar 2012 15:29:55 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[aarhus]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[fight]]></category>
+		<category><![CDATA[goto]]></category>
+		<category><![CDATA[lege]]></category>
+		<category><![CDATA[soundcloud]]></category>
+		<category><![CDATA[sumo]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=628</guid>
+				<description><![CDATA[Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to GoTo Conference 2011 in Århus to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211; the first round of the sumo battle, where Team SoundCloud flips [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-629" src="http://www.rngtng.com/files/2012/01/soundcloud-robot.png" alt="" width="500" height="364" srcset="http://www.rngtng.com/files/2012/01/soundcloud-robot.png 500w, http://www.rngtng.com/files/2012/01/soundcloud-robot-300x218.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to <a href="http://gotocon.com/aarhus-2011/">GoTo Conference 2011 in Århus</a> to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211;<br />
+the first round of the sumo battle, where Team SoundCloud flips over the opponent!</p>
+<p><iframe src="https://player.vimeo.com/video/30364841?dnt=1&#038;app_id=122963" width="500" height="281" frameborder="0" title="Lego Robot Sumo Fight - Team SoundCloud" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+<p>Unfortunately that was already it&#8217;s glorious time &#8211; we dropped out for the second round. Anyway &#8211; it was big-huge-massive fun. Make sure you grab some lego bricks and build your own. </p>
+<p>In case you&#8217;re interested in the code, it wasn&#8217;t much and nothing to be proud of &#8211; but worked!<br />
+https://gist.github.com/1280779</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

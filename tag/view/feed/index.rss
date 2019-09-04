@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>view &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/view/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 29 Oct 2009 21:54:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Beautify your views using &#8220;return&#8221;</title>
+		<link>http://www.rngtng.com/2008/06/06/beautify-your-views-with-using-return/</link>
+				<pubDate>Fri, 06 Jun 2008 09:59:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[beauty of code]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[return]]></category>
+		<category><![CDATA[view]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=6</guid>
+				<description><![CDATA[A nice way to keep your views clean and not to spoil them with condition clauses, is to use the &#8216;return&#8217; statement like you would do in a method: Take this very simple exmaple: ugly: [ruby] unless @place &#60;%= @place.name %&#62; end [/ruby] nice: [ruby] return if @place.nil? &#60;%= @place.name %&#62; [/ruby] UPDATE: There&#8217;s one [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>A nice way to keep your views clean and not to spoil them with condition clauses, is to use the &#8216;return&#8217; statement like you would do in a method:</p>
+<p>Take this very simple exmaple:</p>
+<p>ugly:<br />
+[ruby]<br />
+unless @place<br />
+  &lt;%= @place.name %&gt;<br />
+end<br />
+[/ruby]</p>
+<p>nice:<br />
+[ruby]<br />
+return if @place.nil?<br />
+&lt;%= @place.name %&gt;<br />
+[/ruby]</p>
+<p><strong>UPDATE:</strong><br />
+There&#8217;s one pitfall, I forgot to mention: Every outout BEFORE the return statement will be discarded, so this part:<br />
+[ruby]<br />
+&lt;%= &quot;Always display this sentence&quot; %&gt;<br />
+return if @place.nil?<br />
+&lt;%= @place.name %&gt;<br />
+[/ruby]</p>
+<p>Will result in an empty output as well. This is quite a pitty and I&#8217;m not sure if it&#8217;s a bug or feature. A may raise it soon..</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

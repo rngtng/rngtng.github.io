@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>evaluation &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/evaluation/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 09 Sep 2011 15:43:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>A short evaluation of open source Newsletter/Mailinglist Software</title>
+		<link>http://www.rngtng.com/2009/06/09/a-short-evaluation-of-open-source-newslettermailinglist-software/</link>
+				<pubDate>Tue, 09 Jun 2009 16:18:39 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[comparison]]></category>
+		<category><![CDATA[evaluation]]></category>
+		<category><![CDATA[linklist]]></category>
+		<category><![CDATA[list]]></category>
+		<category><![CDATA[mailing]]></category>
+		<category><![CDATA[mailman]]></category>
+		<category><![CDATA[newsletter]]></category>
+		<category><![CDATA[OpenEMM]]></category>
+		<category><![CDATA[phplist]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=67</guid>
+				<description><![CDATA[A friend of mine asked me which newsletter system to use for sending abt 2k emails abt once a week. I couldn&#8217;t immediately respond, so I gave it a small evaluation of current products. As prerequisite, the system should be in active development, run on a (web)server, easy to use (usability over features) and it [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="size-full wp-image-116 aligncenter" src="http://www.rngtng.com/files/2009/06/at_sign.png" alt="at_sign" width="571" height="307" srcset="http://www.rngtng.com/files/2009/06/at_sign.png 571w, http://www.rngtng.com/files/2009/06/at_sign-300x161.png 300w" sizes="(max-width: 571px) 100vw, 571px" /></p>
+<p>A friend of mine asked me which newsletter system to use for sending abt 2k emails abt once a week. I couldn&#8217;t immediately respond, so I gave it a small evaluation of current products. As prerequisite, the system should be in active development, run on a (web)server, easy to use (usability over features) and it would be nice to use it at lowcost or for free. This limited the selection a lot and I just want to present my final opinion:</p>
+<p>My favorite and &#8216;winner&#8217; is the <strong>NotOneBit.com Simple Mailing List</strong>. It&#8217;s written in PHP, simple, clean and really easy to use. Perfect for a small use-case like this. Check it out: http://www.notonebit.com/projects/mailing-list/</p>
+<p>Actually I thought <a href="http://www.phplist.com/details">PHPlist </a>is first choice, but I didn&#8217;t liked it usability at all &#8211; I wonder why it&#8217;s so popular?</p>
+<p><a href="http://www.openemm.org/">OpenEMM</a> has a nice website and pretends to be opensource, but somehow I wasn&#8217;t able to get a proper version to run and test. <del datetime="2009-08-13T09:51:11+00:00">Looks more like fake to me&#8230;</del> <strong>Update:</strong> see comments, apparently there&#8217;s lot&#8217;s of work going on and you can download it from sourceforge easily..</p>
+<p><a href="http://www.gnu.org/software/mailman/index.html">MailMan</a> is quite popular, known as stable and high performant, but still I don&#8217;t like the backend. The whole software looks a bit outdated to me&#8230; c&#8217;mon it&#8217;s 2009!!!</p>
+<p>Other systems may worth a look as not for free, so I didn&#8217;t test them:<br />
+http://www.mailingwork.de/<br />
+http://www.supermailer.de/<br />
+http://www.campaignmonitor.com/</p>
+<p>Nice sources to check:<br />
+http://www.inmedias.de/download/Newsletter-Software.pdf<br />
+http://www.vwsoft.de/?sectionid=pgminfo&#038;pgmid=3<br />
+http://en.wikipedia.org/wiki/Email_marketing_software</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>How to deal with recurrency in Ruby &#038; Rails</title>
+		<link>http://www.rngtng.com/2009/01/21/how-to-deal-with-recurrency-in-ruby-rails/</link>
+				<pubDate>Wed, 21 Jan 2009 15:29:49 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[calendar]]></category>
+		<category><![CDATA[evaluation]]></category>
+		<category><![CDATA[event]]></category>
+		<category><![CDATA[recurrency]]></category>
+		<category><![CDATA[repetition]]></category>
+		<category><![CDATA[runt]]></category>
+		<category><![CDATA[time]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=362</guid>
+				<description><![CDATA[I did a short eval of projects dealing with re currency in Ruby and Ruby on Rails. Here a short list &#38; rough of interesting projects dealing with repeating time (intervals): Common used lilbrary: http://runt.rubyforge.org A better runt(?): http://github.com/nickstenning/recurring_event Date extension, yahoo dev, rspec like: http://github.com/jhubert/ruby-date-recur http://recurring.rubyforge.org http://github.com/EdvardM/recurrence http://github.com/fnando/recurrence Check this as well: http://stackoverflow.com/questions/85699/whats-the-best-way-to-model-recurring-events-in-a-calendar-application]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://www.time-management-central.net/image-files/time-management-clock.jpg" alt="" width="428" height="283" /></p>
+<p>I did a short eval of projects dealing with  re currency in Ruby and Ruby on Rails. Here a short list &amp; rough of interesting projects dealing with repeating time (intervals):</p>
+<p><strong>Common used lilbrary:</strong> http://runt.rubyforge.org<br />
+<strong>A better runt(?):</strong> http://github.com/nickstenning/recurring_event<br />
+<strong>Date extension, yahoo dev, rspec like:</strong> http://github.com/jhubert/ruby-date-recur</p>
+<p>http://recurring.rubyforge.org<br />
+http://github.com/EdvardM/recurrence<br />
+http://github.com/fnando/recurrence</p>
+<p>Check this as well:<br />
+http://stackoverflow.com/questions/85699/whats-the-best-way-to-model-recurring-events-in-a-calendar-application</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>A short collection of Content Management Systems (CMS) for Ruby on Rails</title>
+		<link>http://www.rngtng.com/2008/07/01/a-short-collection-of-content-management-systems-cms-for-ruby-on-rails/</link>
+				<pubDate>Tue, 01 Jul 2008 21:48:31 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[cms]]></category>
+		<category><![CDATA[collection]]></category>
+		<category><![CDATA[evaluation]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[ror]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=178</guid>
+				<description><![CDATA[Here is a short collection of current Content Management Systems (CMS) written in Ruby and mostly suited to use with Ruby on Rails. Check out Ananablau as well for a nice PDF slide. Comatose (29. June 2007) Comatose is a micro CMS designed for being embedded into existing Rails applications http://railsbased.org/projects/8-Comatose.html Geego Geego is for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Here is a short collection of current Content Management Systems (CMS) written in Ruby and mostly suited to use with Ruby on Rails. Check out <a href="http://ananasblau.com/ruby-on-rails-cms" class="broken_link">Ananablau</a> as well for a nice PDF slide.</p>
+<p><strong>Comatose</strong> (29. June 2007)<br />
+<em>Comatose is a micro CMS designed for being embedded into existing Rails applications</em><br />
+http://railsbased.org/projects/8-Comatose.html</p>
+<p><strong>Geego</strong><br />
+<em>Geego is for developers and designers that want to provide fully updatable websites for their clients.</em><br />
+http://www.geegocms.com/</p>
+<p><strong>Mephisto</strong> (27. July 2006)<br />
+<em>Complete Blog System, Mephisto is a publishing system that makes it super easy to setup a blog or website. </em><br />
+http://mephistoblog.com/</p>
+<p><strong>Typo</strong><br />
+Complete Blog System, Similar to Mephisto<br />
+http://wiki.github.com/fdv/typo/</p>
+<p><strong>Radiant CMS</strong><br />
+<em>Radiant is a no-fluff, open source content management system designed for small teams.</em><br />
+Looks cool but no direkt RoR integration?<br />
+http://radiantcms.org/</p>
+<p><strong>Railfrog</strong> (3. July 2007)<br />
+<em>Railfrog is a user-friendly, open-source website deployment and content management system built with Ruby on Rails.</em><br />
+dead project?!<br />
+http://railfrog.com/</p>
+<p><strong>Rubricks</strong> (31. July 2007)<br />
+<em>Rubricks is a component based open source CMS powered by Ruby on Rails.</em><br />
+http://rubricks.org/</p>
+<p><strong>Seymore</strong> (04/02/2007)<br />
+<em>Seymore is an open source content management system which integrates directly into pages.</em><br />
+http://www.slicedsoftware.com/software/seymore/</p>
+<p><strong>SimpleCMS</strong>, (29. December 2007),<br />
+<em>small simple, inline edit. Simple CMS is a very easy to use and pretty advanced CMS plugin.</em><br />
+http://pullmonkey.com/2007/12/30/simple-cms-plugin-for-rails-demo</p>
+<p><strong>CMSPlugin</strong><br />
+<em>CMSplugin provides your Rails application with a &#8220;CMS framework&#8221;. That means authentication, authorization, roles, permissions, categories, tags, etc but from a very flexible scope.</em><br />
+http://cmsplugin.rubyforge.org</p>
+<p><strong>open rcms</strong> (25.6.2007)<br />
+http://rcms.oopen.de/Home/ </p>
+<p><strong>Roxanne</strong><br />
+<em>An in-place editor for your entire website. Roxanne is a simple Site-Management Tool to quickly manage your content. See first steps to get the idea behind Roxanne.</em><br />
+http://www.m42.ch/projects/roxanne/information.php</p>
+<p><strong>Substruct</strong><br />
+<em>The first and most robust Ruby on Rails open source e-commerce project.</em><br />
+http://code.google.com/p/substruct/</p>
+<p><strong>Goldberg</strong> (promising)<br />
+http://www.goldberg.240gl.org</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ror &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/ror/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 11 Jan 2010 09:46:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Extending Active Scaffold as_paperclip_bridge to delete &#038; update image/attachment</title>
+		<link>http://www.rngtng.com/2009/08/13/extending-active-scaffold-as_paperclip_bridge-to-delete-update-imageattachment/</link>
+				<pubDate>Thu, 13 Aug 2009 15:53:35 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[active]]></category>
+		<category><![CDATA[attachment]]></category>
+		<category><![CDATA[bridge]]></category>
+		<category><![CDATA[file]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[on]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[ror]]></category>
+		<category><![CDATA[Scaffold]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=193</guid>
+				<description><![CDATA[As you know I&#8217;m quite fond of working with Active Scaffold (AS) for data administration proposes. Quite recently we moved over to the RoR paperclip attachment plugin for file upload handling. I was even more happy to see a Active Scaffold bridge which integrates paperclip smoothly into AS as well. It&#8217;s created by and hosted [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As you know I&#8217;m quite fond of working with <a href="http://activescaffold.com/" class="broken_link">Active Scaffold (AS)</a> for data administration proposes. Quite recently we moved over to the RoR <a href="http://www.thoughtbot.com/projects/paperclip">paperclip attachment plugin</a> for file upload handling. I was even more happy to see a Active Scaffold bridge which integrates paperclip smoothly into AS as well. It&#8217;s created by and hosted <a href="http://github.com/mnaglik/as_paperclip_bridge/tree/master">here</a> on github.</p>
+<p>Unfortunately it didn&#8217;t provide the possibility to delete or update an image once it&#8217;s assigned to an object. Well no problem, another fork of mine, some coding and now it possible. I basically reused to code of the as_file_column_bridge. Check it out here:<br />
+<del datetime="2010-01-11T09:46:08+00:00">http://github.com/rngtng/as_paperclip_bridge/tree/master</del></p>
+<p><strong>Update:</strong> changes got merged into trunk, check it out:<br />
+http://github.com/mnaglik/as_paperclip_bridge/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>A short collection of Content Management Systems (CMS) for Ruby on Rails</title>
+		<link>http://www.rngtng.com/2008/07/01/a-short-collection-of-content-management-systems-cms-for-ruby-on-rails/</link>
+				<pubDate>Tue, 01 Jul 2008 21:48:31 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[cms]]></category>
+		<category><![CDATA[collection]]></category>
+		<category><![CDATA[evaluation]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[ror]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=178</guid>
+				<description><![CDATA[Here is a short collection of current Content Management Systems (CMS) written in Ruby and mostly suited to use with Ruby on Rails. Check out Ananablau as well for a nice PDF slide. Comatose (29. June 2007) Comatose is a micro CMS designed for being embedded into existing Rails applications http://railsbased.org/projects/8-Comatose.html Geego Geego is for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Here is a short collection of current Content Management Systems (CMS) written in Ruby and mostly suited to use with Ruby on Rails. Check out <a href="http://ananasblau.com/ruby-on-rails-cms" class="broken_link">Ananablau</a> as well for a nice PDF slide.</p>
+<p><strong>Comatose</strong> (29. June 2007)<br />
+<em>Comatose is a micro CMS designed for being embedded into existing Rails applications</em><br />
+http://railsbased.org/projects/8-Comatose.html</p>
+<p><strong>Geego</strong><br />
+<em>Geego is for developers and designers that want to provide fully updatable websites for their clients.</em><br />
+http://www.geegocms.com/</p>
+<p><strong>Mephisto</strong> (27. July 2006)<br />
+<em>Complete Blog System, Mephisto is a publishing system that makes it super easy to setup a blog or website. </em><br />
+http://mephistoblog.com/</p>
+<p><strong>Typo</strong><br />
+Complete Blog System, Similar to Mephisto<br />
+http://wiki.github.com/fdv/typo/</p>
+<p><strong>Radiant CMS</strong><br />
+<em>Radiant is a no-fluff, open source content management system designed for small teams.</em><br />
+Looks cool but no direkt RoR integration?<br />
+http://radiantcms.org/</p>
+<p><strong>Railfrog</strong> (3. July 2007)<br />
+<em>Railfrog is a user-friendly, open-source website deployment and content management system built with Ruby on Rails.</em><br />
+dead project?!<br />
+http://railfrog.com/</p>
+<p><strong>Rubricks</strong> (31. July 2007)<br />
+<em>Rubricks is a component based open source CMS powered by Ruby on Rails.</em><br />
+http://rubricks.org/</p>
+<p><strong>Seymore</strong> (04/02/2007)<br />
+<em>Seymore is an open source content management system which integrates directly into pages.</em><br />
+http://www.slicedsoftware.com/software/seymore/</p>
+<p><strong>SimpleCMS</strong>, (29. December 2007),<br />
+<em>small simple, inline edit. Simple CMS is a very easy to use and pretty advanced CMS plugin.</em><br />
+http://pullmonkey.com/2007/12/30/simple-cms-plugin-for-rails-demo</p>
+<p><strong>CMSPlugin</strong><br />
+<em>CMSplugin provides your Rails application with a &#8220;CMS framework&#8221;. That means authentication, authorization, roles, permissions, categories, tags, etc but from a very flexible scope.</em><br />
+http://cmsplugin.rubyforge.org</p>
+<p><strong>open rcms</strong> (25.6.2007)<br />
+http://rcms.oopen.de/Home/ </p>
+<p><strong>Roxanne</strong><br />
+<em>An in-place editor for your entire website. Roxanne is a simple Site-Management Tool to quickly manage your content. See first steps to get the idea behind Roxanne.</em><br />
+http://www.m42.ch/projects/roxanne/information.php</p>
+<p><strong>Substruct</strong><br />
+<em>The first and most robust Ruby on Rails open source e-commerce project.</em><br />
+http://code.google.com/p/substruct/</p>
+<p><strong>Goldberg</strong> (promising)<br />
+http://www.goldberg.240gl.org</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

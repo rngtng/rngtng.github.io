@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>vote &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/vote/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 08 Oct 2009 09:01:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Rainbowduino Carnival Competition Voting has started</title>
+		<link>http://www.rngtng.com/2009/10/07/rainbowduino-carnival-competition-voting-has-started/</link>
+				<pubDate>Wed, 07 Oct 2009 18:31:47 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+		<category><![CDATA[vote]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=268</guid>
+				<description><![CDATA[As mentioned in earlier post, I submitted the first public version of mtXcontrol to the Rainbowduino Carnival Competition by Seeedstudio. Now it&#8217;s time to vote for the best projects: I know, the decision will be quite hard, as a lot of other cool projects were submitted as well. Like this cool Daft Punk Helmet or [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As mentioned in earlier post, I submitted the first public version of mtXcontrol  to the <a href="http://www.seeedstudio.com/forum/viewforum.php?f=11" class="broken_link">Rainbowduino Carnival Competition</a> by Seeedstudio. Now it&#8217;s time to vote for the best projects:</p>
+<p><a href="http://www.yourfreepoll.com/mvexghzbsp.html" target="_blank"><img src="http://www.yourfreepoll.com/images/mvexghzb.gif" alt="Express your opinion!" border="0"></a></p>
+<p>I know,  the decision will be quite hard, as a lot of other cool projects were submitted as well. Like this cool <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=440">Daft Punk Helmet</a>  or this nice <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=434">lipsync speaking Robot</a>&#8230; </p>
+<p>Please check out the <a href="http://vimeo.com/groups/24917/videos/6916458">Raindrop Rainbowduino Game</a> by my friend ccb23 as well. It&#8217;s a Rainbowduino connected via I2C to an Arduino with an Accelerometer. With that you can move the red dot on the Matrix and avoid hitting the falling blue raindrops. nice!</p>
+<p><a href="http://www.yourfreepoll.com/mvexghzbsp.html" target="_blank">Make your vote!</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

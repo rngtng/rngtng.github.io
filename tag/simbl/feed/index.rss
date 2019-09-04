@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>simbl &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/simbl/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 14 Aug 2009 11:56:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Quake like Terminal on Mac OS X: Visor Plugin</title>
+		<link>http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/</link>
+				<pubDate>Fri, 14 Aug 2009 11:56:01 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[console]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[simbl]]></category>
+		<category><![CDATA[terminal]]></category>
+		<category><![CDATA[visor]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=100</guid>
+				<description><![CDATA[Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now (actually since ages, but I just forgot to mention 😉 it is. As small SIMBL plugin called Visor Plugin allows to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://visor.binaryage.com/shared/img/visor-mainshot.png" alt="" /></p>
+<p>Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now <em>(actually since ages, but I just forgot to mention <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em> it is. As small SIMBL plugin called <strong>Visor</strong> Plugin allows to to bring up the Terminal via a hotkey in anytime. I really love it and can&#8217;t without it anymore.<br />
+Check it out here: http://visor.binaryage.com/</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

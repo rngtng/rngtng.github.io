@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>library &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/library/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Sun, 20 Dec 2009 18:08:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Here it is: Launchpad Processing lib!</title>
+		<link>http://www.rngtng.com/2009/12/20/here-it-is-launchpad-processing-lib/</link>
+				<pubDate>Sun, 20 Dec 2009 18:07:23 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[library]]></category>
+		<category><![CDATA[novation]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=374</guid>
+				<description><![CDATA[Yay, I finally released my Launchpad Processing Library. Please see it&#8217;s project page and source at github. Videos &#38; more are coming soon. (Yes, this includes an updated mtXcontrol Version with Launchpad support!!)]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://www.ubergizmo.com/photos/2009/11/novation-launchpad.jpg" alt="" /></p>
+<p>Yay, I finally released  my Launchpad Processing Library. Please see it&#8217;s <a href="http://rngtng.github.com/launchpad/">project page</a> and <a href="http://github.com/rngtng/launchpad">source</a> at github.</p>
+<p>Videos &amp; more are coming soon. (Yes, this includes an updated mtXcontrol Version with Launchpad support!!)</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

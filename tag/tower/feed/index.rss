@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tower &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/tower/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 08 Jul 2009 23:53:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>LED Light Towers Installation</title>
+		<link>http://www.rngtng.com/2009/03/08/led-light-towers-installation/</link>
+				<pubDate>Sun, 08 Mar 2009 20:34:29 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[tower]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=77</guid>
+				<description><![CDATA[Hey, Check this out, a very nice LED tower installation: [youtube]http://www.youtube.com/watch?v=FsHMFkJkohM[/youtube] see more great stuff at http://www.brilldea.com/ [via Nercode]]]></description>
+								<content:encoded><![CDATA[<p>Hey, Check this out, a very nice LED tower installation:</p>
+<p>[youtube]http://www.youtube.com/watch?v=FsHMFkJkohM[/youtube]</p>
+<p>see more great stuff at http://www.brilldea.com/</p>
+<p>[<a href="http://www.nerdcore.de/wp/2008/07/01/led-lichtturme-furs-wohnzimmer/" class="broken_link">via Nercode</a>]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

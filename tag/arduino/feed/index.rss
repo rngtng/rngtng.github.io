@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arduino &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/arduino/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 12 Jan 2012 10:08:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Hacking the Nabaztag &#8211; Arduino injects via I2C data into RFID Reader</title>
+		<link>http://www.rngtng.com/2012/01/10/hacking-the-nabaztag-arduino-injects-via-i2c-data-into-rfid-reader/</link>
+				<pubDate>Mon, 09 Jan 2012 23:28:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[inject]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[rfid]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=624</guid>
+				<description><![CDATA[Wow! After more than two years I finally got my hands dirty hacking the Nabaztag rabbit. The release of the source code last summer were very encouraging here! Expect some awesome results in the next time 🙂 Let&#8217;s start with NabaztagInjector, an Arduino Library to inject data: What bothered me for long was the missing [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://farm7.staticflickr.com/6185/6151922207_019ac10ee4_d.jpg" alt="" width="500" height="500" class="aligncenter size-full wp-image-626" /></p>
+<p>Wow! After <a href="http://www.rngtng.com/2009/12/02/hacking-the-nabaztag/">more than two years</a> I finally got my hands dirty hacking the Nabaztag rabbit. The <a href="http://code.google.com/p/nabaztag-source-code/">release of the source code</a> last summer were very encouraging here! Expect some awesome results in the next time <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+<p>Let&#8217;s start with <strong>NabaztagInjector</strong>, an Arduino Library to inject data:</p>
+<p>What bothered me for long was the missing possibility to connect external devices to the rabbit. How awesome would it be to use the rabbit for sending data into the net? Imagine it as WIFI shield you Arduino.</p>
+<p>Guess what &#8211; that&#8217;s possible: replacing the RFID reader with an Arduino (both use the I2C bus) running a simulation of the RFID reader chip, enabled me to inject any custom data to the rabbit. Hacked!</p>
+<p>As result, I created this tiny Arduino library to encapsulates the full process behind and easy API:</p>
+<p>[gist id=1582447]</p>
+<p>Check out the full Readme, Source code and Examples here:</p>
+<blockquote class="wp-embedded-content" data-secret="0RmRtUP4iZ"><p><a href="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/">NabaztagInjector &#8211; An Arduino RFID Hack</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/embed/#?secret=0RmRtUP4iZ" data-secret="0RmRtUP4iZ" width="500" height="282" title="&#8220;NabaztagInjector &#8211; An Arduino RFID Hack&#8221; &#8212; uRaNGaTaNG" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>cubeXcontrol &#8211; a Rainbow Cube Editor</title>
+		<link>http://www.rngtng.com/2010/12/31/cubexcontrol-a-rainbow-cube-editor/</link>
+				<pubDate>Fri, 31 Dec 2010 13:35:15 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[2010]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[carnival]]></category>
+		<category><![CDATA[cube]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[RainbowCube]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[RGB]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=501</guid>
+				<description><![CDATA[UPDATE: Please express your Love and vote for cubeXControl here &#8211; Thanks! UPDATE2: Apparently the current Version doesn&#8217;t work with Windows. I&#8217;m very sorry for that, but at the moment I don&#8217;t have any Win machine to test this. So please feel free to try yourself and fix it! Thx! I&#8217;m proud to present a [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.rngtng.com/files/2010/12/cube.jpg" alt="" width="500" height="340" class="aligncenter size-full wp-image-504" srcset="http://www.rngtng.com/files/2010/12/cube.jpg 500w, http://www.rngtng.com/files/2010/12/cube-300x204.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p><strong>UPDATE:</strong><br />
+<a href="http://www.seeedstudio.com/blog/2011/01/14/rainbowduino-carnival-2010-vote-now/">Please express your Love and vote for <strong>cubeXControl</strong> here &#8211; Thanks!</a></p>
+<p><strong>UPDATE2:</strong><br />
+Apparently the current Version doesn&#8217;t work with Windows. I&#8217;m very sorry for that, but at the moment I don&#8217;t have any Win machine to test this. So please feel free to try yourself and fix it! Thx!</p>
+<p>I&#8217;m proud to present a first version which was on my this years TODO list for so long, but due to all the changes therefore very less time never got startet. But thanks to the <a href="http://www.seeedstudio.com/blog/2010/10/28/rainbowduino-carnival-2010-launched/">Seeedstudio Rainbowduino Carnival 2010</a> I got a big motivation boost and found some time to get my fingers dirty again. So check this out, my this years contribution for the carnival:</p>
+<p>cubeXcontrol &#8211; a Rainbow Cube Editor</p>
+<p>Well, you know the <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a>, the Rainbowduino Editor and the awesome <a href="http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html">Seeedstudio Rainbow Cube</a> I <a href="http://www.rngtng.com/2010/03/08/rainbow-cube-here-it-is/">mentioned</a> here ? Now it&#8217;s time  to bring them together:</p>
+<p>[vimeo]http://vimeo.com/18300458[/vimeo]</p>
+<p>cubeXcontrol is an editor to control and create patterns for the 4x4x4 RGB Rainbow Cube powered by a rainbowduino. It comes with an extra window showing a 3D model of the Cube, allowing to rotate in all directions and to zoom. Click on boxes to set the LED color easily.</p>
+<p>The editor is of course heavily based on the latest mtXcontrol version, with the latest rainbowduino firmware. Both are unfortunately still in <a href="http://www.rngtng.com/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/">beta stage</a>, but come with great new features like auto port detection. </p>
+<p>Get the sources here:<br />
+  https://github.com/rngtng/mtXcontrol/tree/cubeXcontrol</p>
+<p>And the Rainbowduino driver:<br />
+  https://github.com/rngtng/rainbowduino/tree/master_slave</p>
+<p>Happy cub&#8217;ing!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>mtXcontrol sneak preview &#8211; rainbowduino beta library goes master and slave</title>
+		<link>http://www.rngtng.com/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/</link>
+				<pubDate>Sun, 05 Sep 2010 16:38:25 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[processing]]></category>
+		<category><![CDATA[RainbowCube]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=394</guid>
+				<description><![CDATA[[vimeo]http://www.vimeo.com/10377543[/vimeo] Now, as I&#8217;m finally getting settled, it&#8217;s time to kick of mtXcontrol development again. So first, I&#8217;ll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the Processing library -Rainbowduino-. Current development going on, here, check it out. It&#8217;s still in a [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>[vimeo]http://www.vimeo.com/10377543[/vimeo]</p>
+<p>Now, as I&#8217;m finally getting settled, it&#8217;s time to kick of mtXcontrol development again. So first, I&#8217;ll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the <strong>Processing library -Rainbowduino-</strong>. Current development going on, <a href="http://github.com/rngtng/rainbowduino">here, check it out</a>. It&#8217;s still in a beta state, but ready and good for testing. </p>
+<p> Just to make you curious here some new cool upcoming features:<br />
+* support for multiple &amp; cascading Rainbowduinos<br />
+* auto port detection<br />
+* plug and play<br />
+* (auto) firmware upload<br />
+* <a href="http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html?cPath=71&amp;zenid=6f5af82edb45a559db6dd5e4531b5faf">Rainbow Cube support</a><br />
+* updated, more robust protocol</p>
+<p>The video above show a quick preview of the upcoming Rainbowduino Firmware release &#8216;Master and Slave&#8217;.</p>
+<p>You see two Rainbowduinos, the left one as Master connected via Serial to Mac, the right one as Slave connected via I2C to master. The blinking LEDs are merely debug output, interesting part is the changing brightness of the slave. The command to change brightness is send via Serial, received by the master and forwarded to the slave via I2C. With that multiple rainbowudinos can be connected in a row easily. </p>
+<p>And the Best: both run the same(!!!) firmware. The master/slave role and I2C address are auto detected on startup. As easy as that! </p>
+<p>Stay tuned!!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My Snow Leopard (Development) System: Ruby, Rails, Arduino &#038; Co.</title>
+		<link>http://www.rngtng.com/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/</link>
+				<pubDate>Tue, 27 Apr 2010 08:52:03 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[lion]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[snowleopard]]></category>
+		<category><![CDATA[system]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=313</guid>
+				<description><![CDATA[&#8211; updated to Lion &#8211; Here&#8217;s a (maybe incomplete) list of my Mac OS X Development system setup. Mainly for me to remember, but maybe a help for you too: Main Development Setup Snow Leopard Lion xCode (or latest iPhone SDK) Mac Ports, now I prefer Homebrew Ruby: rvm + rubygems + rails etc. Database: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><em>&#8211; updated to Lion &#8211; </em></p>
+<p style="text-align: center"><img src="http://www.rngtng.com/files/2010/04/mac_os_x.jpg" alt="" width="500" height="181" class="aligncenter size-full wp-image-497" srcset="http://www.rngtng.com/files/2010/04/mac_os_x.jpg 500w, http://www.rngtng.com/files/2010/04/mac_os_x-300x108.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Here&#8217;s a (maybe incomplete) list of my Mac OS X Development system setup. Mainly for me to remember, but maybe a help for you too:</p>
+<p><strong>Main Development Setup</strong><br />
+<del datetime="2012-01-09T17:56:37+00:00">Snow Leopard</del> Lion<br />
+xCode (or latest iPhone SDK)<br />
+Mac Ports, now I prefer <a href="http://mxcl.github.com/homebrew/">Homebrew</a><br />
+Ruby: rvm + rubygems + rails etc.<br />
+Database: Mysql 5.1 + <a href="http://www.sequelpro.com/">Sequel Pro</a><br />
+OpenVPN: Tunnelblick, or  Cisco VPN client + Shimo VPN Menubar Addon<br />
+<del datetime="2012-01-09T17:51:01+00:00">Terminal Console Extension: <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a> + <a href="http://visor.binaryage.com/">Visor</a></del> <a href="http://www.iterm2.com/">iTerm 2</a><br />
+<a href="http://macromates.com/">TextMate</a> + <a href="http://github.com/jezdez/textmate-missingdrawer">Missing Drawer</a> + Get Bundles + Rails + <a href="http://github.com/protocool/AckMate">AckMate</a> &#8230;<br />
+<a href="http://www.jedit.org/">jEdit</a> + FTP + &#8230;<br />
+Git + <a href="http://brotherbard.com/blog/2010/09/gitx-update/">GitX (Experimental)</a><br />
+FTP &amp; Co: Cyberduck<br />
+Hudson status: <a href="http://ccmenu.sourceforge.net/">CCMenu</a><br />
+Share Files: <a href="http://www.dropbox.com/referrals/NTEzNjgzMzk">Dropbox</a><br />
+<a href="http://www.google.com/chrome">Google Chrome</a><br />
+Safari<br />
+<a href="http://www.mozilla-europe.org/en/firefox/" class="broken_link">Firefox</a> + Firebug</p>
+<p><strong>Extended Development</strong><br />
+Arduino<br />
+Processing<br />
+Fritzing<br />
+Eclipse</p>
+<p><strong>Nice to have:</strong><br />
+System Notification: <a href="http://growl.info/">Growl</a> + Growl Mail<br />
+<del datetime="2012-01-09T17:51:01+00:00">Read RSS: NetNewsWire</del> Now using RSS within Apple Mail<br />
+<del datetime="2012-01-09T17:51:01+00:00">IRC Client: <a href="http://colloquy.info/">Colloquy</a> and <a href="http://clintecker.com/disable-irc-msgs.html" class="broken_link">hide join messages</a></del> <a href="http://adium.im/">Adium</a><br />
+<a href="http://www.skype.com/">Skype</a> and <del datetime="2012-01-09T17:51:01+00:00"><a href="http://www.atebits.com/tweetie-mac/">Tweetie</a></del> original Twitter client<br />
+<del datetime="2012-01-09T17:51:01+00:00">Control iTunes: <a href="http://yellowmug.com/sk4it/">SizzlingKeys</a></del> <a href="http://bowtieapp.com/">Bowtie</a><br />
+Spotify and <a href="http://lifeupnorth.co.uk/lun/#5" class="broken_link">Spotify Menubar</a> and <a href="http://pansentient.com/2009/05/apple-mac-and-iphone-apps-for-spotify/">more goddies</a><br />
+Last.fm: iScrobbler<br />
+All Codecs: <a href="http://www.perian.org/">Perian</a><br />
+Dasboard widgets:  <a href="http://www.apple.com/downloads/dashboard/networking_security/ipwidget.html" class="broken_link">IP</a> + App Update<br />
+Copy&amp;Paste History: Flycut<br />
+Track Work: MacTimeLog<br />
+Word replacement: iWork<br />
+Keep your Notes: Journler<br />
+Extend Finder: TotalFinder<br />
+Mail <a href="http://stl.techinno.nl/archive/">Archiver</a> and <a href="http://www.hawkwings.net/plugins.htm">other</a> <a href="http://tikouka.net/mailapp/">MailPlugins</a></p>
+<p><strong>Install hints</strong><br />
+<strong>mac ports</strong><br />
+<code>sudo port selfupdate<br />
+sudo port install git-core +svn +bash_completion<br />
+sudo port install ImageMagick +no_x11<br />
+sudo port install wget</code></p>
+<p><strong>ruby gems</strong><br />
+http://stackoverflow.com/questions/991708/rails-mysql-and-snow-leopard<br />
+<code>sudo gem self update<br />
+sudo env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config<br />
+sudo gem install rails<br />
+sudo gem install passenger<br />
+sudo gem install piston</code></p>
+<p><strong>Safari open always in tabs:</strong><br />
+http://www.456bereastreet.com/archive/200812/make_safari_open_targeted_links_in_new_tabs_instead_of_new_windows/<br />
+<code>defaults write com.apple.Safari TargetedClicksCreateTabs -bool true </code></p>
+<p><strong>Safari enable Development mode:</strong><br />
+<code>defaults write com.apple.Safari WebKitDeveloperExtras -bool true<br />
+defaults write com.apple.Safari IncludeDebugMenu 1</code></p>
+<p><strong>Safari Plugins:</strong><br />
+http://alexstaubo.github.com/keywurl/</p>
+<p><strong>TextMate install bundle</strong><br />
+<code>cd ~/Desktop &amp;&amp; svn co http://svn.textmate.org/trunk/Review/Bundles/GetBundles.tmbundle/</code></p>
+<p>Well, that&#8217;s it! Stay tuned for updated&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</title>
+		<link>http://www.rngtng.com/2009/10/23/programming-interactivity-a-designers-guide-to-processing-arduino-and-openframeworks/</link>
+				<pubDate>Fri, 23 Oct 2009 16:14:09 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[openFrameworks]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=278</guid>
+				<description><![CDATA[I just stumbled upon this interesting sounding book by Joshua Noble: Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks. A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have! www.programminginteractivity.com]]></description>
+								<content:encoded><![CDATA[<p><img class="alignleft" src="http://image.ebook30.com/data_images/2009/07/24/1248467706-000e62d4medium.jpeg" alt="" width="160" height="210" />I just stumbled upon this interesting sounding book by Joshua Noble: </p>
+<p><a href="http://oreilly.com/catalog/9780596154158"><strong>Programming Interactivity: A Designer&#8217;s Guide to Processing, Arduino, and openFrameworks</strong></a>. </p>
+<p>A few of the topics covered: Basic C, Processing, openFrameworks, Gesture and touch recognition, Motors and Servos, LEDs and LCDs, LilyPad and many more! &#8211; Wow, that&#8217;s sounds promising &#8211; wanna have!</p>
+<p><a href="http://www.programminginteractivity.com">www.programminginteractivity.com</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>mtXcontrol wins the Seeedstudio Rainbowduino Carnival</title>
+		<link>http://www.rngtng.com/2009/10/22/mtxcontrol-wins-the-seeedstudio-rainbowduino-carnival/</link>
+				<pubDate>Thu, 22 Oct 2009 09:02:43 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[competion]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=274</guid>
+				<description><![CDATA[Yay &#8211; the voting for the Seeedstudio Rainbowduino Carnival Competition is over. And, guess what, my project mtXcontrol made the run &#8211; I won the first price! Yipheee.. that&#8217;s 12x Rainbowduinos + 100$ Shopping voucher which I&#8217;ll invest in buying Xbee Stuff.. Can&#8217;t wait to get my hands on! Stay tuned&#8230; Thanks to everybody voting [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Yay &#8211; the voting for the <a href="http://www.seeedstudio.com/forum/viewforum.php?f=11" class="broken_link">Seeedstudio Rainbowduino Carnival Competition</a> is over. And, guess what, my project <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a> made the run &#8211; I won the first price! Yipheee.. that&#8217;s 12x Rainbowduinos + 100$ Shopping voucher which I&#8217;ll invest in buying Xbee Stuff.. Can&#8217;t wait to get my hands on! Stay tuned&#8230;</p>
+<p>Thanks to everybody voting for my project!</p>
+<p>Btw. I just released the latest version 1.02 with some bugfixes and new features in the API&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Rainbowduino Carnival Competition Voting has started</title>
+		<link>http://www.rngtng.com/2009/10/07/rainbowduino-carnival-competition-voting-has-started/</link>
+				<pubDate>Wed, 07 Oct 2009 18:31:47 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+		<category><![CDATA[vote]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=268</guid>
+				<description><![CDATA[As mentioned in earlier post, I submitted the first public version of mtXcontrol to the Rainbowduino Carnival Competition by Seeedstudio. Now it&#8217;s time to vote for the best projects: I know, the decision will be quite hard, as a lot of other cool projects were submitted as well. Like this cool Daft Punk Helmet or [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As mentioned in earlier post, I submitted the first public version of mtXcontrol  to the <a href="http://www.seeedstudio.com/forum/viewforum.php?f=11" class="broken_link">Rainbowduino Carnival Competition</a> by Seeedstudio. Now it&#8217;s time to vote for the best projects:</p>
+<p><a href="http://www.yourfreepoll.com/mvexghzbsp.html" target="_blank"><img src="http://www.yourfreepoll.com/images/mvexghzb.gif" alt="Express your opinion!" border="0"></a></p>
+<p>I know,  the decision will be quite hard, as a lot of other cool projects were submitted as well. Like this cool <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=440">Daft Punk Helmet</a>  or this nice <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=434">lipsync speaking Robot</a>&#8230; </p>
+<p>Please check out the <a href="http://vimeo.com/groups/24917/videos/6916458">Raindrop Rainbowduino Game</a> by my friend ccb23 as well. It&#8217;s a Rainbowduino connected via I2C to an Arduino with an Accelerometer. With that you can move the red dot on the Matrix and avoid hitting the falling blue raindrops. nice!</p>
+<p><a href="http://www.yourfreepoll.com/mvexghzbsp.html" target="_blank">Make your vote!</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>mtXcontrol 1.0 released &#8211; as contribution to Seeedstudio Carnival Competition</title>
+		<link>http://www.rngtng.com/2009/10/06/mtxcontrol-1-0-released-as-contribution-to-seeedstudio-carnival-competition/</link>
+				<pubDate>Tue, 06 Oct 2009 18:46:45 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=261</guid>
+				<description><![CDATA[As contribution for Seeedstudio Carnival I&#8217;m proud to release the version  1.0 of mtXcontrol today. It&#8217;s feature list extended quite a lot, beside new frame editing features like Frame moving and Copy &#38; Paste, it now comes with Letter / Number placer to easily draw characters. Additional the frame preview bar makes it easily to navigate between the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As contribution for <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=397">Seeedstudio Carnival</a> I&#8217;m proud to release the version  1.0 of <strong>mtXcontrol</strong> today. It&#8217;s feature list extended quite a lot, beside new frame editing features like Frame moving and Copy &amp; Paste, it now comes with Letter / Number placer to easily draw characters. Additional the frame preview bar makes it easily to navigate between the frames. As of this, it was time to get an proper UI with lot&#8217;s of buttons for those who couldn&#8217;t remember all those keyboard shortcuts (like me ;-))</p>
+<p>So check out this Demo:</p>
+<p>[vimeo]http://www.vimeo.com/6924030[/vimeo]</p>
+<p>Check out it&#8217;s new project page with details, video and sources to download:<br />
+<a href="http://www.rngtng.com/mtXcontrol">http://www.rngtng.com/mtXcontrol</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Understanding the Rainbowduino Controller by Seeedstudio</title>
+		<link>http://www.rngtng.com/2009/10/02/understanding-the-rainbowduino-controller-by-seeedstudio/</link>
+				<pubDate>Fri, 02 Oct 2009 18:33:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=188</guid>
+				<description><![CDATA[As you may know, I&#8217;ve orderd a Rainbowduino from Seeedstudio. They delivered quite fast and I&#8217;m very happy of the price/quality/functionality ratio. In my opinion, the Rainbowduino is the cheapest ready-to-go 8&#215;8 RGB LED Controller Set at the moment &#8211; for just 43.4$ ( 19.90$ Board + 23.50$ Matrix) you are set for taking of! [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As you may know, I&#8217;ve orderd a <a href="http://www.seeedstudio.com/blog/?page_id=187" class="broken_link">Rainbowduino from Seeedstudio</a>. They delivered quite fast and I&#8217;m very happy of the price/quality/functionality ratio. In my opinion, the Rainbowduino is the cheapest ready-to-go 8&#215;8 RGB LED Controller Set at the moment &#8211; for just 43.4$ ( 19.90$ Board + 23.50$ Matrix)  you are set for taking of!</p>
+<p>My first tests went quite well. The Rainbowduino comes  with a ready to use the program/<a href="http://www.seeedstudio.com/depot/images/product/RaibowduinoCMD_Bata.rar">sketch</a> which allows you basic controls via I2C bus easily, like writing letters &amp; lines in different color and light strength. But soon I hit the limits when it came so single control each LED to my will. So no doubt, I had to dig deeper in understanding how to control the Rainbowduino. Here a short summery of my results:</p>
+<p>To understand how the Rainbowduino works, I kind of reverseengineered the sketch by seeedstudio which came with the controller. As usual for driving those Matrixes, <a href="http://en.wikipedia.org/wiki/Pulse-width_modulation">PWM</a> is used as basic concept. This means the frame image is created row by row by high frequency, so human eye puts it all together to one single image.</p>
+<p>To simplify this process I created the Rainbowduino.h Library, which comes with some nice methods to set frames and draw those to the Rainbowduino. It&#8217;s part of the mtXcontrol firmware an can be <a href="http://github.com/rngtng/mtXcontrol/tree/master/firmware/rainbowduino/" class="broken_link">downloaded from github</a></p>
+<p style="text-align: center"><img class="aligncenter" src="http://www.seeedstudio.com/depot/images/product/rainbowblock.jpg" alt="" width="528" height="298" /></p>
+<p><strong>How it works:</strong><br />
+To tell rainbowduino which row to draw the method &#8216;open_row&#8217; is called. As each row is represented by a one output PIN, this method sets the according PIN to high, all others to low. Unfortunately the row pins are not all on one port: rows 1-3 are on PORTB Bit 1-3, rows 4-8 are on PORTD Bit 4-8. This makes the method kind of bit ugly <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>After the row is selected, its time to set the pixels. One pixel consists of 3 LEDs: red, green &amp; blue. Each LED has to be separately to high or low to mix the final color (e.g. red + green is yellow). First all blue values of a row are set, then red and finally green. This happens in serial on PORTC. First bit is the value input, second bit is clock,  bit 3 the write mode bit and bit 4 to display the shifted value. Call the method &#8216;draw_row&#8217; to display a row. First parameter is the row number (0-7), second the intensity (1-16) and then the red, blue &amp; green values for the row. e.g passing the color values 1,0,0 would light the first pixel red and all other off, where as 255, 255, 255 would light up all LED and all colors, to the full row would be white.</p>
+<p>To store the row values the Library comes with a frame buffer for 10 frames. (That the amount of frames we can store to EEPROM without compression as well). You can pre fill the buffer and set the frame number to display. By calling draw() the frame of the current _frame number is drawn.</p>
+<p>It makes sense to call this function by a timer interrupt to not disturb your actual program progress and to ensure it&#8217;s call in regular frequency to avoid different display colors.</p>
+<p>To set up the timer, include this in your code:</p>
+<p>[c]<br />
+Rainbowduino rainbow = Rainbowduino(10);  //max 10 Frames</p>
+<p>void setup_timer() {<br />
+  TCCR2A = 0;<br />
+  TCCR2B = 1&lt;&lt;CS22 | 0 &lt;&lt;CS21 | 0&lt;&lt;CS20;<br />
+  TIMSK2 = 1&lt;&lt;TOIE2;<br />
+  TCNT2 = 0;<br />
+  sei();<br />
+}</p>
+<p>ISR(TIMER2_OVF_vect) {<br />
+  rainbow.draw();<br />
+}<br />
+[/c]</p>
+<p>Now, just fill you frames with</p>
+<p>[c]<br />
+rainbow.set_frame(0, *data);<br />
+[/c]</p>
+<p>and your&#8217;re ready to go. Have fun!</p>
+<p>First tests of the library with earlier version of <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a>, an Editor to create images on the Matrix easily:<br />
+[youtube]http://www.youtube.com/watch?v=MVj1YPzREKI[/youtube]</p>
+<p>Stay tuned for more examples soon&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Beginners Guide to Arduino &#8211; free PDF Download</title>
+		<link>http://www.rngtng.com/2009/07/30/beginners-guide-to-arduino-free-pdf-download/</link>
+				<pubDate>Thu, 30 Jul 2009 10:56:28 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[download]]></category>
+		<category><![CDATA[freeduino]]></category>
+		<category><![CDATA[pdf]]></category>
+		<category><![CDATA[starterkit]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=184</guid>
+				<description><![CDATA[Earthshine Design just released a free Beginners Guide to Arduino as PDF download. Feel free to grab it here: Earthshine Design Arduino Starters Kit Manual . It covers several experiements you&#8217;ll start your Arduino career with, especially you&#8217;ve bought thier very complete starter kit. Go for it! [found via freeduino.de]]]></description>
+								<content:encoded><![CDATA[<p><a href="http://www.earthshinedesign.co.uk/">Earthshine Design</a> just released a free Beginners Guide to Arduino as PDF download.</p>
+<p>Feel free to grab it here: <a href="http://www.earthshinedesign.co.uk/ASKManual/Site/ASKManual.html">Earthshine Design Arduino Starters Kit Manual </a>.</p>
+<p>It covers several experiements you&#8217;ll start your Arduino career with, especially you&#8217;ve bought <a href="http://earthshinedesign.co.uk/?page_id=3&amp;category=3&amp;product_id=14">thier very complete starter kit</a>. Go for it!</p>
+<p>[found via <a href="http://freeduino.de/de/blogs/gatonero/complete-beginners-guide-arduino" class="broken_link">freeduino.de</a>]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

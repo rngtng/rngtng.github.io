@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mac &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/mac/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 05 Aug 2015 08:26:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Satzuma Missile Launcher finally works with USB Missile Launcher NZ v1.8.2 on Mac</title>
+		<link>http://www.rngtng.com/2015/05/23/satzuma-missile-launcher-finally-works-with-usb-missile-launcher-nz-v1-8-2-on-mac/</link>
+				<pubDate>Sat, 23 May 2015 11:37:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[USB Missile Launcher NZ]]></category>
+		<category><![CDATA[yosemite]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=834</guid>
+				<description><![CDATA[Good news: I finally got the Satzuma Missile Launcher working on my Mac Yosemite. Solution it the latest (unfortunately unreleased) version of USB Missile Launcher NZ. You can download USB Missile Launcher NZ v1.8.2 from here, a source I found after digging through the comments of version 1.8.1 announcement: USB Missile Launcher NZ v1.8.1 &#8211;&#160;Release To [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="  wp-image-838 aligncenter" src="http://www.rngtng.com/files/2015/05/img8077_14925.jpg" alt="img8077_14925" width="357" height="357" srcset="http://www.rngtng.com/files/2015/05/img8077_14925.jpg 450w, http://www.rngtng.com/files/2015/05/img8077_14925-150x150.jpg 150w, http://www.rngtng.com/files/2015/05/img8077_14925-300x300.jpg 300w" sizes="(max-width: 357px) 100vw, 357px" /></p>
+<p>Good news: I finally got the Satzuma Missile Launcher working on my Mac Yosemite. Solution it the latest (unfortunately unreleased) version of <strong>USB Missile Launcher NZ</strong>. You can <a href="https://sites.google.com/site/dgwilson65/USBMissileLauncherNZV1.8.2.dmg?attredirects=0&amp;d=1">download USB Missile Launcher NZ v1.8.2 from here</a>, a source I found after digging through the comments of version 1.8.1 announcement:</p>
+<p><a href="https://dgwilson.wordpress.com/2012/01/11/usb-missile-launcher-nz-v1-8-1-release/#comment-10069">USB Missile Launcher NZ v1.8.1 &#8211;&nbsp;Release</a></p>
+<p>To get started with Satzuma, install v1.8.2, restart you Mac (bummer), open `USB Missile Launcher NZ.app`, go to <em>Preferences -&gt; Launcher</em> and<br />
+enter `1046` for VendorId, `3777` for ProductId and change Controls to Satzuma (see screenshot) &#8211; Boom! You&#8217;re all set &#8211; happy shooting!</p>
+<p><img class="  wp-image-837 aligncenter" src="http://www.rngtng.com/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11.png" alt="Screen Shot 2015-05-20 at 11.41.11" width="408" height="387" srcset="http://www.rngtng.com/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11.png 516w, http://www.rngtng.com/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11-300x284.png 300w" sizes="(max-width: 408px) 100vw, 408px" /></p>
+<p>Next, I want to check https://code.google.com/p/pymissile &#8211; having a working CLI version would be so much better!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Send Mac to sleep with external screen and closing the lid (Yosemite)</title>
+		<link>http://www.rngtng.com/2012/10/17/send-mac-to-sleep-with-external-screen-and-closing-the-lid/</link>
+				<pubDate>Wed, 17 Oct 2012 08:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[external]]></category>
+		<category><![CDATA[lion]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[screen]]></category>
+		<category><![CDATA[sleep]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=677</guid>
+				<description><![CDATA[I had the problem of my Mac not going into sleep when external screen is connected and closing the lid. Luckly I came across this advice which indeed, did the trick: 1. Disable external Monitor 2. Type `sudo nvram boot-args=&#8221;iog=0x0&#8243;` 3. and restart Voilà! Update: With Yosemite you need to type: `sudo nvram boot-args=&#8221;niog=1&#8243;` Source: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="https://pixabay.com/static/uploads/photo/2015/06/07/12/11/macro-800236_640.jpg" alt="" /></p>
+<p>I had the problem of my Mac not going into sleep when external screen is connected and closing the lid. Luckly I came <a href="https://discussions.apple.com/message/19264651#19264651">across this advice</a> which indeed, did the trick:</p>
+<p>1. Disable external Monitor<br />
+2. Type `sudo nvram boot-args=&#8221;iog=0x0&#8243;`<br />
+3. and restart</p>
+<p>Voilà!</p>
+<p><strong>Update</strong>: With Yosemite you need to type:</p>
+<p>`sudo nvram boot-args=&#8221;niog=1&#8243;`</p>
+<p>Source: https://discussions.apple.com/thread/6601019</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Ruby Serialport and Arduino &#8211; that&#8217;s easy!</title>
+		<link>http://www.rngtng.com/2009/05/14/ruby-serialport-and-arduino-thats-easy/</link>
+				<pubDate>Thu, 14 May 2009 19:59:34 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[console]]></category>
+		<category><![CDATA[irb]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[os x]]></category>
+		<category><![CDATA[serialport]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=86</guid>
+				<description><![CDATA[Yeah, just controlled my Arduino via the ruby irb console using ruby serialport. Damn easy! (well at least on a Mac, running OS 10.5.7) Hehe, soon more to come&#8230; More to get you started with Arduino and Ruby: http://www.arduino.cc/playground/Interfacing/Ruby]]></description>
+								<content:encoded><![CDATA[<p>Yeah, just controlled my Arduino via the ruby irb console using <a href="http://rubyforge.org/projects/ruby-serialport" class="broken_link">ruby serialport</a>. Damn easy! (well at least on a Mac, running OS 10.5.7) Hehe, soon more to come&#8230;</p>
+<p>More to get you started with Arduino and Ruby:<br />
+<a href="http://www.arduino.cc/playground/Interfacing/Ruby">http://www.arduino.cc/playground/Interfacing/Ruby</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>[update] Mac Os X 10.5.7 is out &#8211; all fine except volume control</title>
+		<link>http://www.rngtng.com/2009/05/13/mac-os-x-1057-is-out-all-fine-except-volume-control/</link>
+				<pubDate>Wed, 13 May 2009 20:59:44 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[os x]]></category>
+		<category><![CDATA[soundcard]]></category>
+		<category><![CDATA[terratec]]></category>
+		<category><![CDATA[update]]></category>
+		<category><![CDATA[usb]]></category>
+		<category><![CDATA[volume]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=88</guid>
+				<description><![CDATA[Yeah Mac Os X 10.5.7 just got released. All fine for me, except my external USB soundcard Terratec Aureon 5.1 can&#8217;t be volume controlled anymore &#8211; strange!? Any idea what&#8217;s wrong? [update &#8211; solved!] Apparently downgrading the USB Sound kernel back to 10.5.6 Version solves the issue. See the comments and the Apple Discussion-board for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Yeah <a href="http://www.macworld.com/article/140568/2009/05/osx_update.html">Mac Os X 10.5.7</a> just got released. All fine for me, except my external USB soundcard <strong>Terratec Aureon 5.1</strong> can&#8217;t be volume controlled anymore &#8211; strange!? Any idea what&#8217;s wrong?</p>
+<p>[update &#8211; solved!]<br />
+Apparently downgrading the USB Sound kernel back to 10.5.6 Version solves the issue. See the comments and the  <a href="http://discussions.apple.com/thread.jspa?messageID=9466757&amp;#9466757" class="broken_link">Apple Discussion-board</a> for more&#8230; Thx to <em>sonderpop</em> for that hint!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My first AppleScript: Copy Address Book entries</title>
+		<link>http://www.rngtng.com/2007/05/10/my-first-applescript-copy-address-book-entries/</link>
+				<pubDate>Thu, 10 May 2007 12:25:39 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[address]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[ICQ]]></category>
+		<category><![CDATA[jabber]]></category>
+		<category><![CDATA[mac]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=56</guid>
+				<description><![CDATA[Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in Adium, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows: [bash] tell application &#34;Address Book&#34; set thePeople to every person whose ICQ handles is not {} and Jabber handles [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in <a href="http://www.adiumx.com/" target="_blank">Adium</a>, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows:</p>
+<p>[bash]<br />
+tell application &quot;Address Book&quot;<br />
+set thePeople to every person whose ICQ handles is not {} and Jabber handles is {}<br />
+repeat with eachPerson in thePeople<br />
+set icqnr to value of ICQ handles of eachPerson<br />
+set jabberid to (item 1 of icqnr) &amp;amp; &quot;@jit.jabber.fsinf.de&quot;<br />
+make new Jabber handle at end of Jabber handles of eachPerson with properties {label:&quot;Home&quot;, value:jabberid}<br />
+end repeat<br />
+save addressbook<br />
+end tell<br />
+[/bash]</p>
+<p>It worked out fine. Now I see you all in my buddylist <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

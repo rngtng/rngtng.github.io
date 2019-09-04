@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>sd &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/sd/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 09 Mar 2012 19:50:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>DelJect &#8211; delete &#038; eject USB card easily</title>
+		<link>http://www.rngtng.com/2012/03/09/delject-delete-eject-usb-card-easily/</link>
+				<pubDate>Fri, 09 Mar 2012 19:22:31 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[card]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[eject]]></category>
+		<category><![CDATA[photot]]></category>
+		<category><![CDATA[sd]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=652</guid>
+				<description><![CDATA[Here&#8217;s another little AppleScript I recently wrote: DelJect &#8211; an AppleScript to delete and eject any external Cards/USB Stick A friend asked for this little script: His problem was, that his photography camera couldn&#8217;t deal with apple&#8217;s hidden files like.DS_STORE etc. To workaorund that, he had to delete those files each time before ejecting. DelJect automates [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="http://www.veryicon.com/icon/png/Media/Play%20Stop%20Pause/Eject%20Normal%20Red.png" alt="" /></p>
+<p>Here&#8217;s another little AppleScript I recently wrote:</p>
+<p><strong>DelJect</strong> &#8211; an AppleScript to delete and eject any external Cards/USB Stick</p>
+<p>A friend asked for this little script: His problem was, that his photography camera couldn&#8217;t deal with apple&#8217;s hidden files like<code>.DS_STORE</code> etc. To workaorund that, he had to delete those files each time before ejecting. DelJect automates this manual process. Voila!</p>
+<p>Download the latest version here: <a href="https://github.com/downloads/rngtng/DelJect/DelJect.dmg">DelJect.app</a></p>
+<p><strong>Usage</strong><br />
+Just run the binary, select the device (USB stick), confirm delete and unplug the stick. Done!</p>
+<p>As a litte gotcha, DelJect will remeber the device &#8211; so next time, just confirm &amp; go.</p>
+<p>Thanks to <a href="http://leuchtstoffk.de/">Niels</a> for the idea and thanks <a href="http://www.veryicon.com/icons/media/play-stop-pause/eject-normal-red.html">Icon-Land</a> for Icon.</p>
+<p>https://github.com/rngtng/DelJect</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

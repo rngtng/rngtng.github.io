@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Mac OS X &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/mac-os-x/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 19 Feb 2019 23:42:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Hacking mir:ror</title>
+		<link>http://www.rngtng.com/2019/02/20/hacking-mirror/</link>
+				<pubDate>Tue, 19 Feb 2019 23:41:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[nfc]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=990</guid>
+				<description><![CDATA[Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it&#8217;s 2009. Aka violet mir:ror. Out of the blue we were brainstroming how to DYI hörbert, a smart mp3 player for our youngest. Here, a mp3 is selected via NFC sensor. O.T: &#8220;NFC sensor!? Wait, [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png" class="broken_link"><img class="size-full wp-image-992 aligncenter" src="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png" alt="" width="552" height="558" srcset="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png 552w, http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52-297x300.png 297w" sizes="(max-width: 552px) 100vw, 552px" /></a>Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it&#8217;s 2009. Aka violet mir:ror.</p>
+
+
+
+<p>Out of the blue we were brainstroming how to DYI <a href="https://www.hoerbert.com/">hörbert</a>, a smart mp3 player for our youngest. Here, a mp3 is selected via NFC sensor. O.T: &#8220;NFC sensor!? Wait, I remember having touch this years ago, lemme get the Nabaztag&#8221;. And indeed, along with the infamous Nabaztag IOT rabbit, violet released a side product called <a href="https://en.wikipedia.org/wiki/Mir:ror">&#8216;mir:ror&#8217;</a> in <a href="https://www.engadget.com/2009/04/21/nabaztags-violet-rfid-readin-usb-mirror-now-available">2009</a>(?). It&#8217;s a NFC to USB device meant to showcase &amp; utilize its capabilities. To bad official drivers were only released for WIN and discontinued with the bankrupt of violet. But opensource to rescue. We quick figure the device adheres to HID standard, so let&#8217;s get it working (on a mac/linux).</p>
+
+
+
+<p>After <a href="https://stackoverflow.com/questions/17058134/is-there-an-equivalent-of-lsusb-for-os-x">confirming the device</a> is recognised in MacOS X we got hooked. Next, with a quick google search we first discovered http://reflektor.sourceforge.net &#8211; an OOO implementation based on <a href="https://www.kernel.org/doc/Documentation/hid/hidraw.txt">hidraw</a>. too bad kernel extension is Linux specific, so next the <a href="http://www.signal11.us/oss/hidapi/" class="broken_link">HIDapi,</a> an OS agnostic lib for general purpose use, felt promising. <a href="https://gist.github.com/rngtng/8b10af29768f19f91ad36b42ac99d934">Indeed, we got the mir:ror up and running the first time on Mac</a>, although reading was non blocking and we couldn&#8217;t really make sense out of it. After various back and forth, we jumped back to start: let&#8217;s check on linux first. So with virtualbox and ubuntu we were able to install reflektor and use it via hidraw. Worked like a charm! So next is porting this to MacOSX and getting deeper understand of mirware. What commands are supported? Modifying (or just turning off) the choreo would be a huge plus towards using mir:ror for our custom mp3 project. In anycase, this 10 years old device was way ahead of its time and still works like wooow!</p>
+
+
+
+
+
+<p>Sources worth to check:</p>
+
+
+
+<p><a href="http://reflektor.sourceforge.net/links.php">http://reflektor.sourceforge.net/links.php</a></p>
+
+
+
+<p><a href="http://arduino-projects4u.com/violet-mirror/">http://arduino-projects4u.com/violet-mirror/</a></p>
+
+
+
+<p><a href="https://github.com/suan/mirlite">https://github.com/suan/mirlite</a></p>
+
+
+
+<p><a href="https://github.com/leh/ruby-mirror">https://github.com/leh/ruby-mirror</a></p>
+
+
+
+<figure class="wp-block-embed">
+<div class="wp-block-embed__wrapper">http://arduino-projects4u.com/violet-mirror/</div>
+</figure>]]></content:encoded>
+										</item>
+		<item>
+		<title>Mac OS X Terminal: visual indication for your ssh connection</title>
+		<link>http://www.rngtng.com/2011/01/14/mac-os-x-terminal-visual-indication-for-your-ssh-connection/</link>
+				<pubDate>Fri, 14 Jan 2011 09:18:19 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[change]]></category>
+		<category><![CDATA[color]]></category>
+		<category><![CDATA[indicator]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[ssh]]></category>
+		<category><![CDATA[terminal]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=508</guid>
+				<description><![CDATA[Here&#8217;s a HowTo for a nice visual indication to see quickly if your Mac OS X Terminal is running which ssh connection. The trick is to change your Terminal Theme before you ssh and change it back afterwards. 1. Create Theme: got to Terminal -&#62; Preferences -&#62; Settings create a new theme (or copy existing [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="size-full wp-image-512 aligncenter" src="http://www.rngtng.com/files/2011/01/Screen-shot-2011-01-14-at-10.14.45.png" alt="" width="593" height="427" srcset="http://www.rngtng.com/files/2011/01/Screen-shot-2011-01-14-at-10.14.45.png 847w, http://www.rngtng.com/files/2011/01/Screen-shot-2011-01-14-at-10.14.45-300x216.png 300w" sizes="(max-width: 593px) 100vw, 593px" /></p>
+<p>Here&#8217;s a HowTo for a nice visual indication to see quickly if your Mac OS X Terminal is running which ssh connection.</p>
+<p>The trick is to change your Terminal Theme before you ssh and change it back afterwards.</p>
+<p><strong>1. Create Theme:</strong><br />
+got to   Terminal -&gt; Preferences -&gt; Settings   create a new theme (or copy existing one) and adjust to your needs, e.g. a light red background etc. Give it a nice name e.g. &#8220;SSH-Theme&#8221;</p>
+<p><strong>2. Add this function to your .bashrc</strong></p>
+<p><code>function tabc() {<br />
+NAME=$1; if [ -z "$NAME" ]; then NAME="Default"; fi<br />
+osascript -e "tell application \"Terminal\" to set current settings of front window to settings set \"$NAME\""<br />
+}</code></p>
+<p>&#8220;Default&#8221; is my default Terminal theme, name this whatever u have</p>
+<p><em>Usage:</em><br />
+<code>tabc SSH-Theme  #switch to theme with name<br />
+tabc  #switch to default theme</code></p>
+<p><strong>3. Create alias to ssh to server:</strong></p>
+<p><code> alias sshmyserver="tabc SSH-Theme; ssh yourserver.com; tabc"</code></p>
+<p>That&#8217;s it &#8211; your are done! Now, if you type <code>sshmyserver</code>, your Terminal color will change, ssh will start, and when you end ssh, everything will be back again..</p>
+<p>Btw. for Terminal on Mac OS X, I very recommend <a href="http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/">Visor &#8211; a quake like console</a></p>
+<p><strong>UPDATE</strong></p>
+<p>That&#8217;s how you do it with iTerm:</p>
+<p><code><br />
+function tabc() {<br />
+  COLOR=$1; if [ -z "$COLOR" ]; then COLOR="{0, 7722, 9941}"; fi<br />
+  osascript -e "tell application \"iTerm\" to set background color of current session of current terminal to $COLOR"<br />
+}</p>
+<p>alias sshmyserver="tabc '{18000, 2500, 2500}'; ssh yourserver.com; tabc"<br />
+</code> </p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>AppleScript to create keyboard shortcuts</title>
+		<link>http://www.rngtng.com/2010/10/29/applescript-to-create-keyboard-shortcuts/</link>
+				<pubDate>Fri, 29 Oct 2010 09:38:47 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[keyboard]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[shortcut]]></category>
+		<category><![CDATA[system]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=490</guid>
+				<description><![CDATA[Last week my company laptop got stolen, so I had to setup my system again using this list. The positive part of each new system setup is you think more and more how to automate your setup.. This time I was really annoyed with setting up keyboard shortcuts, so I came up with this little [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Last week my company laptop got stolen, so I had to setup my system again using this <a href="http://www.rngtng.com/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/">list</a>. The positive part of each new system setup is you think more and more how to automate your setup..</p>
+<p>This time I was really annoyed with setting up keyboard shortcuts, so I came up with this little AppleScript which does the work:</p>
+<p>[gist id=652031 file=create_shortcuts.scpt]</p>
+<p>The key is &#8216;GUI scripting&#8217; &#8211; a specify way of AppleScript to simulate clicks, keystrokes etc. for *any* (native?) App. You only have to know the ids of the GUI elements which you can get with this very nice tool:<br />
+  -&gt;  http://pfiddlesoft.com/uibrowser</p>
+<p>Good source to start your Mac Os X Automation is:<br />
+  -&gt;  http://www.macosxautomation.com</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My Snow Leopard (Development) System: Ruby, Rails, Arduino &#038; Co.</title>
+		<link>http://www.rngtng.com/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/</link>
+				<pubDate>Tue, 27 Apr 2010 08:52:03 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[lion]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[snowleopard]]></category>
+		<category><![CDATA[system]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=313</guid>
+				<description><![CDATA[&#8211; updated to Lion &#8211; Here&#8217;s a (maybe incomplete) list of my Mac OS X Development system setup. Mainly for me to remember, but maybe a help for you too: Main Development Setup Snow Leopard Lion xCode (or latest iPhone SDK) Mac Ports, now I prefer Homebrew Ruby: rvm + rubygems + rails etc. Database: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><em>&#8211; updated to Lion &#8211; </em></p>
+<p style="text-align: center"><img src="http://www.rngtng.com/files/2010/04/mac_os_x.jpg" alt="" width="500" height="181" class="aligncenter size-full wp-image-497" srcset="http://www.rngtng.com/files/2010/04/mac_os_x.jpg 500w, http://www.rngtng.com/files/2010/04/mac_os_x-300x108.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Here&#8217;s a (maybe incomplete) list of my Mac OS X Development system setup. Mainly for me to remember, but maybe a help for you too:</p>
+<p><strong>Main Development Setup</strong><br />
+<del datetime="2012-01-09T17:56:37+00:00">Snow Leopard</del> Lion<br />
+xCode (or latest iPhone SDK)<br />
+Mac Ports, now I prefer <a href="http://mxcl.github.com/homebrew/">Homebrew</a><br />
+Ruby: rvm + rubygems + rails etc.<br />
+Database: Mysql 5.1 + <a href="http://www.sequelpro.com/">Sequel Pro</a><br />
+OpenVPN: Tunnelblick, or  Cisco VPN client + Shimo VPN Menubar Addon<br />
+<del datetime="2012-01-09T17:51:01+00:00">Terminal Console Extension: <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a> + <a href="http://visor.binaryage.com/">Visor</a></del> <a href="http://www.iterm2.com/">iTerm 2</a><br />
+<a href="http://macromates.com/">TextMate</a> + <a href="http://github.com/jezdez/textmate-missingdrawer">Missing Drawer</a> + Get Bundles + Rails + <a href="http://github.com/protocool/AckMate">AckMate</a> &#8230;<br />
+<a href="http://www.jedit.org/">jEdit</a> + FTP + &#8230;<br />
+Git + <a href="http://brotherbard.com/blog/2010/09/gitx-update/">GitX (Experimental)</a><br />
+FTP &amp; Co: Cyberduck<br />
+Hudson status: <a href="http://ccmenu.sourceforge.net/">CCMenu</a><br />
+Share Files: <a href="http://www.dropbox.com/referrals/NTEzNjgzMzk">Dropbox</a><br />
+<a href="http://www.google.com/chrome">Google Chrome</a><br />
+Safari<br />
+<a href="http://www.mozilla-europe.org/en/firefox/" class="broken_link">Firefox</a> + Firebug</p>
+<p><strong>Extended Development</strong><br />
+Arduino<br />
+Processing<br />
+Fritzing<br />
+Eclipse</p>
+<p><strong>Nice to have:</strong><br />
+System Notification: <a href="http://growl.info/">Growl</a> + Growl Mail<br />
+<del datetime="2012-01-09T17:51:01+00:00">Read RSS: NetNewsWire</del> Now using RSS within Apple Mail<br />
+<del datetime="2012-01-09T17:51:01+00:00">IRC Client: <a href="http://colloquy.info/">Colloquy</a> and <a href="http://clintecker.com/disable-irc-msgs.html" class="broken_link">hide join messages</a></del> <a href="http://adium.im/">Adium</a><br />
+<a href="http://www.skype.com/">Skype</a> and <del datetime="2012-01-09T17:51:01+00:00"><a href="http://www.atebits.com/tweetie-mac/">Tweetie</a></del> original Twitter client<br />
+<del datetime="2012-01-09T17:51:01+00:00">Control iTunes: <a href="http://yellowmug.com/sk4it/">SizzlingKeys</a></del> <a href="http://bowtieapp.com/">Bowtie</a><br />
+Spotify and <a href="http://lifeupnorth.co.uk/lun/#5" class="broken_link">Spotify Menubar</a> and <a href="http://pansentient.com/2009/05/apple-mac-and-iphone-apps-for-spotify/">more goddies</a><br />
+Last.fm: iScrobbler<br />
+All Codecs: <a href="http://www.perian.org/">Perian</a><br />
+Dasboard widgets:  <a href="http://www.apple.com/downloads/dashboard/networking_security/ipwidget.html" class="broken_link">IP</a> + App Update<br />
+Copy&amp;Paste History: Flycut<br />
+Track Work: MacTimeLog<br />
+Word replacement: iWork<br />
+Keep your Notes: Journler<br />
+Extend Finder: TotalFinder<br />
+Mail <a href="http://stl.techinno.nl/archive/">Archiver</a> and <a href="http://www.hawkwings.net/plugins.htm">other</a> <a href="http://tikouka.net/mailapp/">MailPlugins</a></p>
+<p><strong>Install hints</strong><br />
+<strong>mac ports</strong><br />
+<code>sudo port selfupdate<br />
+sudo port install git-core +svn +bash_completion<br />
+sudo port install ImageMagick +no_x11<br />
+sudo port install wget</code></p>
+<p><strong>ruby gems</strong><br />
+http://stackoverflow.com/questions/991708/rails-mysql-and-snow-leopard<br />
+<code>sudo gem self update<br />
+sudo env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config<br />
+sudo gem install rails<br />
+sudo gem install passenger<br />
+sudo gem install piston</code></p>
+<p><strong>Safari open always in tabs:</strong><br />
+http://www.456bereastreet.com/archive/200812/make_safari_open_targeted_links_in_new_tabs_instead_of_new_windows/<br />
+<code>defaults write com.apple.Safari TargetedClicksCreateTabs -bool true </code></p>
+<p><strong>Safari enable Development mode:</strong><br />
+<code>defaults write com.apple.Safari WebKitDeveloperExtras -bool true<br />
+defaults write com.apple.Safari IncludeDebugMenu 1</code></p>
+<p><strong>Safari Plugins:</strong><br />
+http://alexstaubo.github.com/keywurl/</p>
+<p><strong>TextMate install bundle</strong><br />
+<code>cd ~/Desktop &amp;&amp; svn co http://svn.textmate.org/trunk/Review/Bundles/GetBundles.tmbundle/</code></p>
+<p>Well, that&#8217;s it! Stay tuned for updated&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Quake like Terminal on Mac OS X: Visor Plugin</title>
+		<link>http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/</link>
+				<pubDate>Fri, 14 Aug 2009 11:56:01 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[console]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[simbl]]></category>
+		<category><![CDATA[terminal]]></category>
+		<category><![CDATA[visor]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=100</guid>
+				<description><![CDATA[Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now (actually since ages, but I just forgot to mention 😉 it is. As small SIMBL plugin called Visor Plugin allows to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://visor.binaryage.com/shared/img/visor-mainshot.png" alt="" /></p>
+<p>Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now <em>(actually since ages, but I just forgot to mention <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em> it is. As small SIMBL plugin called <strong>Visor</strong> Plugin allows to to bring up the Terminal via a hotkey in anytime. I really love it and can&#8217;t without it anymore.<br />
+Check it out here: http://visor.binaryage.com/</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>usb &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/usb/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 19 Feb 2019 23:42:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Hacking mir:ror</title>
+		<link>http://www.rngtng.com/2019/02/20/hacking-mirror/</link>
+				<pubDate>Tue, 19 Feb 2019 23:41:18 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[nfc]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=990</guid>
+				<description><![CDATA[Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it&#8217;s 2009. Aka violet mir:ror. Out of the blue we were brainstroming how to DYI hörbert, a smart mp3 player for our youngest. Here, a mp3 is selected via NFC sensor. O.T: &#8220;NFC sensor!? Wait, [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p><a href="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png" class="broken_link"><img class="size-full wp-image-992 aligncenter" src="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png" alt="" width="552" height="558" srcset="http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png 552w, http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52-297x300.png 297w" sizes="(max-width: 552px) 100vw, 552px" /></a>Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it&#8217;s 2009. Aka violet mir:ror.</p>
+
+
+
+<p>Out of the blue we were brainstroming how to DYI <a href="https://www.hoerbert.com/">hörbert</a>, a smart mp3 player for our youngest. Here, a mp3 is selected via NFC sensor. O.T: &#8220;NFC sensor!? Wait, I remember having touch this years ago, lemme get the Nabaztag&#8221;. And indeed, along with the infamous Nabaztag IOT rabbit, violet released a side product called <a href="https://en.wikipedia.org/wiki/Mir:ror">&#8216;mir:ror&#8217;</a> in <a href="https://www.engadget.com/2009/04/21/nabaztags-violet-rfid-readin-usb-mirror-now-available">2009</a>(?). It&#8217;s a NFC to USB device meant to showcase &amp; utilize its capabilities. To bad official drivers were only released for WIN and discontinued with the bankrupt of violet. But opensource to rescue. We quick figure the device adheres to HID standard, so let&#8217;s get it working (on a mac/linux).</p>
+
+
+
+<p>After <a href="https://stackoverflow.com/questions/17058134/is-there-an-equivalent-of-lsusb-for-os-x">confirming the device</a> is recognised in MacOS X we got hooked. Next, with a quick google search we first discovered http://reflektor.sourceforge.net &#8211; an OOO implementation based on <a href="https://www.kernel.org/doc/Documentation/hid/hidraw.txt">hidraw</a>. too bad kernel extension is Linux specific, so next the <a href="http://www.signal11.us/oss/hidapi/" class="broken_link">HIDapi,</a> an OS agnostic lib for general purpose use, felt promising. <a href="https://gist.github.com/rngtng/8b10af29768f19f91ad36b42ac99d934">Indeed, we got the mir:ror up and running the first time on Mac</a>, although reading was non blocking and we couldn&#8217;t really make sense out of it. After various back and forth, we jumped back to start: let&#8217;s check on linux first. So with virtualbox and ubuntu we were able to install reflektor and use it via hidraw. Worked like a charm! So next is porting this to MacOSX and getting deeper understand of mirware. What commands are supported? Modifying (or just turning off) the choreo would be a huge plus towards using mir:ror for our custom mp3 project. In anycase, this 10 years old device was way ahead of its time and still works like wooow!</p>
+
+
+
+
+
+<p>Sources worth to check:</p>
+
+
+
+<p><a href="http://reflektor.sourceforge.net/links.php">http://reflektor.sourceforge.net/links.php</a></p>
+
+
+
+<p><a href="http://arduino-projects4u.com/violet-mirror/">http://arduino-projects4u.com/violet-mirror/</a></p>
+
+
+
+<p><a href="https://github.com/suan/mirlite">https://github.com/suan/mirlite</a></p>
+
+
+
+<p><a href="https://github.com/leh/ruby-mirror">https://github.com/leh/ruby-mirror</a></p>
+
+
+
+<figure class="wp-block-embed">
+<div class="wp-block-embed__wrapper">http://arduino-projects4u.com/violet-mirror/</div>
+</figure>]]></content:encoded>
+										</item>
+		<item>
+		<title>DelJect &#8211; delete &#038; eject USB card easily</title>
+		<link>http://www.rngtng.com/2012/03/09/delject-delete-eject-usb-card-easily/</link>
+				<pubDate>Fri, 09 Mar 2012 19:22:31 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[card]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[eject]]></category>
+		<category><![CDATA[photot]]></category>
+		<category><![CDATA[sd]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=652</guid>
+				<description><![CDATA[Here&#8217;s another little AppleScript I recently wrote: DelJect &#8211; an AppleScript to delete and eject any external Cards/USB Stick A friend asked for this little script: His problem was, that his photography camera couldn&#8217;t deal with apple&#8217;s hidden files like.DS_STORE etc. To workaorund that, he had to delete those files each time before ejecting. DelJect automates [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="http://www.veryicon.com/icon/png/Media/Play%20Stop%20Pause/Eject%20Normal%20Red.png" alt="" /></p>
+<p>Here&#8217;s another little AppleScript I recently wrote:</p>
+<p><strong>DelJect</strong> &#8211; an AppleScript to delete and eject any external Cards/USB Stick</p>
+<p>A friend asked for this little script: His problem was, that his photography camera couldn&#8217;t deal with apple&#8217;s hidden files like<code>.DS_STORE</code> etc. To workaorund that, he had to delete those files each time before ejecting. DelJect automates this manual process. Voila!</p>
+<p>Download the latest version here: <a href="https://github.com/downloads/rngtng/DelJect/DelJect.dmg">DelJect.app</a></p>
+<p><strong>Usage</strong><br />
+Just run the binary, select the device (USB stick), confirm delete and unplug the stick. Done!</p>
+<p>As a litte gotcha, DelJect will remeber the device &#8211; so next time, just confirm &amp; go.</p>
+<p>Thanks to <a href="http://leuchtstoffk.de/">Niels</a> for the idea and thanks <a href="http://www.veryicon.com/icons/media/play-stop-pause/eject-normal-red.html">Icon-Land</a> for Icon.</p>
+<p>https://github.com/rngtng/DelJect</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>[update] Mac Os X 10.5.7 is out &#8211; all fine except volume control</title>
+		<link>http://www.rngtng.com/2009/05/13/mac-os-x-1057-is-out-all-fine-except-volume-control/</link>
+				<pubDate>Wed, 13 May 2009 20:59:44 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[os x]]></category>
+		<category><![CDATA[soundcard]]></category>
+		<category><![CDATA[terratec]]></category>
+		<category><![CDATA[update]]></category>
+		<category><![CDATA[usb]]></category>
+		<category><![CDATA[volume]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=88</guid>
+				<description><![CDATA[Yeah Mac Os X 10.5.7 just got released. All fine for me, except my external USB soundcard Terratec Aureon 5.1 can&#8217;t be volume controlled anymore &#8211; strange!? Any idea what&#8217;s wrong? [update &#8211; solved!] Apparently downgrading the USB Sound kernel back to 10.5.6 Version solves the issue. See the comments and the Apple Discussion-board for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Yeah <a href="http://www.macworld.com/article/140568/2009/05/osx_update.html">Mac Os X 10.5.7</a> just got released. All fine for me, except my external USB soundcard <strong>Terratec Aureon 5.1</strong> can&#8217;t be volume controlled anymore &#8211; strange!? Any idea what&#8217;s wrong?</p>
+<p>[update &#8211; solved!]<br />
+Apparently downgrading the USB Sound kernel back to 10.5.6 Version solves the issue. See the comments and the  <a href="http://discussions.apple.com/thread.jspa?messageID=9466757&amp;#9466757" class="broken_link">Apple Discussion-board</a> for more&#8230; Thx to <em>sonderpop</em> for that hint!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

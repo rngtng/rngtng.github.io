@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ipod &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/ipod/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 09 Jan 2017 10:50:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>How I revived my iPod classic 4th genation with Flash Memory!!</title>
+		<link>http://www.rngtng.com/2015/08/10/how-i-revived-my-ipod-40gb-with-flash-memory/</link>
+				<pubDate>Mon, 10 Aug 2015 08:16:03 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[flash]]></category>
+		<category><![CDATA[ipod]]></category>
+		<category><![CDATA[repair]]></category>
+		<category><![CDATA[replace]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=862</guid>
+				<description><![CDATA[Since a very long time, I had my old 4th Generation iPod laying around. With iPhone, SoundCloud &#38; Co, I hadn&#8217;t had any use for it &#8211; until now: my Camping Van came &#8216;only&#8217; with a CD Radio and an Aux-In &#8211; which is perfect for my Ipod. If it would only work. Battery was [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://cdn.instructables.com/F74/FKWJ/FCRT3F49/F74FKWJFCRT3F49.MEDIUM.jpg" alt="" /></p>
+<p>Since a very long time, I had my old 4th Generation iPod laying around. With iPhone, SoundCloud &amp; Co, I hadn&#8217;t had any use for it &#8211; until now: my Camping Van came &#8216;only&#8217; with a CD Radio and an Aux-In &#8211; which is perfect for my Ipod. If it would only work. Battery was down, and even worse &#8211; the Harddisk crashed. But a quick google made me hope: there&#8217;s indeed a chance to replace the HD with Flash memory. Faster, cheeper and less power consumption. I had to try it.<br />
+So I followed those super easy steps Eddie posted on instructables:</p>
+<p>http://www.instructables.com/id/Convert-your-4th-Gen-iPod-to-use-Flash-Memory</p>
+<p>Main trick is to get a &#8216;IDE 50 Pin Male zu CF Compact Flash Female Adapter&#8217; &#8211; on ebay or similar for just 5 EURs. Compact Flash memory you get for abt. 1EUR per GB, which int total, made the 40GB replacement quite cheap. It just took me minutes to replace the harddrive, including a new Battery. Now my more than 10 years(!!) old iPod works better like never before! Amazing.</p>
+<p>Happy Hacking!</p>
+<p>UPDATE: make sure you check DIAG-Mode and HW-Reset too:</p>
+<p><em>First what I would do is wait for it to reboot itself and as soon as the screen turns off begin holding the Center + Play/Pause buttons until Your iPod Enters Disk Mode and THEN plug it into your iMac and select &#8220;Restore&#8221;. =) Also when you get the chance, Hold Menu + Center and as soon as the screen goes out, Hold Center + Previous/Rewind. You will get a White Screen, select &#8220;Manual Test&#8221; and then go to &#8220;IO&#8221; then &#8220;Hard Drive&#8221; and then select Hard Drive Smart Data and type every character on that screen up here, I will be able to tell you if your iPod&#8217;s internal hard disk is going bad</em></p>
+<p>https://discussions.apple.com/thread/2609298?tstart=0</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

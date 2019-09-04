@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>terratec &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/terratec/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Sat, 16 May 2009 11:50:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>[update] Mac Os X 10.5.7 is out &#8211; all fine except volume control</title>
+		<link>http://www.rngtng.com/2009/05/13/mac-os-x-1057-is-out-all-fine-except-volume-control/</link>
+				<pubDate>Wed, 13 May 2009 20:59:44 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[os x]]></category>
+		<category><![CDATA[soundcard]]></category>
+		<category><![CDATA[terratec]]></category>
+		<category><![CDATA[update]]></category>
+		<category><![CDATA[usb]]></category>
+		<category><![CDATA[volume]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=88</guid>
+				<description><![CDATA[Yeah Mac Os X 10.5.7 just got released. All fine for me, except my external USB soundcard Terratec Aureon 5.1 can&#8217;t be volume controlled anymore &#8211; strange!? Any idea what&#8217;s wrong? [update &#8211; solved!] Apparently downgrading the USB Sound kernel back to 10.5.6 Version solves the issue. See the comments and the Apple Discussion-board for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Yeah <a href="http://www.macworld.com/article/140568/2009/05/osx_update.html">Mac Os X 10.5.7</a> just got released. All fine for me, except my external USB soundcard <strong>Terratec Aureon 5.1</strong> can&#8217;t be volume controlled anymore &#8211; strange!? Any idea what&#8217;s wrong?</p>
+<p>[update &#8211; solved!]<br />
+Apparently downgrading the USB Sound kernel back to 10.5.6 Version solves the issue. See the comments and the  <a href="http://discussions.apple.com/thread.jspa?messageID=9466757&amp;#9466757" class="broken_link">Apple Discussion-board</a> for more&#8230; Thx to <em>sonderpop</em> for that hint!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

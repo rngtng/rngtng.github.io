@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>plugin &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/plugin/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 23 Jan 2013 04:15:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Seriality &#8211; Physicality for the Web</title>
+		<link>http://www.rngtng.com/2013/01/23/seriality-physicality-for-the-web/</link>
+				<pubDate>Wed, 23 Jan 2013 04:15:40 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[serial]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=696</guid>
+				<description><![CDATA[Here a very late shout out to an interesting project: control your Arduino via the browser! Basically its a browser plugin to get access to your machines (virtual) serial port. With that you can use javascript to send and receive any data &#8211; how cool is that!? http://www.zambetti.com/projects/seriality/]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://www.zambetti.com/projects/seriality/images/diagram.jpg" /></p>
+<p>Here a very late shout out to an interesting project: control your Arduino via the browser! Basically its a browser plugin to get access to your machines (virtual) serial port. With that you can use javascript to send and receive any data &#8211; how cool is that!?</p>
+<p>http://www.zambetti.com/projects/seriality/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Rails flag_shih_tzu Plugin with named_scope</title>
+		<link>http://www.rngtng.com/2009/08/20/rails-flag_shih_tzu-plugin-with-named_scope/</link>
+				<pubDate>Thu, 20 Aug 2009 17:02:36 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[extension]]></category>
+		<category><![CDATA[fork]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=200</guid>
+				<description><![CDATA[When it comes to store a load of boolean data into your model you easily end up with lots of columns which blow up your table unnecessarily. The developers at Xing solved this problem with a nifty Rails Plugin called flag_shih_tzu. The trick is to store all boolean values combined as a bit vector, which [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>When it comes to store a load of boolean data into your model you easily end up with lots of columns which blow up your table unnecessarily. The developers at <a href="http://blog.xing.com/category/tech-blog">Xing</a> solved this problem with a nifty Rails Plugin called <a href="http://github.com/xing/flag_shih_tzu/" class="broken_link">flag_shih_tzu</a>. The trick is to store all boolean values combined as a bit vector, which allows you to put up to 32 values (4Byte) within a single Integer column. Automatic generated access methods allows you to deal with you model as your are used to. Wanna see an example? (Taken from plugin docs)</p>
+<p>[ruby]<br />
+class Spaceship &lt; ActiveRecord::Base<br />
+  include FlagShihTzu</p>
+<p>  has_flags 1 =&gt; :warpdrive,<br />
+            2 =&gt; :shields</p>
+<p>end</p>
+<p>enterprise = Spaceship.new<br />
+enterprise.warpdrive = true<br />
+enterprise.shields = false<br />
+enterprise.save</p>
+<p>enterprise.warpdrive? #=&gt; true<br />
+enterprise.shields? # =&gt; false<br />
+[/ruby]</p>
+<p>Nice, isn&#8217;t it?</p>
+<p>Unfortunately named scopes where missing for selecting models easily. So another github fork, another fix, and here were are. Now this works as well:</p>
+<p>[ruby]<br />
+Spaceship.flagged(:warpdrive).not_flagged(:shields).all<br />
+[/ruby]</p>
+<p>Check it out here: http://github.com/rngtng/flag_shih_tzu/tree/master</p>
+<p><strong>Update:</strong> replaced &#8216;routes&#8217; with &#8216;scopes&#8217; &#8211; I&#8217;m getting confused with that all the time, how come!? <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Quake like Terminal on Mac OS X: Visor Plugin</title>
+		<link>http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/</link>
+				<pubDate>Fri, 14 Aug 2009 11:56:01 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[console]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[simbl]]></category>
+		<category><![CDATA[terminal]]></category>
+		<category><![CDATA[visor]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=100</guid>
+				<description><![CDATA[Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now (actually since ages, but I just forgot to mention 😉 it is. As small SIMBL plugin called Visor Plugin allows to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://visor.binaryage.com/shared/img/visor-mainshot.png" alt="" /></p>
+<p>Sure you do remember Quake. And sure you di remember how cool the console faded / slided in from the top? Image this would be available for your Mac OS X Console/Terminal. Well now <em>(actually since ages, but I just forgot to mention <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></em> it is. As small SIMBL plugin called <strong>Visor</strong> Plugin allows to to bring up the Terminal via a hotkey in anytime. I really love it and can&#8217;t without it anymore.<br />
+Check it out here: http://visor.binaryage.com/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Extending Active Scaffold as_paperclip_bridge to delete &#038; update image/attachment</title>
+		<link>http://www.rngtng.com/2009/08/13/extending-active-scaffold-as_paperclip_bridge-to-delete-update-imageattachment/</link>
+				<pubDate>Thu, 13 Aug 2009 15:53:35 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[active]]></category>
+		<category><![CDATA[attachment]]></category>
+		<category><![CDATA[bridge]]></category>
+		<category><![CDATA[file]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[on]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[ror]]></category>
+		<category><![CDATA[Scaffold]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=193</guid>
+				<description><![CDATA[As you know I&#8217;m quite fond of working with Active Scaffold (AS) for data administration proposes. Quite recently we moved over to the RoR paperclip attachment plugin for file upload handling. I was even more happy to see a Active Scaffold bridge which integrates paperclip smoothly into AS as well. It&#8217;s created by and hosted [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As you know I&#8217;m quite fond of working with <a href="http://activescaffold.com/" class="broken_link">Active Scaffold (AS)</a> for data administration proposes. Quite recently we moved over to the RoR <a href="http://www.thoughtbot.com/projects/paperclip">paperclip attachment plugin</a> for file upload handling. I was even more happy to see a Active Scaffold bridge which integrates paperclip smoothly into AS as well. It&#8217;s created by and hosted <a href="http://github.com/mnaglik/as_paperclip_bridge/tree/master">here</a> on github.</p>
+<p>Unfortunately it didn&#8217;t provide the possibility to delete or update an image once it&#8217;s assigned to an object. Well no problem, another fork of mine, some coding and now it possible. I basically reused to code of the as_file_column_bridge. Check it out here:<br />
+<del datetime="2010-01-11T09:46:08+00:00">http://github.com/rngtng/as_paperclip_bridge/tree/master</del></p>
+<p><strong>Update:</strong> changes got merged into trunk, check it out:<br />
+http://github.com/mnaglik/as_paperclip_bridge/</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

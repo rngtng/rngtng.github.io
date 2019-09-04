@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lion &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/lion/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 05 Aug 2015 08:26:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Send Mac to sleep with external screen and closing the lid (Yosemite)</title>
+		<link>http://www.rngtng.com/2012/10/17/send-mac-to-sleep-with-external-screen-and-closing-the-lid/</link>
+				<pubDate>Wed, 17 Oct 2012 08:24:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[external]]></category>
+		<category><![CDATA[lion]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[screen]]></category>
+		<category><![CDATA[sleep]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=677</guid>
+				<description><![CDATA[I had the problem of my Mac not going into sleep when external screen is connected and closing the lid. Luckly I came across this advice which indeed, did the trick: 1. Disable external Monitor 2. Type `sudo nvram boot-args=&#8221;iog=0x0&#8243;` 3. and restart Voilà! Update: With Yosemite you need to type: `sudo nvram boot-args=&#8221;niog=1&#8243;` Source: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="https://pixabay.com/static/uploads/photo/2015/06/07/12/11/macro-800236_640.jpg" alt="" /></p>
+<p>I had the problem of my Mac not going into sleep when external screen is connected and closing the lid. Luckly I came <a href="https://discussions.apple.com/message/19264651#19264651">across this advice</a> which indeed, did the trick:</p>
+<p>1. Disable external Monitor<br />
+2. Type `sudo nvram boot-args=&#8221;iog=0x0&#8243;`<br />
+3. and restart</p>
+<p>Voilà!</p>
+<p><strong>Update</strong>: With Yosemite you need to type:</p>
+<p>`sudo nvram boot-args=&#8221;niog=1&#8243;`</p>
+<p>Source: https://discussions.apple.com/thread/6601019</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My Snow Leopard (Development) System: Ruby, Rails, Arduino &#038; Co.</title>
+		<link>http://www.rngtng.com/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/</link>
+				<pubDate>Tue, 27 Apr 2010 08:52:03 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[development]]></category>
+		<category><![CDATA[lion]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[snowleopard]]></category>
+		<category><![CDATA[system]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=313</guid>
+				<description><![CDATA[&#8211; updated to Lion &#8211; Here&#8217;s a (maybe incomplete) list of my Mac OS X Development system setup. Mainly for me to remember, but maybe a help for you too: Main Development Setup Snow Leopard Lion xCode (or latest iPhone SDK) Mac Ports, now I prefer Homebrew Ruby: rvm + rubygems + rails etc. Database: [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><em>&#8211; updated to Lion &#8211; </em></p>
+<p style="text-align: center"><img src="http://www.rngtng.com/files/2010/04/mac_os_x.jpg" alt="" width="500" height="181" class="aligncenter size-full wp-image-497" srcset="http://www.rngtng.com/files/2010/04/mac_os_x.jpg 500w, http://www.rngtng.com/files/2010/04/mac_os_x-300x108.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Here&#8217;s a (maybe incomplete) list of my Mac OS X Development system setup. Mainly for me to remember, but maybe a help for you too:</p>
+<p><strong>Main Development Setup</strong><br />
+<del datetime="2012-01-09T17:56:37+00:00">Snow Leopard</del> Lion<br />
+xCode (or latest iPhone SDK)<br />
+Mac Ports, now I prefer <a href="http://mxcl.github.com/homebrew/">Homebrew</a><br />
+Ruby: rvm + rubygems + rails etc.<br />
+Database: Mysql 5.1 + <a href="http://www.sequelpro.com/">Sequel Pro</a><br />
+OpenVPN: Tunnelblick, or  Cisco VPN client + Shimo VPN Menubar Addon<br />
+<del datetime="2012-01-09T17:51:01+00:00">Terminal Console Extension: <a href="http://www.culater.net/software/SIMBL/SIMBL.php">SIMBL</a> + <a href="http://visor.binaryage.com/">Visor</a></del> <a href="http://www.iterm2.com/">iTerm 2</a><br />
+<a href="http://macromates.com/">TextMate</a> + <a href="http://github.com/jezdez/textmate-missingdrawer">Missing Drawer</a> + Get Bundles + Rails + <a href="http://github.com/protocool/AckMate">AckMate</a> &#8230;<br />
+<a href="http://www.jedit.org/">jEdit</a> + FTP + &#8230;<br />
+Git + <a href="http://brotherbard.com/blog/2010/09/gitx-update/">GitX (Experimental)</a><br />
+FTP &amp; Co: Cyberduck<br />
+Hudson status: <a href="http://ccmenu.sourceforge.net/">CCMenu</a><br />
+Share Files: <a href="http://www.dropbox.com/referrals/NTEzNjgzMzk">Dropbox</a><br />
+<a href="http://www.google.com/chrome">Google Chrome</a><br />
+Safari<br />
+<a href="http://www.mozilla-europe.org/en/firefox/" class="broken_link">Firefox</a> + Firebug</p>
+<p><strong>Extended Development</strong><br />
+Arduino<br />
+Processing<br />
+Fritzing<br />
+Eclipse</p>
+<p><strong>Nice to have:</strong><br />
+System Notification: <a href="http://growl.info/">Growl</a> + Growl Mail<br />
+<del datetime="2012-01-09T17:51:01+00:00">Read RSS: NetNewsWire</del> Now using RSS within Apple Mail<br />
+<del datetime="2012-01-09T17:51:01+00:00">IRC Client: <a href="http://colloquy.info/">Colloquy</a> and <a href="http://clintecker.com/disable-irc-msgs.html" class="broken_link">hide join messages</a></del> <a href="http://adium.im/">Adium</a><br />
+<a href="http://www.skype.com/">Skype</a> and <del datetime="2012-01-09T17:51:01+00:00"><a href="http://www.atebits.com/tweetie-mac/">Tweetie</a></del> original Twitter client<br />
+<del datetime="2012-01-09T17:51:01+00:00">Control iTunes: <a href="http://yellowmug.com/sk4it/">SizzlingKeys</a></del> <a href="http://bowtieapp.com/">Bowtie</a><br />
+Spotify and <a href="http://lifeupnorth.co.uk/lun/#5" class="broken_link">Spotify Menubar</a> and <a href="http://pansentient.com/2009/05/apple-mac-and-iphone-apps-for-spotify/">more goddies</a><br />
+Last.fm: iScrobbler<br />
+All Codecs: <a href="http://www.perian.org/">Perian</a><br />
+Dasboard widgets:  <a href="http://www.apple.com/downloads/dashboard/networking_security/ipwidget.html" class="broken_link">IP</a> + App Update<br />
+Copy&amp;Paste History: Flycut<br />
+Track Work: MacTimeLog<br />
+Word replacement: iWork<br />
+Keep your Notes: Journler<br />
+Extend Finder: TotalFinder<br />
+Mail <a href="http://stl.techinno.nl/archive/">Archiver</a> and <a href="http://www.hawkwings.net/plugins.htm">other</a> <a href="http://tikouka.net/mailapp/">MailPlugins</a></p>
+<p><strong>Install hints</strong><br />
+<strong>mac ports</strong><br />
+<code>sudo port selfupdate<br />
+sudo port install git-core +svn +bash_completion<br />
+sudo port install ImageMagick +no_x11<br />
+sudo port install wget</code></p>
+<p><strong>ruby gems</strong><br />
+http://stackoverflow.com/questions/991708/rails-mysql-and-snow-leopard<br />
+<code>sudo gem self update<br />
+sudo env ARCHFLAGS="-arch x86_64" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config<br />
+sudo gem install rails<br />
+sudo gem install passenger<br />
+sudo gem install piston</code></p>
+<p><strong>Safari open always in tabs:</strong><br />
+http://www.456bereastreet.com/archive/200812/make_safari_open_targeted_links_in_new_tabs_instead_of_new_windows/<br />
+<code>defaults write com.apple.Safari TargetedClicksCreateTabs -bool true </code></p>
+<p><strong>Safari enable Development mode:</strong><br />
+<code>defaults write com.apple.Safari WebKitDeveloperExtras -bool true<br />
+defaults write com.apple.Safari IncludeDebugMenu 1</code></p>
+<p><strong>Safari Plugins:</strong><br />
+http://alexstaubo.github.com/keywurl/</p>
+<p><strong>TextMate install bundle</strong><br />
+<code>cd ~/Desktop &amp;&amp; svn co http://svn.textmate.org/trunk/Review/Bundles/GetBundles.tmbundle/</code></p>
+<p>Well, that&#8217;s it! Stay tuned for updated&#8230;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

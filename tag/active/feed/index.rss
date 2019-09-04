@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>active &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/active/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 11 Jan 2010 09:46:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Extending Active Scaffold as_paperclip_bridge to delete &#038; update image/attachment</title>
+		<link>http://www.rngtng.com/2009/08/13/extending-active-scaffold-as_paperclip_bridge-to-delete-update-imageattachment/</link>
+				<pubDate>Thu, 13 Aug 2009 15:53:35 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[active]]></category>
+		<category><![CDATA[attachment]]></category>
+		<category><![CDATA[bridge]]></category>
+		<category><![CDATA[file]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[on]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[ror]]></category>
+		<category><![CDATA[Scaffold]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=193</guid>
+				<description><![CDATA[As you know I&#8217;m quite fond of working with Active Scaffold (AS) for data administration proposes. Quite recently we moved over to the RoR paperclip attachment plugin for file upload handling. I was even more happy to see a Active Scaffold bridge which integrates paperclip smoothly into AS as well. It&#8217;s created by and hosted [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As you know I&#8217;m quite fond of working with <a href="http://activescaffold.com/" class="broken_link">Active Scaffold (AS)</a> for data administration proposes. Quite recently we moved over to the RoR <a href="http://www.thoughtbot.com/projects/paperclip">paperclip attachment plugin</a> for file upload handling. I was even more happy to see a Active Scaffold bridge which integrates paperclip smoothly into AS as well. It&#8217;s created by and hosted <a href="http://github.com/mnaglik/as_paperclip_bridge/tree/master">here</a> on github.</p>
+<p>Unfortunately it didn&#8217;t provide the possibility to delete or update an image once it&#8217;s assigned to an object. Well no problem, another fork of mine, some coding and now it possible. I basically reused to code of the as_file_column_bridge. Check it out here:<br />
+<del datetime="2010-01-11T09:46:08+00:00">http://github.com/rngtng/as_paperclip_bridge/tree/master</del></p>
+<p><strong>Update:</strong> changes got merged into trunk, check it out:<br />
+http://github.com/mnaglik/as_paperclip_bridge/</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Love ActiveScaffold: Show always Searchbox</title>
+		<link>http://www.rngtng.com/2008/10/05/love-activescaffold-show-always-seachbox/</link>
+				<pubDate>Sun, 05 Oct 2008 12:34:01 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[active]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[Scaffold]]></category>
+		<category><![CDATA[search]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=26</guid>
+				<description><![CDATA[ActiveScaffold is a great plugin to build edit form easily. Nicely AJAX and nested forms support (well with limits ;-). One thing which bugged me all the time, was the extra click you had to do to show the searchbox. Well I solved it like this: [ruby] def index active_scaffold_config.list.label += render_to_string( :action =&#62; :search, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a href="http://activescaffold.com/" class="broken_link">ActiveScaffold</a> is a great plugin to build edit form easily. Nicely AJAX and nested forms support (well with limits ;-). One thing which bugged me all the time, was the extra click you had to do to show the searchbox. Well I solved it like this:</p>
+<p>[ruby]<br />
+  def index<br />
+    active_scaffold_config.list.label += render_to_string( :action =&gt; :search, :layout =&gt; false )<br />
+    super<br />
+  end<br />
+[/ruby]</p>
+<p>I know, it&#8217;s kind of bad hack, as the label actually isn&#8217;t supposed to contain a form &#8211; but it works out quite well! </p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

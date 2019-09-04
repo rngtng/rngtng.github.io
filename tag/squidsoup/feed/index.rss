@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Squidsoup &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/squidsoup/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Mon, 10 Aug 2009 08:47:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Stealth Project on a Nova 10x10x10 LED Cube</title>
+		<link>http://www.rngtng.com/2009/08/10/stealth-project-on-a-nova-10x10x10-led-cube/</link>
+				<pubDate>Mon, 10 Aug 2009 08:47:45 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[art]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[nova]]></category>
+		<category><![CDATA[Squidsoup]]></category>
+		<category><![CDATA[Stealth]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=126</guid>
+				<description><![CDATA[Hey guys, look at this: I just found this awesome project by Squidsoup. They put up a 10x10x10 LED Cube &#8220;NOVA 3D LED&#8221; (yes, 3 dimensions, yes that&#8217;s 1000 single controlled LEDs) and created cool stuff like webcam projection or a the &#8220;Stealth Project&#8221;, a game similar to Battleships. Just get it&#8217;s great sounds and [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Hey guys, look at this: I just found this awesome project by <a href="http://www.squidsoup.org/">Squidsoup</a>. They put up a 10x10x10 LED Cube <em>&#8220;NOVA 3D LED&#8221;</em> (yes, 3 dimensions, yes that&#8217;s 1000 single controlled LEDs) and created cool stuff like webcam projection or a the <strong>&#8220;Stealth Project&#8221;</strong>, a game similar to Battleships. Just get it&#8217;s great sounds and projections:</p>
+<p>[vimeo]http://vimeo.com/2242696[/vimeo]</p>
+<p>More on this here: <a href="http://www.squidsoup.org/stealth/">http://www.squidsoup.org/stealth/</a></p>
+<p>[via <a href="http://nejo0017.wordpress.com/2009/05/08/the-stealth-project/">nejo0017.wordpress.com</a>]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

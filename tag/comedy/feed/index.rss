@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>comedy &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/comedy/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 03 Sep 2015 09:20:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>The Expert</title>
+		<link>http://www.rngtng.com/2015/09/03/the-expert/</link>
+				<pubDate>Thu, 03 Sep 2015 18:18:53 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[comedy]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=884</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[<p><iframe width="500" height="281" src="https://www.youtube.com/embed/BKorP55Aqvg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

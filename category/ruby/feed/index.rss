@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ruby, Rails &amp; Co. &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/category/ruby/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 13 Aug 2019 12:34:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>REST Security Cheat Sheet</title>
+		<link>http://www.rngtng.com/2019/08/13/rest-security-cheat-sheet/</link>
+				<pubDate>Tue, 13 Aug 2019 12:34:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=1014</guid>
+				<description><![CDATA[https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html]]></description>
+								<content:encoded><![CDATA[<p>https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>How to be an Architect in a Microservice World</title>
+		<link>http://www.rngtng.com/2019/08/13/how-to-be-an-architect-in-a-microservice-world/</link>
+				<pubDate>Tue, 13 Aug 2019 11:50:37 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=1008</guid>
+				<description><![CDATA[Great Talk and deck by Felix (@fmueller_bln)]]></description>
+								<content:encoded><![CDATA[<p>Great Talk and deck by Felix (@fmueller_bln)</p>
+<p><iframe title="How to be an Architect in a Microservice World" id="talk_frame_435078" src="//speakerdeck.com/player/3852ec3628a24034a6f96c4cae4a2fad" width="500" height="375" style="border:0; padding:0; margin:0; background:transparent;" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Sources worth a read</title>
+		<link>http://www.rngtng.com/2016/12/01/sources-worth-a-read/</link>
+				<pubDate>Thu, 01 Dec 2016 20:50:52 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=932</guid>
+				<description><![CDATA[A couple of my bookmarks worth a read API Design: * Bad Oauth2: https://blog.teller.io/2016/04/26/tauth.html * Hawk: https://alexbilbie.com/2012/11/hawk-a-new-http-authentication-scheme/ * Test Tools: http://www.techsling.com/2016/02/12-great-tools-web-services-testing/ * REST Design: http://restlet.com/blog/2015/11/16/the-never-ending-debate-on-rest-api-design/ Go: * https://www.infoq.com/news/2016/03/go-patterns Ruby: *&#160; ruby-install, chruby: https://medium.com/@heidar/switching-from-rbenv-to-postmodern-s-ruby-install-and-chruby-f0daa24b36e6#.hwo71ieyk * Ruby -&#62; Go: http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity * Ruby 2015: https://www.sitepoint.com/a-retrospective-on-ruby-in-2015 * Calling services: https://pawelniewiadomski.com/2016/08/29/calling-services-asynchronously-in-ruby Learn: * http://www.seamgen.com/blog/mentoring-junior-developers/ * http://play.elevatorsaga.com * http://www.holacracy.org * http://firstround.com/review/the-30-best-pieces-of-advice-for-entrepreneurs-in-2015/ [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>A couple of my bookmarks worth a read</p>
+<p><strong>API Design:<br />
+</strong>* Bad Oauth2: https://blog.teller.io/2016/04/26/tauth.html<br />
+* Hawk: https://alexbilbie.com/2012/11/hawk-a-new-http-authentication-scheme/<br />
+* Test Tools: http://www.techsling.com/2016/02/12-great-tools-web-services-testing/<br />
+* REST Design: http://restlet.com/blog/2015/11/16/the-never-ending-debate-on-rest-api-design/</p>
+<p><strong>Go:<br />
+</strong>* https://www.infoq.com/news/2016/03/go-patterns</p>
+<p><strong>Ruby:</strong><br />
+*&nbsp; ruby-install, chruby: https://medium.com/@heidar/switching-from-rbenv-to-postmodern-s-ruby-install-and-chruby-f0daa24b36e6#.hwo71ieyk<br />
+* Ruby -&gt; Go: http://blog.parse.com/learn/how-we-moved-our-api-from-ruby-to-go-and-saved-our-sanity<br />
+* Ruby 2015: https://www.sitepoint.com/a-retrospective-on-ruby-in-2015<br />
+* Calling services: https://pawelniewiadomski.com/2016/08/29/calling-services-asynchronously-in-ruby</p>
+<p><strong>Learn:</strong><br />
+* http://www.seamgen.com/blog/mentoring-junior-developers/<br />
+* http://play.elevatorsaga.com<br />
+* http://www.holacracy.org<br />
+* http://firstround.com/review/the-30-best-pieces-of-advice-for-entrepreneurs-in-2015/<br />
+* https://hbr.org/2004/01/what-makes-a-leader</p>
+<p><strong>Other:<br />
+</strong>* New Keyboard layout: https://colemak.com<br />
+* Docker, nginx, Stripe, MongoDB, CloudFlare, Xamarin, Mixpanel, DigitalOcean, Twilio:<br />
+http://www.inc.com/business-insider/companies-that-run-the-internet-besides-google.html<br />
+* https://www.techempower.com/benchmarks/<br />
+* A minimalist real-time framework: https://docs.feathersjs.com/</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Rspec &#8211; Useful How To and Best Practices</title>
+		<link>http://www.rngtng.com/2012/06/21/rspec-useful-how-to-and-best-practices/</link>
+				<pubDate>Thu, 21 Jun 2012 12:31:27 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[best practise]]></category>
+		<category><![CDATA[doku]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[rspec]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=664</guid>
+				<description><![CDATA[Here are two *very* good update-to-date sources of Rspec howtos and best practices: The first on by Andrea Reginato(@lelylan) gives a very good overview. Start here: https://docs.google.com/a/soundcloud.com/document/d/1gi00-wwPaLk5VvoAJhBVNh9Htw4Rwmj-Ut88T4M2MwI/mobilebasic?pli=1&#038;hl=en The second one by Jeff Pollard features ninja-kick-ass shared spec examples: http://bitfluxx.com/2011/05/23/some-rspec-tips-and-best-practices.html Andrea did already a good job with the Google Doc, but what about collection all tipps [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://www.globalnerdy.com/wordpress/wp-content/uploads/2011/05/rspectable-employment.jpg" alt="" width="398" height="480" /></p>
+<p>Here are two *very* good update-to-date sources of <a href="http://rspec.info/">Rspec</a> howtos and best practices:</p>
+<p>The first on by Andrea Reginato(@lelylan) gives a very good overview. Start here:<br />
+https://docs.google.com/a/soundcloud.com/document/d/1gi00-wwPaLk5VvoAJhBVNh9Htw4Rwmj-Ut88T4M2MwI/mobilebasic?pli=1&#038;hl=en</p>
+<p>The second one by Jeff Pollard features ninja-kick-ass shared spec examples:<br />
+http://bitfluxx.com/2011/05/23/some-rspec-tips-and-best-practices.html</p>
+<p>Andrea did already a good job with the Google Doc, but what about collection all tipps into git repo so everyone can easily collaborate &#8211; let&#8217;s fork, PR and drive it forward!</p>
+<p>More sources to follow &#8211; spec it, run it, kick it!</p>
+<p>[kind of unrelated but nice picture &#8216;borrowed&#8217; from <a href="http://www.globalnerdy.com">global nerdy</a>]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>HowTo: resque-web, resque scheduler and passenger</title>
+		<link>http://www.rngtng.com/2011/07/29/howto-resque-web-resque-scheduler-and-passenger/</link>
+				<pubDate>Fri, 29 Jul 2011 16:04:59 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[passenger]]></category>
+		<category><![CDATA[resque]]></category>
+		<category><![CDATA[scheduler]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=562</guid>
+				<description><![CDATA[Here&#8217;s how you get resque-web and resque scheduler playing well with passenger: Follow these instructions from resque readme (apache, ngnix) and check out current resque repo. Now update following two files: 1. Add gem "resque-scheduler","2.0.0.d" to Gemfile 2. Run bundle 3. Add require 'resque_scheduler' to config.ru Restart you webserver and are ready to go &#8211; [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Here&#8217;s how you get <a href="https://github.com/defunkt/resque">resque-web</a> and <a href="https://github.com/bvandenbos/resque-scheduler">resque scheduler</a> playing well with <a href="http://www.modrails.com/" class="broken_link">passenger</a>:</p>
+<p>Follow these instructions from resque readme (<a href="http://www.modrails.com/documentation/Users%20guide%20Apache.html#_deploying_a_rack_based_ruby_application" class="broken_link">apache</a>, <a href="http://www.modrails.com/documentation/Users%20guide%20Nginx.html#deploying_a_rack_app" class="broken_link">ngnix</a>) and check out current resque repo. Now update following two files:<br />
+1. Add <code>gem "resque-scheduler","2.0.0.d"</code> to Gemfile<br />
+2. Run <code>bundle</code><br />
+3. Add <code>require 'resque_scheduler'</code> to config.ru</p>
+<p>Restart you webserver and are ready to go &#8211; Happy scheduling!</p>
+<p>Both file after editing:<br />
+[gist id=1101580]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Rails 3.1 Hackfest &#8211; get rid of Javascript Runtime dependency in production</title>
+		<link>http://www.rngtng.com/2011/07/25/rails-3-1-hackfest-get-rid-of-javascript-runtime-dependency-in-production/</link>
+				<pubDate>Sun, 24 Jul 2011 22:42:54 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[hackfest]]></category>
+		<category><![CDATA[rails]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=584</guid>
+				<description><![CDATA[This weekend was Rails 3.1 Hackfest. The rails community was called to test the upcoming version 3.1 to its limits, to find bugs and or flaws and get it polished for the final release. So I did: I&#8217;m working with the rails 3.1 since it first release candidate, but never tried in production. So I [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://pragdave.pragprog.com/photos/uncategorized/2007/05/20/rails_logo_heart.png" alt="" width="480" height="306" /></p>
+<p>This weekend was <a href="http://weblog.rubyonrails.org/2011/7/14/rails-3-1-hackfest">Rails 3.1 Hackfest</a>. The rails community was called to test the upcoming version 3.1 to its limits, to find bugs and or flaws and get it polished for the final release. So I did:</p>
+<p>I&#8217;m working with the rails 3.1 since it first release candidate, but never tried in production. So I made my task to finally test this, and bring my app in the wild &#8211; on my (not root) server. Rails 3.0 is running there smoothly so I didn&#8217;t expect any problems &#8211; wrong!<br />
+Show stopper was the Javascript Runtime dependency on production. Reason was quickly found: <a href="http://jashkenas.github.com/coffee-script/" class="broken_link">Coffee-Script</a> &#8211; ahrg! It depends on <a href="https://github.com/sstephenson/execjs">ExecJS</a>, which depends on a Javascript Runtime. Unfortunately, and that&#8217;s because I&#8217;m not on a root server, I got neither node.js, therubyraser, Mustang nor Johnson installed there.</p>
+<p>I read <a href="https://moocode.com/posts/1-deploying-a-rails-3-1-application-to-production" class="broken_link">this article</a>, which supposed to precompile the assets &#8211; didn&#8217;t help either and runtime is needed again.</p>
+<p>In the End, the solution was as simple as obvious: just don&#8217;t use coffee-script in production <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> I did, removed the coffee-script gem form my Gemfile &#8211; and tatatata: it works! Uhh! This took me quite a long time to get it right. Javascript Runtime dependecy no good for prodcution, and reading <a href="http://yehudakatz.com/2011/06/14/what-the-hell-is-happening-to-rails/">Mr. Katz</a> it&#8217;s looking good to get this fixed for the final release &#8211; uff! Happy so get tin final one soon! Yeah!</p>
+<p>[cheesey image taken from <a href="http://pragdave.pragprog.com/pragdave/2007/05/rails_is_love.html" class="broken_link">PragDave</a> &#8211; thx]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>HowTo: ultra mega fast rails routes lookup</title>
+		<link>http://www.rngtng.com/2011/03/16/howto-ultra-mega-fast-rails-routes-lookup/</link>
+				<pubDate>Wed, 16 Mar 2011 16:34:00 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[alias]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[caching]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[routes]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[shell]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=538</guid>
+				<description><![CDATA[I was quite annoyed by the wasted time it took each time I grep the rails routes table. Wait, can&#8217;t this be cached? &#8211; Sure it can! So I came up this nice little alias to cache the output once: alias route='CF=tmp/routes_cache; [[ ! -s $CF ]] &#38;&#38; rake routes &#62; $CF; cat $CF &#124; [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/8/5/1249508265579/Frances-V150-TGV-fast-tra-001.jpg" alt="" /></p>
+<p>I was quite annoyed by the wasted time it took each time I grep the rails routes table.<br />
+<em>Wait, can&#8217;t this be cached?  &#8211; Sure it can!</em><br />
+So I came up this nice little alias to cache the output once:<br />
+<code><br />
+alias route='CF=tmp/routes_cache; [[ ! -s $CF ]] &amp;&amp; rake routes &gt; $CF; cat $CF | grep '<br />
+</code></p>
+<p>now it&#8217;s ultra fast, try e.g.:<br />
+<code><br />
+$ route root<br />
+</code><br />
+bang!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>What? &#8211; irb extension gem to find your methods</title>
+		<link>http://www.rngtng.com/2010/09/24/what-irb-extension-gem-to-find-your-methods/</link>
+				<pubDate>Fri, 24 Sep 2010 11:35:38 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[extension]]></category>
+		<category><![CDATA[irb]]></category>
+		<category><![CDATA[what?]]></category>
+		<category><![CDATA[what_method]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=10</guid>
+				<description><![CDATA[[youtube]http://www.youtube.com/watch?v=2u3c5z45V8g[/youtube] If Samuel just would have asked me, I got an answer: Oldies, but Goldies: &#8216;Methodfinder&#8217; is a really nice extension for your ruby/rails irb and shipped with the &#8216;what_methods&#8217; gem. I&#8217;m using quite a lot and can&#8217;t go without it anymore (aka. I&#8217;m too stupid to remember all those method names ;-). gem install [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>[youtube]http://www.youtube.com/watch?v=2u3c5z45V8g[/youtube]<br />
+If Samuel just would have asked me, I got an answer:</p>
+<p>Oldies, but Goldies: &#8216;Methodfinder&#8217;  is a really nice extension for your ruby/rails irb and shipped with the &#8216;what_methods&#8217; gem. I&#8217;m using quite a lot and can&#8217;t go without it anymore (aka. I&#8217;m too stupid to remember all those method names ;-).</p>
+<p><code>gem install what_methods</code></p>
+<p>http://redhanded.hobix.com/inspect/stickItInYourIrbrcMethodfinder.html</p>
+<p>See more hints by Dr. Nic blog <a href="http://drnicwilliams.com/2006/10/12/my-irbrc-for-consoleirb/">here</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>SoundCloud it is&#8230;.</title>
+		<link>http://www.rngtng.com/2010/09/02/soundcloud-it-is/</link>
+				<pubDate>Thu, 02 Sep 2010 16:49:51 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[berlin]]></category>
+		<category><![CDATA[job+]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[me]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+		<category><![CDATA[soundcloud]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=428</guid>
+				<description><![CDATA[After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at soundcloud.com. It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans. It&#8217;s kick ass! 😉 Take a look around [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.wechsellook.com/postFiles/489241ba-f3d7-4310-b457-8e7e2041003d.jpg" alt="" width="551" height="252" /></p>
+<p>After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at <a href="http://www.soundcloud.com">soundcloud.com</a>.</p>
+<p style="text-align: center"><em>It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans.</em></p>
+<p>It&#8217;s kick ass! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Take a look around the office, check this out: http://www.wechsellook.com/post/read/90</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Oauth-CLI &#8211; test your Twitter and other OAuth APIs easily</title>
+		<link>http://www.rngtng.com/2010/07/01/oauth-cli-test-your-twitter-and-other-oauth-apis-easily/</link>
+				<pubDate>Thu, 01 Jul 2010 11:36:10 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[cli]]></category>
+		<category><![CDATA[command line]]></category>
+		<category><![CDATA[gem]]></category>
+		<category><![CDATA[oauth]]></category>
+		<category><![CDATA[oauthc]]></category>
+		<category><![CDATA[qype]]></category>
+		<category><![CDATA[twitter]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=418</guid>
+				<description><![CDATA[By the time I was working at Qype, I often had to deal with OAuth APIs. Doing example request works to a certain point quite good with a Plugin the for Firefox. But when it comes to Authorized or POST Request you&#8217;re stuck! So I developed a tiny command line client, which allows you to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.rngtng.com/files/2010/07/oauthc.gif" alt="" width="600" height="432" class="aligncenter size-full wp-image-422" srcset="http://www.rngtng.com/files/2010/07/oauthc.gif 600w, http://www.rngtng.com/files/2010/07/oauthc-300x216.gif 300w" sizes="(max-width: 600px) 100vw, 600px" /><br />
+By the time I was working at Qype, I often had to deal with OAuth APIs. Doing example request works to a certain point quite good with a Plugin the for Firefox. But when it comes to Authorized or POST Request you&#8217;re stuck!</p>
+<p>So I developed a tiny command line client, which allows you to send request easily. It comes as a gem and easily to install:</p>
+<p><code>gem install oauth-cli</code></p>
+<p>After installation, execute <strong>oauthc</strong>. You either make onetime calls, with giving all required data as parameter, or just go into interactive mode, to get a shell for multiple calls and history. For not stating all connection data over and over again, it comes with multiple profile support, a wizard to create those easily and presets for <strong>Twitter and Qype</strong>.</p>
+<p>See this nifty example call:<br />
+<code>oauthc -p twitter get statuses/friends.json</code></p>
+<p>I hope you like it &#8211; Bug reports, suggestions, updates go to:<br />
+http://github.com/rngtng/oauth-cli/issues</p>
+<p>See Readme:<br />
+http://github.com/rngtng/oauth-cli/blob/master/README.rdoc</p>
+<p>See Source:<br />
+http://github.com/rngtng/oauth-cli</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+			<title>  My first Arduion test: 10 LEDs running light | uRaNGaTaNG</title>
+	
+	<!-- Basic Meta Data -->
+	<meta name="copyright" content="Design is copyright 2008 - 2019 The Theme Foundry" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../../../../wp-content/themes/vigilance/images/favicon.ico" />
+
+	<!--Stylesheets-->
+	<link href="../../../../wp-content/themes/vigilance/style.css" type="text/css" media="screen" rel="stylesheet" />
+	<!--[if lt IE 8]><link rel="stylesheet" type="text/css" media="screen" href="http://www.rngtng.com/wp-content/themes/vigilance/stylesheets/ie.css" /><![endif]-->
+	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" media="screen" href="http://www.rngtng.com/wp-content/themes/vigilance/stylesheets/ie6.css" /><![endif]-->
+
+	<!--WordPress-->
+	<link rel="alternate" type="application/rss+xml" title="uRaNGaTaNG RSS Feed" href="../../../../feed/index.rss" />
+	<link rel="pingback" href="http://www.rngtng.com/xmlrpc.php" />
+
+	<!--WP Hook-->
+		<link rel='dns-prefetch' href='http://s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.rngtng.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='../../../../wp-includes/css/dist/block-library/style.min-ver=5.2.2.css' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='../../../../wp-json/index.json' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Arduion has arrived' href='../../17/arduion-has-arrived/index.html' />
+<link rel='next' title='Second try: 2&#215;5 LED Matrix Arduino controlled' href='../../28/second-try-2x5-led-matrix-arduino-controlled/index.html' />
+<meta name="generator" content="WordPress 5.2.2" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../../../wp-json/oembed/1.0/embed-url=http---www.rngtng.com-2009-04-24-my-first-arduion-test-10-leds-running-light-.json" />
+<link rel="alternate" type="text/xml+oembed" href="../../../../wp-json/oembed/1.0/embed-url=http---www.rngtng.com-2009-04-24-my-first-arduion-test-10-leds-running-light-&amp;format=xml.xml" />
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style></head>
+<body class="post-template-default single single-post postid-73 single-format-standard">
+	<div class="skip-content"><a href="#content">Skip to content</a></div>
+	<div id="wrapper">
+		<div id="header" class="clear">
+			<div id="title"><a href="../../../../index.html">uRaNGaTaNG</a></div>			<div id="description">
+				<h2>Featuring Web development, Hardware Hacking, Pinball and more&#8230;</h2>
+			</div><!--end description-->
+			<div id="nav">
+			  <div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-782"><a title="Edit and view plantuml diagrams nicely" href="../../../../vizard/index.html">vizard</a></li>
+<li id="menu-item-619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-619"><a href="../../../../nabaztag-injector-arduino-rfid-hack/index.html">NabaztagInjector</a></li>
+<li id="menu-item-621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621"><a href="../../../../mtxcontrol/index.html">mtXcontrol</a></li>
+<li id="menu-item-620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-620"><a href="../../../../launchpad/index.html">launchpad</a></li>
+</ul></div>			</div><!--end nav-->
+		</div><!--end header-->
+		<div id="content" class="pad">
+		
+					<div id="post-73" class="post-73 post type-post status-publish format-standard hentry category-arduino-co tag-arduino-co tag-buton tag-interrupt tag-led tag-light tag-running">
+			<div class="post-header">
+				<h1>My first Arduion test: 10 LEDs running light</h1>
+				<div id="single-date" class="date"><span>2009</span> April 24</div>
+			</div><!--end post header-->
+			<div class="meta clear">
+				<div class="tags">tags: <a href="../../../../tag/arduino-co/index.html" rel="tag">Arduino &amp; Co.</a>, <a href="../../../../tag/buton/index.html" rel="tag">buton</a>, <a href="../../../../tag/interrupt/index.html" rel="tag">interrupt</a>, <a href="../../../../tag/led/index.html" rel="tag">led</a>, <a href="../../../../tag/light/index.html" rel="tag">light</a>, <a href="../../../../tag/running/index.html" rel="tag">running</a></div>
+				<div class="author">by tobi</div>
+			</div><!--end meta-->
+			<div class="entry clear">
+								<p>Check this out:<br />
+[youtube]http://www.youtube.com/watch?v=irVW4U8zq_k[/youtube]</p>
+<p>That my first proper Arduino test, controlling a 10 LED running light. I attached a small button via interrupt as well to start &amp; stop the light. More to come soon, stay tuned!</p>
+<p>Here the (very,very ugly) source code:</p>
+<p>[c]<br />
+int ledPin = 3;      // First LED connected to digital pin 13<br />
+volatile int stop = LOW;</p>
+<p>void setup()<br />
+{<br />
+  Serial.begin(38400);<br />
+  for( int i = 0; i &lt; 10; i++) {<br />
+     pinMode(ledPin + i, OUTPUT);<br />
+  }<br />
+   attachInterrupt(0, stopit, RISING);    //Button attached to Pin 2<br />
+}</p>
+<p>int i = 0;<br />
+void loop()<br />
+{<br />
+    for( i = 0; i &lt; 7 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &gt;= 1 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 0; i &lt; 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &gt;= 3 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &lt; 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 9; i &gt;= 1 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+}</p>
+<p>void stopit()<br />
+{<br />
+  delayMicroseconds(1000);<br />
+  stop = !stop;<br />
+}</p>
+<p>void blink( int pin ) {<br />
+      digitalWrite(pin, HIGH);<br />
+      delay(120 &#8211; abs( pin &#8211; 8 ) * 20);<br />
+      digitalWrite(pin, LOW);<br />
+}<br />
+[/c]</p>
+											</div><!--end entry-->
+			<div class="post-footer">
+				<p>from &rarr; <a href="../../../../category/arduino-co/index.html" rel="category tag">Arduino &amp; Co.</a></p>
+			</div><!--end post footer-->
+		</div><!--end post-->
+				</div><!--end content-->
+<div id="sidebar">
+			<ul>
+		<li id="search-3" class="widget widget_search"><h2 class="widgettitle">Search</h2>
+<form method="get" id="search_form" action="../../../../index.html">
+	<div>
+		<input type="text" value="type and press enter" name="s" id="s" onfocus="if (this.value == 'type and press enter' ) {this.value = '';}" onblur="if (this.value == '' ) {this.value = 'type and press enter';}" />
+		<input type="hidden" value="Search" />
+	</div>
+</form>
+</li><li id="tag_cloud-3" class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2><div class="tagcloud"><a href="../../../../tag/active/index.html" class="tag-cloud-link tag-link-294 tag-link-position-1" style="font-size: 8pt;" aria-label="active (2 items)">active</a>
+<a href="../../../../tag/applescript/index.html" class="tag-cloud-link tag-link-288 tag-link-position-2" style="font-size: 14pt;" aria-label="applescript (5 items)">applescript</a>
+<a href="../../../../tag/arduino/index.html" class="tag-cloud-link tag-link-261 tag-link-position-3" style="font-size: 22pt;" aria-label="Arduino (14 items)">Arduino</a>
+<a href="../../../../tag/arduino-co/index.html" class="tag-cloud-link tag-link-4731 tag-link-position-4" style="font-size: 14pt;" aria-label="Arduino &amp; Co. (5 items)">Arduino &amp; Co.</a>
+<a href="../../../../tag/beauty-of-code/index.html" class="tag-cloud-link tag-link-264 tag-link-position-5" style="font-size: 8pt;" aria-label="beauty of code (2 items)">beauty of code</a>
+<a href="../../../../tag/berlin/index.html" class="tag-cloud-link tag-link-67 tag-link-position-6" style="font-size: 10.4pt;" aria-label="berlin (3 items)">berlin</a>
+<a href="../../../../tag/book/index.html" class="tag-cloud-link tag-link-290 tag-link-position-7" style="font-size: 10.4pt;" aria-label="book (3 items)">book</a>
+<a href="../../../../tag/console/index.html" class="tag-cloud-link tag-link-335 tag-link-position-8" style="font-size: 8pt;" aria-label="console (2 items)">console</a>
+<a href="../../../../tag/electronics-co/index.html" class="tag-cloud-link tag-link-366 tag-link-position-9" style="font-size: 8pt;" aria-label="Electronics &amp; Co. (2 items)">Electronics &amp; Co.</a>
+<a href="../../../../tag/evaluation/index.html" class="tag-cloud-link tag-link-393 tag-link-position-10" style="font-size: 10.4pt;" aria-label="evaluation (3 items)">evaluation</a>
+<a href="../../../../tag/extension/index.html" class="tag-cloud-link tag-link-268 tag-link-position-11" style="font-size: 8pt;" aria-label="extension (2 items)">extension</a>
+<a href="../../../../tag/fork/index.html" class="tag-cloud-link tag-link-378 tag-link-position-12" style="font-size: 8pt;" aria-label="fork (2 items)">fork</a>
+<a href="../../../../tag/fun/index.html" class="tag-cloud-link tag-link-206 tag-link-position-13" style="font-size: 8pt;" aria-label="fun (2 items)">fun</a>
+<a href="../../../../tag/github/index.html" class="tag-cloud-link tag-link-376 tag-link-position-14" style="font-size: 12.4pt;" aria-label="github (4 items)">github</a>
+<a href="../../../../tag/hack/index.html" class="tag-cloud-link tag-link-297 tag-link-position-15" style="font-size: 12.4pt;" aria-label="hack (4 items)">hack</a>
+<a href="../../../../tag/hacking/index.html" class="tag-cloud-link tag-link-4645 tag-link-position-16" style="font-size: 14pt;" aria-label="hacking (5 items)">hacking</a>
+<a href="../../../../tag/hint/index.html" class="tag-cloud-link tag-link-265 tag-link-position-17" style="font-size: 14pt;" aria-label="hint (5 items)">hint</a>
+<a href="../../../../tag/howto/index.html" class="tag-cloud-link tag-link-315 tag-link-position-18" style="font-size: 15.4pt;" aria-label="howto (6 items)">howto</a>
+<a href="../../../../tag/irb/index.html" class="tag-cloud-link tag-link-266 tag-link-position-19" style="font-size: 8pt;" aria-label="irb (2 items)">irb</a>
+<a href="../../../../tag/launchpad/index.html" class="tag-cloud-link tag-link-601 tag-link-position-20" style="font-size: 12.4pt;" aria-label="launchpad (4 items)">launchpad</a>
+<a href="../../../../tag/led/index.html" class="tag-cloud-link tag-link-320 tag-link-position-21" style="font-size: 15.4pt;" aria-label="led (6 items)">led</a>
+<a href="../../../../tag/light/index.html" class="tag-cloud-link tag-link-319 tag-link-position-22" style="font-size: 8pt;" aria-label="light (2 items)">light</a>
+<a href="../../../../tag/mac/index.html" class="tag-cloud-link tag-link-291 tag-link-position-23" style="font-size: 14pt;" aria-label="mac (5 items)">mac</a>
+<a href="../../../../tag/mac-os-x/index.html" class="tag-cloud-link tag-link-369 tag-link-position-24" style="font-size: 14pt;" aria-label="Mac OS X (5 items)">Mac OS X</a>
+<a href="../../../../tag/mtxcontrol/index.html" class="tag-cloud-link tag-link-563 tag-link-position-25" style="font-size: 15.4pt;" aria-label="mtXcontrol (6 items)">mtXcontrol</a>
+<a href="../../../../tag/mysql/index.html" class="tag-cloud-link tag-link-398 tag-link-position-26" style="font-size: 10.4pt;" aria-label="mysql (3 items)">mysql</a>
+<a href="../../../../tag/nabaztag/index.html" class="tag-cloud-link tag-link-555 tag-link-position-27" style="font-size: 12.4pt;" aria-label="nabaztag (4 items)">nabaztag</a>
+<a href="../../../../tag/os-x/index.html" class="tag-cloud-link tag-link-336 tag-link-position-28" style="font-size: 8pt;" aria-label="os x (2 items)">os x</a>
+<a href="../../../../tag/patch/index.html" class="tag-cloud-link tag-link-377 tag-link-position-29" style="font-size: 8pt;" aria-label="patch (2 items)">patch</a>
+<a href="../../../../tag/pinball/index.html" class="tag-cloud-link tag-link-4686 tag-link-position-30" style="font-size: 14pt;" aria-label="pinball (5 items)">pinball</a>
+<a href="../../../../tag/plugin/index.html" class="tag-cloud-link tag-link-372 tag-link-position-31" style="font-size: 12.4pt;" aria-label="plugin (4 items)">plugin</a>
+<a href="../../../../tag/processing/index.html" class="tag-cloud-link tag-link-323 tag-link-position-32" style="font-size: 12.4pt;" aria-label="processing (4 items)">processing</a>
+<a href="../../../../tag/rails/index.html" class="tag-cloud-link tag-link-260 tag-link-position-33" style="font-size: 15.4pt;" aria-label="rails (6 items)">rails</a>
+<a href="../../../../tag/rails-co/index.html" class="tag-cloud-link tag-link-379 tag-link-position-34" style="font-size: 16.4pt;" aria-label="Rails &amp; Co. (7 items)">Rails &amp; Co.</a>
+<a href="../../../../tag/rainbowduino/index.html" class="tag-cloud-link tag-link-406 tag-link-position-35" style="font-size: 20pt;" aria-label="RainbowDuino (11 items)">RainbowDuino</a>
+<a href="../../../../tag/ruby/index.html" class="tag-cloud-link tag-link-4730 tag-link-position-36" style="font-size: 20.6pt;" aria-label="Ruby, Rails &amp; Co. (12 items)">Ruby, Rails &amp; Co.</a>
+<a href="../../../../tag/ruby-on-rails/index.html" class="tag-cloud-link tag-link-452 tag-link-position-37" style="font-size: 12.4pt;" aria-label="ruby on rails (4 items)">ruby on rails</a>
+<a href="../../../../tag/scaffold/index.html" class="tag-cloud-link tag-link-295 tag-link-position-38" style="font-size: 8pt;" aria-label="Scaffold (2 items)">Scaffold</a>
+<a href="../../../../tag/search/index.html" class="tag-cloud-link tag-link-296 tag-link-position-39" style="font-size: 8pt;" aria-label="search (2 items)">search</a>
+<a href="../../../../tag/seeedstudio/index.html" class="tag-cloud-link tag-link-405 tag-link-position-40" style="font-size: 14pt;" aria-label="seeedstudio (5 items)">seeedstudio</a>
+<a href="../../../../tag/serialport/index.html" class="tag-cloud-link tag-link-334 tag-link-position-41" style="font-size: 8pt;" aria-label="serialport (2 items)">serialport</a>
+<a href="../../../../tag/setup/index.html" class="tag-cloud-link tag-link-712 tag-link-position-42" style="font-size: 10.4pt;" aria-label="setup (3 items)">setup</a>
+<a href="../../../../tag/terminal/index.html" class="tag-cloud-link tag-link-370 tag-link-position-43" style="font-size: 8pt;" aria-label="terminal (2 items)">terminal</a>
+<a href="../../../../tag/update/index.html" class="tag-cloud-link tag-link-341 tag-link-position-44" style="font-size: 8pt;" aria-label="update (2 items)">update</a>
+<a href="../../../../tag/usb/index.html" class="tag-cloud-link tag-link-338 tag-link-position-45" style="font-size: 10.4pt;" aria-label="usb (3 items)">usb</a></div>
+</li>	</ul>
+	<ul class="thin-sidebar spad">		<li id="linkcat-270" class="widget widget_links"><h2 class="widgettitle">Arduino &amp; Co.</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.adafruit.com/">Adafruit Industries</a></li>
+<li><a href="http://bausteln.de/">Bausteln</a></li>
+<li><a href="http://www.csd-electronics.de/">CSD Electronics</a></li>
+<li><a href="http://www.eevblog.com">EEVblog</a></li>
+<li><a href="http://www.exp-tech.de">Exp Tech</a></li>
+<li><a href="http://www.freeduino.org">Freeduino (DE)</a></li>
+<li><a href="https://www.itead.cc/">iTead</a></li>
+<li><a href="http://www.makezine.com/">Make:</a></li>
+<li><a href="http://www.micro4you.com/store/">Micro4you</a></li>
+<li><a href="http://www.nuelectronics.com/">nuelectronics</a></li>
+<li><a href="http://octopart.com/">Octopart</a></li>
+<li><a href="http://www.reichelt.de" title="My Electronics Supplier">Reichelt</a></li>
+<li><a href="http://de.rs-online.com/web/home.html">RS Online</a></li>
+<li><a href="http://www.seeedstudio.com">Seeedstudio</a></li>
+<li><a href="http://solderpad.com/">Solderpad</a></li>
+<li><a href="http://www.sparkfun.com/">SparkFun</a></li>
+<li><a href="http://www.tinkersoup.com/">Tinker Soup</a></li>
+<li><a href="http://www.watterott.com/" title="My Arduino Supplier">Watterott</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-4694" class="widget widget_links"><h2 class="widgettitle">Pinball</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.ipdb.org/">Internet Pinball Database</a></li>
+<li><a href="http://www.pinballnews.com/">Pinball News</a></li>
+<li><a href="http://www.pinballparty.de/">Pinballparty</a></li>
+<li><a href="https://www.pro-pinball.com">Pro Pinball</a></li>
+<li><a href="http://www.silvercastlepinball.com/">Silvercastle Pinball</a></li>
+<li><a href="http://theballiswild.net">The ball is wild</a></li>
+<li><a href="http://www.thebiglebowskipinball.com/">The Big Lebowski</a></li>
+
+	</ul>
+</li>
+	</ul>	<ul class="thin-sidebar">				<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>		<ul>
+											<li>
+					<a href="../../../../2019/08/13/rest-security-cheat-sheet/index.html">REST Security Cheat Sheet</a>
+									</li>
+											<li>
+					<a href="../../../../2019/08/13/wintergarden-building-marble-machine-x/index.html">Wintergarden &#8211; building Marble Machine X</a>
+									</li>
+											<li>
+					<a href="../../../../2019/08/13/lego-pinball/index.html">Lego + Pinball <3</a>
+									</li>
+											<li>
+					<a href="../../../../2019/08/13/how-to-be-an-architect-in-a-microservice-world/index.html">How to be an Architect in a Microservice World</a>
+									</li>
+											<li>
+					<a href="../../../../2019/04/23/hack-my-car-odb-and-gps/index.html">Hack my Car &#8211; ODB and GPS</a>
+									</li>
+					</ul>
+		</li><li id="linkcat-271" class="widget widget_links"><h2 class="widgettitle">More about Me</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.arduino.cc/cgi-bin/yabb2/YaBB.pl?action=viewprofile;username=rngtng">Arduino Forum</a></li>
+<li><a href="http://www.delicious.com/RausAusKL/bundle:RngTng">Delicious</a></li>
+<li><a href="http://findapinball.com/accounts/profile/rngtng/">FindAPinball</a></li>
+<li><a href="http://github.com/rngtng">GitHub</a></li>
+<li><a href="http://www.hackster.io/rngtng">Hackster.io</a></li>
+<li><a href="https://rails.lighthouseapp.com/users/32492">Lighthouse</a></li>
+<li><a href="http://rubygems.org/profiles/RngTng">My gems @Rubygems</a></li>
+<li><a href="https://pinside.com/pinball/community/pinsiders/rngtng">Pinside</a></li>
+<li><a href="http://processing.org/discourse/yabb2/YaBB.pl?action=myviewprofile;username=776B62716B62050">Processing Forum</a></li>
+<li><a href="http://www.qype.com">Qype</a></li>
+<li><a href="http://www.slideshare.net/rngtng">Slideshare</a></li>
+<li><a href="https://soundcloud.com/hopit">SoundCloud</a></li>
+<li><a href="http://stackoverflow.com/users/169595/rngtng">Stackoverflow</a></li>
+<li><a href="http://www.twitter.com/rngtng">Twitter</a></li>
+<li><a href="http://workingwithrails.com/person/14553-tobias-bielohlawek">Woking With Rails</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Blogroll</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://tinkerlog.com/">Alex &#8211; Tinkerlog</a></li>
+<li><a href="http://schlinkify.org/">Flo &#8211; Schlinkify</a></li>
+<li><a href="http://obvio171.wordpress.com/">Helder</a></li>
+<li><a href="http://mans.de/">Hendrik</a></li>
+<li><a href="http://interactive-matter.org/">Markus &#8211; Interactive Matter</a></li>
+<li><a href="http://brainflush.wordpress.com/">Matthias</a></li>
+
+	</ul>
+</li>
+	</ul></div><!--end sidebar-->	<div id="footer">
+		<p class="right">Copyright 2019 Tobias Bielohlawek</p>
+		<p><a href="http://thethemefoundry.com/vigilance/">Vigilance Theme</a> by <a href="http://thethemefoundry.com">The Theme Foundry</a></p>
+	</div><!--end footer-->
+</div><!--end wrapper-->
+<script type='text/javascript' src='../../../../wp-includes/js/wp-embed.min-ver=5.2.2.js'></script>
+</body>
+</html>

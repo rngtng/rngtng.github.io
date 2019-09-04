@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>camp &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/camp/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 02 Aug 2011 08:01:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Meet me at Chaos Communication Camp 2011</title>
+		<link>http://www.rngtng.com/2011/08/02/meet-me-at-chaos-communication-camp-2011/</link>
+				<pubDate>Tue, 02 Aug 2011 08:01:24 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[camp]]></category>
+		<category><![CDATA[ccc]]></category>
+		<category><![CDATA[hacking]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=588</guid>
+				<description><![CDATA[Yay, I&#8217;ll be at CCC Camp 2011 &#8211; and for sure I&#8217;ll bring my arduino/rainbowduino stuff with me. So come over, say hello and join in the crazy hackingingz! [videofile]ftp://ftp.ccc.de/events/camp2011/trailer/camp2011_trailer.m4v[/videofile] http://events.ccc.de/camp/2011/]]></description>
+								<content:encoded><![CDATA[<p>Yay, I&#8217;ll be at CCC Camp 2011 &#8211; and for sure I&#8217;ll bring my arduino/rainbowduino stuff with me. So come over, say hello and join in the crazy hackingingz!</p>
+<p>[videofile]ftp://ftp.ccc.de/events/camp2011/trailer/camp2011_trailer.m4v[/videofile]</p>
+<p>http://events.ccc.de/camp/2011/</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

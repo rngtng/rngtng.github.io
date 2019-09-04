@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>matrix &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/matrix/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 12 May 2009 10:23:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Second try: 2&#215;5 LED Matrix Arduino controlled</title>
+		<link>http://www.rngtng.com/2009/04/28/second-try-2x5-led-matrix-arduino-controlled/</link>
+				<pubDate>Tue, 28 Apr 2009 10:14:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[light]]></category>
+		<category><![CDATA[matrix]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=75</guid>
+				<description><![CDATA[This time a more sophisticated example. I started to develop an LED Matrix controller and editor in Processing (like every does his first steps on arduino, I think). By now, you can create a sequence by selecting the LEDs to light up and move over to the next frame. Finished, run it on the Arduino [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>This time a more sophisticated example. I started to develop an LED Matrix controller and editor in <a href="http://www.processing.org">Processing</a> (like every does his first steps on arduino, I think).<br />
+By now, you can create a sequence by selecting the LEDs to light up and move over to the next frame. Finished, run it on the Arduino and control the speed &#8211; a nice and quick <del datetime="2009-05-12T10:14:04+00:00">toy</del> way to create any light patterns you can think of easily. </p>
+<p>[youtube]http://www.youtube.com/watch?v=Vmijzo2zT-s[/youtube]</p>
+<p>More examples and source code soon to come&#8230;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

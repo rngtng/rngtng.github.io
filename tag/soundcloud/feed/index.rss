@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>soundcloud &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/soundcloud/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 09 Mar 2012 19:38:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Lego Sumo Robot &#8211; Team SoundCloud</title>
+		<link>http://www.rngtng.com/2012/03/14/lego-sumo-robot-team-soundcloud/</link>
+				<pubDate>Wed, 14 Mar 2012 15:29:55 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[aarhus]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[fight]]></category>
+		<category><![CDATA[goto]]></category>
+		<category><![CDATA[lege]]></category>
+		<category><![CDATA[soundcloud]]></category>
+		<category><![CDATA[sumo]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=628</guid>
+				<description><![CDATA[Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to GoTo Conference 2011 in Århus to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211; the first round of the sumo battle, where Team SoundCloud flips [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-629" src="http://www.rngtng.com/files/2012/01/soundcloud-robot.png" alt="" width="500" height="364" srcset="http://www.rngtng.com/files/2012/01/soundcloud-robot.png 500w, http://www.rngtng.com/files/2012/01/soundcloud-robot-300x218.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to <a href="http://gotocon.com/aarhus-2011/">GoTo Conference 2011 in Århus</a> to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211;<br />
+the first round of the sumo battle, where Team SoundCloud flips over the opponent!</p>
+<p><iframe src="https://player.vimeo.com/video/30364841?dnt=1&#038;app_id=122963" width="500" height="281" frameborder="0" title="Lego Robot Sumo Fight - Team SoundCloud" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+<p>Unfortunately that was already it&#8217;s glorious time &#8211; we dropped out for the second round. Anyway &#8211; it was big-huge-massive fun. Make sure you grab some lego bricks and build your own. </p>
+<p>In case you&#8217;re interested in the code, it wasn&#8217;t much and nothing to be proud of &#8211; but worked!<br />
+https://gist.github.com/1280779</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>SoundCloud it is&#8230;.</title>
+		<link>http://www.rngtng.com/2010/09/02/soundcloud-it-is/</link>
+				<pubDate>Thu, 02 Sep 2010 16:49:51 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[berlin]]></category>
+		<category><![CDATA[job+]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[me]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+		<category><![CDATA[soundcloud]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=428</guid>
+				<description><![CDATA[After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at soundcloud.com. It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans. It&#8217;s kick ass! 😉 Take a look around [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.wechsellook.com/postFiles/489241ba-f3d7-4310-b457-8e7e2041003d.jpg" alt="" width="551" height="252" /></p>
+<p>After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at <a href="http://www.soundcloud.com">soundcloud.com</a>.</p>
+<p style="text-align: center"><em>It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans.</em></p>
+<p>It&#8217;s kick ass! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Take a look around the office, check this out: http://www.wechsellook.com/post/read/90</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

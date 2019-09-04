@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>berlin &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/berlin/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 09 Mar 2012 19:39:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Talk: Short introduction to Rainbowduino and mtXcontrol</title>
+		<link>http://www.rngtng.com/2011/07/23/talk-short-introduction-to-rainbowduino-and-mtxcontol/</link>
+				<pubDate>Sat, 23 Jul 2011 15:53:30 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[berlin]]></category>
+		<category><![CDATA[cbase]]></category>
+		<category><![CDATA[hack and tell]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[talk]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=559</guid>
+				<description><![CDATA[I gave a short talk at Hack and Tell in Berlin. I briefly introduced the Rainbowduino device and my work on mtXcontol. Watch me here: [vimeo]http://vimeo.com/26667454[/vimeo] Here are the slides: Rainbowduino from rngtng Thanks to David for recording!]]></description>
+								<content:encoded><![CDATA[<p>I gave a short talk at <a href="http://www.meetup.com/berlin-hack-and-tell">Hack and Tell</a> in Berlin. I briefly introduced the Rainbowduino device and my work on mtXcontol. Watch me here:</p>
+<p>[vimeo]http://vimeo.com/26667454[/vimeo]</p>
+<p>Here are the slides:<br />
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/qfGr8yOB8LYa8F" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+<div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/rngtng/rainbowduino" title="Rainbowduino" target="_blank">Rainbowduino</a> </strong> from <strong><a href="https://www.slideshare.net/rngtng" target="_blank">rngtng</a></strong> </div>
+<p>Thanks to David for recording!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>SoundCloud it is&#8230;.</title>
+		<link>http://www.rngtng.com/2010/09/02/soundcloud-it-is/</link>
+				<pubDate>Thu, 02 Sep 2010 16:49:51 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[berlin]]></category>
+		<category><![CDATA[job+]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[me]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+		<category><![CDATA[soundcloud]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=428</guid>
+				<description><![CDATA[After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at soundcloud.com. It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans. It&#8217;s kick ass! 😉 Take a look around [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.wechsellook.com/postFiles/489241ba-f3d7-4310-b457-8e7e2041003d.jpg" alt="" width="551" height="252" /></p>
+<p>After having enjoyed a wonderful summer with lot of travels and being in more or less &#8216;offline&#8217; mode, I&#8217;m back &#8216;online&#8217; and I started my new Job at <a href="http://www.soundcloud.com">soundcloud.com</a>.</p>
+<p style="text-align: center"><em>It&#8217;s like Fickr but for Music &#8211; upload your tracks and share them among the community and fans.</em></p>
+<p>It&#8217;s kick ass! <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Take a look around the office, check this out: http://www.wechsellook.com/post/read/90</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Event to be: Art vs. Technology Workshop Berlin</title>
+		<link>http://www.rngtng.com/2009/06/08/event-to-be-art-vs-technology-workshop-berlin/</link>
+				<pubDate>Mon, 08 Jun 2009 14:32:42 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[berlin]]></category>
+		<category><![CDATA[free]]></category>
+		<category><![CDATA[workshop]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=105</guid>
+				<description><![CDATA[Just found this nice event, taking place from 20-21. June in Berlin, organized by the Tinkersoup people: http://www.tinkersoup.de/workshop/ Unfortunately I may not be able to take part. Damn! ;-(]]></description>
+								<content:encoded><![CDATA[<p><a href="http://www.tinkersoup.de/workshop/"><img src="http://www.tinkersoup.de/includes/languages/german/images/title_image_2.gif" alt="" /></a></p>
+<p>Just found this nice event, taking place from 20-21. June in Berlin, organized by the <a href="http://www.tinkersoup.de/">Tinkersoup</a> people:</p>
+<p><a href="http://www.tinkersoup.de/workshop/">http://www.tinkersoup.de/workshop/</a></p>
+<p>Unfortunately I may not be able to take part. Damn! ;-(</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

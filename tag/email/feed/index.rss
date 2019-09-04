@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>email &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/email/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 05 Jun 2009 12:45:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>My first GitHub fork: bounce-email</title>
+		<link>http://www.rngtng.com/2009/06/05/my-first-github-fork-bounce-email/</link>
+				<pubDate>Fri, 05 Jun 2009 12:40:12 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[bounce]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[fork]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[patch]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[tmail]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=102</guid>
+				<description><![CDATA[Hurray! I finally forked a github project. Yesterday I ran into the bounce-email gem by Agris Ameriks on Rubyforge. It&#8217;s basically a 1:1 port of the PHP Bounce Handler classby Chris Fortune and not very rubyified. Thanks to David Reese, bounce-email is forked on github and I could easily extend it. I rubyfied the class, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Hurray! I finally forked a github project. Yesterday I ran into the <a href="http://rubyforge.org/projects/bounce-email/" class="broken_link">bounce-email gem</a> by Agris Ameriks on Rubyforge. It&#8217;s basically a 1:1 port of the <a href="http://www.phpclasses.org/browse/package/2691.html">PHP Bounce Handler class</a>by Chris Fortune and not very rubyified. Thanks to David Reese, <a href="http://github.com/whatcould/bounce-email/tree/master">bounce-email is forked on github </a> and I could easily extend it.</p>
+<p>I rubyfied the class, did some code cleanup, added (yet a very simple) way to get the  original message, and gained some performance by paring message only on demand. A testcase was broken as well the Rakefile, both are fixed. See the update here:<br />
+<a href="http://github.com/rngtng/bounce-email/tree/master" class="broken_link">http://github.com/rngtng/bounce-email/tree/master</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

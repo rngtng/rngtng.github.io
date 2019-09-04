@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hack &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/hack/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 13 Jul 2012 09:19:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Hack your whiteboard &#8211; and clean it quick!</title>
+		<link>http://www.rngtng.com/2012/07/13/hack-your-whiteboard-and-clean-it-quick/</link>
+				<pubDate>Fri, 13 Jul 2012 09:19:28 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[messy]]></category>
+		<category><![CDATA[real]]></category>
+		<category><![CDATA[whiteboard]]></category>
+		<category><![CDATA[world]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=669</guid>
+				<description><![CDATA[For the record: Here&#8217;s my favorite realworld hack I got once told by my lovley coworker Roel: How to clean a messy whiteboard. Remember the situation when one used the wrong pen for the whiteboard and can&#8217;t clean it? Just take another pen which can be erased and go over the non erasable parts &#8211; [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://naccm.files.wordpress.com/2010/01/google_whiteboard.jpg" alt="" /></p>
+<p>For the record: Here&#8217;s my favorite realworld hack I got once told by my lovley coworker Roel:</p>
+<p><strong>How to clean a messy whiteboard.</strong></p>
+<p>Remember the situation when one used the wrong pen for the whiteboard and can&#8217;t clean it? Just take another pen which can be erased and go over the non erasable parts &#8211; suddenly everything gets clean away:</p>
+<p>Or in the words of TvLesson:<br />
+<em>Take another dry erase marker (preferably darker than the marks that you are trying to remove) and draw on top of the messy marks. Then wipe the marks away with a dry erase eraser or soft cloth. </p>
+<p>The new layer of dry erase marker will lift and loosen the underlying marks. It&#8217;s simple but may not work for tougher messy marks.</em></p>
+<p>http://www.tvlesson.com/article/13405_how-to-erase-a-messy-whiteboard.html</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Hacking the Nabaztag &#8211; Arduino injects via I2C data into RFID Reader</title>
+		<link>http://www.rngtng.com/2012/01/10/hacking-the-nabaztag-arduino-injects-via-i2c-data-into-rfid-reader/</link>
+				<pubDate>Mon, 09 Jan 2012 23:28:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[inject]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[rfid]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=624</guid>
+				<description><![CDATA[Wow! After more than two years I finally got my hands dirty hacking the Nabaztag rabbit. The release of the source code last summer were very encouraging here! Expect some awesome results in the next time 🙂 Let&#8217;s start with NabaztagInjector, an Arduino Library to inject data: What bothered me for long was the missing [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://farm7.staticflickr.com/6185/6151922207_019ac10ee4_d.jpg" alt="" width="500" height="500" class="aligncenter size-full wp-image-626" /></p>
+<p>Wow! After <a href="http://www.rngtng.com/2009/12/02/hacking-the-nabaztag/">more than two years</a> I finally got my hands dirty hacking the Nabaztag rabbit. The <a href="http://code.google.com/p/nabaztag-source-code/">release of the source code</a> last summer were very encouraging here! Expect some awesome results in the next time <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+<p>Let&#8217;s start with <strong>NabaztagInjector</strong>, an Arduino Library to inject data:</p>
+<p>What bothered me for long was the missing possibility to connect external devices to the rabbit. How awesome would it be to use the rabbit for sending data into the net? Imagine it as WIFI shield you Arduino.</p>
+<p>Guess what &#8211; that&#8217;s possible: replacing the RFID reader with an Arduino (both use the I2C bus) running a simulation of the RFID reader chip, enabled me to inject any custom data to the rabbit. Hacked!</p>
+<p>As result, I created this tiny Arduino library to encapsulates the full process behind and easy API:</p>
+<p>[gist id=1582447]</p>
+<p>Check out the full Readme, Source code and Examples here:</p>
+<blockquote class="wp-embedded-content" data-secret="0RmRtUP4iZ"><p><a href="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/">NabaztagInjector &#8211; An Arduino RFID Hack</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/embed/#?secret=0RmRtUP4iZ" data-secret="0RmRtUP4iZ" width="500" height="282" title="&#8220;NabaztagInjector &#8211; An Arduino RFID Hack&#8221; &#8212; uRaNGaTaNG" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Sugru rocks! Or: how I fixed my broken iPhone Display glass from falling off.</title>
+		<link>http://www.rngtng.com/2011/11/08/sugru-rocks-how-i-fixed-my-broken-iphone-display-glass-from-falling-off/</link>
+				<pubDate>Tue, 08 Nov 2011 10:52:36 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[sugru]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=597</guid>
+				<description><![CDATA[Unfortunately I kept on dropping my iPhone until its display glass broke. Typical me. But after that, even worse, the little bits of broken glass where loose, slowly felt off one after another destroying the displays protection completely. Whereas the drop (besides the broken glass) didn&#8217;t effect the phones functionaries at all (even its touch [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Unfortunately I kept on dropping my iPhone until its display glass broke. Typical me. But after that, even worse, the little bits of broken glass where loose, slowly felt off one after another destroying the displays protection completely. Whereas the drop (besides the broken glass) didn&#8217;t effect the phones functionaries at all (even its touch capabilities are 100% working), the vanishing glass revealed the display which could get destroyed by dust and moist easily. Luckily I found a solution: Sugru.</p>
+<p>Sugru is this fantastic super modeling clay made by Jane from Ireland. It allows you to hack the world and fix stuff. First its soft, sticks on nearly and material allowing you to put it in any shape, later it hardens and keeps its form. Perfect for me!</p>
+<p><img class="aligncenter size-full wp-image-599" src="http://www.rngtng.com/files/2011/11/20111108-f8j49y7mhtxjenh57c3swnciwe.jpg" alt="" width="596" height="337" srcset="http://www.rngtng.com/files/2011/11/20111108-f8j49y7mhtxjenh57c3swnciwe.jpg 596w, http://www.rngtng.com/files/2011/11/20111108-f8j49y7mhtxjenh57c3swnciwe-300x169.jpg 300w" sizes="(max-width: 596px) 100vw, 596px" /></p>
+<p>Check my hack, where I used Sugru replacing the missing glass pieces and preventing the loose ones from falling of. My display is protected again, and the phone is working &#8211; yay!</p>
+<p>Visit the Sugru Website and get some for yourself: http://sugru.com</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Love ActiveScaffold: Show always Searchbox</title>
+		<link>http://www.rngtng.com/2008/10/05/love-activescaffold-show-always-seachbox/</link>
+				<pubDate>Sun, 05 Oct 2008 12:34:01 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[active]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[Scaffold]]></category>
+		<category><![CDATA[search]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=26</guid>
+				<description><![CDATA[ActiveScaffold is a great plugin to build edit form easily. Nicely AJAX and nested forms support (well with limits ;-). One thing which bugged me all the time, was the extra click you had to do to show the searchbox. Well I solved it like this: [ruby] def index active_scaffold_config.list.label += render_to_string( :action =&#62; :search, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a href="http://activescaffold.com/" class="broken_link">ActiveScaffold</a> is a great plugin to build edit form easily. Nicely AJAX and nested forms support (well with limits ;-). One thing which bugged me all the time, was the extra click you had to do to show the searchbox. Well I solved it like this:</p>
+<p>[ruby]<br />
+  def index<br />
+    active_scaffold_config.list.label += render_to_string( :action =&gt; :search, :layout =&gt; false )<br />
+    super<br />
+  end<br />
+[/ruby]</p>
+<p>I know, it&#8217;s kind of bad hack, as the label actually isn&#8217;t supposed to contain a form &#8211; but it works out quite well! </p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

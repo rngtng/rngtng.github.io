@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>competition &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/competition/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 09 Mar 2012 19:38:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Lego Sumo Robot &#8211; Team SoundCloud</title>
+		<link>http://www.rngtng.com/2012/03/14/lego-sumo-robot-team-soundcloud/</link>
+				<pubDate>Wed, 14 Mar 2012 15:29:55 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Lost in Web]]></category>
+		<category><![CDATA[aarhus]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[fight]]></category>
+		<category><![CDATA[goto]]></category>
+		<category><![CDATA[lege]]></category>
+		<category><![CDATA[soundcloud]]></category>
+		<category><![CDATA[sumo]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=628</guid>
+				<description><![CDATA[Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to GoTo Conference 2011 in Århus to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211; the first round of the sumo battle, where Team SoundCloud flips [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-629" src="http://www.rngtng.com/files/2012/01/soundcloud-robot.png" alt="" width="500" height="364" srcset="http://www.rngtng.com/files/2012/01/soundcloud-robot.png 500w, http://www.rngtng.com/files/2012/01/soundcloud-robot-300x218.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Uh, long, long time ago, (aka. last year autumn) I&#8217;ve been to <a href="http://gotocon.com/aarhus-2011/">GoTo Conference 2011 in Århus</a> to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn&#8217;t miss. Watch our sweet robot in action &#8211;<br />
+the first round of the sumo battle, where Team SoundCloud flips over the opponent!</p>
+<p><iframe src="https://player.vimeo.com/video/30364841?dnt=1&#038;app_id=122963" width="500" height="281" frameborder="0" title="Lego Robot Sumo Fight - Team SoundCloud" allow="autoplay; fullscreen" allowfullscreen></iframe></p>
+<p>Unfortunately that was already it&#8217;s glorious time &#8211; we dropped out for the second round. Anyway &#8211; it was big-huge-massive fun. Make sure you grab some lego bricks and build your own. </p>
+<p>In case you&#8217;re interested in the code, it wasn&#8217;t much and nothing to be proud of &#8211; but worked!<br />
+https://gist.github.com/1280779</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Rainbowduino Carnival Competition Voting has started</title>
+		<link>http://www.rngtng.com/2009/10/07/rainbowduino-carnival-competition-voting-has-started/</link>
+				<pubDate>Wed, 07 Oct 2009 18:31:47 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+		<category><![CDATA[vote]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=268</guid>
+				<description><![CDATA[As mentioned in earlier post, I submitted the first public version of mtXcontrol to the Rainbowduino Carnival Competition by Seeedstudio. Now it&#8217;s time to vote for the best projects: I know, the decision will be quite hard, as a lot of other cool projects were submitted as well. Like this cool Daft Punk Helmet or [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As mentioned in earlier post, I submitted the first public version of mtXcontrol  to the <a href="http://www.seeedstudio.com/forum/viewforum.php?f=11" class="broken_link">Rainbowduino Carnival Competition</a> by Seeedstudio. Now it&#8217;s time to vote for the best projects:</p>
+<p><a href="http://www.yourfreepoll.com/mvexghzbsp.html" target="_blank"><img src="http://www.yourfreepoll.com/images/mvexghzb.gif" alt="Express your opinion!" border="0"></a></p>
+<p>I know,  the decision will be quite hard, as a lot of other cool projects were submitted as well. Like this cool <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=440">Daft Punk Helmet</a>  or this nice <a href="http://www.seeedstudio.com/forum/viewtopic.php?f=11&amp;t=434">lipsync speaking Robot</a>&#8230; </p>
+<p>Please check out the <a href="http://vimeo.com/groups/24917/videos/6916458">Raindrop Rainbowduino Game</a> by my friend ccb23 as well. It&#8217;s a Rainbowduino connected via I2C to an Arduino with an Accelerometer. With that you can move the red dot on the Matrix and avoid hitting the falling blue raindrops. nice!</p>
+<p><a href="http://www.yourfreepoll.com/mvexghzbsp.html" target="_blank">Make your vote!</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

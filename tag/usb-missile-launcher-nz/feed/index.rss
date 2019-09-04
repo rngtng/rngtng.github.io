@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>USB Missile Launcher NZ &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/usb-missile-launcher-nz/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 20 May 2015 09:59:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Satzuma Missile Launcher finally works with USB Missile Launcher NZ v1.8.2 on Mac</title>
+		<link>http://www.rngtng.com/2015/05/23/satzuma-missile-launcher-finally-works-with-usb-missile-launcher-nz-v1-8-2-on-mac/</link>
+				<pubDate>Sat, 23 May 2015 11:37:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[USB Missile Launcher NZ]]></category>
+		<category><![CDATA[yosemite]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=834</guid>
+				<description><![CDATA[Good news: I finally got the Satzuma Missile Launcher working on my Mac Yosemite. Solution it the latest (unfortunately unreleased) version of USB Missile Launcher NZ. You can download USB Missile Launcher NZ v1.8.2 from here, a source I found after digging through the comments of version 1.8.1 announcement: USB Missile Launcher NZ v1.8.1 &#8211;&#160;Release To [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="  wp-image-838 aligncenter" src="http://www.rngtng.com/files/2015/05/img8077_14925.jpg" alt="img8077_14925" width="357" height="357" srcset="http://www.rngtng.com/files/2015/05/img8077_14925.jpg 450w, http://www.rngtng.com/files/2015/05/img8077_14925-150x150.jpg 150w, http://www.rngtng.com/files/2015/05/img8077_14925-300x300.jpg 300w" sizes="(max-width: 357px) 100vw, 357px" /></p>
+<p>Good news: I finally got the Satzuma Missile Launcher working on my Mac Yosemite. Solution it the latest (unfortunately unreleased) version of <strong>USB Missile Launcher NZ</strong>. You can <a href="https://sites.google.com/site/dgwilson65/USBMissileLauncherNZV1.8.2.dmg?attredirects=0&amp;d=1">download USB Missile Launcher NZ v1.8.2 from here</a>, a source I found after digging through the comments of version 1.8.1 announcement:</p>
+<p><a href="https://dgwilson.wordpress.com/2012/01/11/usb-missile-launcher-nz-v1-8-1-release/#comment-10069">USB Missile Launcher NZ v1.8.1 &#8211;&nbsp;Release</a></p>
+<p>To get started with Satzuma, install v1.8.2, restart you Mac (bummer), open `USB Missile Launcher NZ.app`, go to <em>Preferences -&gt; Launcher</em> and<br />
+enter `1046` for VendorId, `3777` for ProductId and change Controls to Satzuma (see screenshot) &#8211; Boom! You&#8217;re all set &#8211; happy shooting!</p>
+<p><img class="  wp-image-837 aligncenter" src="http://www.rngtng.com/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11.png" alt="Screen Shot 2015-05-20 at 11.41.11" width="408" height="387" srcset="http://www.rngtng.com/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11.png 516w, http://www.rngtng.com/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11-300x284.png 300w" sizes="(max-width: 408px) 100vw, 408px" /></p>
+<p>Next, I want to check https://code.google.com/p/pymissile &#8211; having a working CLI version would be so much better!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

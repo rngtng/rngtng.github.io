@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>scope &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/scope/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 08 May 2009 16:13:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>How to alias and create a new named scope out of existing ones</title>
+		<link>http://www.rngtng.com/2009/03/26/how-to-alias-and-create-a-new-named-scope-out-of-existing-ones/</link>
+				<pubDate>Thu, 26 Mar 2009 14:32:22 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[beauty of code]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[named]]></category>
+		<category><![CDATA[scope]]></category>
+
+		<guid isPermaLink="false">http://urangatang.wordpress.com/?p=8</guid>
+				<description><![CDATA[Named scopes in Rails are just awesome. They so much DRY and beautify your code! But did you ever had the trouble to create a new named_scope out of others? E.g. aliasing multiple ones to a new one. Luckily I now figured out how this works in a nice way. The magic key is the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a href="http://www.pathf.com/blogs/2008/06/named-scopes-are-awesome/">Named</a> <a href="http://railscasts.com/episodes/108-named-scope">scopes</a> in Rails are just awesome. They so much DRY and beautify your code! But did you ever had the trouble to create a new named_scope out of others? E.g. aliasing multiple ones to a new one. Luckily I now figured out how this works in a nice way.<br />
+The magic key is the method <em><code>scope( :find )</code></em></p>
+<p>This method called on a Scope class returns the Hash used for the ActiveRecord <code>.find()</code> call. First it&#8217;s a nice way to debug your scopes, second it&#8217;s perfect for our need to chain multiple scoped into one. Check this out:</p>
+<p>[ruby]<br />
+class Fu &lt; ActiveRecord::Base<br />
+named_scope :has_moo,  :conditions =&gt; { :moo =&gt; true }<br />
+named_scope :has_foo,  :conditions =&gt; { :foo =&gt; true }</p>
+<p>named_scope :has_moo_and_foo, lambda { has_moo.has_foo.scope(:find) }<br />
+end<br />
+[/ruby]</p>
+<p>We chain the two scoped <code>has_moo</code> and <code>has_foo</code> together into a new one called <code>has_moo_and_foo</code>. As the return value can only be a Hash we use the above mentioned scope(:find) to transform it into one.</p>
+<p>Now this works:</p>
+<p>[ruby]Fu.has_moo_and_foo.all[/ruby]</p>
+<p>Sweet! Imagine how great this would be if we can return a scope object instead of a hash as well??</p>
+<p>See my <a href="http://pastie.org/427839" class="broken_link">pastie here</a> too.</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

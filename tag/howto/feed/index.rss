@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>howto &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/howto/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 03 May 2016 07:50:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Introducing: Vault Project or How to setup an Encryption Server</title>
+		<link>http://www.rngtng.com/2016/04/01/introducing-vault-project-or-how-to-setup-an-encryption-server/</link>
+				<pubDate>Fri, 01 Apr 2016 06:36:51 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[credentials]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[secret data]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[vault]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=849</guid>
+				<description><![CDATA[Let&#8217;s talk about credentials. Credentials! Who doesn&#8217;t work without any secret data which should never go public? Sure, sure, we&#8217;d never share those secrets public, but then there&#8217;s git, and github and.. BAAMM.. credentials exposed. Upps! To avoid this, it&#8217;s common sense to NOT checkin any credentials. NEVER. EVER. We make use of .gitignore, cfg [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-850" src="http://www.rngtng.com/files/2015/08/Screen-Shot-2015-08-07-at-16.08.24.png" alt="" width="555" height="129" srcset="http://www.rngtng.com/files/2015/08/Screen-Shot-2015-08-07-at-16.08.24.png 555w, http://www.rngtng.com/files/2015/08/Screen-Shot-2015-08-07-at-16.08.24-300x70.png 300w" sizes="(max-width: 555px) 100vw, 555px" /></p>
+<p>Let&#8217;s talk about credentials. Credentials! Who doesn&#8217;t work without any secret data which should never go public? Sure, sure, we&#8217;d never share those secrets public, but then there&#8217;s git, and github and.. BAAMM.. credentials exposed. Upps!</p>
+<p>To avoid this, it&#8217;s common sense to <strong>NOT</strong> checkin any credentials. NEVER. EVER. We make use of <code>.gitignore</code>, cfg templates and placeholders. But nevertheless it&#8217;s a hassle, especially when working in a team, where a credential exchange is sometimes required. In past, I preferred the solution where an encryption server in a save environment took care about encrypting/decrypting data. Once the data is encrypted, it&#8217;s save to checkin, store and share in the same way like any other data. Only users (or systems) with access rights for the encryption server can decrypt the data. Instant WIN! But how to setup such a server?</p>
+<h2>Introducing: Vault Project</h2>
+<p>I recently came across the <a href="https://vaultproject.io">Vault Project</a> which exactly meet all my needs. In addition, it&#8217;s open source, simple to use and comes with very good documentation and tutorials. Nevertheless, I couldn&#8217;t find all the steps required to setup an encryption server in one place, so here they are:</p>
+<h3>How to setup an Encryption server with Vault</h3>
+<p>First, setup a new vault server on a remote machine by following those steps:</p>
+<ul>
+<li>
+<ol>
+<li>Create a config file <a href="https://vaultproject.io/docs/config" class="broken_link">docs</a></li>
+</ol>
+<p><code>touch vault.cfg</code></p>
+<p>For our case we just need a simple file backend and expose the vault via tcp</p>
+</li>
+</ul>
+<pre><code>backend "file" {
+  path = "/Users/&lt;username&gt;/.vaultstore"
+}
+
+
+listener "tcp" {
+  address = "127.0.0.1:8200"
+  tls_disable = 1
+}
+</code></pre>
+<p>See the <a href="https://vaultproject.io/docs/config" class="broken_link">vault config docs</a> for other options.</p>
+<ul>
+<li>
+<ol>
+<li>Now start the server &#8230;</li>
+</ol>
+<p><code>vault server -config vault.cfg</code></p>
+</li>
+<li>
+<ol>
+<li>&#8230; and run the init procedure: <a href="https://vaultproject.io/docs">docs</a></li>
+</ol>
+<p><code>vault init -address=http://127.0.0.1:8200</code></p>
+<p>This will output five keys and a root token. Make sure to keep those keys save, once lost you wouldn&#8217;t be able to unseal your vault, and therefore gain access. The root token is needed to authenticate against the server. To remove the need of passing in the host address all the time, you can set the value with VAULT_ADDR too: <code>export VAULT_ADDR=http://127.0.0.1:8200</code></p>
+</li>
+<li>
+<ol>
+<li>Unseal vault <a href="https://vaultproject.io/docs/concepts/seal.html">docs</a></li>
+</ol>
+<p>On start, the vault is sealed, and can only be opened with the keys generated at the very beginning. Unseal is done with:</p>
+<p><code>vault unseal</code></p>
+<p>Execute this three times, and enter a different key each time.</p>
+</li>
+</ul>
+<p>DONE! Now the server is up and running and you can connect from you local machine to the vault.</p>
+<ul>
+<li>
+<ol>
+<li>Authenticate with the server</li>
+</ol>
+<p>The vault only accepts authenticated connections, for that create a auth token with:</p>
+<p><code>vault auth</code></p>
+<p>Enter the root token-key obtained from step 1. Later, I&#8217;d strongly recommend to use a non-root token.</p>
+</li>
+<li>
+<ol>
+<li>Enable github auth backend <a href="https://vaultproject.io/docs/auth/github.html">docs</a></li>
+</ol>
+<p>In order to allow other people access to the vault and decrypt data, it&#8217;s the easiest to enable github authentication. In this case, every user part to a specific github team is able to obtain an auth-token themselves.</p>
+<p>Enable github auth:</p>
+<p><code>vault auth-enable github</code></p>
+<p>Register github org:<br />
+<code>vault write auth/github/config organization=&lt;your org name&gt;</code></p>
+<p>&#8230;and a team:<br />
+<code>vault write auth/github/map/teams/&lt;your team name&gt; value=root</code></p>
+<p>Now, any team member can get access to the vault with a <a href="https://github.com/settings/tokens">github token</a>:<br />
+<code>vault auth -method=github token=&lt;github token&gt;</code></p>
+<p>Whereas <code>&lt;github token&gt;</code> only requires the &#8216;read:org&#8217; scope to be granted. Once auth is complete the actual vault token will be stored in <code>~/.vault-token</code> and allows the user to connect to the vault.</p>
+</li>
+<li>
+<p>7.Enable transit backend <a href="https://vaultproject.io/docs/secrets/transit">docs</a></p>
+<p>Per default, vault stores data associated with a key. But for our case, we want to encrypt data on the fly and manage storage within our SCM instead. Encryption only is enabled with the &#8216;tranist backend&#8217;:</p>
+<p><code>vault mount transit</code></p>
+<p>Add a key name to generate an encryption key:</p>
+<p><code>vault write -f transit/keys/&lt;key name&gt;</code></p>
+<p>The actual encryption key can be retrieved via:<br />
+<code>vault read --format=json transit/raw/&lt;key name&gt;</code></p>
+</li>
+</ul>
+<p>DONE! Now the encryption server is ready to encrypt. For this I used json as response format and <a href="http://stedolan.github.io/jq/">jq</a> to extract the data.</p>
+<ul>
+<li>1.Encrypt:</li>
+</ul>
+<pre><code>echo -n "&lt;your secret data&gt;" | base64 | vault write --format=json transit/encrypt/&lt;key name&gt; plaintext=- | jq -r .data.ciphertext
+</code></pre>
+<ul>
+<li>2.Decrypt:</li>
+</ul>
+<pre><code>vault write --format=json transit/decrypt/&lt;key name&gt; ciphertext=&lt;your ciphertext&gt; | jq -r .data.plaintext | base64 -D
+</code></pre>
+<p>Finally, let&#8217;s create some bash functions to make life easy:</p>
+<pre><code>export VAULT_ADDR="&lt;you server IP:PORT&gt;"
+export VAULT_KEY="&lt;key name&gt;"
+
+function _encrypt {
+  base64 | vault write --format=json transit/encrypt/$VAULT_KEY plaintext=- | jq -r .data.ciphertext
+}
+
+function _decrypt {
+  vault write --format=json transit/decrypt/$VAULT_KEY ciphertext=- | jq -r .data.plaintext | base64 -D
+}
+
+# encrypt data.
+# Usage: encryptd "&lt;data&gt;"
+function encryptd {
+  echo $1 | _encrypt
+}
+
+# decrypt data.
+# Usage: decryptd &lt;ciphtertext&gt;
+function decryptd {
+  echo -n $1 | _decrypt
+}
+
+# encrypt file. will overwrite existing ones! 
+# Usage: encryptf &lt;filename&gt;
+function encryptf {
+  cat $1 | _encrypt &gt; $1.enc
+}
+
+# decrypt file. will overwrite existing ones! 
+# Usage: decryptf &lt;filename&gt;
+function decryptf {
+  cat $1 | _decrypt &gt; `basename -s .enc $1`
+}
+
+# decrypt file and open for edit. on close encrypt changes.
+# Usage: editcrypt &lt;filename&gt;
+function editcrypt {
+  cat $1 | _decrypt &gt; $1.tmp &amp;&amp; $EDITOR $1.tmp &amp;&amp; cat $1.tmp | _encrypt &gt; $1 &amp;&amp; rm $1.tmp
+}
+</code></pre>
+<p>Sweeeeeett!</p>
+<p>On thing to mention is adding the non-encrypted files to you <code>.gitignore</code>. This ensures the file wont end up in your repo by accident:</p>
+<pre><code>$ cat .gitignore
+# only checkin the encrypted version
+/database.yml
+/!database.yml.enc
+</code></pre>
+<p>I hope this helped setting up your own vault server. These are just the first rough steps. Vault allows way more, like very granular access management, various auth and storage backends etc. Again, I strongly recommend to check their docs https://vaultproject.io/docs and follow the interactive tutorial https://vaultproject.io/#/demo/0.c</p>
+<p>Keep your data save!</p>
+<p>[proofread by Daniel &#8211; thanks!]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Rspec &#8211; Useful How To and Best Practices</title>
+		<link>http://www.rngtng.com/2012/06/21/rspec-useful-how-to-and-best-practices/</link>
+				<pubDate>Thu, 21 Jun 2012 12:31:27 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[best practise]]></category>
+		<category><![CDATA[doku]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[rspec]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=664</guid>
+				<description><![CDATA[Here are two *very* good update-to-date sources of Rspec howtos and best practices: The first on by Andrea Reginato(@lelylan) gives a very good overview. Start here: https://docs.google.com/a/soundcloud.com/document/d/1gi00-wwPaLk5VvoAJhBVNh9Htw4Rwmj-Ut88T4M2MwI/mobilebasic?pli=1&#038;hl=en The second one by Jeff Pollard features ninja-kick-ass shared spec examples: http://bitfluxx.com/2011/05/23/some-rspec-tips-and-best-practices.html Andrea did already a good job with the Google Doc, but what about collection all tipps [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://www.globalnerdy.com/wordpress/wp-content/uploads/2011/05/rspectable-employment.jpg" alt="" width="398" height="480" /></p>
+<p>Here are two *very* good update-to-date sources of <a href="http://rspec.info/">Rspec</a> howtos and best practices:</p>
+<p>The first on by Andrea Reginato(@lelylan) gives a very good overview. Start here:<br />
+https://docs.google.com/a/soundcloud.com/document/d/1gi00-wwPaLk5VvoAJhBVNh9Htw4Rwmj-Ut88T4M2MwI/mobilebasic?pli=1&#038;hl=en</p>
+<p>The second one by Jeff Pollard features ninja-kick-ass shared spec examples:<br />
+http://bitfluxx.com/2011/05/23/some-rspec-tips-and-best-practices.html</p>
+<p>Andrea did already a good job with the Google Doc, but what about collection all tipps into git repo so everyone can easily collaborate &#8211; let&#8217;s fork, PR and drive it forward!</p>
+<p>More sources to follow &#8211; spec it, run it, kick it!</p>
+<p>[kind of unrelated but nice picture &#8216;borrowed&#8217; from <a href="http://www.globalnerdy.com">global nerdy</a>]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>HowTo: resque-web, resque scheduler and passenger</title>
+		<link>http://www.rngtng.com/2011/07/29/howto-resque-web-resque-scheduler-and-passenger/</link>
+				<pubDate>Fri, 29 Jul 2011 16:04:59 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[passenger]]></category>
+		<category><![CDATA[resque]]></category>
+		<category><![CDATA[scheduler]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=562</guid>
+				<description><![CDATA[Here&#8217;s how you get resque-web and resque scheduler playing well with passenger: Follow these instructions from resque readme (apache, ngnix) and check out current resque repo. Now update following two files: 1. Add gem "resque-scheduler","2.0.0.d" to Gemfile 2. Run bundle 3. Add require 'resque_scheduler' to config.ru Restart you webserver and are ready to go &#8211; [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Here&#8217;s how you get <a href="https://github.com/defunkt/resque">resque-web</a> and <a href="https://github.com/bvandenbos/resque-scheduler">resque scheduler</a> playing well with <a href="http://www.modrails.com/" class="broken_link">passenger</a>:</p>
+<p>Follow these instructions from resque readme (<a href="http://www.modrails.com/documentation/Users%20guide%20Apache.html#_deploying_a_rack_based_ruby_application" class="broken_link">apache</a>, <a href="http://www.modrails.com/documentation/Users%20guide%20Nginx.html#deploying_a_rack_app" class="broken_link">ngnix</a>) and check out current resque repo. Now update following two files:<br />
+1. Add <code>gem "resque-scheduler","2.0.0.d"</code> to Gemfile<br />
+2. Run <code>bundle</code><br />
+3. Add <code>require 'resque_scheduler'</code> to config.ru</p>
+<p>Restart you webserver and are ready to go &#8211; Happy scheduling!</p>
+<p>Both file after editing:<br />
+[gist id=1101580]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>HowTo: ultra mega fast rails routes lookup</title>
+		<link>http://www.rngtng.com/2011/03/16/howto-ultra-mega-fast-rails-routes-lookup/</link>
+				<pubDate>Wed, 16 Mar 2011 16:34:00 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[alias]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[caching]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[rails]]></category>
+		<category><![CDATA[routes]]></category>
+		<category><![CDATA[ruby on rails]]></category>
+		<category><![CDATA[script]]></category>
+		<category><![CDATA[shell]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=538</guid>
+				<description><![CDATA[I was quite annoyed by the wasted time it took each time I grep the rails routes table. Wait, can&#8217;t this be cached? &#8211; Sure it can! So I came up this nice little alias to cache the output once: alias route='CF=tmp/routes_cache; [[ ! -s $CF ]] &#38;&#38; rake routes &#62; $CF; cat $CF &#124; [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/8/5/1249508265579/Frances-V150-TGV-fast-tra-001.jpg" alt="" /></p>
+<p>I was quite annoyed by the wasted time it took each time I grep the rails routes table.<br />
+<em>Wait, can&#8217;t this be cached?  &#8211; Sure it can!</em><br />
+So I came up this nice little alias to cache the output once:<br />
+<code><br />
+alias route='CF=tmp/routes_cache; [[ ! -s $CF ]] &amp;&amp; rake routes &gt; $CF; cat $CF | grep '<br />
+</code></p>
+<p>now it&#8217;s ultra fast, try e.g.:<br />
+<code><br />
+$ route root<br />
+</code><br />
+bang!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Hacking the Nabaztag</title>
+		<link>http://www.rngtng.com/2009/12/02/hacking-the-nabaztag/</link>
+				<pubDate>Wed, 02 Dec 2009 10:20:55 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[help]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[nabaztag]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=231</guid>
+				<description><![CDATA[Alright, I spend some time with my new toy Nabaztag &#8216;Nabaccia&#8216; What confused me most: there have been two Firmware version out there. Some project depend on the old one, some other on the, new Jabber based, version. Here are some interesting projects I&#8217;ve found: http://nabaztools.sourceforge.net/ (outdated, MAC OS X) http://sourceforge.net/projects/opennab/ (PHP) http://code.google.com/p/nabazlib/ (python) http://nabazlab.sourceforge.net/index_en.htm [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter size-full wp-image-446" src="http://www.rngtng.com/files/2010/09/nabaztag.png" alt="" width="583" height="397" srcset="http://www.rngtng.com/files/2010/09/nabaztag.png 971w, http://www.rngtng.com/files/2010/09/nabaztag-300x204.png 300w" sizes="(max-width: 583px) 100vw, 583px" /></p>
+<p>Alright, I spend some time with my new <em>toy</em> Nabaztag &#8216;<a href="http://twitter.com/nabaccia">Nabaccia</a>&#8216;</p>
+<p>What confused me most: there have been two Firmware version out there. Some project depend on the old one, some other on the, new Jabber based, version. </p>
+<p>Here are some interesting projects I&#8217;ve found:<br />
+http://nabaztools.sourceforge.net/ (outdated, MAC OS X)</p>
+<p>http://sourceforge.net/projects/opennab/ (PHP)</p>
+<p>http://code.google.com/p/nabazlib/ (python)</p>
+<p>http://nabazlab.sourceforge.net/index_en.htm (windows only)</p>
+<p>A working Proxyserver: jNabServer<br />
+http://code.google.com/p/jnabserver/</p>
+<p>A good summery how to start &#8216;nabazhacking&#8217; is here:<br />
+http://www.saraproft.org/?p=912<br />
+http://blog.makezine.com/archive/2006/03/more_nabaztag_hacking.html</p>
+<p>A very detailed look into the electronics of the rabbit:<br />
+http://www.petertyser.com/2007/03/11/nabaztag-nabaztagtag-dissection/</p>
+<p>Forums:<br />
+http://nabaztag.forumactif.fr/ (french)<br />
+http://www.mynabaztag.de (german)<br />
+http://www.nabaztalk.com (english)</p>
+<p>Blogs:<br />
+http://www.nabaztag-blog.de (german)</p>
+<p>Quite complete list of other sources:<br />
+http://www.nabzone.com/?frG=/liens.php</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Understanding the Rainbowduino Controller by Seeedstudio</title>
+		<link>http://www.rngtng.com/2009/10/02/understanding-the-rainbowduino-controller-by-seeedstudio/</link>
+				<pubDate>Fri, 02 Oct 2009 18:33:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[howto]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+		<category><![CDATA[seeedstudio]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=188</guid>
+				<description><![CDATA[As you may know, I&#8217;ve orderd a Rainbowduino from Seeedstudio. They delivered quite fast and I&#8217;m very happy of the price/quality/functionality ratio. In my opinion, the Rainbowduino is the cheapest ready-to-go 8&#215;8 RGB LED Controller Set at the moment &#8211; for just 43.4$ ( 19.90$ Board + 23.50$ Matrix) you are set for taking of! [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As you may know, I&#8217;ve orderd a <a href="http://www.seeedstudio.com/blog/?page_id=187" class="broken_link">Rainbowduino from Seeedstudio</a>. They delivered quite fast and I&#8217;m very happy of the price/quality/functionality ratio. In my opinion, the Rainbowduino is the cheapest ready-to-go 8&#215;8 RGB LED Controller Set at the moment &#8211; for just 43.4$ ( 19.90$ Board + 23.50$ Matrix)  you are set for taking of!</p>
+<p>My first tests went quite well. The Rainbowduino comes  with a ready to use the program/<a href="http://www.seeedstudio.com/depot/images/product/RaibowduinoCMD_Bata.rar">sketch</a> which allows you basic controls via I2C bus easily, like writing letters &amp; lines in different color and light strength. But soon I hit the limits when it came so single control each LED to my will. So no doubt, I had to dig deeper in understanding how to control the Rainbowduino. Here a short summery of my results:</p>
+<p>To understand how the Rainbowduino works, I kind of reverseengineered the sketch by seeedstudio which came with the controller. As usual for driving those Matrixes, <a href="http://en.wikipedia.org/wiki/Pulse-width_modulation">PWM</a> is used as basic concept. This means the frame image is created row by row by high frequency, so human eye puts it all together to one single image.</p>
+<p>To simplify this process I created the Rainbowduino.h Library, which comes with some nice methods to set frames and draw those to the Rainbowduino. It&#8217;s part of the mtXcontrol firmware an can be <a href="http://github.com/rngtng/mtXcontrol/tree/master/firmware/rainbowduino/" class="broken_link">downloaded from github</a></p>
+<p style="text-align: center"><img class="aligncenter" src="http://www.seeedstudio.com/depot/images/product/rainbowblock.jpg" alt="" width="528" height="298" /></p>
+<p><strong>How it works:</strong><br />
+To tell rainbowduino which row to draw the method &#8216;open_row&#8217; is called. As each row is represented by a one output PIN, this method sets the according PIN to high, all others to low. Unfortunately the row pins are not all on one port: rows 1-3 are on PORTB Bit 1-3, rows 4-8 are on PORTD Bit 4-8. This makes the method kind of bit ugly <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>After the row is selected, its time to set the pixels. One pixel consists of 3 LEDs: red, green &amp; blue. Each LED has to be separately to high or low to mix the final color (e.g. red + green is yellow). First all blue values of a row are set, then red and finally green. This happens in serial on PORTC. First bit is the value input, second bit is clock,  bit 3 the write mode bit and bit 4 to display the shifted value. Call the method &#8216;draw_row&#8217; to display a row. First parameter is the row number (0-7), second the intensity (1-16) and then the red, blue &amp; green values for the row. e.g passing the color values 1,0,0 would light the first pixel red and all other off, where as 255, 255, 255 would light up all LED and all colors, to the full row would be white.</p>
+<p>To store the row values the Library comes with a frame buffer for 10 frames. (That the amount of frames we can store to EEPROM without compression as well). You can pre fill the buffer and set the frame number to display. By calling draw() the frame of the current _frame number is drawn.</p>
+<p>It makes sense to call this function by a timer interrupt to not disturb your actual program progress and to ensure it&#8217;s call in regular frequency to avoid different display colors.</p>
+<p>To set up the timer, include this in your code:</p>
+<p>[c]<br />
+Rainbowduino rainbow = Rainbowduino(10);  //max 10 Frames</p>
+<p>void setup_timer() {<br />
+  TCCR2A = 0;<br />
+  TCCR2B = 1&lt;&lt;CS22 | 0 &lt;&lt;CS21 | 0&lt;&lt;CS20;<br />
+  TIMSK2 = 1&lt;&lt;TOIE2;<br />
+  TCNT2 = 0;<br />
+  sei();<br />
+}</p>
+<p>ISR(TIMER2_OVF_vect) {<br />
+  rainbow.draw();<br />
+}<br />
+[/c]</p>
+<p>Now, just fill you frames with</p>
+<p>[c]<br />
+rainbow.set_frame(0, *data);<br />
+[/c]</p>
+<p>and your&#8217;re ready to go. Have fun!</p>
+<p>First tests of the library with earlier version of <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a>, an Editor to create images on the Matrix easily:<br />
+[youtube]http://www.youtube.com/watch?v=MVj1YPzREKI[/youtube]</p>
+<p>Stay tuned for more examples soon&#8230;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

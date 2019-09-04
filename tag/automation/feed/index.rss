@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>automation &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/automation/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 29 Oct 2010 09:38:47 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>AppleScript to create keyboard shortcuts</title>
+		<link>http://www.rngtng.com/2010/10/29/applescript-to-create-keyboard-shortcuts/</link>
+				<pubDate>Fri, 29 Oct 2010 09:38:47 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[keyboard]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[shortcut]]></category>
+		<category><![CDATA[system]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=490</guid>
+				<description><![CDATA[Last week my company laptop got stolen, so I had to setup my system again using this list. The positive part of each new system setup is you think more and more how to automate your setup.. This time I was really annoyed with setting up keyboard shortcuts, so I came up with this little [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Last week my company laptop got stolen, so I had to setup my system again using this <a href="http://www.rngtng.com/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/">list</a>. The positive part of each new system setup is you think more and more how to automate your setup..</p>
+<p>This time I was really annoyed with setting up keyboard shortcuts, so I came up with this little AppleScript which does the work:</p>
+<p>[gist id=652031 file=create_shortcuts.scpt]</p>
+<p>The key is &#8216;GUI scripting&#8217; &#8211; a specify way of AppleScript to simulate clicks, keystrokes etc. for *any* (native?) App. You only have to know the ids of the GUI elements which you can get with this very nice tool:<br />
+  -&gt;  http://pfiddlesoft.com/uibrowser</p>
+<p>Good source to start your Mac Os X Automation is:<br />
+  -&gt;  http://www.macosxautomation.com</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

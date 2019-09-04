@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rfid &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/rfid/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 12 Jan 2012 10:08:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Hacking the Nabaztag &#8211; Arduino injects via I2C data into RFID Reader</title>
+		<link>http://www.rngtng.com/2012/01/10/hacking-the-nabaztag-arduino-injects-via-i2c-data-into-rfid-reader/</link>
+				<pubDate>Mon, 09 Jan 2012 23:28:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[hack]]></category>
+		<category><![CDATA[inject]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[rfid]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=624</guid>
+				<description><![CDATA[Wow! After more than two years I finally got my hands dirty hacking the Nabaztag rabbit. The release of the source code last summer were very encouraging here! Expect some awesome results in the next time 🙂 Let&#8217;s start with NabaztagInjector, an Arduino Library to inject data: What bothered me for long was the missing [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img src="http://farm7.staticflickr.com/6185/6151922207_019ac10ee4_d.jpg" alt="" width="500" height="500" class="aligncenter size-full wp-image-626" /></p>
+<p>Wow! After <a href="http://www.rngtng.com/2009/12/02/hacking-the-nabaztag/">more than two years</a> I finally got my hands dirty hacking the Nabaztag rabbit. The <a href="http://code.google.com/p/nabaztag-source-code/">release of the source code</a> last summer were very encouraging here! Expect some awesome results in the next time <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+<p>Let&#8217;s start with <strong>NabaztagInjector</strong>, an Arduino Library to inject data:</p>
+<p>What bothered me for long was the missing possibility to connect external devices to the rabbit. How awesome would it be to use the rabbit for sending data into the net? Imagine it as WIFI shield you Arduino.</p>
+<p>Guess what &#8211; that&#8217;s possible: replacing the RFID reader with an Arduino (both use the I2C bus) running a simulation of the RFID reader chip, enabled me to inject any custom data to the rabbit. Hacked!</p>
+<p>As result, I created this tiny Arduino library to encapsulates the full process behind and easy API:</p>
+<p>[gist id=1582447]</p>
+<p>Check out the full Readme, Source code and Examples here:</p>
+<blockquote class="wp-embedded-content" data-secret="0RmRtUP4iZ"><p><a href="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/">NabaztagInjector &#8211; An Arduino RFID Hack</a></p></blockquote>
+<p><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="http://www.rngtng.com/nabaztag-injector-arduino-rfid-hack/embed/#?secret=0RmRtUP4iZ" data-secret="0RmRtUP4iZ" width="500" height="282" title="&#8220;NabaztagInjector &#8211; An Arduino RFID Hack&#8221; &#8212; uRaNGaTaNG" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Nabaztag:tag arrived &#8211; meet Nabaccia!</title>
+		<link>http://www.rngtng.com/2009/09/29/nabaztagtag-arrived-meet-nabaccia/</link>
+				<pubDate>Tue, 29 Sep 2009 18:33:51 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[internet of things]]></category>
+		<category><![CDATA[nabaccia]]></category>
+		<category><![CDATA[nabaztag]]></category>
+		<category><![CDATA[rfid]]></category>
+		<category><![CDATA[toys]]></category>
+		<category><![CDATA[violet]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=220</guid>
+				<description><![CDATA[Yay, my new toy has arrived: It&#8217;s a Nabaztag. Short story: I first met the rabbit in 2007 at re:publica conference @ Berlin, and always want to have one since then. Nabaztag is a rabbit connected to the Internet with moving ears, 4x color LEDs, a RFID reader, a button and Sound In &#38; Output. [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://farm3.static.flickr.com/2478/3962410944_eb564a3d1a.jpg" alt="" /></p>
+<p>Yay, my new toy has arrived: It&#8217;s a <a href="http://www.nabaztag.com">Nabaztag</a>. Short story: I first met the rabbit in 2007 at <a href="http://re-publica.de/">re:publica</a> conference @ Berlin, and always want to have one since then. Nabaztag is a rabbit connected to the Internet with moving ears, 4x color LEDs, a RFID reader, a button and Sound In &amp; Output. It&#8217;s hard to understand why one wants to have such rabbit, but the idea to connect things with the internet sounds very interesting to me. But just for playing around,  it was to expensive &#8230; till now!</p>
+<p>Sadly (well, luckily for me) <a href="http://www.violet.net">Violet</a>, the producer of Nabaztag, <a href="http://www.engadget.com/2009/08/11/nabaztag-cant-make-rfid-cool-has-to-file-for-bankruptcy/">is on it&#8217;s way to bankruptcy</a>.  As of this <a href="http://www.myRobotcenter.de">MyRobotcenter</a> started selling them half price &#8211; nice!  I couldn&#8217;t anymore resists buying and got the rabbit+mirror+zstamps for a good price &#8211;  that&#8217;s all right!</p>
+<p>According to violet, each thing needs a name, so mine is called <strong>Nabaccia</strong>, listens to emails via <a href="mailto:nabaccia - things.violet.net">nabaccia &#8211; things.violet.net</a> and, of course, <a href="http://www.twitter.com/nabaccia">twitters here</a> as well. So, now it&#8217;s time to hack the rabbit. I saw a couple of interesting project out there, let&#8217;s get it on! More on this soon!</p>
+<p>I know it&#8217;s totally wired and hard to understand why, just don&#8217;t ask <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Image by <a href="http://www.liron.de/blog/index.php" class="broken_link">Liron</a> &#8211; thx!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

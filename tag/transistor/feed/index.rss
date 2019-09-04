@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>transistor &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/transistor/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Wed, 14 Nov 2012 22:32:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Transistor vs. MOSFet &#8211; According to Pete</title>
+		<link>http://www.rngtng.com/2012/11/14/transistor-vs-mosfet-according-to-pete/</link>
+				<pubDate>Wed, 14 Nov 2012 22:32:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Electronics & Co.]]></category>
+		<category><![CDATA[mosfet]]></category>
+		<category><![CDATA[transistor]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=681</guid>
+				<description><![CDATA[oh yeah, I guess I finally got the basic difference between a Transistor and a MOSFET: Transistor is current driven, a MOSFET via voltage! Thanks to Pete, and his fabulous SparkFun screencasts: [youtube]http://www.youtube.com/watch?v=CFt8hkh17_w[/youtube] yieha! Watch &#8217;em all: http://www.youtube.com/playlist?list=PL9EF3C374FD903ACE http://en.wikipedia.org/wiki/MOSFET]]></description>
+								<content:encoded><![CDATA[<p>oh yeah, I guess I finally got the basic difference between a Transistor and a MOSFET:</p>
+<p>Transistor is current driven, a MOSFET via voltage! Thanks to Pete, and his fabulous SparkFun screencasts:</p>
+<p>[youtube]http://www.youtube.com/watch?v=CFt8hkh17_w[/youtube]</p>
+<p>yieha! Watch &#8217;em all: http://www.youtube.com/playlist?list=PL9EF3C374FD903ACE</p>
+<p>http://en.wikipedia.org/wiki/MOSFET</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

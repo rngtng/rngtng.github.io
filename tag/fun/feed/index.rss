@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fun &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/fun/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 24 Jun 2011 11:23:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Optical Illusion: a non straight line of code?</title>
+		<link>http://www.rngtng.com/2011/06/24/optical-illusion-a-non-straight-line-of-code/</link>
+				<pubDate>Fri, 24 Jun 2011 11:23:13 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[jedit]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=551</guid>
+				<description><![CDATA[A bit of fun: Look at this, a Screenshot I took ages ago and just found to share. It&#8217;s taken from a piece of code I was writing within jEdit by that time. It totally looks like the two long line go up, but if you apply a ruler, you see, it&#8217;s indeed straight: A [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>A bit of fun: Look at this, a Screenshot I took ages ago and just found to share. It&#8217;s taken from a piece of code I was writing within <a href="http://www.jedit.org/">jEdit</a> by that time.</p>
+<p><img src="http://www.rngtng.com/files/2011/06/php-code-schief.jpg" alt="" width="550" height="163" class="aligncenter size-full wp-image-552" srcset="http://www.rngtng.com/files/2011/06/php-code-schief.jpg 550w, http://www.rngtng.com/files/2011/06/php-code-schief-300x88.jpg 300w" sizes="(max-width: 550px) 100vw, 550px" /></p>
+<p> It totally looks like the two long line go up, but if you apply a ruler, you see, it&#8217;s indeed straight:<br />
+<img src="http://www.rngtng.com/files/2011/06/20110624-82aa2bmbrwc3d47akjt53heja3.jpg" alt="" width="562" height="173" class="aligncenter size-full wp-image-555" srcset="http://www.rngtng.com/files/2011/06/20110624-82aa2bmbrwc3d47akjt53heja3.jpg 562w, http://www.rngtng.com/files/2011/06/20110624-82aa2bmbrwc3d47akjt53heja3-300x92.jpg 300w" sizes="(max-width: 562px) 100vw, 562px" /></p>
+<p> A optical Illusion &#8211; weird, right?</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Arduion has arrived</title>
+		<link>http://www.rngtng.com/2009/04/17/arduion-has-arrived/</link>
+				<pubDate>Fri, 17 Apr 2009 10:09:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[kickoff]]></category>
+
+		<guid isPermaLink="false">http://urangatang.lustauffotos.com/?p=35</guid>
+				<description><![CDATA[Here it is! Yeah, finally my Arduino (ordered at Watterott) has been delivered. Can&#8217;t wait to get my hands on it. Stay tuned for future reports! All about this great &#8216;toy&#8217; here: www.arduino.cc]]></description>
+								<content:encoded><![CDATA[<p><img src="http://orguz.files.wordpress.com/2007/11/arduino_extreme_480.jpg" alt="" /><br />
+Here it is! Yeah, finally my Arduino (ordered at <a href="http://www.watterott.com">Watterott</a>) has been delivered. Can&#8217;t wait to get my hands on it. Stay tuned for future reports!</p>
+<p>All about this great &#8216;toy&#8217; here: <a href="http://www.arduino.cc">www.arduino.cc</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

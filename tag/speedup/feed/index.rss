@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>speedup &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/speedup/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 18 Jun 2009 10:41:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Pimp my TextMate: how to speed up search &#038; load</title>
+		<link>http://www.rngtng.com/2009/06/18/pimp-my-textmate-how-to-speed-up-search-load/</link>
+				<pubDate>Thu, 18 Jun 2009 10:41:38 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[hint]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[speedup]]></category>
+		<category><![CDATA[textmate]]></category>
+		<category><![CDATA[tweak]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=127</guid>
+				<description><![CDATA[As a true Ruby on Rails developer you probably work with TextMate, as it&#8217;s a plain, simple, but yet quite powerful editor. I love its open-file-by-pattern (?+T) or find-in-project (?+?+F) functions. But one thing which bothered me the most was the search time when working on big, large, massive projects. One easy tweak how to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>As a true Ruby on Rails developer you probably work with <a href="http://macromates.com/">TextMate</a>, as it&#8217;s a plain, simple, but yet quite powerful editor. I love its open-file-by-pattern (?+T) or find-in-project (?+?+F) functions. But one thing which bothered me the most was the search time  when working on big, large, massive projects. One easy tweak how to speed it up easily is to extend the file and folder exclude patterns. For example you don&#8217;t need the <em>tmp</em>, <em>log</em> or <em>vendor</em> folder, nor any binary files within your editor. So I just excluded them, here are my new patterns (all in one line):</p>
+<p>Files:  (excluded all images,pdf &amp; flash)<br />
+[text]<br />
+!(/\.(?!htaccess)[^/]*|\.(png|jpg|pdf|swf)|\.(tmproj|o|pyc)|/Icon\r|/svn-commit(\.[2-9])?\.tmp)$<br />
+[/text]</p>
+<p>Folders:  (exclude  tmp tools vendor uploads lang locale po old_migrations script images upload custom_maps log)<br />
+[text]<br />
+!.*/(\.[^/]*|CVS|doc|tmp|tools|vendor|uploads|lang|locale|po|old_migrations|script|images<br />
+|upload|custom_maps|log|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$<br />
+[/text]</p>
+<p>To change the settings go to<br />
+[text]<br />
+preferences -&gt; advanced -&gt; folder references<br />
+[/text]</p>
+<p>Yeah, now my search is quite fast again!</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

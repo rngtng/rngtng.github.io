@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>applescript &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/applescript/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Tue, 23 Apr 2019 20:50:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>DelJect &#8211; delete &#038; eject USB card easily</title>
+		<link>http://www.rngtng.com/2012/03/09/delject-delete-eject-usb-card-easily/</link>
+				<pubDate>Fri, 09 Mar 2012 19:22:31 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[card]]></category>
+		<category><![CDATA[delete]]></category>
+		<category><![CDATA[eject]]></category>
+		<category><![CDATA[photot]]></category>
+		<category><![CDATA[sd]]></category>
+		<category><![CDATA[usb]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=652</guid>
+				<description><![CDATA[Here&#8217;s another little AppleScript I recently wrote: DelJect &#8211; an AppleScript to delete and eject any external Cards/USB Stick A friend asked for this little script: His problem was, that his photography camera couldn&#8217;t deal with apple&#8217;s hidden files like.DS_STORE etc. To workaorund that, he had to delete those files each time before ejecting. DelJect automates [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter" src="http://www.veryicon.com/icon/png/Media/Play%20Stop%20Pause/Eject%20Normal%20Red.png" alt="" /></p>
+<p>Here&#8217;s another little AppleScript I recently wrote:</p>
+<p><strong>DelJect</strong> &#8211; an AppleScript to delete and eject any external Cards/USB Stick</p>
+<p>A friend asked for this little script: His problem was, that his photography camera couldn&#8217;t deal with apple&#8217;s hidden files like<code>.DS_STORE</code> etc. To workaorund that, he had to delete those files each time before ejecting. DelJect automates this manual process. Voila!</p>
+<p>Download the latest version here: <a href="https://github.com/downloads/rngtng/DelJect/DelJect.dmg">DelJect.app</a></p>
+<p><strong>Usage</strong><br />
+Just run the binary, select the device (USB stick), confirm delete and unplug the stick. Done!</p>
+<p>As a litte gotcha, DelJect will remeber the device &#8211; so next time, just confirm &amp; go.</p>
+<p>Thanks to <a href="http://leuchtstoffk.de/">Niels</a> for the idea and thanks <a href="http://www.veryicon.com/icons/media/play-stop-pause/eject-normal-red.html">Icon-Land</a> for Icon.</p>
+<p>https://github.com/rngtng/DelJect</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>AppleScript to create keyboard shortcuts</title>
+		<link>http://www.rngtng.com/2010/10/29/applescript-to-create-keyboard-shortcuts/</link>
+				<pubDate>Fri, 29 Oct 2010 09:38:47 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[keyboard]]></category>
+		<category><![CDATA[Mac OS X]]></category>
+		<category><![CDATA[setup]]></category>
+		<category><![CDATA[shortcut]]></category>
+		<category><![CDATA[system]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=490</guid>
+				<description><![CDATA[Last week my company laptop got stolen, so I had to setup my system again using this list. The positive part of each new system setup is you think more and more how to automate your setup.. This time I was really annoyed with setting up keyboard shortcuts, so I came up with this little [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Last week my company laptop got stolen, so I had to setup my system again using this <a href="http://www.rngtng.com/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/">list</a>. The positive part of each new system setup is you think more and more how to automate your setup..</p>
+<p>This time I was really annoyed with setting up keyboard shortcuts, so I came up with this little AppleScript which does the work:</p>
+<p>[gist id=652031 file=create_shortcuts.scpt]</p>
+<p>The key is &#8216;GUI scripting&#8217; &#8211; a specify way of AppleScript to simulate clicks, keystrokes etc. for *any* (native?) App. You only have to know the ids of the GUI elements which you can get with this very nice tool:<br />
+  -&gt;  http://pfiddlesoft.com/uibrowser</p>
+<p>Good source to start your Mac Os X Automation is:<br />
+  -&gt;  http://www.macosxautomation.com</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Skypehotdeploy &#8211; How to autocommit &#038; deploy a file</title>
+		<link>http://www.rngtng.com/2010/04/27/skypehotdeploy-how-to-autocommit-deploy-a-file/</link>
+				<pubDate>Tue, 27 Apr 2010 20:49:36 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[hotdeploy]]></category>
+		<category><![CDATA[skype]]></category>
+		<category><![CDATA[subversion]]></category>
+		<category><![CDATA[svn]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=64</guid>
+				<description><![CDATA[At Qype we had the problem of a college sending me a file which needed to get into the development trunk and updated on the production system. Problem was, he had http://gist.github.com/380749 Skype auto accept file, folder action on download folder. [plain] my hotdeploy() on adding folder items to this_folder after receiving these_items my hotdeploy() [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>At Qype we had the problem of a college sending me a file which needed to get into the development trunk and updated on the production system. Problem was, he had</p>
+<p>http://gist.github.com/380749</p>
+<p>Skype auto accept file,</p>
+<p>folder action on download folder.</p>
+<p>[plain]<br />
+my hotdeploy()</p>
+<p>on adding folder items to this_folder after receiving these_items<br />
+my hotdeploy()<br />
+end adding folder items to</p>
+<p>on hotdeploy()<br />
+set usr_home to &#8220;/Users/tobiasb/&#8221;<br />
+set prj_folder to usr_home &amp; &#8220;Sites/qype_admin/&#8221;<br />
+set filename to &#8220;report_queries.yml&#8221;</p>
+<p>set srcs to usr_home &amp; &#8220;Downloads/&#8221; &amp; filename<br />
+set dest to prj_folder &amp; &#8220;config/&#8221; &amp; filename</p>
+<p>try<br />
+tell application &#8220;Finder&#8221; to set file_exists to exists srcs as POSIX file<br />
+if file_exists then<br />
+say &#8220;here we go&#8221;<br />
+do shell script &#8220;mv &#8221; &amp; srcs &amp; &#8221; &#8221; &amp; dest<br />
+set diff to do shell script &#8220;/opt/local/bin/svn diff &#8221; &amp; dest<br />
+if not diff is equal to &#8220;&#8221; then<br />
+#set commit to &#8220;/opt/local/bin/svn ci &#8211;quiet -m&#8217;SkypeAutoCommiter: updated report queries&#8217; &#8221; &amp; dest &amp; &#8220;;&#8221;<br />
+#set hotdeploy to &#8220;cd &#8221; &amp; prj_folder &amp; &#8220;; /usr/bin/cap production qype:hotdeploy FILES=config/&#8221; &amp; filename &amp; &#8220;;&#8221;<br />
+#set out to commit &amp; hotdeploy<br />
+set out to do shell script &#8220;/Users/tobiasb/bin/update_report_queries.sh&#8221;<br />
+my message(&#8220;done&#8221;)<br />
+say &#8220;done&#8221;<br />
+else<br />
+my message(&#8220;no changes&#8221;)<br />
+end if<br />
+else<br />
+return &#8220;no file&#8221;<br />
+end if<br />
+on error the error_message number the error_number<br />
+my message(&#8220;error&#8221;)<br />
+say &#8220;error&#8221;<br />
+set the error_text to &#8220;Error: &#8221; &amp; the error_number &amp; &#8220;. &#8221; &amp; the error_message<br />
+display dialog the error_text buttons {&#8220;OK&#8221;} default button 1<br />
+return the error_text<br />
+end try<br />
+end hotdeploy</p>
+<p>on message(msg)<br />
+tell application &#8220;Skype&#8221; to send command &#8220;MESSAGE justalii SkypeAutoCommiter: &#8221; &amp; msg script name &#8220;to Alli&#8221;<br />
+#say msg<br />
+end message<br />
+[/plain]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>How to sync my mp3 Songs rating in iTunes across multiple Libraries</title>
+		<link>http://www.rngtng.com/2009/11/24/how-to-sync-my-mp3-songs-rating-in-itunes-across-multiple-libraries/</link>
+				<pubDate>Tue, 24 Nov 2009 16:21:26 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[itunes]]></category>
+		<category><![CDATA[mp3]]></category>
+		<category><![CDATA[sync]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=338</guid>
+				<description><![CDATA[By now, I havn&#8217;t find any good solution to share my mp3 across multiple systems and disks. I&#8217;ve some on my local machine, some at work and some on my external harddisk to archive. Luckily, when copying my tracks to another library duplicates are ignored. But what annoys me most is that my ratings don&#8217;t [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>By now, I havn&#8217;t find any good solution to share my mp3 across multiple systems and disks. I&#8217;ve some on my local machine, some at work and some on my external harddisk to archive. Luckily, when copying my tracks to another library duplicates are ignored. But what annoys me most is that my ratings don&#8217;t get copied, as iTunes doesn&#8217;t store it within the file. Some while ago I found a solution by storing the number of stars into the &#8216;Grouping&#8217; Field, so I can recover the rating afterwards. Now, I came up with this little applescript do automate the write and recover process. Just run this script, copy you mp3 to the other library, run the script again, and voilá, you ratings are back &#8211; nice!</p>
+<p>[shell]<br />
+(*  small apple script to save rating into grouping field and<br />
+   vice versa. Perfect to persitent store your rating witin the file<br />
+*)</p>
+<p>tell application &quot;iTunes&quot;<br />
+	repeat with stars from 1 to 5<br />
+		set rating_value to stars * 20<br />
+		set group_name to &quot;&quot; &amp; stars &amp; &quot; Stars&quot;</p>
+<p>		set sel to (every track whose rating is rating_value and grouping is &quot;&quot;)<br />
+		repeat with aTrack in sel<br />
+			tell aTrack<br />
+				set grouping to group_name<br />
+			end tell<br />
+		end repeat</p>
+<p>		set sel to (every track whose rating is 0 and grouping is group_name)<br />
+		repeat with aTrack in sel<br />
+			tell aTrack<br />
+				set rating to rating_value<br />
+			end tell<br />
+		end repeat<br />
+	end repeat<br />
+end tell<br />
+[/shell]</p>
+<p>Btw. for each Star rating I do have a smart playlist which allows me to find those quickly.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My first AppleScript: Copy Address Book entries</title>
+		<link>http://www.rngtng.com/2007/05/10/my-first-applescript-copy-address-book-entries/</link>
+				<pubDate>Thu, 10 May 2007 12:25:39 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[address]]></category>
+		<category><![CDATA[applescript]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[ICQ]]></category>
+		<category><![CDATA[jabber]]></category>
+		<category><![CDATA[mac]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=56</guid>
+				<description><![CDATA[Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in Adium, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows: [bash] tell application &#34;Address Book&#34; set thePeople to every person whose ICQ handles is not {} and Jabber handles [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Tatataa! I just wrote my frist AppleScript. For displaying the buddypicture of my Address Book contacts in <a href="http://www.adiumx.com/" target="_blank">Adium</a>, I had to copy the ICQ entry to a new Jabber enrty with appending &#8220;@jit.jabber.fsinf.de&#8221;. The code follows:</p>
+<p>[bash]<br />
+tell application &quot;Address Book&quot;<br />
+set thePeople to every person whose ICQ handles is not {} and Jabber handles is {}<br />
+repeat with eachPerson in thePeople<br />
+set icqnr to value of ICQ handles of eachPerson<br />
+set jabberid to (item 1 of icqnr) &amp;amp; &quot;@jit.jabber.fsinf.de&quot;<br />
+make new Jabber handle at end of Jabber handles of eachPerson with properties {label:&quot;Home&quot;, value:jabberid}<br />
+end repeat<br />
+save addressbook<br />
+end tell<br />
+[/bash]</p>
+<p>It worked out fine. Now I see you all in my buddylist <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Arduino &amp; Co. &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/arduino-co/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 15 May 2009 18:39:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Arduino: Fade and pulse a LED with just using a DigitalPort</title>
+		<link>http://www.rngtng.com/2009/05/17/arduino-fade-and-pulse-a-led-with-just-using-a-digitalport/</link>
+				<pubDate>Sun, 17 May 2009 13:40:45 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[dimm]]></category>
+		<category><![CDATA[fade]]></category>
+		<category><![CDATA[led]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=90</guid>
+				<description><![CDATA[This is a nice experiment I did to fade and pulse a LED by just using a digital port. Digital? On/Off, 1/0 &#8211; how can this work? Well it does, check this out: [youtube]http://www.youtube.com/watch?v=kB62BrQBjTg[/youtube] The key is, I&#8217;m switching the LED on &#38; off very fast which appears the human eye as it&#8217;s on all [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>This is a nice experiment I did to fade and pulse a LED by just using a <em>digital</em> port. Digital? On/Off, 1/0 &#8211; how can this work? Well it does, check this out:</p>
+<p>[youtube]http://www.youtube.com/watch?v=kB62BrQBjTg[/youtube]</p>
+<p>The key is, I&#8217;m switching the LED on &amp; off very fast which appears the human eye as it&#8217;s on all the time (similar to a LED Matrix). Now, I change the time period between switching the LED on and off. Is the off period time longer, the LED lights low, is the off period time short, the LED lights high. Fading the period time, makes the LED pulse&#8230; nice!</p>
+<p>Check this (still quite ugly) code:<br />
+[c]<br />
+int ledPin = 13;      // LED connected to digital pin 13<br />
+int value = LOW;    // previous value of the LED<br />
+long cnt = 0;         // will store last time LED was updated<br />
+long low = 0;         // interval at which to blink (milliseconds)<br />
+long high = 1000; // interval at which to blink (milliseconds)<br />
+int op = 3;<br />
+long a = 0;</p>
+<p>void setup()<br />
+{<br />
+  pinMode(ledPin, OUTPUT);      // sets the digital pin as output<br />
+}</p>
+<p>void loop()<br />
+{<br />
+  a += op;<br />
+  blinkl( a+30, 10 );<br />
+  if( a &gt; 200 || a &lt; 0 ) op *= -1;<br />
+}</p>
+<p>void blinkl(long low, long high )<br />
+{<br />
+  int c = 5;<br />
+  while ( c &gt; 0 ) {<br />
+   blink( low, high );<br />
+   c-=1;<br />
+ }<br />
+}</p>
+<p>void blink( long low, long high )<br />
+{<br />
+  long period = 4000;<br />
+  long pt = period * high / (low + high );<br />
+  int value = LOW;<br />
+  digitalWrite(ledPin, value);</p>
+<p>  while( period &gt; 0 ) {<br />
+    if (period &lt; pt &amp;&amp; value == LOW ) {<br />
+      value = HIGH;<br />
+      digitalWrite(ledPin, value);<br />
+    }<br />
+    period -= 1;<br />
+  }<br />
+}<br />
+[/c]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Ruby Serialport and Arduino &#8211; that&#8217;s easy!</title>
+		<link>http://www.rngtng.com/2009/05/14/ruby-serialport-and-arduino-thats-easy/</link>
+				<pubDate>Thu, 14 May 2009 19:59:34 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[console]]></category>
+		<category><![CDATA[irb]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[os x]]></category>
+		<category><![CDATA[serialport]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=86</guid>
+				<description><![CDATA[Yeah, just controlled my Arduino via the ruby irb console using ruby serialport. Damn easy! (well at least on a Mac, running OS 10.5.7) Hehe, soon more to come&#8230; More to get you started with Arduino and Ruby: http://www.arduino.cc/playground/Interfacing/Ruby]]></description>
+								<content:encoded><![CDATA[<p>Yeah, just controlled my Arduino via the ruby irb console using <a href="http://rubyforge.org/projects/ruby-serialport" class="broken_link">ruby serialport</a>. Damn easy! (well at least on a Mac, running OS 10.5.7) Hehe, soon more to come&#8230;</p>
+<p>More to get you started with Arduino and Ruby:<br />
+<a href="http://www.arduino.cc/playground/Interfacing/Ruby">http://www.arduino.cc/playground/Interfacing/Ruby</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Second try: 2&#215;5 LED Matrix Arduino controlled</title>
+		<link>http://www.rngtng.com/2009/04/28/second-try-2x5-led-matrix-arduino-controlled/</link>
+				<pubDate>Tue, 28 Apr 2009 10:14:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[light]]></category>
+		<category><![CDATA[matrix]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=75</guid>
+				<description><![CDATA[This time a more sophisticated example. I started to develop an LED Matrix controller and editor in Processing (like every does his first steps on arduino, I think). By now, you can create a sequence by selecting the LEDs to light up and move over to the next frame. Finished, run it on the Arduino [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>This time a more sophisticated example. I started to develop an LED Matrix controller and editor in <a href="http://www.processing.org">Processing</a> (like every does his first steps on arduino, I think).<br />
+By now, you can create a sequence by selecting the LEDs to light up and move over to the next frame. Finished, run it on the Arduino and control the speed &#8211; a nice and quick <del datetime="2009-05-12T10:14:04+00:00">toy</del> way to create any light patterns you can think of easily. </p>
+<p>[youtube]http://www.youtube.com/watch?v=Vmijzo2zT-s[/youtube]</p>
+<p>More examples and source code soon to come&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My first Arduion test: 10 LEDs running light</title>
+		<link>http://www.rngtng.com/2009/04/24/my-first-arduion-test-10-leds-running-light/</link>
+				<pubDate>Fri, 24 Apr 2009 19:05:19 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[buton]]></category>
+		<category><![CDATA[interrupt]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[light]]></category>
+		<category><![CDATA[running]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=73</guid>
+				<description><![CDATA[Check this out: [youtube]http://www.youtube.com/watch?v=irVW4U8zq_k[/youtube] That my first proper Arduino test, controlling a 10 LED running light. I attached a small button via interrupt as well to start &#38; stop the light. More to come soon, stay tuned! Here the (very,very ugly) source code: [c] int ledPin = 3; // First LED connected to digital pin [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Check this out:<br />
+[youtube]http://www.youtube.com/watch?v=irVW4U8zq_k[/youtube]</p>
+<p>That my first proper Arduino test, controlling a 10 LED running light. I attached a small button via interrupt as well to start &amp; stop the light. More to come soon, stay tuned!</p>
+<p>Here the (very,very ugly) source code:</p>
+<p>[c]<br />
+int ledPin = 3;      // First LED connected to digital pin 13<br />
+volatile int stop = LOW;</p>
+<p>void setup()<br />
+{<br />
+  Serial.begin(38400);<br />
+  for( int i = 0; i &lt; 10; i++) {<br />
+     pinMode(ledPin + i, OUTPUT);<br />
+  }<br />
+   attachInterrupt(0, stopit, RISING);    //Button attached to Pin 2<br />
+}</p>
+<p>int i = 0;<br />
+void loop()<br />
+{<br />
+    for( i = 0; i &lt; 7 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &gt;= 1 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 0; i &lt; 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &gt;= 3 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &lt; 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 9; i &gt;= 1 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+}</p>
+<p>void stopit()<br />
+{<br />
+  delayMicroseconds(1000);<br />
+  stop = !stop;<br />
+}</p>
+<p>void blink( int pin ) {<br />
+      digitalWrite(pin, HIGH);<br />
+      delay(120 &#8211; abs( pin &#8211; 8 ) * 20);<br />
+      digitalWrite(pin, LOW);<br />
+}<br />
+[/c]</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Arduion has arrived</title>
+		<link>http://www.rngtng.com/2009/04/17/arduion-has-arrived/</link>
+				<pubDate>Fri, 17 Apr 2009 10:09:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[kickoff]]></category>
+
+		<guid isPermaLink="false">http://urangatang.lustauffotos.com/?p=35</guid>
+				<description><![CDATA[Here it is! Yeah, finally my Arduino (ordered at Watterott) has been delivered. Can&#8217;t wait to get my hands on it. Stay tuned for future reports! All about this great &#8216;toy&#8217; here: www.arduino.cc]]></description>
+								<content:encoded><![CDATA[<p><img src="http://orguz.files.wordpress.com/2007/11/arduino_extreme_480.jpg" alt="" /><br />
+Here it is! Yeah, finally my Arduino (ordered at <a href="http://www.watterott.com">Watterott</a>) has been delivered. Can&#8217;t wait to get my hands on it. Stay tuned for future reports!</p>
+<p>All about this great &#8216;toy&#8217; here: <a href="http://www.arduino.cc">www.arduino.cc</a></p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

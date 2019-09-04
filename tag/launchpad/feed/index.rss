@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>launchpad &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/launchpad/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Fri, 17 Sep 2010 16:28:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>mtXcontrol sneak preview &#8211; rainbowduino beta library goes master and slave</title>
+		<link>http://www.rngtng.com/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/</link>
+				<pubDate>Sun, 05 Sep 2010 16:38:25 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Arduino]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[processing]]></category>
+		<category><![CDATA[RainbowCube]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=394</guid>
+				<description><![CDATA[[vimeo]http://www.vimeo.com/10377543[/vimeo] Now, as I&#8217;m finally getting settled, it&#8217;s time to kick of mtXcontrol development again. So first, I&#8217;ll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the Processing library -Rainbowduino-. Current development going on, here, check it out. It&#8217;s still in a [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>[vimeo]http://www.vimeo.com/10377543[/vimeo]</p>
+<p>Now, as I&#8217;m finally getting settled, it&#8217;s time to kick of mtXcontrol development again. So first, I&#8217;ll continue working on the raw rainbowduino interaction which is the firmware, a communication protocol and a processing library, all summerized in the <strong>Processing library -Rainbowduino-</strong>. Current development going on, <a href="http://github.com/rngtng/rainbowduino">here, check it out</a>. It&#8217;s still in a beta state, but ready and good for testing. </p>
+<p> Just to make you curious here some new cool upcoming features:<br />
+* support for multiple &amp; cascading Rainbowduinos<br />
+* auto port detection<br />
+* plug and play<br />
+* (auto) firmware upload<br />
+* <a href="http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html?cPath=71&amp;zenid=6f5af82edb45a559db6dd5e4531b5faf">Rainbow Cube support</a><br />
+* updated, more robust protocol</p>
+<p>The video above show a quick preview of the upcoming Rainbowduino Firmware release &#8216;Master and Slave&#8217;.</p>
+<p>You see two Rainbowduinos, the left one as Master connected via Serial to Mac, the right one as Slave connected via I2C to master. The blinking LEDs are merely debug output, interesting part is the changing brightness of the slave. The command to change brightness is send via Serial, received by the master and forwarded to the slave via I2C. With that multiple rainbowudinos can be connected in a row easily. </p>
+<p>And the Best: both run the same(!!!) firmware. The master/slave role and I2C address are auto detected on startup. As easy as that! </p>
+<p>Stay tuned!!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>mtXcontrol meets Launchpad meets Rainbowduino</title>
+		<link>http://www.rngtng.com/2009/12/30/mtxcontrol-meets-launchpad-meets-rainbowduino/</link>
+				<pubDate>Wed, 30 Dec 2009 15:48:44 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[Controller]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[mtXcontrol]]></category>
+		<category><![CDATA[RainbowDuino]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=379</guid>
+				<description><![CDATA[That&#8217;s it! I just released mtXcontrol version 1.1 with lot of updates and improvements. One major improvement is full support for Novation Launchpad: just draw your sequences and display them on your Launchpad! Even better, push the buttons to change the color, add, remove, copy &#38; paste frames. For that mtXcontrol makes usage of the [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>That&#8217;s it! I just released mtXcontrol version 1.1 with lot of updates and improvements. One major improvement is full support for <a href="http://www.novationmusic.com/products/launchpad" class="broken_link">Novation Launchpad</a>: just draw your sequences and display them on your Launchpad! Even better, push the buttons to change the color, add, remove, copy &amp; paste frames. For that mtXcontrol makes usage of the <a href="http://rngtng.github.com/launchpad">Launchpad Processing library</a> which I released some days ago.</p>
+<p>But Rainbowduino support improved as well. I fixed lots of bugs and implemented requested features. Now you can control the display brightness, save up to 10 frames onto the device and serial port is auto detected. In general, I defined an basic API to communicate with the devices, which allows you to add more devices easily (e.g. monome!). With that, all Rainbowduino stuff is moved in a separate <a href="http://rngtng.github.com/rainbowduino">Rainbowduino Processing library</a>. </p>
+<p>[vimeo]http://vimeo.com/8456119[/vimeo]</p>
+<p>See official <a href="http://www.rngtng.com/mtXcontrol">mtXcontrol</a> project page for more.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Here it is: Launchpad Processing lib!</title>
+		<link>http://www.rngtng.com/2009/12/20/here-it-is-launchpad-processing-lib/</link>
+				<pubDate>Sun, 20 Dec 2009 18:07:23 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Happy Hacking]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[library]]></category>
+		<category><![CDATA[novation]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=374</guid>
+				<description><![CDATA[Yay, I finally released my Launchpad Processing Library. Please see it&#8217;s project page and source at github. Videos &#38; more are coming soon. (Yes, this includes an updated mtXcontrol Version with Launchpad support!!)]]></description>
+								<content:encoded><![CDATA[<p style="text-align: center"><img class="aligncenter" src="http://www.ubergizmo.com/photos/2009/11/novation-launchpad.jpg" alt="" /></p>
+<p>Yay, I finally released  my Launchpad Processing Library. Please see it&#8217;s <a href="http://rngtng.github.com/launchpad/">project page</a> and <a href="http://github.com/rngtng/launchpad">source</a> at github.</p>
+<p>Videos &amp; more are coming soon. (Yes, this includes an updated mtXcontrol Version with Launchpad support!!)</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>If your ruby serial port doesn&#8217;t read what&#8217; you&#8217;re sending&#8230;</title>
+		<link>http://www.rngtng.com/2009/11/27/if-your-ruby-serial-port-doesnt-read-what-youre-sending/</link>
+				<pubDate>Fri, 27 Nov 2009 16:57:29 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Ruby, Rails & Co.]]></category>
+		<category><![CDATA[communication]]></category>
+		<category><![CDATA[gem]]></category>
+		<category><![CDATA[launchpad]]></category>
+		<category><![CDATA[port]]></category>
+		<category><![CDATA[Rails & Co.]]></category>
+		<category><![CDATA[serial]]></category>
+		<category><![CDATA[serialport]]></category>
+		<category><![CDATA[uart]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=334</guid>
+				<description><![CDATA[Some days ago I got my Novation launchpad an immediately started hacking with some Ruby and Arduino flavor. I wanted to port ccb23 Raindrops Project to launchpad. For that, I needed Serial communication within ruby. Thanks to ruby-serialport first steps went quite well. I could write OR read from and to Arduino easily. But for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Some days ago I got my <a href="http://twitter.com/rngtng/status/5792203896">Novation</a> <a href="http://www.novationmusic.com/launchpad/" class="broken_link">launchpad</a> an immediately started hacking with some <a href="http://github.com/thomasjachmann/launchpad">Ruby</a> and Arduino flavor. I wanted to port ccb23 <a href="http://vimeo.com/6916458">Raindrops Project</a> to launchpad. </p>
+<p>For that, I needed Serial communication within ruby. Thanks to <a href="http://ruby-serialport.rubyforge.org/" class="broken_link">ruby-serialport</a> first steps went quite well. I could write OR read from and to Arduino easily. But for some reasons, writing AND reading using the same instance didn&#8217;t work out. </p>
+<p>I used a simple &#8216;send-input-back&#8217; sketch on the Arduino side. So every byte I&#8217;m sending is returned back. I checked with the Arduino IDE Serialmonitor and a simple Processing script &#8211; everything worked alright.  But using ruby it was different. Writing to serial port worked okay, but reading from it was just random. Sometimes I read the response, sometime I didn&#8217;t &#8211; really, really weird. Some headaches and a lot of time testing I finally found the solution: just open two instances of the serial port. One for sending, one for reading &#8211; and, surprise, surprise &#8211; it works perfect! Who would have guessed that!? Strange.. </p>
+<p>[ruby]<br />
+// To be completed<br />
+require &#8216;serialport&#8217;<br />
+port_write = Serialport.new()<br />
+port_read = Serialport.new()<br />
+[/ruby]</p>
+<p>Ok, continuing hacking, more soon&#8230;</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

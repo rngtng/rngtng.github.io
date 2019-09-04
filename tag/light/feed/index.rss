@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>light &#8211; uRaNGaTaNG</title>
+	<atom:link href="http://www.rngtng.com/tag/light/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.rngtng.com</link>
+	<description>Featuring Web development, Hardware Hacking, Pinball and more...</description>
+	<lastBuildDate>Thu, 14 May 2009 19:51:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<item>
+		<title>Second try: 2&#215;5 LED Matrix Arduino controlled</title>
+		<link>http://www.rngtng.com/2009/04/28/second-try-2x5-led-matrix-arduino-controlled/</link>
+				<pubDate>Tue, 28 Apr 2009 10:14:04 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[editor]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[light]]></category>
+		<category><![CDATA[matrix]]></category>
+		<category><![CDATA[processing]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=75</guid>
+				<description><![CDATA[This time a more sophisticated example. I started to develop an LED Matrix controller and editor in Processing (like every does his first steps on arduino, I think). By now, you can create a sequence by selecting the LEDs to light up and move over to the next frame. Finished, run it on the Arduino [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>This time a more sophisticated example. I started to develop an LED Matrix controller and editor in <a href="http://www.processing.org">Processing</a> (like every does his first steps on arduino, I think).<br />
+By now, you can create a sequence by selecting the LEDs to light up and move over to the next frame. Finished, run it on the Arduino and control the speed &#8211; a nice and quick <del datetime="2009-05-12T10:14:04+00:00">toy</del> way to create any light patterns you can think of easily. </p>
+<p>[youtube]http://www.youtube.com/watch?v=Vmijzo2zT-s[/youtube]</p>
+<p>More examples and source code soon to come&#8230;</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>My first Arduion test: 10 LEDs running light</title>
+		<link>http://www.rngtng.com/2009/04/24/my-first-arduion-test-10-leds-running-light/</link>
+				<pubDate>Fri, 24 Apr 2009 19:05:19 +0000</pubDate>
+		<dc:creator><![CDATA[tobi]]></dc:creator>
+				<category><![CDATA[Arduino & Co.]]></category>
+		<category><![CDATA[buton]]></category>
+		<category><![CDATA[interrupt]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[light]]></category>
+		<category><![CDATA[running]]></category>
+
+		<guid isPermaLink="false">http://www.rngtng.com/?p=73</guid>
+				<description><![CDATA[Check this out: [youtube]http://www.youtube.com/watch?v=irVW4U8zq_k[/youtube] That my first proper Arduino test, controlling a 10 LED running light. I attached a small button via interrupt as well to start &#38; stop the light. More to come soon, stay tuned! Here the (very,very ugly) source code: [c] int ledPin = 3; // First LED connected to digital pin [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Check this out:<br />
+[youtube]http://www.youtube.com/watch?v=irVW4U8zq_k[/youtube]</p>
+<p>That my first proper Arduino test, controlling a 10 LED running light. I attached a small button via interrupt as well to start &amp; stop the light. More to come soon, stay tuned!</p>
+<p>Here the (very,very ugly) source code:</p>
+<p>[c]<br />
+int ledPin = 3;      // First LED connected to digital pin 13<br />
+volatile int stop = LOW;</p>
+<p>void setup()<br />
+{<br />
+  Serial.begin(38400);<br />
+  for( int i = 0; i &lt; 10; i++) {<br />
+     pinMode(ledPin + i, OUTPUT);<br />
+  }<br />
+   attachInterrupt(0, stopit, RISING);    //Button attached to Pin 2<br />
+}</p>
+<p>int i = 0;<br />
+void loop()<br />
+{<br />
+    for( i = 0; i &lt; 7 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &gt;= 1 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 0; i &lt; 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &gt;= 3 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i &lt; 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 9; i &gt;= 1 &amp;&amp; !stop; i&#8211;) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+}</p>
+<p>void stopit()<br />
+{<br />
+  delayMicroseconds(1000);<br />
+  stop = !stop;<br />
+}</p>
+<p>void blink( int pin ) {<br />
+      digitalWrite(pin, HIGH);<br />
+      delay(120 &#8211; abs( pin &#8211; 8 ) * 20);<br />
+      digitalWrite(pin, LOW);<br />
+}<br />
+[/c]</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>
