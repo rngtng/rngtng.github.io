@@ -33,7 +33,7 @@ Actually I thought [PHPlist](http://www.phplist.com/details) is first choice, bu
 
 [OpenEMM](http://www.openemm.org/) has a nice website and pretends to be opensource, but somehow I wasn&#8217;t able to get a proper version to run and test. <del datetime="2009-08-13T09:51:11+00:00">Looks more like fake to me&#8230;</del> **Update:** see comments, apparently there&#8217;s lot&#8217;s of work going on and you can download it from sourceforge easily..
 
-[MailMan](http://www.gnu.org/software/mailman/index.html) is quite popular, known as stable and high performant, but still I don&#8217;t like the backend. The whole software looks a bit outdated to me&#8230; c&#8217;mon it&#8217;s 2009!!!
+[MailMan](http://www.gnu.org/software/mailman) is quite popular, known as stable and high performant, but still I don&#8217;t like the backend. The whole software looks a bit outdated to me&#8230; c&#8217;mon it&#8217;s 2009!!!
 
 Other systems may worth a look as not for free, so I didn&#8217;t test them:  
 <http://www.mailingwork.de/>  

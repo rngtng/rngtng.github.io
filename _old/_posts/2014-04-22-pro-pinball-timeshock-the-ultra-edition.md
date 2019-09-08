@@ -18,4 +18,4 @@ OMG! its happening &#8211; The 90s are back!
 
 Update: And even better, Silver Castle Pinball is building a real(!!!) Timeshock! Machine:
 
-<http://www.pinballnews.com/games/timeshock/index.html>
+<http://www.pinballnews.com/games/timeshock>
