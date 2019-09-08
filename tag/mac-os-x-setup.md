@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'mac-os-x-setup'
+title: 'mac os x setup'
 ---

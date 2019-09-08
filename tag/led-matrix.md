@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'led-matrix'
+title: 'led matrix'
 ---

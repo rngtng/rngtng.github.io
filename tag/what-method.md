@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'what-method'
+title: 'what_method'
 ---

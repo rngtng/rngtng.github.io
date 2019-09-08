@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'ruby-rails-co'
+title: 'Ruby, Rails & Co.'
 ---

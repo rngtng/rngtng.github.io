@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'ruby-on-rails'
+title: 'ruby on rails'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: category
-title: 'arduino-co'
+title: 'Arduino & Co.'
 ---

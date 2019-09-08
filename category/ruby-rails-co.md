@@ -1,4 +1,4 @@
 ---
 layout: category
-title: 'ruby-rails-co'
+title: 'Ruby, Rails & Co.'
 ---

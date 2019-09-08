@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'best-practise'
+title: 'best practise'
 ---

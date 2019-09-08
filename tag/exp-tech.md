@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'exp-tech'
+title: 'exp tech'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'user-defined'
+title: 'user defined'
 ---

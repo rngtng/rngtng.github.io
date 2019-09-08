@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'usb-missile-launcher-nz'
+title: 'USB Missile Launcher NZ'
 ---

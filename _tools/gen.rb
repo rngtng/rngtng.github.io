@@ -11,9 +11,8 @@ require 'yaml'
 require 'jekyll'
 
 def write(needle, type:)
-  # binding.pry
-  needle = Jekyll::Utils.slugify(needle)
-  File.open("../#{type}/#{needle}.md", 'w') do |file|
+  slug = Jekyll::Utils.slugify(needle)
+  File.open("../#{type}/#{slug}.md", 'w') do |file|
     file.write("---\n")
     file.write("layout: #{type}\n")
     file.write("title: '#{needle}'\n")

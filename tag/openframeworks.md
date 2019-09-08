@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'openframeworks'
+title: 'openFrameworks'
 ---

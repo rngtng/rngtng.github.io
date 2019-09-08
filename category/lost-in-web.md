@@ -1,4 +1,4 @@
 ---
 layout: category
-title: 'lost-in-web'
+title: 'Lost in Web'
 ---

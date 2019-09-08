@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'hack-and-tell'
+title: 'hack and tell'
 ---

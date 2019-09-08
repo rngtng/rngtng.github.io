@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'internet-of-things'
+title: 'internet of things'
 ---

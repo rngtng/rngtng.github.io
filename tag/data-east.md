@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'data-east'
+title: 'data east'
 ---

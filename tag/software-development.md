@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'software-development'
+title: 'software development'
 ---

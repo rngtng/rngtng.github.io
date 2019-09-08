@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'command-line'
+title: 'command line'
 ---

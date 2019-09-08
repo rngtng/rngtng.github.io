@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'electronics-co'
+title: 'Electronics & Co.'
 ---

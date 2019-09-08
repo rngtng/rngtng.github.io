@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'how-to'
+title: 'how to'
 ---

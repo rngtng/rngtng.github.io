@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'openemm'
+title: 'OpenEMM'
 ---

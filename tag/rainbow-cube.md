@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'rainbow-cube'
+title: 'Rainbow Cube'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'beauty-of-code'
+title: 'beauty of code'
 ---

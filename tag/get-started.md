@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'get-started'
+title: 'get started'
 ---

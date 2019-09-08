@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'default-scope'
+title: 'default scope'
 ---

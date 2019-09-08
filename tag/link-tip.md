@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'link-tip'
+title: 'link tip'
 ---

@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'rails-co'
+title: 'Rails & Co.'
 ---

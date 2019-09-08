@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: 'os-x'
+title: 'os x'
 ---
