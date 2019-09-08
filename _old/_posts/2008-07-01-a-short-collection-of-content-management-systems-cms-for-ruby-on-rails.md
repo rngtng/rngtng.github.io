@@ -9,15 +9,15 @@ permalink: /2008/07/01/a-short-collection-of-content-management-systems-cms-for-
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - cms
   - collection
   - evaluation
-  - 'Rails &amp; Co.'
+  - 'Rails & Co.'
   - ror
   - ruby on rails
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 ---
 Here is a short collection of current Content Management Systems (CMS) written in Ruby and mostly suited to use with Ruby on Rails. Check out [Ananablau](http://ananasblau.com/ruby-on-rails-cms){.broken_link} as well for a nice PDF slide.
 

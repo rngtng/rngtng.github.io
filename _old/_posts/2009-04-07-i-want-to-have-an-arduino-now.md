@@ -9,10 +9,10 @@ permalink: /2009/04/07/i-want-to-have-an-arduino-now/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - Arduino
-  - 'Electronics &amp; Co.'
+  - 'Electronics & Co.'
 ---
 <http://www.youtube.com/watch?v=PeScmRwzQho>
 

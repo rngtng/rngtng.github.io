@@ -5,7 +5,7 @@ date: '2016-12-01 21:50:52 +0000'
 permalink: "/2016/12/01/sources-worth-a-read/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags: []
 comments: []
 ---

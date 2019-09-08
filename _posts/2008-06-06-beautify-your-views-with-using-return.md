@@ -5,7 +5,7 @@ date: '2008-06-06 10:59:24 +0000'
 permalink: "/2008/06/06/beautify-your-views-with-using-return/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - view
 - beauty of code

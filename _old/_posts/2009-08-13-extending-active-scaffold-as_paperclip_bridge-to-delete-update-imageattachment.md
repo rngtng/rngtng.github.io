@@ -1,6 +1,6 @@
 ---
 id: 193
-title: 'Extending Active Scaffold as_paperclip_bridge to delete &amp; update image/attachment'
+title: 'Extending Active Scaffold as_paperclip_bridge to delete & update image/attachment'
 date: 2009-08-13T16:53:35+01:00
 author: tobi
 layout: post
@@ -11,7 +11,7 @@ syntaxhighlighter_encoded:
 fb-status-updater-meta:
   - 'a:12:{s:22:"custom-facebook-status";s:0:"";s:21:"custom-twitter-status";s:0:"";s:21:"custom-myspace-status";s:0:"";s:19:"custom-myspace-mood";s:0:"";s:25:"fb-push-as-profile-status";s:0:"";s:23:"fb-push-as-profile-link";s:0:"";s:23:"fb-push-as-page1-status";s:0:"";s:21:"fb-push-as-page1-link";s:0:"";s:14:"fb-share-image";s:0:"";s:7:"tw-push";s:1:"1";s:7:"ms-push";s:0:"";s:4:"push";s:1:"1";}'
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - active
   - attachment
@@ -21,9 +21,9 @@ tags:
   - 'on'
   - plugin
   - rails
-  - 'Rails &amp; Co.'
+  - 'Rails & Co.'
   - ror
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
   - Scaffold
 ---
 As you know I&#8217;m quite fond of working with [Active Scaffold (AS)](http://activescaffold.com/){.broken_link} for data administration proposes. Quite recently we moved over to the RoR [paperclip attachment plugin](http://www.thoughtbot.com/projects/paperclip) for file upload handling. I was even more happy to see a Active Scaffold bridge which integrates paperclip smoothly into AS as well. It&#8217;s created by and hosted [here](http://github.com/mnaglik/as_paperclip_bridge/tree/master) on github.

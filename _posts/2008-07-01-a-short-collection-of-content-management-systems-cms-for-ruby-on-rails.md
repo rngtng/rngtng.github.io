@@ -5,10 +5,10 @@ date: '2008-07-01 22:48:31 +0000'
 permalink: "/2008/07/01/a-short-collection-of-content-management-systems-cms-for-ruby-on-rails/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
-- Ruby, Rails &amp; Co.
-- Rails &amp; Co.
+- Ruby, Rails & Co.
+- Rails & Co.
 - evaluation
 - cms
 - collection

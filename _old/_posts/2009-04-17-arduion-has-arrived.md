@@ -9,9 +9,9 @@ permalink: /2009/04/17/arduion-has-arrived/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
   - fun
   - kickoff
 ---

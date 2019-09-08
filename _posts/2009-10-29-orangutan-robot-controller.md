@@ -5,7 +5,7 @@ date: '2009-10-29 14:12:58 +0000'
 permalink: "/2009/10/29/orangutan-robot-controller/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - Controller
 - Orangutan

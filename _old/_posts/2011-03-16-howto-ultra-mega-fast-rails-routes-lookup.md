@@ -7,7 +7,7 @@ layout: post
 guid: http://www.rngtng.com/?p=538
 permalink: /2011/03/16/howto-ultra-mega-fast-rails-routes-lookup/
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - alias
   - bash
@@ -16,7 +16,7 @@ tags:
   - rails
   - routes
   - ruby on rails
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
   - script
   - shell
 ---

@@ -5,7 +5,7 @@ date: '2012-11-28 14:43:34 +0000'
 permalink: "/2012/11/28/carambola-board-arrived/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - hacking
 - exp tech

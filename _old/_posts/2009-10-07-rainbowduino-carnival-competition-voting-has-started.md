@@ -9,7 +9,7 @@ permalink: /2009/10/07/rainbowduino-carnival-competition-voting-has-started/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - Arduino
   - competition

@@ -7,7 +7,7 @@ layout: post
 guid: http://www.rngtng.com/?p=664
 permalink: /2012/06/21/rspec-useful-how-to-and-best-practices/
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - best practise
   - doku

@@ -1,6 +1,6 @@
 ---
 id: 652
-title: 'DelJect &#8211; delete &amp; eject USB card easily'
+title: 'DelJect &#8211; delete & eject USB card easily'
 date: 2012-03-09T20:22:31+01:00
 author: tobi
 layout: post

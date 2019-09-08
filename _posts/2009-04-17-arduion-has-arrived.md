@@ -5,9 +5,9 @@ date: '2009-04-17 11:09:44 +0000'
 permalink: "/2009/04/17/arduion-has-arrived/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
-- Arduino &amp; Co.
+- Arduino & Co.
 - fun
 - kickoff
 comments: []

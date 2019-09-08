@@ -5,7 +5,7 @@ date: '2009-10-07 19:31:47 +0000'
 permalink: "/2009/10/07/rainbowduino-carnival-competition-voting-has-started/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - Arduino
 - seeedstudio

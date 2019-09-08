@@ -9,7 +9,7 @@ permalink: /2009/08/20/rails-flag_shih_tzu-plugin-with-named_scope/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - extension
   - fork

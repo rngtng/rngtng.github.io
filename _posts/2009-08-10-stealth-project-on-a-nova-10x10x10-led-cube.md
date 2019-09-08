@@ -5,7 +5,7 @@ date: '2009-08-10 09:47:45 +0000'
 permalink: "/2009/08/10/stealth-project-on-a-nova-10x10x10-led-cube/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 - Lost in Web
 tags:
 - led

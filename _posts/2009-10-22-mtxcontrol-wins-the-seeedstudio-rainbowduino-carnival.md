@@ -5,7 +5,7 @@ date: '2009-10-22 10:02:43 +0000'
 permalink: "/2009/10/22/mtxcontrol-wins-the-seeedstudio-rainbowduino-carnival/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - Arduino
 - seeedstudio

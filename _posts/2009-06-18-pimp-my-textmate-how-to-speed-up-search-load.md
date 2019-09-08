@@ -1,6 +1,6 @@
 ---
 id: 127
-title: 'Pimp my TextMate: how to speed up search &amp; load'
+title: 'Pimp my TextMate: how to speed up search & load'
 date: '2009-06-18 11:41:38 +0000'
 permalink: "/2009/06/18/pimp-my-textmate-how-to-speed-up-search-load/"
 layout: post

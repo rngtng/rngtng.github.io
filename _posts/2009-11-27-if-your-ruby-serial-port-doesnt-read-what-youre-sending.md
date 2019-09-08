@@ -5,11 +5,11 @@ date: '2009-11-27 17:57:29 +0000'
 permalink: "/2009/11/27/if-your-ruby-serial-port-doesnt-read-what-youre-sending/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - serialport
-- Rails &amp; Co.
+- Rails & Co.
 - uart
 - launchpad
 - gem

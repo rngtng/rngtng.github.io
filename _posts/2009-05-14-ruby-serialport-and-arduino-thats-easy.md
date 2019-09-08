@@ -5,13 +5,13 @@ date: '2009-05-14 20:59:34 +0000'
 permalink: "/2009/05/14/ruby-serialport-and-arduino-thats-easy/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
-- Arduino &amp; Co.
+- Ruby, Rails & Co.
+- Arduino & Co.
 tags:
 - irb
-- Arduino &amp; Co.
+- Arduino & Co.
 - mac
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - serialport
 - console
 - os x

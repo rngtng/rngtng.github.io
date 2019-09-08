@@ -9,7 +9,7 @@ permalink: /2008/10/05/love-activescaffold-show-always-seachbox/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - active
   - hack

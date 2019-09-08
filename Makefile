@@ -5,7 +5,7 @@ pages:
 	docker run -it --rm -v "$$PWD":/srv/jekyll -p "4000:4000" jekyll/jekyll jekyll build
 
 dev:
-	docker run -it --rm -v "$$PWD":/home ruby bash
+	docker run -it -v "$$PWD":/home ruby bash
 
 export:
 	cd _tools && ./export.rb

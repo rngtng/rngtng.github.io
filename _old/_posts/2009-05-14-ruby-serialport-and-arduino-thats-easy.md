@@ -9,15 +9,15 @@ permalink: /2009/05/14/ruby-serialport-and-arduino-thats-easy/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
-  - 'Ruby, Rails &amp; Co.'
+  - 'Arduino & Co.'
+  - 'Ruby, Rails & Co.'
 tags:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
   - console
   - irb
   - mac
   - os x
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
   - serialport
 ---
 Yeah, just controlled my Arduino via the ruby irb console using [ruby serialport](http://rubyforge.org/projects/ruby-serialport){.broken_link}. Damn easy! (well at least on a Mac, running OS 10.5.7) Hehe, soon more to come&#8230;

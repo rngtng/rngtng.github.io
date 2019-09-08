@@ -5,7 +5,7 @@ date: '2009-12-30 16:48:44 +0000'
 permalink: "/2009/12/30/mtxcontrol-meets-launchpad-meets-rainbowduino/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - RainbowDuino
 - mtXcontrol

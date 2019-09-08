@@ -5,7 +5,7 @@ date: '2009-10-02 19:33:04 +0000'
 permalink: "/2009/10/02/understanding-the-rainbowduino-controller-by-seeedstudio/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - howto
 - Arduino

@@ -9,7 +9,7 @@ permalink: /2008/06/06/beautify-your-views-with-using-return/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - beauty of code
   - hint

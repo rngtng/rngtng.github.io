@@ -5,9 +5,9 @@ date: '2009-04-28 11:14:04 +0000'
 permalink: "/2009/04/28/second-try-2x5-led-matrix-arduino-controlled/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
-- Arduino &amp; Co.
+- Arduino & Co.
 - light
 - led
 - matrix

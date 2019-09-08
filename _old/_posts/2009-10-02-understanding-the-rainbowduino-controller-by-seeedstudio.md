@@ -9,7 +9,7 @@ permalink: /2009/10/02/understanding-the-rainbowduino-controller-by-seeedstudio/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - Arduino
   - howto

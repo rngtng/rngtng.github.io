@@ -36,20 +36,20 @@ my hotdeploy()<br />
 end adding folder items to</p>
 <p>on hotdeploy()<br />
 set usr_home to "/Users/tobiasb/"<br />
-set prj_folder to usr_home &amp; "Sites/qype_admin/"<br />
+set prj_folder to usr_home & "Sites/qype_admin/"<br />
 set filename to "report_queries.yml"</p>
-<p>set srcs to usr_home &amp; "Downloads/" &amp; filename<br />
-set dest to prj_folder &amp; "config/" &amp; filename</p>
+<p>set srcs to usr_home & "Downloads/" & filename<br />
+set dest to prj_folder & "config/" & filename</p>
 <p>try<br />
 tell application "Finder" to set file_exists to exists srcs as POSIX file<br />
 if file_exists then<br />
 say "here we go"<br />
-do shell script "mv " &amp; srcs &amp; " " &amp; dest<br />
-set diff to do shell script "/opt/local/bin/svn diff " &amp; dest<br />
+do shell script "mv " & srcs & " " & dest<br />
+set diff to do shell script "/opt/local/bin/svn diff " & dest<br />
 if not diff is equal to "" then<br />
-#set commit to "/opt/local/bin/svn ci --quiet -m'SkypeAutoCommiter: updated report queries' " &amp; dest &amp; ";"<br />
-#set hotdeploy to "cd " &amp; prj_folder &amp; "; /usr/bin/cap production qype:hotdeploy FILES=config/" &amp; filename &amp; ";"<br />
-#set out to commit &amp; hotdeploy<br />
+#set commit to "/opt/local/bin/svn ci --quiet -m'SkypeAutoCommiter: updated report queries' " & dest & ";"<br />
+#set hotdeploy to "cd " & prj_folder & "; /usr/bin/cap production qype:hotdeploy FILES=config/" & filename & ";"<br />
+#set out to commit & hotdeploy<br />
 set out to do shell script "/Users/tobiasb/bin/update_report_queries.sh"<br />
 my message("done")<br />
 say "done"<br />
@@ -62,13 +62,13 @@ end if<br />
 on error the error_message number the error_number<br />
 my message("error")<br />
 say "error"<br />
-set the error_text to "Error: " &amp; the error_number &amp; ". " &amp; the error_message<br />
+set the error_text to "Error: " & the error_number & ". " & the error_message<br />
 display dialog the error_text buttons {"OK"} default button 1<br />
 return the error_text<br />
 end try<br />
 end hotdeploy</p>
 <p>on message(msg)<br />
-tell application "Skype" to send command "MESSAGE justalii SkypeAutoCommiter: " &amp; msg script name "to Alli"<br />
+tell application "Skype" to send command "MESSAGE justalii SkypeAutoCommiter: " & msg script name "to Alli"<br />
 #say msg<br />
 end message<br />
 [/plain]</p>

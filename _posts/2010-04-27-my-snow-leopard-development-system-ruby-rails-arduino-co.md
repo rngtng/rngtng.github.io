@@ -1,16 +1,16 @@
 ---
 id: 313
-title: 'My Snow Leopard (Development) System: Ruby, Rails, Arduino &amp; Co.'
+title: 'My Snow Leopard (Development) System: Ruby, Rails, Arduino & Co.'
 date: '2010-04-27 10:52:03 +0000'
 permalink: "/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/"
 layout: post
 categories:
 - Happy Hacking
 tags:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - Arduino
 - Mac OS X
-- Rails &amp; Co.
+- Rails & Co.
 - rails
 - snowleopard
 - development

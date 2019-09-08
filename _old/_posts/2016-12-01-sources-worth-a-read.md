@@ -7,7 +7,7 @@ layout: post
 guid: http://www.rngtng.com/?p=932
 permalink: /2016/12/01/sources-worth-a-read/
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 ---
 A couple of my bookmarks worth a read
 

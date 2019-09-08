@@ -5,7 +5,7 @@ date: '2010-09-05 18:38:25 +0000'
 permalink: "/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - processing
 - Arduino

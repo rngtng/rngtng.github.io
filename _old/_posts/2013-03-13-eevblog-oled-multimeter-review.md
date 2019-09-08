@@ -19,7 +19,7 @@ networkpub_ogtype_facebook:
 networkpub_post_image_video:
   - ""
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - blog
   - electronics

@@ -9,7 +9,7 @@ permalink: /2009/07/30/beginners-guide-to-arduino-free-pdf-download/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - Arduino
   - book

@@ -5,16 +5,16 @@ date: '2009-06-05 13:40:12 +0000'
 permalink: "/2009/06/05/my-first-github-fork-bounce-email/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - email
 - bounce
 - tmail
 - github
 - patch
 - fork
-- Rails &amp; Co.
+- Rails & Co.
 comments: []
 ---
 Hurray! I finally forked a github project. Yesterday I ran into the [bounce-email gem](http://rubyforge.org/projects/bounce-email/) by Agris Ameriks on Rubyforge. It's basically a 1:1 port of the [PHP Bounce Handler class](http://www.phpclasses.org/browse/package/2691.html)by Chris Fortune and not very rubyified. Thanks to David Reese, [bounce-email is forked on github](http://github.com/whatcould/bounce-email/tree/master) and I could easily extend it.

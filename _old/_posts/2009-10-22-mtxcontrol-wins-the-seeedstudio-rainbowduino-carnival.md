@@ -9,7 +9,7 @@ permalink: /2009/10/22/mtxcontrol-wins-the-seeedstudio-rainbowduino-carnival/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - Arduino
   - competion

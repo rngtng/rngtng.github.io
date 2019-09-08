@@ -5,10 +5,10 @@ date: '2009-11-16 17:39:52 +0000'
 permalink: "/2009/11/16/ruby-a-nice-way-to-get-name-of-current-method-youre-in/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
-- Ruby, Rails &amp; Co.
-- Rails &amp; Co.
+- Ruby, Rails & Co.
+- Rails & Co.
 - method
 comments: []
 ---

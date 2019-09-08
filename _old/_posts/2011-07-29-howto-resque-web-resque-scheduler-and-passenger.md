@@ -7,7 +7,7 @@ layout: post
 guid: http://www.rngtng.com/?p=562
 permalink: /2011/07/29/howto-resque-web-resque-scheduler-and-passenger/
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - howto
   - passenger

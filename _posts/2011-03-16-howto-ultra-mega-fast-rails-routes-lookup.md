@@ -5,10 +5,10 @@ date: '2011-03-16 18:34:00 +0000'
 permalink: "/2011/03/16/howto-ultra-mega-fast-rails-routes-lookup/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - howto
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - ruby on rails
 - rails
 - routes

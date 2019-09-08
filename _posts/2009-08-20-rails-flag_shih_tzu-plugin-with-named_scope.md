@@ -5,7 +5,7 @@ date: '2009-08-20 18:02:36 +0000'
 permalink: "/2009/08/20/rails-flag_shih_tzu-plugin-with-named_scope/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - extension
 - plugin

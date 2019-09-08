@@ -5,9 +5,9 @@ date: '2010-07-01 13:36:10 +0000'
 permalink: "/2010/07/01/oauth-cli-test-your-twitter-and-other-oauth-apis-easily/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - gem
 - oauth
 - oauthc

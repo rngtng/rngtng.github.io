@@ -5,7 +5,7 @@ date: '2010-12-31 15:35:15 +0000'
 permalink: "/2010/12/31/cubexcontrol-a-rainbow-cube-editor/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 - Happy Hacking
 tags:
 - led
@@ -206,7 +206,7 @@ comments:
   date: '2011-09-05 10:56:08 +0000'
   date_gmt: '2011-09-05 08:56:08 +0000'
   content: Next time don't write comment if you didn't read full thread. It's indeed
-    working but apparently not on Windows (which I can't test &amp; verify). I agree
+    working but apparently not on Windows (which I can't test & verify). I agree
     mtXcontrol and cubeXcontrol are still work in progress ('beta' mode) and therefor
     not 100% enduser (luser) friendly. But source is fully open on github. So get
     yourself some processing and arduino knowledge, start reading code and fix stuff.

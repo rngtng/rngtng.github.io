@@ -5,7 +5,7 @@ date: '2009-06-11 15:48:24 +0000'
 permalink: "/2009/06/11/rainbowduino-im-comming/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - order
 - Arduino

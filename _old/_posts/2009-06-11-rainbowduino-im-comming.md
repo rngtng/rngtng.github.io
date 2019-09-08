@@ -9,7 +9,7 @@ permalink: /2009/06/11/rainbowduino-im-comming/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - Arduino
   - led matrix

@@ -5,7 +5,7 @@ date: '2010-09-24 13:35:38 +0000'
 permalink: "/2010/09/24/what-irb-extension-gem-to-find-your-methods/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - irb
 - what?

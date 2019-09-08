@@ -5,7 +5,7 @@ date: '2010-09-02 18:49:51 +0000'
 permalink: "/2010/09/02/soundcloud-it-is/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - Happy Hacking
 tags:
 - berlin

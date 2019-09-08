@@ -5,7 +5,7 @@ date: '2008-10-05 13:34:01 +0000'
 permalink: "/2008/10/05/love-activescaffold-show-always-seachbox/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - active
 - Scaffold

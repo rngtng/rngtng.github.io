@@ -7,11 +7,11 @@ layout: post
 guid: http://www.rngtng.com/?p=584
 permalink: /2011/07/25/rails-3-1-hackfest-get-rid-of-javascript-runtime-dependency-in-production/
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - hackfest
   - rails
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 ---
 <p style="text-align: center">
   <img class="aligncenter" src="http://pragdave.pragprog.com/photos/uncategorized/2007/05/20/rails_logo_heart.png" alt="" width="480" height="306" />

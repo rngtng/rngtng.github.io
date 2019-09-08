@@ -9,7 +9,7 @@ permalink: /2009/10/29/orangutan-robot-controller/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - Controller
   - Orangutan

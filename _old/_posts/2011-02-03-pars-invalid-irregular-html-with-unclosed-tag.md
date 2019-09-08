@@ -14,7 +14,7 @@ tags:
   - irregular
   - nokogiri
   - parsing
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
   - tag
 ---
 I had the &#8216;problem&#8217; that user feedback included lot of love &#8211; mostly by writing &#8216;hearts&#8217;. Unfortunately expressing hearts is done by &#8216;<3' which turns the input into invalid HTML. Bummer. So if you still want allow other basic tags, you have a problem. Here's how I solved it:

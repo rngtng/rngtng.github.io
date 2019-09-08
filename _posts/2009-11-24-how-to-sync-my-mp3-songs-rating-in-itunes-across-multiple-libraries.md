@@ -20,7 +20,7 @@ comments:
   date_gmt: '2010-03-06 18:23:34 +0000'
   content: "I tried your method but applescript stops and  gives me an error that
     it expected end of line but found an unknown token at the first semi-colon on
-    the line: \r\nset group_name to \"\" &amp; stars &amp; \" Stars\"\r\n\r\nAny thoughts
+    the line: \r\nset group_name to \"\" & stars & \" Stars\"\r\n\r\nAny thoughts
     on how to fix that or why I'm getting that error?  Otherwise, this seems like
     a great way to deal with this problem, which has annoyed me forever.  Thanks!"
 - id: 467

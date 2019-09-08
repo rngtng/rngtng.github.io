@@ -5,7 +5,7 @@ date: '2013-03-13 15:01:03 +0000'
 permalink: "/2013/03/13/eevblog-oled-multimeter-review/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - blog
 - electronics

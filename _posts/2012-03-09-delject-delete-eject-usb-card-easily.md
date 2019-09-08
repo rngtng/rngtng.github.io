@@ -1,6 +1,6 @@
 ---
 id: 652
-title: DelJect - delete &amp; eject USB card easily
+title: DelJect - delete & eject USB card easily
 date: '2012-03-09 20:22:31 +0000'
 permalink: "/2012/03/09/delject-delete-eject-usb-card-easily/"
 layout: post

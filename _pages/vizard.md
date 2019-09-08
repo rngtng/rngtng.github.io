@@ -15,7 +15,7 @@ comments:
   date: '2014-11-07 01:09:51 +0000'
   date_gmt: '2014-11-07 00:09:51 +0000'
   content: "Hi Tobias,\r\n\r\nI noticed that you list companies that sell electronic
-    parts/components on the menu of your site under:\r\nARDUINO &amp; CO.\r\n\r\nWe
+    parts/components on the menu of your site under:\r\nARDUINO & CO.\r\n\r\nWe
     are a sourcing engine to help others find parts they are searching for with pricing
     who has it and how many they have in stock. One of our main goals is to stop counterfeit
     parts which we know is huge in the electronic component industry. We verify our

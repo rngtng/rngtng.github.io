@@ -9,7 +9,7 @@ permalink: /2009/08/10/stealth-project-on-a-nova-10x10x10-led-cube/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
   - Lost in Web
 tags:
   - art

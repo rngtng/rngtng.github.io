@@ -5,13 +5,13 @@ date: '2009-11-12 11:35:54 +0000'
 permalink: "/2009/11/12/lots-of-ruby-and-rails-tricks/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - hint
 - get started
 - link tip
-- Ruby, Rails &amp; Co.
-- Rails &amp; Co.
+- Ruby, Rails & Co.
+- Rails & Co.
 - rails
 comments: []
 ---

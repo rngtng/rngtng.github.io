@@ -5,9 +5,9 @@ date: '2009-05-17 14:40:45 +0000'
 permalink: "/2009/05/17/arduino-fade-and-pulse-a-led-with-just-using-a-digitalport/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
-- Arduino &amp; Co.
+- Arduino & Co.
 - led
 - fade
 - dimm

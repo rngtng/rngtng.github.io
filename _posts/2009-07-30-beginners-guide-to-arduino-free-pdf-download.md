@@ -5,7 +5,7 @@ date: '2009-07-30 11:56:28 +0000'
 permalink: "/2009/07/30/beginners-guide-to-arduino-free-pdf-download/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - book
 - Arduino

@@ -1,6 +1,6 @@
 ---
 id: 313
-title: 'My Snow Leopard (Development) System: Ruby, Rails, Arduino &amp; Co.'
+title: 'My Snow Leopard (Development) System: Ruby, Rails, Arduino & Co.'
 date: 2010-04-27T10:52:03+01:00
 author: tobi
 layout: post
@@ -16,8 +16,8 @@ tags:
   - lion
   - Mac OS X
   - rails
-  - 'Rails &amp; Co.'
-  - 'Ruby, Rails &amp; Co.'
+  - 'Rails & Co.'
+  - 'Ruby, Rails & Co.'
   - setup
   - snowleopard
   - system

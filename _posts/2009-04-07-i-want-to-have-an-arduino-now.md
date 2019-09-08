@@ -5,10 +5,10 @@ date: '2009-04-07 16:02:23 +0000'
 permalink: "/2009/04/07/i-want-to-have-an-arduino-now/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - Arduino
-- Electronics &amp; Co.
+- Electronics & Co.
 comments: []
 ---
 <http://www.youtube.com/watch?v=PeScmRwzQho>

@@ -5,9 +5,9 @@ date: '2011-07-25 00:42:54 +0000'
 permalink: "/2011/07/25/rails-3-1-hackfest-get-rid-of-javascript-runtime-dependency-in-production/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - rails
 - hackfest
 comments: []

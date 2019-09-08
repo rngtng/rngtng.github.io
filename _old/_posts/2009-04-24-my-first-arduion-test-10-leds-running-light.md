@@ -9,9 +9,9 @@ permalink: /2009/04/24/my-first-arduion-test-10-leds-running-light/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
   - buton
   - interrupt
   - led

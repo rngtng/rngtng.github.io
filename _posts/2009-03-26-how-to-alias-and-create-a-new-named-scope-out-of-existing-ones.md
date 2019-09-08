@@ -5,7 +5,7 @@ date: '2009-03-26 15:32:22 +0000'
 permalink: "/2009/03/26/how-to-alias-and-create-a-new-named-scope-out-of-existing-ones/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - beauty of code
 - hint

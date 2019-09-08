@@ -9,7 +9,7 @@ permalink: /2009/03/08/led-light-towers-installation/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
   - led
   - tower

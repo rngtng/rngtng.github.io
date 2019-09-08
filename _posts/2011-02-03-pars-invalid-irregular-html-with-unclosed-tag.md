@@ -7,7 +7,7 @@ layout: post
 categories:
 - Happy Hacking
 tags:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - parsing
 - html
 - irregular

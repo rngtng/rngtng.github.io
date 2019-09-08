@@ -5,7 +5,7 @@ date: '2009-06-25 11:32:50 +0000'
 permalink: "/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - Arduino
 - RainbowDuino
@@ -130,7 +130,7 @@ comments:
   content: "Update. Just one step ahead.\r\nI uploaded the blank sketch. success.\r\nI
     uploaded your firmware. success.\r\nAt least I guess success, because:\r\nI removed
     VCC, GND and Reset, instead I used an external 9v battery. I started mtxcontrol,
-    the rx &amp; tx-leds on the arduino are blinking - but nothing's happening on
+    the rx & tx-leds on the arduino are blinking - but nothing's happening on
     the rainbowduino. :(\r\nI'm going to try again after 4:30 pm..."
 - id: 77
   author: tobi

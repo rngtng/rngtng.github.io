@@ -1,11 +1,11 @@
 ---
 id: 362
-title: How to deal with recurrency in Ruby &amp; Rails
+title: How to deal with recurrency in Ruby & Rails
 date: '2009-01-21 16:29:49 +0000'
 permalink: "/2009/01/21/how-to-deal-with-recurrency-in-ruby-rails/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - evaluation
 - recurrency

@@ -5,7 +5,7 @@ date: '2010-03-08 16:39:41 +0000'
 permalink: "/2010/03/08/rainbow-cube-here-it-is/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - RainbowDuino
 - Rainbow Cube

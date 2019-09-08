@@ -9,9 +9,9 @@ permalink: /2009/04/28/second-try-2x5-led-matrix-arduino-controlled/
 syntaxhighlighter_encoded:
   - "1"
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
   - editor
   - led
   - light

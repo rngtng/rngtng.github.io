@@ -5,7 +5,7 @@ date: '2012-01-10 00:28:04 +0000'
 permalink: "/2012/01/10/hacking-the-nabaztag-arduino-injects-via-i2c-data-into-rfid-reader/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - hack
 - Arduino

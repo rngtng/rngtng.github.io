@@ -1,6 +1,6 @@
 ---
 id: 127
-title: 'Pimp my TextMate: how to speed up search &amp; load'
+title: 'Pimp my TextMate: how to speed up search & load'
 date: 2009-06-18T11:41:38+01:00
 author: tobi
 layout: post

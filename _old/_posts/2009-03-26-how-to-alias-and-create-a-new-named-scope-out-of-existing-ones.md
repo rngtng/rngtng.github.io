@@ -11,7 +11,7 @@ syntaxhighlighter_encoded:
 openid_comments:
   - 'a:1:{i:0;s:3:"651";}'
 categories:
-  - 'Ruby, Rails &amp; Co.'
+  - 'Ruby, Rails & Co.'
 tags:
   - beauty of code
   - hint

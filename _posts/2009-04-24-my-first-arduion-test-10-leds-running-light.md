@@ -5,9 +5,9 @@ date: '2009-04-24 20:05:19 +0000'
 permalink: "/2009/04/24/my-first-arduion-test-10-leds-running-light/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
-- Arduino &amp; Co.
+- Arduino & Co.
 - running
 - light
 - led

@@ -17,9 +17,9 @@ networkpub_ogtype_facebook:
 networkpub_post_image_video:
   - image
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
-  - 'Electronics &amp; Co.'
+  - 'Electronics & Co.'
   - mosfet
   - transistor
 ---

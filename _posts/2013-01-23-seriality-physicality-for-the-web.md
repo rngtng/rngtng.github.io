@@ -5,7 +5,7 @@ date: '2013-01-23 05:15:40 +0000'
 permalink: "/2013/01/23/seriality-physicality-for-the-web/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - plugin
 - serial

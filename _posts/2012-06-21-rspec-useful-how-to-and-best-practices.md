@@ -5,7 +5,7 @@ date: '2012-06-21 13:31:27 +0000'
 permalink: "/2012/06/21/rspec-useful-how-to-and-best-practices/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - howto
 - rspec

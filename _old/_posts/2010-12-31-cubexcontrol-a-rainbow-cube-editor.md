@@ -7,7 +7,7 @@ layout: post
 guid: http://www.rngtng.com/?p=501
 permalink: /2010/12/31/cubexcontrol-a-rainbow-cube-editor/
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
   - Happy Hacking
 tags:
   - "2010"

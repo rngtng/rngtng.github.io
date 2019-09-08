@@ -5,7 +5,7 @@ date: '2011-07-29 18:04:59 +0000'
 permalink: "/2011/07/29/howto-resque-web-resque-scheduler-and-passenger/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - howto
 - resque

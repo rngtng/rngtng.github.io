@@ -1,18 +1,18 @@
 ---
 id: 193
-title: Extending Active Scaffold as_paperclip_bridge to delete &amp; update image/attachment
+title: Extending Active Scaffold as_paperclip_bridge to delete & update image/attachment
 date: '2009-08-13 16:53:35 +0000'
 permalink: "/2009/08/13/extending-active-scaffold-as_paperclip_bridge-to-delete-update-imageattachment/"
 layout: post
 categories:
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 tags:
 - active
 - Scaffold
-- Ruby, Rails &amp; Co.
+- Ruby, Rails & Co.
 - plugin
 - github
-- Rails &amp; Co.
+- Rails & Co.
 - ror
 - bridge
 - file

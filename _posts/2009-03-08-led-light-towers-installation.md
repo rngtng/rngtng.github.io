@@ -5,7 +5,7 @@ date: '2009-03-08 21:34:29 +0000'
 permalink: "/2009/03/08/led-light-towers-installation/"
 layout: post
 categories:
-- Arduino &amp; Co.
+- Arduino & Co.
 tags:
 - led
 - tower

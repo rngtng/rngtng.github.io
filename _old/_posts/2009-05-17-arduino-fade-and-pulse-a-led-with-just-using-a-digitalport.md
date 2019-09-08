@@ -11,9 +11,9 @@ syntaxhighlighter_encoded:
 openid_comments:
   - 'a:1:{i:0;i:1569;}'
 categories:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
 tags:
-  - 'Arduino &amp; Co.'
+  - 'Arduino & Co.'
   - dimm
   - fade
   - led
