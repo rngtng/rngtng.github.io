@@ -13,6 +13,7 @@ plugins:
 - jekyll-remote-theme
 
 gems:
+- jekyll-feed
 - jekyll-paginate
 - jekyll-remote-theme
 
