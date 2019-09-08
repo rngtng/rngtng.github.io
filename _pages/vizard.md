@@ -1,6 +1,7 @@
 ---
 id: 780
-title: vizard &#8211; edit and view plantuml diagrams nicely
+title: vizard.io
+description: edit and view plantuml diagrams nicely
 date: 2014-10-18 16:01:23.000000000 +01:00
 permalink: "/vizard/"
 layout: page

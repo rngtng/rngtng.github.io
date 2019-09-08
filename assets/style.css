@@ -44,3 +44,7 @@ Tags: fixed-width, two-columns, white, red, right-sidebar, threaded-comments, cu
 /* Make all custom CSS changes in a Child Theme.  Any custom
 changes you make here will be overidden when you upgrade the theme.
 -----------------------------------------------------------*/
+
+#content img {
+  width: 100%;
+}
