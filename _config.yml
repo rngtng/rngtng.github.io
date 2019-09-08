@@ -6,14 +6,11 @@ description: >
   Featuring Web development, Hardware
   Hacking, Pinball and more...
 plugins:
-# - jekyll-github-metadata
-# - jekyll-mentions
-# - jekyll-redirect-from
+- jekyll-github-metadata
 - jekyll-feed
 - jekyll-paginate
 - jekyll-sitemap
 - jekyll-remote-theme
-# - jemoji
 
 gems:
 - jekyll-paginate
