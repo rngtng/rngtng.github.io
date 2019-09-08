@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1 class="pagetitle">Posts tagged ‘{{ page.title }}’
+{% if page.description %}
+  <span class="subheading">{{ page.description }}</span>
+{% endif %}
+</h1>
+
+<div class="entry page clear">
+ {{ content }}
+  <ul>
+   {% for post in site.posts %}
+     {% if post.tags contains page.title %}
+     <li>
+       <h3>
+         <a href="{{ post.url }}">
+         {{ post.title }}
+         <small>{{ post.date | date_to_string }}</small>
+         </a>
+      </h3>
+     </li>
+     {% endif %}
+   {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,36 @@
+url: http://www.rngtng.com/
+name: uRaNGaTaNG
+title: uRaNGaTaNG
+author: tobi
+description: >
+  Featuring Web development, Hardware
+  Hacking, Pinball and more...
+plugins:
+- jekyll-github-metadata
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-remote-theme
+
+gems:
+- jekyll-paginate
+- jekyll-remote-theme
+
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
+
+include:
+- _pages
+- _tags
+- _categories
+
+# Social Profiles
+twitter_username:   rngtng
+github_username:    rngtng
+
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-1074303-6
+
+# Build settings
+markdown:           kramdown
+paginate:           15
+paginate_path:      "/page/:num/"

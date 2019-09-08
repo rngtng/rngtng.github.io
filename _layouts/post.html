@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<h1 class="pagetitle">{{ page.title }}
+{% if page.description %}
+  <span class="subheading">{{ page.description }}</span>
+{% endif %}
+</h1>
+<div class="entry page clear">
+{{ content }}
+</div>
+
+<div class="post-footer">
+  <span class="rngtng-tags">tagged &rarr;
+    {% for tag in page.tags %}
+     <a class="tag" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
+    {% endfor %}
+  </span>
+  <p>from &rarr;
+    {% for category in page.categories %}
+     <a class="tag" href="/category/{{ category | slugify }}">{{ category }}</a>
+    {% endfor %}
+  </p>
+</div><!--end post footer-->
+
+<div class="clearfix">
+  {% if page.previous.url %}
+  <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
+      Post</span></a>
+  {% endif %}
+  {% if page.next.url %}
+  <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
+      Post</span> &rarr;</a>
+  {% endif %}
+</div>

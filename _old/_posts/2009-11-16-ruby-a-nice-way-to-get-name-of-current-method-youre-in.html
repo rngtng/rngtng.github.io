@@ -1,0 +1,44 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Ruby: a nice way to get name of current method you''re in:'
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 318
+wordpress_url: http://www.rngtng.com/?p=318
+date: '2009-11-16 17:39:52 +0000'
+date_gmt: '2009-11-16 16:39:52 +0000'
+categories:
+- Ruby, Rails & Co.
+tags:
+- Ruby, Rails & Co.
+- Rails & Co.
+- method
+comments: []
+---
+<p>This is a nice extension to get the name of the method you're currently in (Ruby < 1.9)</p>
+<p>[ruby]<br />
+module Kernel<br />
+   private<br />
+   def this_method<br />
+     caller[0] =~ /`([^']*)'/ and $1<br />
+   end<br />
+end<br />
+[/ruby]</p>
+<p>for Ruby >= 1.9 you can uses this:</p>
+<p>[ruby]<br />
+module Kernel<br />
+   private<br />
+   def this_method<br />
+     __method__<br />
+   end<br />
+end<br />
+[/ruby]</p>
+<p>[see <a href="http://stackoverflow.com/questions/199527/get-the-name-of-the-currently-executing-method-in-ruby">Stack Over Flow</a> as well]</p>

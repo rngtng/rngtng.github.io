@@ -1,0 +1,23 @@
+<div class="post type-post status-publish format-standard hentry">
+  <div class="post-header">
+    <h2><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{ post.title }}</a></h2>
+    <div class="date">{{ post.date | date: '%B %d, %Y' }}</div>
+  </div><!--end post header-->
+  <div class="meta clear">
+  </div>
+  <div class="entry clear">
+    {{ post.content }}
+  </div><!--end entry-->
+  <div class="post-footer">
+    <span class="rngtng-tags">tagged &rarr;
+      {% for tag in post.tags %}
+ 			 <a class="tag" href="/tag/{{ tag | slugify }}">{{ tag }}</a>
+ 		  {% endfor %}
+    </span>
+    <p>from &rarr;
+      {% for category in post.categories %}
+ 			 <a class="tag" href="/category/{{ category | slugify }}">{{ category }}</a>
+ 		  {% endfor %}
+    </p>
+  </div><!--end post footer-->
+</div><!--end post-->

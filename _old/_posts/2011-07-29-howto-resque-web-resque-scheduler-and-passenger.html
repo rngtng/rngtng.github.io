@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: 'HowTo: resque-web, resque scheduler and passenger'
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 562
+wordpress_url: http://www.rngtng.com/?p=562
+date: '2011-07-29 18:04:59 +0000'
+date_gmt: '2011-07-29 16:04:59 +0000'
+categories:
+- Ruby, Rails & Co.
+tags:
+- howto
+- resque
+- scheduler
+- passenger
+comments: []
+---
+<p>Here's how you get <a href="https://github.com/defunkt/resque">resque-web</a> and <a href="https://github.com/bvandenbos/resque-scheduler">resque scheduler</a> playing well with <a href="http://www.modrails.com/">passenger</a>:</p>
+<p>Follow these instructions from resque readme (<a href="http://www.modrails.com/documentation/Users%20guide%20Apache.html#_deploying_a_rack_based_ruby_application">apache</a>, <a href="http://www.modrails.com/documentation/Users%20guide%20Nginx.html#deploying_a_rack_app">ngnix</a>) and check out current resque repo. Now update following two files:<br />
+1. Add <code>gem "resque-scheduler","2.0.0.d"</code> to Gemfile<br />
+2. Run <code>bundle</code><br />
+3. Add <code>require 'resque_scheduler'</code> to config.ru</p>
+<p>Restart you webserver and are ready to go - Happy scheduling!</p>
+<p>Both file after editing:<br />
+[gist id=1101580]</p>

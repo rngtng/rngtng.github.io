@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: Hack my Car - ODB and GPS
+author:
+  display_name: admin
+  login: admin
+  email: t.bielohlawek@web.de
+  url: http://
+author_login: admin
+author_email: t.bielohlawek@web.de
+author_url: http://
+wordpress_id: 928
+wordpress_url: http://www.rngtng.com/?p=928
+date: '2019-04-23 21:59:02 +0000'
+date_gmt: '2019-04-23 20:59:02 +0000'
+categories:
+- Happy Hacking
+tags: []
+comments: []
+---
+<p>I got myself a 'ODB-diagnoseger&auml;t' from China. Of course it didn't work right away and I had to readz the internets for fixing. First I had to find a suitable driver. USB identifier was: Product ID: 0x7523 Vendor ID: 0x1a86. This looks like a CH340 / CH341 Serial / USB Chip. Luckily I found the drivers here:</p>
+<p>http://0xcf.com/2015/03/13/chinese-arduinos-with-ch340-ch341-serial-usb-chip-on-os-x-yosemite/</p>
+<p>VAG-COM 409.1 + Wine: https://appdb.winehq.org/objectManager.php?sClass=version&amp;iId=33443<br />
+VAG-COM 409.1 + Win7: http://www.passatworld.com/forums/volkswagen-passat-b5-discussion/303177-vag-com-409-1-3rd-party-windows-7-64-bit.html</p>
+<p><strong>Kabel Fix:</strong><br />
+- http://www.sprinter-forum.net/archive/index.php/t-16816.html?s=431faad6d4d5c53154b970ef0d7a5d65<br />
+- http://legacygt.com/forums/showthread.php/vag-com-cables-chipsets-ft232rl-ch340-214994p4.html<br />
+- https://github.com/nodemcu/nodemcu-devkit-v1.0/issues/2<br />
+- https://www.sgaf.de/content/vagcom-kabel-erkannt-412207</p>
+<p>GuzziDag: http://www.von-der-salierburg.de/download/GuzziDiag/</p>
+<p><strong>Other Software:</strong><br />
+https://www.blafusel.de/obd/obd2_soft.html</p>
+<p><strong>Other devices:</strong><br />
+http://www.t4forum.de/wbb3/board19-technik-bereich/board120-umbauten-tuning/board8-tipps-und-tricks/173924-obd-diagnoseger&auml;t-aber-welches/</p>
+<p>&nbsp;</p>
+<p>Next: get GPS Tracker.</p>
+<p>Hope is to find my car, once it got stolen, but so far, it was more of a hack project :). I figured, the best opensource solution you currently get is traccar.org. Here's how to set it up and dockerize: https://www.traccar.org/docker/</p>
+<p>Alternatives:</p>
+<p>https://shop.autoskope.de/geraete/1/autoskope-v2-starterset</p>

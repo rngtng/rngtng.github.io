@@ -1,0 +1,85 @@
+---
+layout: post
+status: publish
+published: true
+title: 'My first Arduion test: 10 LEDs running light'
+author:
+  display_name: tobi
+  login: tobi
+  email: t.bielohlawek@gmail.com
+  url: http://
+author_login: tobi
+author_email: t.bielohlawek@gmail.com
+author_url: http://
+wordpress_id: 73
+wordpress_url: http://www.rngtng.com/?p=73
+date: '2009-04-24 20:05:19 +0000'
+date_gmt: '2009-04-24 19:05:19 +0000'
+categories:
+- Arduino & Co.
+tags:
+- Arduino & Co.
+- running
+- light
+- led
+- buton
+- interrupt
+comments:
+- id: 3129
+  author: Matthew
+  author_email: matt@thedrovers.ca
+  author_url: ''
+  date: '2013-06-29 21:51:27 +0000'
+  date_gmt: '2013-06-29 20:51:27 +0000'
+  content: "Hi, are the led's powered by the arduino? If so, how much power are you
+    supplying the arduino?\r\n\r\nAlso, do you have any resistors between the led's
+    and the arduino ?\r\n\r\nThanks.\r\n\r\n-Matt"
+---
+<p>Check this out:<br />
+http://www.youtube.com/watch?v=irVW4U8zq_k</p>
+<p>That my first proper Arduino test, controlling a 10 LED running light. I attached a small button via interrupt as well to start & stop the light. More to come soon, stay tuned!</p>
+<p>Here the (very,very ugly) source code:</p>
+<p>[c]<br />
+int ledPin = 3;      // First LED connected to digital pin 13<br />
+volatile int stop = LOW;</p>
+<p>void setup()<br />
+{<br />
+  Serial.begin(38400);<br />
+  for( int i = 0; i < 10; i++) {<br />
+     pinMode(ledPin + i, OUTPUT);<br />
+  }<br />
+   attachInterrupt(0, stopit, RISING);    //Button attached to Pin 2<br />
+}</p>
+<p>int i = 0;<br />
+void loop()<br />
+{<br />
+    for( i = 0; i < 7 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i >= 1 &amp;&amp; !stop; i--) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 0; i < 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i >= 3 &amp;&amp; !stop; i--) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i; i < 10 &amp;&amp; !stop; i++) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+    for( i = 9; i >= 1 &amp;&amp; !stop; i--) {<br />
+      blink(ledPin + i);<br />
+    }<br />
+}</p>
+<p>void stopit()<br />
+{<br />
+  delayMicroseconds(1000);<br />
+  stop = !stop;<br />
+}</p>
+<p>void blink( int pin ) {<br />
+      digitalWrite(pin, HIGH);<br />
+      delay(120 - abs( pin - 8 ) * 20);<br />
+      digitalWrite(pin, LOW);<br />
+}<br />
+[/c]</p>
