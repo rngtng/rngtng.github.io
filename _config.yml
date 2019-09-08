@@ -3,19 +3,14 @@ name: uRaNGaTaNG
 title: uRaNGaTaNG
 author: tobi
 description: >
-  Featuring Web development, Hardware
-  Hacking, Pinball and more...
-plugins:
-- jekyll-github-metadata
-- jekyll-feed
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-remote-theme
+  Featuring Web development, Hardware Hacking, Pinball and more...
 
-gems:
-- jekyll-feed
-- jekyll-paginate
-- jekyll-remote-theme
+plugins:
+  - jekyll-github-metadata
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
 
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
@@ -27,7 +22,7 @@ twitter_username:   rngtng
 github_username:    rngtng
 
 # Add your google-analytics ID here to activate google analytics
-# google_analytics:   UA-1074303-6
+google_analytics:   UA-1074303-3
 
 # Build settings
 markdown:           kramdown
