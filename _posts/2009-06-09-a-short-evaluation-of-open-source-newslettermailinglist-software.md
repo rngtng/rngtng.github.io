@@ -63,7 +63,7 @@ comments:
     to use software too, but i do not want to use OpenEMM: Its too big, to complicated
     for me.\r\n\r\nThank You all for Your answers!\r\nPaul"
 ---
-![at_sign](http://www.rngtng.com/files/2009/06/at_sign.png)
+![at_sign](/files/2009/06/at_sign.png)
 
 A friend of mine asked me which newsletter system to use for sending abt 2k emails abt once a week. I couldn't immediately respond, so I gave it a small evaluation of current products. As prerequisite, the system should be in active development, run on a (web)server, easy to use (usability over features) and it would be nice to use it at lowcost or for free. This limited the selection a lot and I just want to present my final opinion:
 

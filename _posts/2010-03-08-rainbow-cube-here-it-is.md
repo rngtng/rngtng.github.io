@@ -21,6 +21,6 @@ comments:
     Seeedstudio Rainbow Cube I mentioned here ?&nbsp;Now it&#8217;s time &nbsp;to
     bring them together: [...]"
 ---
-![](http://www.rngtng.com/files/2010/09/Screen-shot-2010-09-02-at-22.40.09.png)
+![](/files/2010/09/Screen-shot-2010-09-02-at-22.40.09.png)
 
 Yay, I finally got my [Rainbow Cube](http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html?cPath=71&zenid=6f5af82edb45a559db6dd5e4531b5faf) from Seeedstudio. It came in various parts which required happy soldering. Now, I can start experimenting and porting mtXcontrol to support Rainbow Cube as well - stay tuned!

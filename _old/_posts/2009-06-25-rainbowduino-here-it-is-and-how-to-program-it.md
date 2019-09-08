@@ -25,7 +25,7 @@ Yay &#8211; I finally got my [RainbowDuino](http://www.seeedstudio.com/blog/?p=4
 The first real basic problem I ran into [was how to program the Rainbowduino](http://www.seeedstudio.com/forum/viewtopic.php?f=4&t=328) as there&#8217;s no USB connector and I don&#8217;t have an UART interface.  
 [But well, nothing simpler than that:](http://www.seeedstudio.com/blog/?p=420) Just connect your Arduino&#8217;s Tx,Rx,GND,Reset and Vcc ports with those of the Rainbowduino, choose the right controller type in your IDE and program it as usual &#8211; works perfect for me!
 
-Check out my [Rainbowduino Editor mtXcontrol here](http://www.rngtng.com/mtXcontrol) &#8211; it&#8217;s an easy way to draw shapes on your rainbowduino!
+Check out my [Rainbowduino Editor mtXcontrol here](/mtXcontrol) &#8211; it&#8217;s an easy way to draw shapes on your rainbowduino!
 
 Btw. _DTR_ on Rainbowduino is _Reset_ on Arduino
 

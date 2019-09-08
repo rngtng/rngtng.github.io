@@ -17,7 +17,7 @@ tags:
   - RainbowDuino
   - seeedstudio
 ---
-Yay &#8211; the voting for the [Seeedstudio Rainbowduino Carnival Competition](http://www.seeedstudio.com/forum/viewforum.php?f=11){.broken_link} is over. And, guess what, my project [mtXcontrol](http://www.rngtng.com/mtXcontrol) made the run &#8211; I won the first price! Yipheee.. that&#8217;s 12x Rainbowduinos + 100$ Shopping voucher which I&#8217;ll invest in buying Xbee Stuff.. Can&#8217;t wait to get my hands on! Stay tuned&#8230;
+Yay &#8211; the voting for the [Seeedstudio Rainbowduino Carnival Competition](http://www.seeedstudio.com/forum/viewforum.php?f=11){.broken_link} is over. And, guess what, my project [mtXcontrol](/mtXcontrol) made the run &#8211; I won the first price! Yipheee.. that&#8217;s 12x Rainbowduinos + 100$ Shopping voucher which I&#8217;ll invest in buying Xbee Stuff.. Can&#8217;t wait to get my hands on! Stay tuned&#8230;
 
 Thanks to everybody voting for my project!
 

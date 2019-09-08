@@ -16,7 +16,7 @@ tags:
 - secret data
 comments: []
 ---
-![](http://www.rngtng.com/files/2015/08/Screen-Shot-2015-08-07-at-16.08.24.png)
+![](/files/2015/08/Screen-Shot-2015-08-07-at-16.08.24.png)
 
 Let's talk about credentials. Credentials! Who doesn't work without any secret data which should never go public? Sure, sure, we'd never share those secrets public, but then there's git, and github and.. BAAMM.. credentials exposed. Upps!
 

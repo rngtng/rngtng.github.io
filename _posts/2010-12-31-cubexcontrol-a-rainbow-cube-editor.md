@@ -274,7 +274,7 @@ comments:
     to Learn the cube X control ( cool video ) showing 3D model of the cube . \r\nThanks
     ."
 ---
-![](http://www.rngtng.com/files/2010/12/cube.jpg)
+![](/files/2010/12/cube.jpg)
 
 **UPDATE:**  
 [Please express your Love and vote for **cubeXControl** here - Thanks!](http://www.seeedstudio.com/blog/2011/01/14/rainbowduino-carnival-2010-vote-now/)
@@ -286,13 +286,13 @@ I'm proud to present a first version which was on my this years TODO list for so
 
 cubeXcontrol - a Rainbow Cube Editor
 
-Well, you know the [mtXcontrol](http://www.rngtng.com/mtXcontrol), the Rainbowduino Editor and the awesome [Seeedstudio Rainbow Cube](http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html) I [mentioned](http://www.rngtng.com/2010/03/08/rainbow-cube-here-it-is/) here ?&nbsp;Now it's time &nbsp;to bring them together:
+Well, you know the [mtXcontrol](/mtXcontrol), the Rainbowduino Editor and the awesome [Seeedstudio Rainbow Cube](http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html) I [mentioned](/2010/03/08/rainbow-cube-here-it-is/) here ?&nbsp;Now it's time &nbsp;to bring them together:
 
 <http://vimeo.com/18300458>
 
 cubeXcontrol is an editor to control and create patterns for the 4x4x4 RGB Rainbow Cube powered by a rainbowduino. It comes with an extra window showing a 3D model of the Cube, allowing to rotate in all directions and to zoom. Click on boxes to set the LED color easily.
 
-The editor is of course heavily based on the latest mtXcontrol version, with the latest rainbowduino firmware. Both are unfortunately still in [beta stage](http://www.rngtng.com/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/), but come with great new features like auto port detection.
+The editor is of course heavily based on the latest mtXcontrol version, with the latest rainbowduino firmware. Both are unfortunately still in [beta stage](/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/), but come with great new features like auto port detection.
 
 Get the sources here:  
  <https://github.com/rngtng/mtXcontrol/tree/cubeXcontrol>

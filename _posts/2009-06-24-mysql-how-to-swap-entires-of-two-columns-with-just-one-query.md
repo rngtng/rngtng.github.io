@@ -28,7 +28,7 @@ comments:
   date_gmt: '2012-08-29 12:05:50 +0000'
   content: very helpful
 ---
-Check this out, I found out a really nice way how to swap values of two columns with just one query, [using user defined variables](http://www.rngtng.com/2009/04/02/mysql-user-defined-variables-good-thing-to-know/). Given a table with two columns _a_ and _b_. To swap their values in whole, use this query:
+Check this out, I found out a really nice way how to swap values of two columns with just one query, [using user defined variables](/2009/04/02/mysql-user-defined-variables-good-thing-to-know/). Given a table with two columns _a_ and _b_. To swap their values in whole, use this query:
 
 [text]  
 UPDATE my_table SET a=@tmp:=a, a=b, b=@tmp;  

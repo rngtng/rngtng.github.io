@@ -21,7 +21,7 @@ comments:
   content: "[&#8230;] Additional reference: http://www.rngtng.com/2015/05/23/satzuma-missile-launcher-finally-works-with-usb-missile-launcher-nz&#8230;
     [&#8230;]"
 ---
-![img8077_14925](http://www.rngtng.com/files/2015/05/img8077_14925.jpg)
+![img8077_14925](/files/2015/05/img8077_14925.jpg)
 
 Good news: I finally got the&nbsp;Satzuma Missile Launcher working on my Mac Yosemite. Solution it the latest (unfortunately unreleased) version of **USB Missile Launcher NZ**. You can [download USB Missile Launcher NZ v1.8.2 from here](https://sites.google.com/site/dgwilson65/USBMissileLauncherNZV1.8.2.dmg?attredirects=0&d=1), a source I found after digging through the comments of version 1.8.1 announcement:
 
@@ -30,6 +30,6 @@ Good news: I finally got the&nbsp;Satzuma Missile Launcher working on my Mac Yos
 To get started with Satzuma, install v1.8.2, restart you Mac (bummer), open `USB Missile Launcher NZ.app`, go to _Preferences -\> Launcher_ and  
 enter `1046` for VendorId, `3777` for ProductId and change Controls to Satzuma (see screenshot) - Boom! You're all set - happy shooting!
 
-![Screen Shot 2015-05-20 at 11.41.11](http://www.rngtng.com/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11.png)
+![Screen Shot 2015-05-20 at 11.41.11](/files/2015/05/Screen-Shot-2015-05-20-at-11.41.11.png)
 
 Next, I want to check <https://code.google.com/p/pymissile> - having a working CLI version would be so much better!

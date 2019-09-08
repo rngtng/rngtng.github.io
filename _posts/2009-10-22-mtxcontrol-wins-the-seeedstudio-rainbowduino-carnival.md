@@ -21,7 +21,7 @@ comments:
   date_gmt: '2009-10-22 12:28:35 +0000'
   content: grats! :)
 ---
-Yay - the voting for the [Seeedstudio Rainbowduino Carnival Competition](http://www.seeedstudio.com/forum/viewforum.php?f=11) is over. And, guess what, my project [mtXcontrol](http://www.rngtng.com/mtXcontrol) made the run - I won the first price! Yipheee.. that's 12x Rainbowduinos + 100$ Shopping voucher which I'll invest in buying Xbee Stuff.. Can't wait to get my hands on! Stay tuned...
+Yay - the voting for the [Seeedstudio Rainbowduino Carnival Competition](http://www.seeedstudio.com/forum/viewforum.php?f=11) is over. And, guess what, my project [mtXcontrol](/mtXcontrol) made the run - I won the first price! Yipheee.. that's 12x Rainbowduinos + 100$ Shopping voucher which I'll invest in buying Xbee Stuff.. Can't wait to get my hands on! Stay tuned...
 
 Thanks to everybody voting for my project!
 

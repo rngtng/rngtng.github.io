@@ -16,7 +16,7 @@ tags:
 - aarhus
 comments: []
 ---
-![](http://www.rngtng.com/files/2012/01/soundcloud-robot.png)
+![](/files/2012/01/soundcloud-robot.png)
 
 Uh, long, long time ago, (aka. last year autumn) I've been to [GoTo Conference 2011 in Århus](http://gotocon.com/aarhus-2011/) to present SoundCloud. For the evening program, a Lego Mindstorm Sumo fight was organized which, for sure, we couldn't miss. Watch our sweet robot in action -  
 the first round of the sumo battle, where Team SoundCloud flips over the opponent!

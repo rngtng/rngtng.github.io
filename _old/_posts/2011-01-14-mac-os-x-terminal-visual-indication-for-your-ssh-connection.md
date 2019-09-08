@@ -46,7 +46,7 @@ tabc  #switch to default theme`
 
 That&#8217;s it &#8211; your are done! Now, if you type `sshmyserver`, your Terminal color will change, ssh will start, and when you end ssh, everything will be back again..
 
-Btw. for Terminal on Mac OS X, I very recommend [Visor &#8211; a quake like console](http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/)
+Btw. for Terminal on Mac OS X, I very recommend [Visor &#8211; a quake like console](/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/)
 
 **UPDATE**
 

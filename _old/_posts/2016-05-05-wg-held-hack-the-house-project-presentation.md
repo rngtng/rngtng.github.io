@@ -12,4 +12,4 @@ tags:
   - hackthehouse
   - video
 ---
-Nice sum up on our [HackTheHouse 2nd price](http://www.rngtng.com/2015/03/03/hackedthehouse-and-won-2nd-price/).
+Nice sum up on our [HackTheHouse 2nd price](/2015/03/03/hackedthehouse-and-won-2nd-price/).

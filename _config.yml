@@ -20,8 +20,6 @@ remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
 include:
 - _pages
-- _tags
-- _categories
 
 # Social Profiles
 twitter_username:   rngtng

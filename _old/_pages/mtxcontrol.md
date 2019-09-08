@@ -33,7 +33,7 @@ Check out this short demo video:
 Plug your Launchpad and start mtXcontrol. The device is auto detected &#8211; start drawing and pushing buttons!!
 
 **Rainbowudino HowTo:**  
-To use your Rainbowduino with mtXcontrol you have to upload the Firmware to your rainbowduino first. [See instruction here](http://www.rngtng.com/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/). The firmware makes use of the Rainbowduino.h Library to manipulate the Matrix easily. Make sure to put it into your Arduino Library. Connect your Rainbowduino via USB to your computer, upload firmware and you are ready to go &#8211; happy mtXcontrol drawing!
+To use your Rainbowduino with mtXcontrol you have to upload the Firmware to your rainbowduino first. [See instruction here](/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/). The firmware makes use of the Rainbowduino.h Library to manipulate the Matrix easily. Make sure to put it into your Arduino Library. Connect your Rainbowduino via USB to your computer, upload firmware and you are ready to go &#8211; happy mtXcontrol drawing!
 
 [Find a detailed Step-By-Step instruction here!](http://www.seeedstudio.com/forum/viewtopic.php?f=11&t=435&start=10)
 

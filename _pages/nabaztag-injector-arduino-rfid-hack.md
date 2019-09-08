@@ -76,7 +76,7 @@ Put the library into your Arduino libraries folder, and do same with&nbsp;[ByteB
 
 See the picture:
 
-![](http://www.rngtng.com/files/2012/01/nabaztag-arduino-rfid-hack.jpg)
+![](/files/2012/01/nabaztag-arduino-rfid-hack.jpg)
 
 Starting from the Nabaztag mainboard: the RFID reader connector is on top left (Q2). From top to bottom the pins are:&nbsp;_VCC (Q2)_,&nbsp;_GND (Blue)_,&nbsp;_SDA (Red)_,&nbsp;_SCL (Green)_. Connect&nbsp;_SCL_&nbsp;to Arduino&nbsp;_Analog Pin 5_,&nbsp;_SDA_&nbsp;to&nbsp;_Analog Pin 4_,&nbsp;_GND_&nbsp;to&nbsp;_GND_.&nbsp;_VCC_&nbsp;can be left blank if Arduino has its own power supply, otherwise connect to Arduino power input. Connected RFID readers&nbsp;_VCC_&nbsp;to the pin given in`Nabaztag.begin(
 )`. Go to examples folder, compile and upload sketch.

@@ -17,7 +17,7 @@ tags:
 ---
 <img src="http://farm7.staticflickr.com/6185/6151922207_019ac10ee4_d.jpg" alt="" width="500" height="500" class="aligncenter size-full wp-image-626" />
 
-Wow! After [more than two years](http://www.rngtng.com/2009/12/02/hacking-the-nabaztag/) I finally got my hands dirty hacking the Nabaztag rabbit. The [release of the source code](http://code.google.com/p/nabaztag-source-code/) last summer were very encouraging here! Expect some awesome results in the next time 🙂 
+Wow! After [more than two years](/2009/12/02/hacking-the-nabaztag/) I finally got my hands dirty hacking the Nabaztag rabbit. The [release of the source code](http://code.google.com/p/nabaztag-source-code/) last summer were very encouraging here! Expect some awesome results in the next time 🙂 
 
 Let&#8217;s start with **NabaztagInjector**, an Arduino Library to inject data:
 

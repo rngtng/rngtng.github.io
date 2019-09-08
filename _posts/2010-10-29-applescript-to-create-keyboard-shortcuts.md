@@ -16,7 +16,7 @@ tags:
 - automation
 comments: []
 ---
-Last week my company laptop got stolen, so I had to setup my system again using this [list](http://www.rngtng.com/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/). The positive part of each new system setup is you think more and more how to automate your setup..
+Last week my company laptop got stolen, so I had to setup my system again using this [list](/2010/04/27/my-snow-leopard-development-system-ruby-rails-arduino-co/). The positive part of each new system setup is you think more and more how to automate your setup..
 
 This time I was really annoyed with setting up keyboard shortcuts, so I came up with this little AppleScript which does the work:
 

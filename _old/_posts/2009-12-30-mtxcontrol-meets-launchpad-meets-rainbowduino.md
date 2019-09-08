@@ -22,4 +22,4 @@ But Rainbowduino support improved as well. I fixed lots of bugs and implemented 
 
 <http://vimeo.com/8456119>
 
-See official [mtXcontrol](http://www.rngtng.com/mtXcontrol) project page for more.
+See official [mtXcontrol](/mtXcontrol) project page for more.

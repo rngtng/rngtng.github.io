@@ -12,7 +12,7 @@ comments: []
 ---
 ok some time passed since I wrote my dev setup, so here"s my current one \*braindump\*
 
-![](http://www.rngtng.com/files/2010/04/mac_os_x.jpg)
+![](/files/2010/04/mac_os_x.jpg)
 
 **Main Development Setup**  
 Mountain Lion  

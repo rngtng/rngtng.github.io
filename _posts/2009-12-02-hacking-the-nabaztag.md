@@ -21,7 +21,7 @@ comments:
   content: "[...] After more than two years I finally got my hands dirty hacking the
     Nabaztag rabbit. The release of the source code last [...]"
 ---
-![](http://www.rngtng.com/files/2010/09/nabaztag.png)
+![](/files/2010/09/nabaztag.png)
 
 Alright, I spend some time with my new _toy_ Nabaztag '[Nabaccia](http://twitter.com/nabaccia)'
 

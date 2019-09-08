@@ -636,7 +636,7 @@ comments:
 **Update:**  
 _This project is a contribution for the [seeedstudio carnival 2009](http://www.seeedstudio.com/forum/viewtopic.php?f=11&t=397) and **[won the first price!](http://www.seeedstudio.com/forum/viewtopic.php?f=11&t=472)**_
 
-![mtxcontrol](http://www.rngtng.com/files/2009/10/mtxcontrol.png)
+![mtxcontrol](/files/2009/10/mtxcontrol.png)
 
 **- a LED Matrix Editor -**  
 **mtXcontrol** is an editor written in Processing to easily create image sequences for several output devices containing multicolor LED matrix. By now, the [Rainbowduino controller](http://www.seeedstudio.com/depot/rainbowduino-led-driver-platform-plug-and-shine-p-371.html) and the  
@@ -656,7 +656,7 @@ Check out this short demo video:
 Plug your Launchpad and start mtXcontrol. The device is auto detected - start drawing and pushing buttons!!
 
 **Rainbowudino HowTo:**  
-To use your Rainbowduino with mtXcontrol you have to upload the Firmware to your rainbowduino first. [See instruction here](http://www.rngtng.com/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/). The firmware makes use of the Rainbowduino.h Library to manipulate the Matrix easily. Make sure to put it into your Arduino Library. Connect your Rainbowduino via USB to your computer, upload firmware and you are ready to go - happy mtXcontrol drawing!
+To use your Rainbowduino with mtXcontrol you have to upload the Firmware to your rainbowduino first. [See instruction here](/2009/06/25/rainbowduino-here-it-is-and-how-to-program-it/). The firmware makes use of the Rainbowduino.h Library to manipulate the Matrix easily. Make sure to put it into your Arduino Library. Connect your Rainbowduino via USB to your computer, upload firmware and you are ready to go - happy mtXcontrol drawing!
 
 [Find a detailed Step-By-Step instruction here!](http://www.seeedstudio.com/forum/viewtopic.php?f=11&t=435&start=10)
 

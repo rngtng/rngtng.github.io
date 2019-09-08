@@ -13,7 +13,7 @@ comments: []
 ---
 WunderBar - a great&nbsp;Internet of Things Starter Kit for App Developers:
 
-[![dXobuyIopk4-YQHTgdb5bNuIec_dMGv5Vd8LTwHT1LE](http://www.rngtng.com/files/2014/01/dXobuyIopk4-YQHTgdb5bNuIec_dMGv5Vd8LTwHT1LE.png)](http://www.rngtng.com/files/2014/01/dXobuyIopk4-YQHTgdb5bNuIec_dMGv5Vd8LTwHT1LE.png)
+[![dXobuyIopk4-YQHTgdb5bNuIec_dMGv5Vd8LTwHT1LE](/files/2014/01/dXobuyIopk4-YQHTgdb5bNuIec_dMGv5Vd8LTwHT1LE.png)](/files/2014/01/dXobuyIopk4-YQHTgdb5bNuIec_dMGv5Vd8LTwHT1LE.png)
 
 <http://www.dragoninnovation.com/projects/35-wunderbar-by-relayr>
 

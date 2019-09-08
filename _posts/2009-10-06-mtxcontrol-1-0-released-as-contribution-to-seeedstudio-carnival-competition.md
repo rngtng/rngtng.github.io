@@ -19,4 +19,4 @@ So check out this Demo:
 <http://www.vimeo.com/6924030>
 
 Check out it's new project page with details, video and sources to download:  
-[http://www.rngtng.com/mtXcontrol](http://www.rngtng.com/mtXcontrol)
+[http://www.rngtng.com/mtXcontrol](/mtXcontrol)

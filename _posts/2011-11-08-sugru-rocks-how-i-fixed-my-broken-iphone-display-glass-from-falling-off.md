@@ -22,7 +22,7 @@ Unfortunately I kept on dropping my iPhone until its display glass broke. Typica
 
 Sugru is this fantastic super modeling clay made by Jane from Ireland. It allows you to hack the world and fix stuff. First its soft, sticks on nearly and material allowing you to put it in any shape, later it hardens and keeps its form. Perfect for me!
 
-![](http://www.rngtng.com/files/2011/11/20111108-f8j49y7mhtxjenh57c3swnciwe.jpg)
+![](/files/2011/11/20111108-f8j49y7mhtxjenh57c3swnciwe.jpg)
 
 Check my hack, where I used Sugru replacing the missing glass pieces and preventing the loose ones from falling of. My display is protected again, and the phone is working - yay!
 

@@ -114,7 +114,7 @@ rainbow.set_frame(0, \*data);
 
 and your're ready to go. Have fun!
 
-First tests of the library with earlier version of [mtXcontrol](http://www.rngtng.com/mtXcontrol), an Editor to create images on the Matrix easily:  
+First tests of the library with earlier version of [mtXcontrol](/mtXcontrol), an Editor to create images on the Matrix easily:  
 <http://www.youtube.com/watch?v=MVj1YPzREKI>
 
 Stay tuned for more examples soon...

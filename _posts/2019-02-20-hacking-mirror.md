@@ -16,7 +16,7 @@ comments: []
 ---
 <!-- wp:paragraph -->
 
-[![](http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png)](http://www.rngtng.com/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png)Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it's 2009. Aka violet mir:ror.
+[![](/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png)](/files/2019/02/Screenshot-2019-02-19-at-23.33.52.png)Finally! All of a sudden I got an evening with ccb23 to hack of lives away. This time: NFC like it's 2009. Aka violet mir:ror.
 
 <!-- /wp:paragraph -->
 

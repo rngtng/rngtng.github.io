@@ -726,13 +726,13 @@ comments:
     the connection between Arduino et Rainbow : It's not necessary to cross RX and
     TX connection between Arduino and Rainbow ?\r\n\r\nThanks a lot for your help."
 ---
-![rainbowduino2](http://www.rngtng.com/files/2009/06/rainbowduino2.jpg)  
+![rainbowduino2](/files/2009/06/rainbowduino2.jpg)  
 Yay - I finally got my [RainbowDuino](http://www.seeedstudio.com/blog/?p=410). Unluckily I did sth wrong with the external power connection (JST 2 pin jack) and smashed a capacitor. Maybe the polarity was wrong or it couldn't stand the 12 volts? But luckily no damage to the main system so it still works using the terminal connector (right through the 5volts of the Arduino). \*phew\*
 
 The first real basic problem I ran into [was how to program the Rainbowduino](http://www.seeedstudio.com/forum/viewtopic.php?f=4&t=328) as there's no USB connector and I don't have an UART interface.  
 [But well, nothing simpler than that:](http://www.seeedstudio.com/blog/?p=420) Just connect your Arduino's Tx,Rx,GND,Reset and Vcc ports with those of the Rainbowduino, choose the right controller type in your IDE and program it as usual - works perfect for me!
 
-Check out my [Rainbowduino Editor mtXcontrol here](http://www.rngtng.com/mtXcontrol) - it's an easy way to draw shapes on your rainbowduino!
+Check out my [Rainbowduino Editor mtXcontrol here](/mtXcontrol) - it's an easy way to draw shapes on your rainbowduino!
 
 Btw. _DTR_ on Rainbowduino is _Reset_ on Arduino
 
@@ -752,6 +752,6 @@ void loop()
 [/code]
 
 And, as multiple times requested, a picture of my complete setup:  
- ![arduino_rainbowduino](http://www.rngtng.com/files/2009/06/arduino_rainbowduino.jpg)
+ ![arduino_rainbowduino](/files/2009/06/arduino_rainbowduino.jpg)
 
 Make sure you've selected the switch right. It has to point to the same side as the green Terminal connectors are. If you power rainbowduino through the white JST jack, flip it!

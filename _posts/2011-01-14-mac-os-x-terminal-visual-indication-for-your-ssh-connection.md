@@ -117,7 +117,7 @@ comments:
   date_gmt: '2012-07-18 10:02:00 +0000'
   content: "btw. I found this gist to even color your tabs:\r\n\r\nhttps://gist.github.com/1140259"
 ---
-![](http://www.rngtng.com/files/2011/01/Screen-shot-2011-01-14-at-10.14.45.png)
+![](/files/2011/01/Screen-shot-2011-01-14-at-10.14.45.png)
 
 Here's a HowTo for a nice visual indication to see quickly if your Mac OS X Terminal is running which ssh connection.
 
@@ -145,7 +145,7 @@ tabc #switch to default theme`
 
 That's it - your are done! Now, if you type `sshmyserver`, your Terminal color will change, ssh will start, and when you end ssh, everything will be back again..
 
-Btw. for Terminal on Mac OS X, I very recommend [Visor - a quake like console](http://www.rngtng.com/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/)
+Btw. for Terminal on Mac OS X, I very recommend [Visor - a quake like console](/2009/08/14/quake-like-terminal-on-mac-os-x-visor-plugin/)
 
 **UPDATE**
 

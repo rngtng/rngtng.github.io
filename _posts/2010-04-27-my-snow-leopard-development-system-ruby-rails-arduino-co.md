@@ -45,7 +45,7 @@ comments:
 ---
 _- updated to Lion -_
 
-![](http://www.rngtng.com/files/2010/04/mac_os_x.jpg)
+![](/files/2010/04/mac_os_x.jpg)
 
 Here's a (maybe incomplete) list of my Mac OS X Development system setup. Mainly for me to remember, but maybe a help for you too:
 

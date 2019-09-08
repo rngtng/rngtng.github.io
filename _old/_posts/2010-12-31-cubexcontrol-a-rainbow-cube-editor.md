@@ -32,13 +32,13 @@ I&#8217;m proud to present a first version which was on my this years TODO list 
 
 cubeXcontrol &#8211; a Rainbow Cube Editor
 
-Well, you know the [mtXcontrol](http://www.rngtng.com/mtXcontrol), the Rainbowduino Editor and the awesome [Seeedstudio Rainbow Cube](http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html) I [mentioned](http://www.rngtng.com/2010/03/08/rainbow-cube-here-it-is/) here ? Now it&#8217;s time  to bring them together:
+Well, you know the [mtXcontrol](/mtXcontrol), the Rainbowduino Editor and the awesome [Seeedstudio Rainbow Cube](http://www.seeedstudio.com/depot/rainbow-cube-kit-rgb-4x4x4-rainbowduino-compatible-p-596.html) I [mentioned](/2010/03/08/rainbow-cube-here-it-is/) here ? Now it&#8217;s time  to bring them together:
 
 <http://vimeo.com/18300458>
 
 cubeXcontrol is an editor to control and create patterns for the 4x4x4 RGB Rainbow Cube powered by a rainbowduino. It comes with an extra window showing a 3D model of the Cube, allowing to rotate in all directions and to zoom. Click on boxes to set the LED color easily.
 
-The editor is of course heavily based on the latest mtXcontrol version, with the latest rainbowduino firmware. Both are unfortunately still in [beta stage](http://www.rngtng.com/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/), but come with great new features like auto port detection. 
+The editor is of course heavily based on the latest mtXcontrol version, with the latest rainbowduino firmware. Both are unfortunately still in [beta stage](/2010/09/05/mtxcontrol-sneak-preview-rainbowduino-beta-library-master-and-slave/), but come with great new features like auto port detection. 
 
 Get the sources here:  
 <https://github.com/rngtng/mtXcontrol/tree/cubeXcontrol>

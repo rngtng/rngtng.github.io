@@ -17,7 +17,7 @@ tags:
 - qype
 comments: []
 ---
-![](http://www.rngtng.com/files/2010/07/oauthc.gif)  
+![](/files/2010/07/oauthc.gif)  
 By the time I was working at Qype, I often had to deal with OAuth APIs. Doing example request works to a certain point quite good with a Plugin the for Firefox. But when it comes to Authorized or POST Request you're stuck!
 
 So I developed a tiny command line client, which allows you to send request easily. It comes as a gem and easily to install:
