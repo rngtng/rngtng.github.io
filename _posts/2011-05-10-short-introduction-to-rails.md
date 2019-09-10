@@ -1,5 +1,7 @@
 ---
 title: Short Introduction to Rails
+tags:
+- ruby
 ---
 
 ## Install:
@@ -10,7 +12,7 @@ Overview useful components: ruby-toolbox.com
 * homebrew /macports
 * git
 * rvm
-   
+
 
 ## Load RVM extensions + completion
 ```
@@ -69,12 +71,12 @@ $ bundle install
 * check DB file
 
 ```
-cp database.yml database_example.yml 
-  $ cat 'db/database.yml' >> .gitignore 
+cp database.yml database_example.yml
+  $ cat 'db/database.yml' >> .gitignore
 ```
 
-## getting started 
- 
+## getting started
+
 Scaffold: `rails g scaffold Sentence text:text type:string language:string`
 Database: `rake db:migrate`
 See all rake commands: `rake -T`
@@ -90,7 +92,7 @@ See all rake commands: `rake -T`
   Sentence.first
   Sentence.find( :first, :conditions => {} )
  ```
-	
+
  ## AEL
 ```
 Sentence.first.where( :language => 'de' )
