@@ -8,4 +8,9 @@ categories:
 tags: []
 comments: []
 ---
-Must Follow for any music, hacking, DYI, builders: <https://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ>
+Must Follow for any music, hacking, DYI, builders:
+
+<https://www.youtube.com/watch?v=dNv8AeZfuUc>
+
+Follow the full channel: 
+<https://www.youtube.com/channel/UCcXhhVwCT6_WqjkEniejRJQ>
