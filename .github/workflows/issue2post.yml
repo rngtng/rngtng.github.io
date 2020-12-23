@@ -21,6 +21,7 @@ jobs:
           layout: post
           timezone: Europe/Berlin
       - name: Push post to master
+        uses: actions/checkout@v2
         run: |
           git add .
           git commit -m "add a post"
