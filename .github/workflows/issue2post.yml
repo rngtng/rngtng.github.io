@@ -1,35 +1,26 @@
-on:
+'on':
   issues:
-    types: [opened, edited, labeled, unlabeled]
-
+    types:
+      - opened
+      - edited
+      - labeled
+      - unlabeled
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-      - env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master
-        run: |
-          REPOSITORY_PATH="https://${ACCESS_TOKEN:-"x-access-token:$GITHUB_TOKEN"}@github.com/${GITHUB_REPOSITORY}.git"
-          git checkout $BRANCH
-      - name: create a jekyll post from an issue
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+      - name: Create a jekyll post from an issue
         uses: yoshum/issue-to-jekyll-post@v0
         with:
-          post_dir: "_posts"
+          post_dir: _posts
           update_filename: true
           layout: post
           timezone: Europe/Berlin
-      - env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master
         run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          remote_repo="https://${ACCESS_TOKEN:-"x-access-token:$GITHUB_TOKEN"}@github.com/${GITHUB_REPOSITORY}.git"
-          git remote set-url origin $remote_repo
           git add .
           git commit -m "add a post"
-          git push origin ${BRANCH}
+          git push
