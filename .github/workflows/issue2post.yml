@@ -26,7 +26,8 @@ jobs:
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add .
-          git commit -m "add a post"
+          git commit -m "Add post: ${{github.event.issue.title}}"
+          git pull --rebase
           git push
       - name: Close Issue
         uses: peter-evans/close-issue@v1.0.3
