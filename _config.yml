@@ -5,13 +5,13 @@ author: tobi
 description: >
   Featuring Web development, Hardware Hacking, Pinball and more...
 
+# see https://pages.github.com/versions/
 plugins:
   - jekyll-github-metadata
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-remote-theme
-  - jekyll-admin
 
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
