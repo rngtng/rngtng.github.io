@@ -30,6 +30,6 @@ jobs:
           git pull --rebase
           git push
       - name: Close Issue
-        uses: peter-evans/close-issue@v2.0.0
+        uses: peter-evans/close-issue@v2.1.0
         with:
           comment: Blogpost created
