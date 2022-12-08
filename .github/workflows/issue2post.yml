@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 18
       - name: Create Blogpost from Issue
-        uses: rngtng/issue-to-jekyll-post@v0.2.0
+        uses: rngtng/issue-to-jekyll-post@v0.2.1
         with:
           post_dir: _posts
           update_filename: true
