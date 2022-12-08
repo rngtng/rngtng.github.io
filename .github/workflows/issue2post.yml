@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3.5.1
       - name: Create Blogpost from Issue
-        uses: yoshum/issue-to-jekyll-post@v0
+        uses: rngtng/issue-to-jekyll-post@v0.2.0
         with:
           post_dir: _posts
           update_filename: true
