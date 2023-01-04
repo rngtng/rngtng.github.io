@@ -1,4 +1,6 @@
-'on':
+name: Issue2Post
+run-name: Converts any Issue labled with `post` into a blogpost
+on:
   issues:
     types:
       - opened
